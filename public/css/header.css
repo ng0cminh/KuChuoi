@@ -3,9 +3,6 @@
     background-color: var(--bg-top);
 }
 
-.top .social .navbar-link {
-    font-size: 23px;
-}
 
 .top .navbar-link {
     color: var(--white-color);
@@ -18,4 +15,20 @@
     margin: 0;
     padding: 0;
     line-height: 80px;
+}
+
+.top .share-social a:first-child {
+    margin-left: 0;
+}
+
+.top .share-social a:last-child {
+    margin-right: 0;
+}
+
+.top .facebook,
+.top .twitter,
+.top  .instagram {
+    color: var(--white-color);
+    font-size: 2.3rem;
+    line-height: 30px;
 }

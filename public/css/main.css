@@ -57,20 +57,25 @@
     font-size: 1.2rem;
 }
 
-.share-social a {
-    display: inline-block;
-    margin-right: 15px;
+.share-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.share-social .facebook{
+.share-social a {
+    margin: 0px 10px;
+}
+
+.facebook{
     color: #385898;
 }
 
-.share-social .twitter{
+.twitter{
     color: rgb(29, 161, 242)
 }
 
-.share-social .instagram{
+.instagram{
     color: #833AB4
 }
 

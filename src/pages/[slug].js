@@ -27,7 +27,7 @@ const Single = ({postData}) => {
                                     {postData.title}
                                 </h1>
                                 
-                                <HeaderCard author={postData.author} date={postData.date} width={32} height={32} />
+                                <HeaderCard author={postData.author} date={postData.date} size={32} />
 
                                 <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} className="article-body" />
 

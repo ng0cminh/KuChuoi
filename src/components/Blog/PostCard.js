@@ -7,7 +7,7 @@ const PostCard = ({post}) => {
     return(
         <div className="card">
             <article className="article">
-                <HeaderCard author={post.author} date={post.date} width={16} height={16} />
+                <HeaderCard author={post.author} date={post.date} size={16} />
                 <div className="article-main">
                     <figure className="article-figure img-fluid">
                         <Image 
