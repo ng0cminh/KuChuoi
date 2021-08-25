@@ -1,0 +1,126 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;     /* Màu chữ cho web */
+    --bg-color: #f0f2f5;
+    --bg-top: #1e73be;
+    --border-color: #dee2e6;
+    --hover-color: #b52759;
+    --bg-footer: #4d626e;  /* Màu nền cho phần botttom */
+    --border-footer: #ffbe02;   /* Màu cho border bottom */
+    --menu-hover-color: #ebebeb;
+    --transparent: rgba(255, 255, 255, 0);
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; /* 100% = 16px */
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+h1 {
+    line-height: 4rem;
+}
+
+h2 {
+    line-height: 3rem;
+}
+
+h3, h4, h5, h6 {
+    line-height: 2.5rem;
+}
+
+p {
+    line-height: 2.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+img {
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.img-fluid {
+    margin: 0;
+    padding: 0;
+}
+.img-fluid img {
+    display: block;
+}
+
+.container {
+    width: 100%;
+    max-width: 1224px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Table and Laptop: width < 1280px */
+@media (max-width: 1280px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media (min-width: 740px) and (max-width: 1024px) {
+    .container {
+        max-width: 992px;
+    }
+}
+
+@media (max-width: 740px) {
+    .container {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+
+.show {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.navbars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-item {
+    list-style: none;
+    margin: 0 10px;
+}
+.navbar-list .navbar-item:first-child {
+    margin-left: 0;
+}
+
+.navbar-list .navbar-item:last-child {
+    margin-right: 0;
+}

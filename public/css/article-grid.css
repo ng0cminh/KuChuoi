@@ -1,0 +1,56 @@
+.grid .content {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) / -2);
+    margin-left: calc(var(--bs-gutter-x) / -2);
+}
+
+.grid .content > * {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) / 2);
+    padding-left: calc(var(--bs-gutter-x) / 2);
+    margin-top: var(--bs-gutter-y);
+}
+
+.grid .content .card {
+    width: 33.33333333%;
+}
+
+.grid .content .article {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+}
+
+.grid .article .article-header {
+    display: none;
+}
+
+.grid .article .article-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid .article-main .article-content {
+    padding: 0 10px;
+}
+
+.grid .article-main .article-content h2 {
+    margin: 0px;
+    margin-top: 1rem;
+}
+
+.grid .article .article-footer {
+    padding: 0 10px;
+}

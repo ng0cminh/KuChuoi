@@ -1,0 +1,21 @@
+
+.top {
+    background-color: var(--bg-top);
+}
+
+.top .social .navbar-link {
+    font-size: 23px;
+}
+
+.top .navbar-link {
+    color: var(--white-color);
+    font-size: 1.4rem;
+    line-height: 30px;
+}
+
+.site-title {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 80px;
+}
