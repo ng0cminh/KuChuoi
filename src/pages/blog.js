@@ -2,7 +2,7 @@ import Layout from "../components/Layout"
 import Blog from "../components/Blog";
 import Sidebar from "../components/Sidebar";
 
-import getFileByFolder from "./api/getFileByFolder";
+import getFileByFolder from "../lib/api/getFileByFolder";
 
 export default function Home({allPostsData}) {
   return (

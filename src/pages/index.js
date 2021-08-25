@@ -1,7 +1,7 @@
 import Layout from "../components/Layout"
 import Blog from "../components/Blog";
 
-import getAllFolder from "./api/getAllFolder";
+import getAllFolder from "../lib/api/getAllFolder";
 
 export default function Home({allPostsData}) {
   return (
