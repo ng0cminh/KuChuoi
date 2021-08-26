@@ -90,7 +90,7 @@ export function getAllFile () {
 
 }
 
-// Get File theo thư mục
+// Get File theo thư mục tính từ thư mục chứ nội dung gốc
 export function getFileByFolder (folder) {
     // Lấy đường dẫn thư mục
     const pathFolder = path.join(rootContents, folder);
