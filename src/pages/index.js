@@ -1,7 +1,6 @@
 import Layout from "../components/Layout"
 import Blog from "../components/Blog";
-
-import getAllFolder from "../lib/api/getAllFolder";
+import {getAllFolder} from "../lib/api"
 
 export default function Home({allPostsData}) {
   return (
@@ -15,7 +14,7 @@ export default function Home({allPostsData}) {
 
 export async function getStaticProps() {
   // Get external data from the file system, API, DB, etc.
-  const allPostsData = getAllFolder()
+  const allPostsData = getAllFile()
 
   // The value of the `props` key will be
   // passed to the `Home` component

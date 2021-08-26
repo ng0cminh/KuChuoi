@@ -4,8 +4,7 @@ import Layout from "../components/Layout";
 import Sidebar from "../components/Sidebar";
 import HeaderCard from "../components/Widgets/HeaderCard";
 import AuthorBox from "../components/Widgets/AuthorBox";
-import getAllPostSlug from "../lib/posts/getAllPostSlug";
-import getPostDataBySlug from "../lib/posts/getPostDataBySlug";
+import {getAllPostSlug, getPostDataBySlug} from "../lib/api";
 
 const Single = ({postData}) => {
     return (

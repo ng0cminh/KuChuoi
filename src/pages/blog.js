@@ -2,9 +2,9 @@ import Layout from "../components/Layout"
 import Blog from "../components/Blog";
 import Sidebar from "../components/Sidebar";
 
-import getFileByFolder from "../lib/api/getFileByFolder";
+import {getFileByFolder} from "../lib/api";
 
-export default function Home({allPostsData}) {
+export default function blog({allPostsData}) {
   return (
     <Layout>
       <section className="main-content list">
@@ -21,7 +21,7 @@ export async function getStaticProps() {
   const allPostsData = getFileByFolder('blog')
 
   // The value of the `props` key will be
-  // passed to the `Home` component
+  // passed to the `Blog` component
   return {
     props: {
       allPostsData
