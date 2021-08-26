@@ -10,8 +10,17 @@ export default function getAllPostSlug() {
     const pathNames = fs.readdirSync(pathFolder)
   
     let fileNames = [];
-    pathNames.forEach((directory) => {
-      fileNames = fileNames.concat(fs.readdirSync(path.join(pathFolder, directory)));
+
+    pathNames.forEach((folder) => {
+      
+      if(folder.includes('.mdx')) {
+        fileNames.push(folder);
+      } else if(folder.includes('.md')) {
+        fileNames.push(folder);
+      } else {
+        fileNames = fileNames.concat(fs.readdirSync(path.join(pathFolder, folder)));
+      }
+
     })
   
     return fileNames.map(fileName => {
@@ -21,4 +30,5 @@ export default function getAllPostSlug() {
         }
       }
     })
+
 }

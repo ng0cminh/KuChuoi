@@ -8,24 +8,36 @@ import html from 'remark-html';
 export default async function getPostDataBySlug(slug) {
     // Lấy đường dẫn tới thư mục chứa content: .../nextjs/contents/blog
     const postsDirectory = path.join(process.cwd(), 'contents')
-  
-    // Lấy danh sách thư mục chứa bài viết
-    const listFolder = fs.readdirSync(postsDirectory);
-    const listFolderLength = listFolder.length;
 
     let fileContents = null;
-    for(let i=0; i <= listFolderLength; i++) {
-      let fullPath = path.join(postsDirectory, listFolder[i], `${slug}.mdx`);
-      let fullDirect = path.join(postsDirectory, listFolder[i], `${slug}/index.mdx`);
-
-      if(existsSync(fullPath)){
+      if(existsSync(path.join(postsDirectory, `${slug}.md`))){
+        let fullPath = path.join(postsDirectory, `${slug}.md`);
         fileContents = fs.readFileSync(fullPath, 'utf8');
-        break;
-      } else if (existsSync(fullDirect)) {
-        fileContents = fs.readFileSync(fullDirect, 'utf8');
-        break;
       }
-    }
+      if(existsSync(path.join(postsDirectory, `${slug}.mdx`))){
+        let fullPath = path.join(postsDirectory, `${slug}.mdx`)
+        fileContents = fs.readFileSync(fullPath, 'utf8');
+      } else {
+        // Lấy danh sách thư mục chứa bài viết
+        let listFolder = fs.readdirSync(postsDirectory);
+        listFolder = listFolder.filter(value => {
+          return !value.includes('.mdx') && !value.includes('.mdx')
+        })
+
+        const listFolderLength = listFolder.length;
+        for(let i=0; i < listFolderLength; i++) {
+          let fullPath = path.join(postsDirectory, listFolder[i], `${slug}.mdx`);
+          let fullDirect = path.join(postsDirectory, listFolder[i], `${slug}/index.mdx`);
+
+          if(existsSync(fullPath)) {
+            fileContents = fs.readFileSync(fullPath, 'utf8');
+            break;
+          } else if (existsSync(fullDirect)) {
+            fileContents = fs.readFileSync(fullDirect, 'utf8');
+            break;
+          }
+        }
+      }
     
     // Use gray-matter to parse the post metadata section
     const matterResult = matter(fileContents)

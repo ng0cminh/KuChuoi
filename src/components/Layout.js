@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import Navbars from './Navbars';
@@ -5,7 +6,7 @@ import Head from 'next/head';
 
 const Layout = ({children}) => {
     return (
-        <>
+        <Fragment>
             <Head>
                 <title>Trang Chủ</title>
             </Head>
@@ -23,7 +24,7 @@ const Layout = ({children}) => {
             <Footer>
 
             </Footer>
-        </>
+        </Fragment>
     )
 }
 
