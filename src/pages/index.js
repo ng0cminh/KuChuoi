@@ -1,12 +1,12 @@
 import Layout from "../components/Layout"
 import Blog from "../components/Blog";
-import {getAllFile} from "../lib/api"
+import {getAllFile} from "../lib/posts"
 
-export default function Home({allPostsData}) {
+export default function Home({posts}) {
   return (
     <Layout>
       <section className="main-content grid">
-        <Blog posts={allPostsData} />
+        <Blog posts={posts} />
       </section>
     </Layout>
   )
@@ -14,13 +14,13 @@ export default function Home({allPostsData}) {
 
 export async function getStaticProps() {
   // Get external data from the file system, API, DB, etc.
-  const allPostsData = getAllFile()
+  const posts = getAllFile()
 
   // The value of the `props` key will be
   // passed to the `Home` component
   return {
     props: {
-      allPostsData
+      posts
     }
   }
 }

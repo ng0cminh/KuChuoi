@@ -1,5 +1,6 @@
 import Image from "next/image";
 import SocialBox from "./SocialBox";
+import slug from "slug";
 
 const HeaderCard = ({author, date, size, href}) => {
     return(
@@ -17,7 +18,7 @@ const HeaderCard = ({author, date, size, href}) => {
                 </span>
                 <span className="article-author-time">
                     <span className="article-name-author">
-                        <a href="#">{author ? author : null}</a>
+                        <a href={`/${slug(author)}`}>{author ? author : null}</a>
                     </span>
                     <span className="article-date"><time>{date ? date : null}</time></span>
                 </span>

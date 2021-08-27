@@ -1,10 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
-import Layout from "../components/Layout";
-import Sidebar from "../components/Sidebar";
-import HeaderCard from "../components/Widgets/HeaderCard";
-import AuthorBox from "../components/Widgets/AuthorBox";
-import {getAllPostSlug, getPostDataBySlug} from "../lib/api";
+import Layout from "../../components/Layout";
+import Sidebar from "../../components/Sidebar";
+import HeaderCard from "../../components/Widgets/HeaderCard";
+import AuthorBox from "../../components/Widgets/AuthorBox";
+import {getAllPostSlug, getPostDataBySlug} from "../../lib/posts";
 
 const Single = ({postData}) => {
     return (
@@ -74,7 +74,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
     // Fetch necessary data for the blog post using params.slug
-    const postData = await getPostDataBySlug(params.slug)
+    const postData = await getPostDataBySlug(params.folder, params.slug)
 
     if (!postData) {
         return {

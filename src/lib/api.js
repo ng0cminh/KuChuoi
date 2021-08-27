@@ -1,3 +1,5 @@
+// Các hàm xây dựng lấy post trong file contents có khả năng lấy tất cả các file .md, .mdx
+// Có thể lấy dạng file hoặc lấy folder/index.md/.mdx
 import fs, {existsSync} from 'fs';
 import {join} from 'path'
 import matter from 'gray-matter'

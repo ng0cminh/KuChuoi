@@ -1,6 +1,6 @@
 ---
 title: 'Second Post'
-author: Ngoc Minh
+author: Ngọc Minh
 date: '2021-07-14T22:10:03.284Z'
 isDraft: false
 isFeatured: false
