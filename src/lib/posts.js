@@ -7,57 +7,16 @@ import slug from 'slug';
 
 const pathContents = join(process.cwd(), 'contents');
 
-export function getAllFile () {
-    const listFolder = fs.readdirSync(pathContents);
-
-    let allPost = [];
-    listFolder.forEach(folder => {
-        const pathFolder = join(pathContents, folder);
-        let fileNames = fs.readdirSync(pathFolder);
-        fileNames = fileNames.filter(fileName => {
-            return fileName.includes('.md');
-        })
-
-        let posts = fileNames.map(fileName => {
-            const slug = `${folder}/${fileName.replace(/\.md$/, '')}`;
-            const fullPath = join(pathFolder, fileName);
-
-            const fileContents = fs.readFileSync(fullPath, 'utf8');
-
-            // Tạo metadata cho post bằng cách sử dụng gray-matter
-            const matterResult = matter(fileContents);
-            return {
-                slug,
-                folder,
-                ...matterResult.data,
-            }
-        })
-        allPost = allPost.concat(posts)
-    })
-
-    // Xoá  bỏ những bài viết nháp
-    allPost = allPost.filter(post => {
-        return post.isDraft != true;
-    })
-
-    // Sắp xếp bài viết theo thời gian
-    return allPost.sort(({ date: a }, { date: b }) => {
-        if (a < b) {
-          return 1
-        } else if (a > b) {
-          return -1
-        } else {
-          return 0
-        }
-    })
-}
-
-// Lấy bài viết theo thư mục
-export function getFileByFolder (folder) {
+export function getPostByFile(folder) {
     const pathFolder = join(pathContents, folder);
-    const fileNames = fs.readdirSync(pathFolder);
+    let fileNames = fs.readdirSync(pathFolder);
 
-    let posts = fileNames.map(fileName => {
+    // Chỉ lấy những File .md
+    fileNames = fileNames.filter(fileName => {
+        return fileName.includes('.md');
+    })
+
+    return fileNames.map(fileName => {
         const slug = `${folder}/${fileName.replace(/\.md$/, '')}`;
         const fullPath = join(pathFolder, fileName);
 
@@ -71,10 +30,63 @@ export function getFileByFolder (folder) {
             ...matterResult.data,
         }
     })
+}
+
+// Lấy bài viết theo thư mục
+export function getPostByFolder (folder) {
+    return getPostByFile(folder)
+        .filter(post => {
+            return post.isDraft != true;
+        })
+        .sort(({ date: a }, { date: b }) => {
+            return a < b ? 1 : a > b ? -1 : 0;
+        })
+}
+
+export function getAllPost () {
+    const folders = fs.readdirSync(pathContents);
+
+    let allPost = [];
+    folders.forEach(folder => {
+        allPost = allPost.concat(getPostByFile(folder))
+    })
+
+    // Xoá  bỏ những bài viết nháp
+    return allPost.filter(post => {
+        return post.isDraft != true;
+        })
+        .sort(({ date: a }, { date: b }) => {
+            a < b ? 1 : a > b ? -1 : 0
+        })
+}
+
+// Lấy các đường dẫn của tác giả bài viết
+export function getAllAuthorSlug () {
+    let posts = getAllPost();
+
+    posts = posts.map( post => {
+        return post.author;
+    })
+
+    posts = posts.map(author => {
+        return {
+            params: {
+                name: slug(author)
+            }
+        }
+    })
+
+    return posts;
+}
+
+// Lấy bài viết theo tác giả
+export function getFileByAuthor (author) {
+
+    let posts = getAllPost();
 
     // Xoá  bỏ những bài viết nháp
     posts = posts.filter(post => {
-        return post.isDraft != true;
+        return slug(post.author) == author;
     })
 
     // Sắp xếp bài viết theo thời gian
@@ -87,69 +99,8 @@ export function getFileByFolder (folder) {
           return 0
         }
     })
-
 }
 
-// Lấy bài viết theo tác giả
-export function getFileByAuthor (author) {
-    const folders = fs.readdirSync(pathContents);
-
-    let allPost = [];
-    folders.forEach(folder => {
-        const pathFolder = join(pathContents, folder);
-        let fileNames = fs.readdirSync(pathFolder);
-        fileNames = fileNames.filter(fileName => {
-            return fileName.includes('.md');
-        })
-
-        let posts = fileNames.map(fileName => {
-            const slug = `${folder}/${fileName.replace(/\.md$/, '')}`;
-            const fullPath = join(pathFolder, fileName);
-
-            const fileContents = fs.readFileSync(fullPath, 'utf8');
-
-            // Tạo metadata cho post bằng cách sử dụng gray-matter
-            const matterResult = matter(fileContents);
-            return {
-                slug,
-                folder,
-                ...matterResult.data,
-            }
-        })
-        allPost = allPost.concat(posts)
-    })
-
-    // Xoá  bỏ những bài viết nháp
-    allPost = allPost.filter(post => {
-        return post.isDraft != true && slug(post.author) == author;
-    })
-
-    // Sắp xếp bài viết theo thời gian
-    return allPost.sort(({ date: a }, { date: b }) => {
-        if (a < b) {
-          return 1
-        } else if (a > b) {
-          return -1
-        } else {
-          return 0
-        }
-    })
-}
-
-// Lấy các đường dẫn của tác giả bài viết
-export function getAllAuthorSlug () {
-    // Lấy danh sách File và Folder
-    const folders = fs.readdirSync(pathContents)
-  
-    let allAuthorSlug = [];
-
-    folders.forEach(folder => {
-        
-        
-        
-    })
-    return allAuthorSlug;
-}
 
 // Lấy các đường dẫn của bài viết
 export function getAllPostSlug() {

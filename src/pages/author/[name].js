@@ -2,9 +2,9 @@ import Layout from "../../components/Layout"
 import Blog from "../../components/Blog";
 import Sidebar from "../../components/Sidebar";
 
-import {getFileByAuthor, getAllPostSlug} from "../../lib/posts";
+import {getAllAuthorSlug, getFileByAuthor} from "../../lib/posts";
 
-export default function Author({posts}) {
+export default function Category({posts}) {
   return (
     <Layout>
       <section className="main-content list">
@@ -18,8 +18,7 @@ export default function Author({posts}) {
 
 export async function getStaticPaths() {
     // Return a list of possible value for slug
-    const paths = getAllPostSlug()
-
+    const paths = getAllAuthorSlug()
     return {
         paths,
         fallback: false
@@ -27,8 +26,9 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
+
   // Get external data from the file system, API, DB, etc.
-  const posts = getFileByAuthor(params.author)
+  const posts = getFileByAuthor(params.name)
 
   // The value of the `props` key will be
   // passed to the `Blog` component

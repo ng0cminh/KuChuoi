@@ -18,7 +18,7 @@ const HeaderCard = ({author, date, size, href}) => {
                 </span>
                 <span className="article-author-time">
                     <span className="article-name-author">
-                        <a href={`/${slug(author)}`}>{author ? author : null}</a>
+                        <a href={`/author/${slug(author)}`}>{author ? author : null}</a>
                     </span>
                     <span className="article-date"><time>{date ? date : null}</time></span>
                 </span>

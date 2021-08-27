@@ -2,7 +2,7 @@ import Layout from "../../components/Layout"
 import Blog from "../../components/Blog";
 import Sidebar from "../../components/Sidebar";
 
-import {getFileByFolder, getAllPostSlug} from "../../lib/posts";
+import {getPostByFolder, getAllPostSlug} from "../../lib/posts";
 
 export default function Category({posts}) {
   return (
@@ -28,7 +28,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   // Get external data from the file system, API, DB, etc.
-  const posts = getFileByFolder(params.folder)
+  const posts = getPostByFolder(params.folder)
 
   // The value of the `props` key will be
   // passed to the `Blog` component

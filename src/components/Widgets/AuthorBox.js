@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import slug from "slug";
 
 const AuthorBox = ({author}) => {
     return (
@@ -12,7 +13,7 @@ const AuthorBox = ({author}) => {
                 </a>
             </div>
             <div className="author-decription">
-                <a href="#">{author}</a>
+                <a href={`/author/${slug(author)}`}>{author}</a>
                 <p>Đây là phần giới thiệu chi tiết về tác giả và những sở thích cũng như đam mê liên quan hoặc có thể là quảng cáo bản thân :D</p>
             </div>
         </div>
