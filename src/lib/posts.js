@@ -69,21 +69,19 @@ export function getAllAuthorSlug () {
         return post.author;
     })
 
-    posts = posts.map(author => {
+    return posts.map(author => {
         return {
             params: {
                 name: slug(author)
             }
         }
     })
-
-    return posts;
 }
 
 // Lấy bài viết theo tác giả
 export function getPostByAuthor (author) {
 
-    let posts = getAllPost();
+    const posts = getAllPost();
 
     // Xoá  bỏ những bài viết không có author
     return posts.filter(post => {

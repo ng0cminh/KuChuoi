@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import HeaderCard from "../Widgets/HeaderCard";
 
+
 const PostCard = ({post}) => {
     return(
         <div className="card">

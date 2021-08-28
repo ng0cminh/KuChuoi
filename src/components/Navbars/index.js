@@ -53,10 +53,10 @@ class Navbars extends React.Component {
                                     <a className="navbar-link" href="/blog">Blog</a>
                                 </li>
                                 <li className="navbar-item">
-                                    <a className="navbar-link" href="/list.html">Danh mục List</a>
+                                    <a className="navbar-link" href="/pages">Pages</a>
                                 </li>
                                 <li className="navbar-item">
-                                    <a className="navbar-link" href="/single.html">Single Page</a>
+                                    <a className="navbar-link" href="/featured">Featured</a>
                                 </li>
                             </ul>
                         </nav>
