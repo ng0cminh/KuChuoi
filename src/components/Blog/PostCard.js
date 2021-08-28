@@ -11,7 +11,7 @@ const PostCard = ({post}) => {
                 <div className="article-main">
                     <figure className="article-figure img-fluid">
                         <Image 
-                            src={post.image ? post.image : `/images/default.jpg`}
+                            src={post.image ? `/images/contents/${post.folder}/${post.image}` : `/images/default/article.jpg`}
                             width={900}
                             height={500}
                             alt={post.title ? post.title : `Banner Default`}

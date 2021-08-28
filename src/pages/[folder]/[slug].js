@@ -6,29 +6,29 @@ import HeaderCard from "../../components/Widgets/HeaderCard";
 import AuthorBox from "../../components/Widgets/AuthorBox";
 import {getAllPostSlug, getPostDataBySlug} from "../../lib/posts";
 
-const Single = ({postData}) => {
+const Single = ({post}) => {
     return (
-        <Layout>
+        <Layout title={post.title}>
             <div className="main-content">
                 <section id="content" className="content single">
                     <article className="article">
                         <div className="article-main">
                             <figure className="article-figure img-fluid">
                                 <Image
-                                    src={postData.image}
+                                    src={post.image ? `/images/contents/${post.folder}/${post.image}` : `/images/default/article.jpg`}
                                     width={1080}
                                     height={600}
-                                    alt={postData.title}
+                                    alt={post.title}
                                 />
                             </figure>
                             <div className="article-content">
                                 <h1 className="article-title">
-                                    {postData.title}
+                                    {post.title}
                                 </h1>
                                 
-                                <HeaderCard author={postData.author} date={postData.date} size={32} />
+                                <HeaderCard author={post.author} date={post.date} size={32} />
 
-                                <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} className="article-body" />
+                                <div dangerouslySetInnerHTML={{ __html: post.contentHtml }} className="article-body" />
 
                                 <div className="article-tags">
                                     <span>
@@ -41,7 +41,7 @@ const Single = ({postData}) => {
                                     <span className="tag-item">tag 3</span>
                                 </div>
 
-                                <AuthorBox author={postData.author} />
+                                <AuthorBox author={post.author} />
 
                                 <div id="comments">
                                     <h2>List Comment</h2>
@@ -74,9 +74,9 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
     // Fetch necessary data for the blog post using params.slug
-    const postData = await getPostDataBySlug(params.folder, params.slug)
+    const post = await getPostDataBySlug(params.folder, params.slug)
 
-    if (!postData) {
+    if (!post) {
         return {
           notFound: true,
         }
@@ -84,7 +84,7 @@ export async function getStaticProps({ params }) {
 
     return {
         props: {
-            postData
+            post
         }
     }
 }

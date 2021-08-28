@@ -4,7 +4,7 @@ import {getAllPost} from "../lib/posts"
 
 export default function Home({posts}) {
   return (
-    <Layout>
+    <Layout title="Home Pages">
       <section className="main-content grid">
         <Blog posts={posts} />
       </section>

@@ -9,7 +9,7 @@ const HeaderCard = ({author, date, size, href}) => {
                 <span className="article-author">
                         <a>
                             <Image 
-                                src="/images/image-20.jpg"
+                                src={`/images/author/${slug(author)}.jpg`}
                                 width={120}
                                 height={120}
                                 alt={author ? author : `avatar`}

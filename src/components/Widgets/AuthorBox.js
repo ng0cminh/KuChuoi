@@ -7,8 +7,10 @@ const AuthorBox = ({author}) => {
             <div className="author-avatar">
                 <a href="#">
                     <img
-                        src="/images/avatar.jpg"
-                        alt="avatar"
+                        src={`/images/author/${slug(author)}.jpg`}
+                        alt={author}
+                        width={120}
+                        height={120}
                     />
                 </a>
             </div>

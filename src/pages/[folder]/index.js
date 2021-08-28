@@ -6,7 +6,7 @@ import {getPostByFolder, getAllPostSlug} from "../../lib/posts";
 
 export default function Category({posts}) {
   return (
-    <Layout>
+    <Layout title="Category Pages">
       <section className="main-content list">
         <Blog posts={posts} />
 

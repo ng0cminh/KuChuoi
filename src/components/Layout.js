@@ -4,11 +4,11 @@ import Footer from "./Footer";
 import Navbars from './Navbars';
 import Head from 'next/head';
 
-const Layout = ({children}) => {
+const Layout = ({children, title}) => {
     return (
         <Fragment>
             <Head>
-                <title>Trang Chủ</title>
+                <title>{title}</title>
             </Head>
             <Header>
 

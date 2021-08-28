@@ -6,7 +6,7 @@ import {getAllAuthorSlug, getFileByAuthor} from "../../lib/posts";
 
 export default function Category({posts}) {
   return (
-    <Layout>
+    <Layout title="Author Pages">
       <section className="main-content list">
         <Blog posts={posts} />
 
