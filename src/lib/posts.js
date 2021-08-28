@@ -66,13 +66,15 @@ export function getAllAuthorSlug () {
     let posts = getAllPost();
 
     posts = posts.map( post => {
-        return post.author;
+        return slug(post.author);
     })
+    
+    posts = [... new Set(posts)]
 
     return posts.map(author => {
         return {
             params: {
-                name: slug(author)
+                name: author
             }
         }
     })
@@ -110,6 +112,7 @@ export function getAllPostSlug() {
             })
         )
     })
+
     return allPostSlug;
 }
 

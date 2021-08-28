@@ -20,8 +20,8 @@ export async function getStaticPaths() {
     // Return a list of possible value for slug
     const paths = getAllAuthorSlug()
     return {
-        paths,
-        fallback: false
+      paths,
+      fallback: false
     }
 }
 
