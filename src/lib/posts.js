@@ -1,13 +1,14 @@
 import fs from 'fs';
-import {join} from 'path'
-import matter from 'gray-matter'
+import {join} from 'path';
+import matter from 'gray-matter';
 import remark from 'remark';
 import html from 'remark-html';
 import slug from 'slug';
 
 const pathContents = join(process.cwd(), 'contents');
 
-export function getPostByFile(folder) {
+// Laay
+const getPostByFile = (folder) => {
     const pathFolder = join(pathContents, folder);
     let fileNames = fs.readdirSync(pathFolder);
 
@@ -80,24 +81,13 @@ export function getAllAuthorSlug () {
 }
 
 // Lấy bài viết theo tác giả
-export function getFileByAuthor (author) {
+export function getPostByAuthor (author) {
 
     let posts = getAllPost();
 
-    // Xoá  bỏ những bài viết nháp
-    posts = posts.filter(post => {
+    // Xoá  bỏ những bài viết không có author
+    return posts.filter(post => {
         return slug(post.author) == author;
-    })
-
-    // Sắp xếp bài viết theo thời gian
-    return posts.sort(({ date: a }, { date: b }) => {
-        if (a < b) {
-          return 1
-        } else if (a > b) {
-          return -1
-        } else {
-          return 0
-        }
     })
 }
 
@@ -150,4 +140,14 @@ export async function getPostDataBySlug(folder, slug) {
             ...matterResult.data
         }
     }
+}
+
+// Lấy nội dung bài viết nổi bật
+export function getPostFeatured () {
+    let posts = getAllPost();
+
+    // Lấy những bài viết nổi bật
+    return posts.filter(post => {
+        return post.isFeatured == true;
+    })
 }
