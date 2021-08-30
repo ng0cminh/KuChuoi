@@ -4,6 +4,7 @@ import matter from 'gray-matter';
 import remark from 'remark';
 import html from 'remark-html';
 import slug from 'slug';
+import {postsPerPage} from '../../next.config';
 
 const pathContents = join(process.cwd(), 'contents');
 
@@ -33,18 +34,7 @@ const getPostByFile = (folder) => {
     })
 }
 
-// Lấy bài viết theo thư mục
-export function getPostByFolder (folder) {
-    return getPostByFile(folder)
-        .filter(post => {
-            return post.isDraft != true;
-        })
-        .sort(({ date: a }, { date: b }) => {
-            return a < b ? 1 : a > b ? -1 : 0;
-        })
-}
-
-export function getAllPost () {
+function getAllPost () {
     const folders = fs.readdirSync(pathContents);
 
     let allPost = [];
@@ -59,6 +49,23 @@ export function getAllPost () {
     .sort(({ date: a }, { date: b }) => {
         return a < b ? 1 : a > b ? -1 : 0;
     })
+}
+
+export function getPostHomePage (pageIndex = 0) {
+    const posts = getAllPost();
+    return posts.slice(pageIndex * postsPerPage, (pageIndex + 1) * postsPerPage);
+}
+
+// Lấy bài viết theo thư mục
+export function getPostByFolder (folder, pageIndex = 0) {
+    const posts = getPostByFile(folder)
+        .filter(post => {
+            return post.isDraft != true;
+        })
+        .sort(({ date: a }, { date: b }) => {
+            return a < b ? 1 : a > b ? -1 : 0;
+        })
+    return posts.slice(pageIndex * postsPerPage, (pageIndex + 1) * postsPerPage);
 }
 
 // Lấy các đường dẫn của tác giả bài viết
@@ -81,7 +88,7 @@ export function getAllAuthorSlug () {
 }
 
 // Lấy bài viết theo tác giả
-export function getPostByAuthor (author) {
+export function getPostByAuthor (author, pageIndex = 0) {
 
     const posts = getAllPost();
 
@@ -89,6 +96,7 @@ export function getPostByAuthor (author) {
     return posts.filter(post => {
         return slug(post.author) == author;
     })
+    .slice(pageIndex * postsPerPage, (pageIndex + 1) * postsPerPage);
 }
 
 
