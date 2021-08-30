@@ -150,5 +150,5 @@ export function getPostFeatured () {
     // Lấy những bài viết nổi bật
     return posts.filter(post => {
         return post.isFeatured == true;
-    })
+    }).slice(0,5)
 }

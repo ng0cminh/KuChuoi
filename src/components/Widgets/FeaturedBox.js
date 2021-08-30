@@ -3,9 +3,10 @@
 
 
 function FeaturedBox ({posts}) {
+    if(posts.length > 0) {
         return (
             <div className="widget">
-                <h3 className="widget-title">Most views</h3>
+                <h3 className="widget-title">Featured Posts</h3>
                 <div className="widget-content">
                     <ul className="widget-post">
                         {
@@ -26,6 +27,13 @@ function FeaturedBox ({posts}) {
                 </div>
             </div>
         )
+    } else {
+        return (
+            <div className="widget">
+                
+            </div>
+        )
+    }
 }
 
 export default FeaturedBox;

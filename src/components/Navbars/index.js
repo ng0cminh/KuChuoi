@@ -55,9 +55,6 @@ class Navbars extends React.Component {
                                 <li className="navbar-item">
                                     <a className="navbar-link" href="/pages">Pages</a>
                                 </li>
-                                <li className="navbar-item">
-                                    <a className="navbar-link" href="/featured">Featured</a>
-                                </li>
                             </ul>
                         </nav>
                         <form className="search-form" action="#" method="post">

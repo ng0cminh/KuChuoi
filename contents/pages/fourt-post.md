@@ -4,7 +4,7 @@ title: Fourt Post
 author: Admin
 date: '2021-07-14T22:10:03.284Z'
 isDraft: false
-isFeatured: false
+isFeatured: true
 image: image-5.jpg
 tags: ["greeting", "egg"]
 keywords: example, bài mẫu, bản nháp

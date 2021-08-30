@@ -4,9 +4,9 @@ import Sidebar from "../../components/Sidebar";
 
 import {getPostByFolder, getAllPostSlug, getPostFeatured} from "../../lib/posts";
 
-export default function Category({posts, featuredPosts}) {
+export default function Category({posts, folder, featuredPosts}) {
   return (
-    <Layout title="Category Pages">
+    <Layout title={folder}>
       <section className="main-content list">
         <Blog posts={posts} />
 
@@ -35,6 +35,7 @@ export async function getStaticProps({ params }) {
   return {
     props: {
       posts,
+      folder: params.folder.toUpperCase(),
       featuredPosts
     }
   }
