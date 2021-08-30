@@ -49,16 +49,16 @@ export function getAllPost () {
 
     let allPost = [];
     folders.forEach(folder => {
-        allPost = allPost.concat(getPostByFile(folder))
+        allPost = allPost.concat(getPostByFile(folder));
     })
-
+    
     // Xoá  bỏ những bài viết nháp
     return allPost.filter(post => {
         return post.isDraft != true;
-        })
-        .sort(({ date: a }, { date: b }) => {
-            a < b ? 1 : a > b ? -1 : 0
-        })
+    })
+    .sort(({ date: a }, { date: b }) => {
+        return a < b ? 1 : a > b ? -1 : 0;
+    })
 }
 
 // Lấy các đường dẫn của tác giả bài viết
