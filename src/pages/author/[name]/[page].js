@@ -1,8 +1,9 @@
-import Layout from "../../components/Layout"
-import Blog from "../../components/Blog";
-import Sidebar from "../../components/Sidebar";
+import Layout from "../../../components/Layout"
+import Blog from "../../../components/Blog";
+import Sidebar from "../../../components/Sidebar";
 
-import {getAllAuthorSlug, getPostByAuthor, getPostFeatured} from "../../lib/posts";
+import {getAllAuthorSlug, getPostByAuthor} from "../../../lib/posts/Author";
+import {getPostFeatured} from "../../../lib/posts";
 
 export default function Category({posts, featuredPosts}) {
   return (

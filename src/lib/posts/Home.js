@@ -2,8 +2,7 @@ import fs from 'fs';
 import {join} from 'path';
 import matter from 'gray-matter';
 
-import slug from 'slug';
-import {postsPerPage} from '../../next.config';
+import {postsPerPage} from '../../../next.config';
 
 const pathContents = join(process.cwd(), 'contents');
 
@@ -50,32 +49,23 @@ function getAllPost () {
     })
 }
 
-// Lấy các đường dẫn của tác giả bài viết
-export function getAllAuthorSlug () {
-    let posts = getAllPost();
-
-    posts = posts.map( post => {
-        return slug(post.author);
-    })
-    
-    posts = [... new Set(posts)]
-
-    return posts.map(author => {
-        return {
-            params: {
-                name: author
-            }
-        }
-    })
+export function getPostHomePage (pageIndex = 0) {
+    const posts = getAllPost();
+    return posts.slice(pageIndex * postsPerPage, (pageIndex + 1) * postsPerPage);
 }
 
+export function getHomePageSlug () {
+    const posts = getAllPost();
+    const totalPage = Math.ceil(posts.length/postsPerPage)
 
-// Lấy nội dung bài viết nổi bật
-export function getPostFeatured () {
-    let posts = getAllPost();
-
-    // Lấy những bài viết nổi bật
-    return posts.filter(post => {
-        return post.isFeatured == true;
-    }).slice(0,5)
+    let pages = [];
+    for(let i = 0; i <= totalPage; i++) {
+        let page = {
+            params: {
+                page: i.toString(),
+            }
+        };
+        pages = [...pages, page];
+    }
+    return pages;
 }

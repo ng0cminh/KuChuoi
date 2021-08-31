@@ -4,7 +4,9 @@ import Layout from "../../components/Layout";
 import Sidebar from "../../components/Sidebar";
 import HeaderCard from "../../components/Widgets/HeaderCard";
 import AuthorBox from "../../components/Widgets/AuthorBox";
-import {getAllPostSlug, getPostDataBySlug, getPostFeatured} from "../../lib/posts";
+
+import {getAllPostSlug, getPostDataBySlug} from "../../lib/posts/Single";
+import {getPostFeatured} from "../../lib/posts";
 
 const Single = ({post, featuredPosts}) => {
     return (
@@ -79,7 +81,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
     // Fetch necessary data for the blog post using params.slug
-    const post = await getPostDataBySlug(params.folder, params.slug);
+    const post = await getPostDataBySlug(params.slug);
     const featuredPosts = getPostFeatured();
 
     if (!post) {

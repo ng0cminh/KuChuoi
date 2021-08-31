@@ -1,8 +1,9 @@
-import Layout from "../../components/Layout"
-import Blog from "../../components/Blog";
-import Sidebar from "../../components/Sidebar";
+import Layout from "../../../components/Layout"
+import Blog from "../../../components/Blog";
+import Sidebar from "../../../components/Sidebar";
 
-import {getPostByFolder, getAllPostSlug, getPostFeatured} from "../../lib/posts";
+import {getPostByFolder, getAllFolderPageSlug} from "../../../lib/posts/Category";
+import {getPostFeatured} from "../../../lib/posts";
 
 export default function Category({posts, folder, featuredPosts}) {
   return (
@@ -18,7 +19,7 @@ export default function Category({posts, folder, featuredPosts}) {
 
 export async function getStaticPaths() {
     // Return a list of possible value for slug
-    const paths = getAllPostSlug()
+    const paths = getAllFolderPageSlug()
 
     return {
         paths,
@@ -28,8 +29,10 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   // Get external data from the file system, API, DB, etc.
-  const posts = await getPostByFolder(params.folder)
-  const featuredPosts = await getPostFeatured ();
+  const page = params.page ? params.page * 1 : 0;
+  const posts = await getPostByFolder(params.folder, page)
+
+  const featuredPosts = getPostFeatured ();
   // The value of the `props` key will be
   // passed to the `Blog` component
   return {

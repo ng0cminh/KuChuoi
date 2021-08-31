@@ -3,7 +3,7 @@ import {join} from 'path';
 import matter from 'gray-matter';
 
 import slug from 'slug';
-import {postsPerPage} from '../../next.config';
+import {postsPerPage} from '../../../next.config';
 
 const pathContents = join(process.cwd(), 'contents');
 
@@ -69,13 +69,37 @@ export function getAllAuthorSlug () {
     })
 }
 
+// Lấy bài viết theo tác giả
+export function getPostByAuthor (author, pageIndex = 0) {
 
-// Lấy nội dung bài viết nổi bật
-export function getPostFeatured () {
-    let posts = getAllPost();
+    const posts = getAllPost();
 
-    // Lấy những bài viết nổi bật
+    // Xoá  bỏ những bài viết không có author
     return posts.filter(post => {
-        return post.isFeatured == true;
-    }).slice(0,5)
+        return slug(post.author) == author;
+    })
+    .slice(pageIndex * postsPerPage, (pageIndex + 1) * postsPerPage);
+}
+
+export function getAllAuthorPageSlug () {
+
+    const folders = fs.readdirSync(pathContents);
+    let allSlug = [];
+    folders.forEach(folder => {
+        const posts = getPostByFile(folder);
+        const totalPage = Math.ceil(posts.length/postsPerPage);
+        let pages = [];
+        for(let i = 0; i <= totalPage; i++) {
+            let page = {
+                params: {
+                    folder,
+                    page: i.toString(),
+                }
+            };
+            pages = [...pages, page];
+        }
+        allSlug = allSlug.concat(pages);
+    })
+
+    return allSlug;
 }

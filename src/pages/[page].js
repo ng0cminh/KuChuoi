@@ -1,6 +1,6 @@
 import Layout from "../components/Layout"
 import Blog from "../components/Blog";
-import {getPostHomePage} from "../lib/posts/Home"
+import {getPostHomePage, getHomePageSlug} from "../lib/posts/Home"
 
 export default function Home({posts}) {
   return (
@@ -12,12 +12,23 @@ export default function Home({posts}) {
   )
 }
 
+export async function getStaticPaths() {
+  // Return a list of possible value for slug
+  const paths = getHomePageSlug()
 
-export async function getStaticProps() {
+  return {
+      paths,
+      fallback: false
+  }
+}
+
+export async function getStaticProps({ params }) {
 
   // Get external data from the file system, API, DB, etc.
-  const posts = getPostHomePage()
+  const page = params.page ? params.page * 1 : 0;
 
+  const posts = getPostHomePage(page)
+  console.log(posts)
   // The value of the `props` key will be
   // passed to the `Home` component
   return {
