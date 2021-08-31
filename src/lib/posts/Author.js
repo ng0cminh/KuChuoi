@@ -83,23 +83,35 @@ export function getPostByAuthor (author, pageIndex = 0) {
 
 export function getAllAuthorPageSlug () {
 
-    const folders = fs.readdirSync(pathContents);
+    let posts = getAllPost();
+
+    let authors = posts.map( post => {
+        return slug(post.author);
+    })
+    
+    authors = [... new Set(authors)]
+
     let allSlug = [];
-    folders.forEach(folder => {
-        const posts = getPostByFile(folder);
-        const totalPage = Math.ceil(posts.length/postsPerPage);
+    authors.forEach(author => {
+        let postsAuthor = posts.filter(post => {
+            return slug(post.author) == author;
+        })
+
+        const totalPage = Math.ceil(postsAuthor.length/postsPerPage);
+
         let pages = [];
-        for(let i = 0; i <= totalPage; i++) {
+        for(let i = 0; i < totalPage; i++) {
             let page = {
                 params: {
-                    folder,
+                    name: author,
                     page: i.toString(),
                 }
             };
             pages = [...pages, page];
+
         }
         allSlug = allSlug.concat(pages);
-    })
 
+    })
     return allSlug;
 }

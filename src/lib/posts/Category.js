@@ -65,7 +65,7 @@ export function getAllFolderPageSlug () {
         const posts = getPostByFile(folder);
         const totalPage = Math.ceil(posts.length/postsPerPage);
         let pages = [];
-        for(let i = 0; i <= totalPage; i++) {
+        for(let i = 0; i < totalPage; i++) {
             let page = {
                 params: {
                     folder,
