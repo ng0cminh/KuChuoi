@@ -5,11 +5,11 @@ import Sidebar from "../../../components/Sidebar";
 import {getPostByFolder, getAllFolderSlug} from "../../../lib/posts/Category";
 import {getPostFeatured} from "../../../lib/posts";
 
-export default function Category({posts, folder, featuredPosts}) {
+export default function Category({posts, totalPage, pageIndex, folder, featuredPosts}) {
   return (
     <Layout title={folder}>
       <section className="main-content list">
-        <Blog posts={posts} />
+        <Blog posts={posts} totalPage={totalPage} pageIndex={pageIndex} folder={folder} />
 
         <Sidebar featuredPosts={featuredPosts} />
       </section>
@@ -29,14 +29,21 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   // Get external data from the file system, API, DB, etc.
-  const posts = await getPostByFolder(params.folder)
+  const data = await getPostByFolder(params.folder);
+  const {
+    posts,
+    totalPage,
+    pageIndex
+  } = data;
   const featuredPosts = getPostFeatured ();
   // The value of the `props` key will be
   // passed to the `Blog` component
   return {
     props: {
       posts,
-      folder: params.folder.toUpperCase(),
+      totalPage,
+      pageIndex,
+      folder: params.folder,
       featuredPosts
     }
   }

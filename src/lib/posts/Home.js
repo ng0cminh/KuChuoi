@@ -51,12 +51,17 @@ function getAllPost () {
 
 export function getPostHomePage (pageIndex = 0) {
     const posts = getAllPost();
-    return posts.slice(pageIndex * postsPerPage, (pageIndex + 1) * postsPerPage);
+    const totalPage = Math.floor(posts.length/postsPerPage)
+    return {
+        posts: posts.slice(pageIndex * postsPerPage, (pageIndex + 1) * postsPerPage),
+        totalPage,
+        pageIndex
+    }
 }
 
 export function getHomePageSlug () {
     const posts = getAllPost();
-    const totalPage = Math.ceil(posts.length/postsPerPage)
+    const totalPage = Math.floor(posts.length/postsPerPage)
 
     let pages = [];
     for(let i = 0; i <= totalPage; i++) {

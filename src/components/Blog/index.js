@@ -1,6 +1,7 @@
 import PostCard from "./PostCard";
+import Pagination from "./Pagination";
 
-const BlogList = ({posts}) => {
+const BlogList = ({posts, totalPage, pageIndex, folder}) => {
     return (
         <section id="content" className="content">
             {posts.map((post, index) => {
@@ -9,6 +10,7 @@ const BlogList = ({posts}) => {
                     )
                 }
             )}
+            <Pagination totalPage={totalPage} pageIndex={pageIndex} folder={folder} />
         </section>
     )
 }
