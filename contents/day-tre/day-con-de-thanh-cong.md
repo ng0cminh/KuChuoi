@@ -6,7 +6,7 @@ date: '2021-09-01'
 isDraft: false
 isFeatured: true
 image: day-con-de-thanh-cong.jpg
-tags: ["greeting", "egg"]
+tags: ["trẻ thành công"]
 keywords: dạy con de thanh cong, day con, sự phát triển của trẻ
 description: Mong muốn con cái của mình thành công sau này luôn là mong muốn của bác bậc phụ huynh. Nhưng làm thế nào để có thể dạy con phát triển và thành công sau này vẫn còn là vấn đề không dễ dàng khiến cho các bậc phụ huynh luôn phải tìm hiểu...
 
