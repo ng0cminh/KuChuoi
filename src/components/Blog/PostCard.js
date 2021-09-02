@@ -30,7 +30,7 @@ const PostCard = ({post}) => {
                     </div>
                 </div>
                 <footer className="article-footer">
-                    <span><a href={`/${post.folder ? post.folder : null}`}>{post.folder ? post.folder[0].toUpperCase() + post.folder.slice(1) : null}</a></span>
+                    <span><a href={`/category/${post.folder ? post.folder : null}`}>{post.folder ? post.folder[0].toUpperCase() + post.folder.slice(1) : null}</a></span>
                     <span><a href={`/${post.slug}`}>Xem</a></span>
                 </footer>
             </article>

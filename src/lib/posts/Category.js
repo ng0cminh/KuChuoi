@@ -42,7 +42,7 @@ export function getPostByFolder (folder, pageIndex = 0) {
         .sort(({ date: a }, { date: b }) => {
             return a < b ? 1 : a > b ? -1 : 0;
         })
-    const totalPage = Math.floor(posts.length/postsPerPage)
+    const totalPage = posts.length % postsPerPage == 0 ? Math.floor(posts.length/postsPerPage) - 1 : Math.floor(posts.length/postsPerPage);
     return {
         posts: posts.slice(pageIndex * postsPerPage, (pageIndex + 1) * postsPerPage),
         totalPage,

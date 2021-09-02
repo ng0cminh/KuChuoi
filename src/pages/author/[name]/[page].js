@@ -5,11 +5,11 @@ import Sidebar from "../../../components/Sidebar";
 import {getAllAuthorPageSlug, getPostByAuthor} from "../../../lib/posts/Author";
 import {getPostFeatured} from "../../../lib/posts";
 
-export default function Category({posts, featuredPosts}) {
+export default function Category({posts, totalPage, pageIndex, author, featuredPosts}) {
   return (
     <Layout title="Author Pages">
       <section className="main-content list">
-        <Blog posts={posts} />
+      <Blog posts={posts} totalPage={totalPage} pageIndex={pageIndex} author={author} />
 
         <Sidebar featuredPosts ={featuredPosts} />
       </section>
@@ -30,7 +30,12 @@ export async function getStaticProps({ params }) {
 
   // Get external data from the file system, API, DB, etc.
   const page = params.page ? params.page * 1 : 0;
-  const posts = getPostByAuthor(params.name, page);
+  const data = getPostByAuthor(params.name, page);
+  const {
+    posts,
+    totalPage,
+    pageIndex
+  } = data;
   const featuredPosts = await getPostFeatured();
 
   // The value of the `props` key will be
@@ -38,6 +43,9 @@ export async function getStaticProps({ params }) {
   return {
     props: {
       posts,
+      totalPage,
+      pageIndex,
+      author: params.name,
       featuredPosts
     }
   }

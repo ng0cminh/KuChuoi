@@ -72,13 +72,18 @@ export function getAllAuthorSlug () {
 // Lấy bài viết theo tác giả
 export function getPostByAuthor (author, pageIndex = 0) {
 
-    const posts = getAllPost();
+    const posts = getAllPost()
+        .filter(post => {
+            return slug(post.author) == author;
+        })
 
-    // Xoá  bỏ những bài viết không có author
-    return posts.filter(post => {
-        return slug(post.author) == author;
-    })
-    .slice(pageIndex * postsPerPage, (pageIndex + 1) * postsPerPage);
+    const totalPage = posts.length % postsPerPage == 0 ? Math.floor(posts.length/postsPerPage) - 1 : Math.floor(posts.length/postsPerPage);
+
+    return {
+        posts: posts.slice(pageIndex * postsPerPage, (pageIndex + 1) * postsPerPage),
+        totalPage,
+        pageIndex
+    }
 }
 
 export function getAllAuthorPageSlug () {

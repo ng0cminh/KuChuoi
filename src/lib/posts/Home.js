@@ -51,7 +51,7 @@ function getAllPost () {
 
 export function getPostHomePage (pageIndex = 0) {
     const posts = getAllPost();
-    const totalPage = Math.floor(posts.length/postsPerPage)
+    const totalPage = posts.length % postsPerPage == 0 ? Math.floor(posts.length/postsPerPage) - 1 : Math.floor(posts.length/postsPerPage);
     return {
         posts: posts.slice(pageIndex * postsPerPage, (pageIndex + 1) * postsPerPage),
         totalPage,
@@ -61,10 +61,10 @@ export function getPostHomePage (pageIndex = 0) {
 
 export function getHomePageSlug () {
     const posts = getAllPost();
-    const totalPage = Math.floor(posts.length/postsPerPage)
+    const totalPage = Math.ceil(posts.length/postsPerPage)
 
     let pages = [];
-    for(let i = 0; i <= totalPage; i++) {
+    for(let i = 0; i < totalPage; i++) {
         let page = {
             params: {
                 page: i.toString(),
