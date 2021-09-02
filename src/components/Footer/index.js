@@ -1,4 +1,3 @@
-import Link from "next/link";
 import TopNavbars from "../Navbars/TopNavbar";
 
 const Footer = () => {
@@ -8,7 +7,7 @@ const Footer = () => {
                 <div className="bottom-footer">
                     <div className="info">
                         <p>
-                            Copyright © 2021 by <a href="#">Ng0cMinh</a>
+                            Copyright © 2021 by <a href="#">Kủ Chuối</a>
                         </p>
                     </div>
                     <nav className="navbars">
