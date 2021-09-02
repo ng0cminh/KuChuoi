@@ -2,8 +2,6 @@ import fs from 'fs';
 import {join} from 'path';
 import matter from 'gray-matter';
 
-import slug from 'slug';
-
 
 const pathContents = join(process.cwd(), 'contents');
 
@@ -12,6 +10,9 @@ const getPostByFile = (folder) => {
     const pathFolder = join(pathContents, folder);
     let fileNames = fs.readdirSync(pathFolder);
 
+    const categoryPath = join(pathContents, folder, 'a.txt');
+    const category = fs.readFileSync(categoryPath, 'utf8');
+
     // Chỉ lấy những File .md
     fileNames = fileNames.filter(fileName => {
         return fileName.includes('.md');
@@ -19,14 +20,15 @@ const getPostByFile = (folder) => {
 
     return fileNames.map(fileName => {
         const slug = `posts/${fileName.replace(/\.md$/, '')}`;
-        const fullPath = join(pathFolder, fileName);
 
+        const fullPath = join(pathFolder, fileName);
         const fileContents = fs.readFileSync(fullPath, 'utf8');
 
         // Tạo metadata cho post bằng cách sử dụng gray-matter
         const matterResult = matter(fileContents);
         return {
             slug,
+            category,
             folder,
             ...matterResult.data,
         }
@@ -50,25 +52,22 @@ function getAllPost () {
     })
 }
 
-// Lấy các đường dẫn của tác giả bài viết
-export function getAllAuthorSlug () {
-    let posts = getAllPost();
-
-    posts = posts.map( post => {
-        return slug(post.author);
-    })
+export function getFolderMenu () {
+    const folders = fs.readdirSync(pathContents);
     
-    posts = [... new Set(posts)]
-
-    return posts.map(author => {
-        return {
-            params: {
-                name: author
-            }
+    let categories = []
+    folders.forEach((folder) => {
+        const fullPath = join(pathContents, folder, 'a.txt');
+        const fileContents = fs.readFileSync(fullPath, 'utf8');
+        const category = {
+            folder,
+            category: fileContents
         }
+        categories = [...categories, category]
     })
-}
 
+    return categories;
+}
 
 // Lấy nội dung bài viết nổi bật
 export function getPostFeatured () {

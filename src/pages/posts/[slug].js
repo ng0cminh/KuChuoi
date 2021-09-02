@@ -6,11 +6,11 @@ import HeaderCard from "../../components/Widgets/HeaderCard";
 import AuthorBox from "../../components/Widgets/AuthorBox";
 
 import {getAllPostSlug, getPostDataBySlug} from "../../lib/posts/Single";
-import {getPostFeatured} from "../../lib/posts";
+import {getPostFeatured, getFolderMenu} from "../../lib/posts";
 
-const Single = ({post, featuredPosts}) => {
+const Single = ({categories, post, featuredPosts}) => {
     return (
-        <Layout title={post.title}>
+        <Layout title={post.title} categories={categories}>
             <div className="main-content">
                 <section id="content" className="content single">
                     <article className="article">
@@ -18,8 +18,8 @@ const Single = ({post, featuredPosts}) => {
                             <figure className="article-figure img-fluid">
                                 <Image
                                     src={post.image ? `/images/contents/${post.folder}/${post.image}` : `/images/default/article.jpg`}
-                                    width={1080}
-                                    height={600}
+                                    width={900}
+                                    height={500}
                                     alt={post.title}
                                 />
                             </figure>
@@ -83,6 +83,7 @@ export async function getStaticProps({ params }) {
     // Fetch necessary data for the blog post using params.slug
     const post = await getPostDataBySlug(params.slug);
     const featuredPosts = getPostFeatured();
+    const categories = getFolderMenu();
 
     if (!post) {
         return {
@@ -92,6 +93,7 @@ export async function getStaticProps({ params }) {
 
     return {
         props: {
+            categories,
             post,
             featuredPosts
         }

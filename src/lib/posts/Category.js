@@ -11,6 +11,9 @@ const getPostByFile = (folder) => {
     const pathFolder = join(pathContents, folder);
     let fileNames = fs.readdirSync(pathFolder);
 
+    const categoryPath = join(pathContents, folder, 'a.txt');
+    const category = fs.readFileSync(categoryPath, 'utf8');
+
     // Chỉ lấy những File .md
     fileNames = fileNames.filter(fileName => {
         return fileName.includes('.md');
@@ -18,14 +21,15 @@ const getPostByFile = (folder) => {
 
     return fileNames.map(fileName => {
         const slug = `posts/${fileName.replace(/\.md$/, '')}`;
-        const fullPath = join(pathFolder, fileName);
 
+        const fullPath = join(pathFolder, fileName);
         const fileContents = fs.readFileSync(fullPath, 'utf8');
 
         // Tạo metadata cho post bằng cách sử dụng gray-matter
         const matterResult = matter(fileContents);
         return {
             slug,
+            category,
             folder,
             ...matterResult.data,
         }
@@ -35,6 +39,9 @@ const getPostByFile = (folder) => {
 
 // Lấy bài viết theo thư mục
 export function getPostByFolder (folder, pageIndex = 0) {
+    const categoryPath = join(pathContents, folder, 'a.txt');
+    const category = fs.readFileSync(categoryPath, 'utf8');
+
     const posts = getPostByFile(folder)
         .filter(post => {
             return post.isDraft != true;
@@ -45,12 +52,13 @@ export function getPostByFolder (folder, pageIndex = 0) {
     const totalPage = posts.length % postsPerPage == 0 ? Math.floor(posts.length/postsPerPage) - 1 : Math.floor(posts.length/postsPerPage);
     return {
         posts: posts.slice(pageIndex * postsPerPage, (pageIndex + 1) * postsPerPage),
+        category,
         totalPage,
         pageIndex
     }
 }
 
-// Lấy các đường dẫn của tác giả bài viết
+// Lấy các đường dẫn của thư mục bài viết
 export function getAllFolderSlug () {
     const folders = fs.readdirSync(pathContents);
     return folders.map(folder => {

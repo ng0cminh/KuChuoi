@@ -3,11 +3,11 @@ import Blog from "../../../components/Blog";
 import Sidebar from "../../../components/Sidebar";
 
 import {getAllAuthorSlug, getPostByAuthor} from "../../../lib/posts/Author";
-import {getPostFeatured} from "../../../lib/posts";
+import {getFolderMenu, getPostFeatured} from "../../../lib/posts";
 
-export default function Category({posts, totalPage, pageIndex, author, featuredPosts}) {
+export default function Category({categories, posts, totalPage, pageIndex, author, featuredPosts}) {
   return (
-    <Layout title="Author Pages">
+    <Layout title={author} categories={categories}>
       <section className="main-content list">
       <Blog posts={posts} totalPage={totalPage} pageIndex={pageIndex} author={author} />
 
@@ -36,11 +36,12 @@ export async function getStaticProps({ params }) {
     pageIndex
   } = data;
   const featuredPosts = await getPostFeatured();
-
+  const categories = getFolderMenu();
   // The value of the `props` key will be
   // passed to the `Blog` component
   return {
     props: {
+      categories,
       posts,
       totalPage,
       pageIndex,

@@ -1,10 +1,11 @@
 import Layout from "../components/Layout"
 import Blog from "../components/Blog";
 import {getPostHomePage, getHomePageSlug} from "../lib/posts/Home"
+import {getFolderMenu} from "../lib/posts";
 
-export default function Home({posts, totalPage, pageIndex}) {
+export default function Home({posts, totalPage, pageIndex, categories}) {
   return (
-    <Layout title="Home Pages">
+    <Layout title="Home Pages" categories={categories}>
       <section className="main-content grid">
         <Blog posts={posts} totalPage={totalPage} pageIndex={pageIndex} />
       </section>
@@ -34,10 +35,12 @@ export async function getStaticProps({ params }) {
     pageIndex
   } = data;
 
+  const categories = getFolderMenu();
   // The value of the `props` key will be
   // passed to the `Home` component
   return {
     props: {
+      categories,
       posts,
       totalPage,
       pageIndex

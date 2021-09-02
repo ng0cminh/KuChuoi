@@ -13,8 +13,8 @@ const PostCard = ({post}) => {
                     <figure className="article-figure img-fluid">
                         <Image 
                             src={post.image ? `/images/contents/${post.folder}/${post.image}` : `/images/default/article.jpg`}
-                            width={900}
-                            height={500}
+                            width={729}
+                            height={405}
                             alt={post.title ? post.title : `Banner Default`}
                         />
                     </figure>
@@ -30,7 +30,7 @@ const PostCard = ({post}) => {
                     </div>
                 </div>
                 <footer className="article-footer">
-                    <span><a href={`/category/${post.folder ? post.folder : null}`}>{post.folder ? post.folder[0].toUpperCase() + post.folder.slice(1) : null}</a></span>
+                    <span><a href={`/category/${post.folder ? post.folder : null}`}>{post.category ? post.category : null}</a></span>
                     <span><a href={`/${post.slug}`}>Xem</a></span>
                 </footer>
             </article>

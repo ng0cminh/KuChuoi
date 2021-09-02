@@ -4,7 +4,7 @@ import Footer from "./Footer";
 import Navbars from './Navbars';
 import Head from 'next/head';
 
-const Layout = ({children, title}) => {
+const Layout = ({children, title, categories}) => {
     return (
         <Fragment>
             <Head>
@@ -13,9 +13,7 @@ const Layout = ({children, title}) => {
             <Header>
 
             </Header>  
-            <Navbars>
-
-            </Navbars>
+            <Navbars categories={categories} />
                 <main id="main" className="main">
                     <div className="container">
                         {children}
