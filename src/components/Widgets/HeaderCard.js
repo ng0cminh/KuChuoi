@@ -3,6 +3,8 @@ import SocialBox from "./SocialBox";
 import slug from "slug";
 
 const HeaderCard = ({author, date, size, href}) => {
+    const getDate = new Date(date);
+    const time = `${getDate.getDate()}/${getDate.getMonth() + 1}/${getDate.getFullYear()}`
     return(
         <header className="article-header">
             <div className="author-date">
@@ -20,7 +22,7 @@ const HeaderCard = ({author, date, size, href}) => {
                     <span className="article-name-author">
                         <a href={`/author/${slug(author)}`}>{author ? author : null}</a>
                     </span>
-                    <span className="article-date"><time>{date ? date : null}</time></span>
+                    <span className="article-date"><time>{getDate.getDate() ? time : null}</time></span>
                 </span>
             </div>
             <SocialBox size={size} href={href} />
