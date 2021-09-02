@@ -8,7 +8,7 @@ import {getFolderMenu, getPostFeatured} from "../../../lib/posts";
 export default function Category({categories, category, posts, totalPage, pageIndex, folder, featuredPosts}) {
   return (
     <Layout title={category} categories={categories}>
-      <section className="main-content list">
+      <section className="main-content loop">
         <Blog posts={posts} totalPage={totalPage} pageIndex={pageIndex} folder={folder} />
 
         <Sidebar featuredPosts={featuredPosts} />
