@@ -56,9 +56,9 @@ class Navbars extends React.Component {
                                     <a className="navbar-link" href="/">Home</a>
                                 </li>
                                 {
-                                    categories.map(category => {
+                                    categories.map((category, index) => {
                                         return (
-                                            <li className="navbar-item">
+                                            <li className="navbar-item" key={index}>
                                                 <a className="navbar-link" href={`/category/${category.folder}`}>{category.category}</a>
                                             </li>
                                         )
