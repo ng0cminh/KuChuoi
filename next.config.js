@@ -3,5 +3,5 @@ module.exports = {
   images: {
     domains: ['example.com'],
   },
-  postsPerPage: 3,
+  postsPerPage: 6,
 }
