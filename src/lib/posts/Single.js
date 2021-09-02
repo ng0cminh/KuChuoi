@@ -14,7 +14,10 @@ export function getAllPostSlug() {
     let allPostSlug = [];
 
     folders.forEach(folder => {
-        const fileNames = fs.readdirSync(join(pathContents, folder));
+        let fileNames = fs.readdirSync(join(pathContents, folder));
+        fileNames = fileNames.filter(fileName => {
+            return fileName.includes('.md')
+        })
         allPostSlug = allPostSlug.concat(
             fileNames.map (fileName => {
                 return {
