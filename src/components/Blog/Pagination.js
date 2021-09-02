@@ -2,14 +2,14 @@ const Pagination = ({totalPage, pageIndex, folder, author}) => {
     let prevLink = null;
     let nextLink = null;
     if(folder) {
-        prevLink = `/category/${folder}/${pageIndex - 1 == 0 ? "" : pageIndex - 1}`;
+        prevLink = `/category/${folder}/${pageIndex - 1 == 0 ? "/" : pageIndex - 1}`;
         nextLink = `/category/${folder}/${pageIndex +1}`;
     } else if(author) {
-        prevLink = `/author/${author}/${pageIndex - 1 == 0 ? "" : pageIndex - 1}`;
+        prevLink = `/author/${author}/${pageIndex - 1 == 0 ? "/" : pageIndex - 1}`;
         nextLink = `/author/${author}/${pageIndex +1}`;
     } else {
-        prevLink = pageIndex - 1 == 0 ? "" : pageIndex - 1;
-        nextLink = pageIndex +1;
+        prevLink = pageIndex - 1 == 0 ? "/" : pageIndex - 1;
+        nextLink = pageIndex + 1;
     }
 
     return (

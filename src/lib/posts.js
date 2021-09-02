@@ -3,7 +3,7 @@ import {join} from 'path';
 import matter from 'gray-matter';
 
 import slug from 'slug';
-import {postsPerPage} from '../../next.config';
+
 
 const pathContents = join(process.cwd(), 'contents');
 
