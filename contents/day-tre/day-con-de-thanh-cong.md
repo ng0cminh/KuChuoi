@@ -1,6 +1,6 @@
 ---
 
-title: DẠY CON...ĐỂ THÀNH CÔNG
+title: Dạy con..để thành công
 author: Admin
 date: '2021-09-01'
 isDraft: false

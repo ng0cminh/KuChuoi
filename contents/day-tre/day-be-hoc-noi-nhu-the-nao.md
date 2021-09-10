@@ -1,5 +1,5 @@
 ---
-title: 'DẠY BÉ HỌC NÓI NHƯ THẾ NÀO?'
+title: Dạy bé học nói như thế nao?
 author: Kủ Chuối
 date: '2021-09-02'
 isDraft: false

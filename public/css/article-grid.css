@@ -43,7 +43,8 @@
 }
 
 .grid .article-main .article-content {
-    padding: 0 10px;
+    padding-right: 6px;
+    padding-left: 16px;
 }
 
 .grid .article-main .article-content h2 {
@@ -52,5 +53,6 @@
 }
 
 .grid .article .article-footer {
-    padding: 0 10px;
+    padding-right: 10px;
+    padding-left: 16px;
 }

@@ -1,5 +1,5 @@
 ---
-title: DẠY BÉ TÍNH TỰ LẬP VÀ SÁNG TẠO
+title: Dạy bé tính tự lập và sáng tạo
 author: Kủ Chuối
 date: '2021-09-02'
 isDraft: false
