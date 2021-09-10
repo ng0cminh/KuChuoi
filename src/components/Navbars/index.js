@@ -1,4 +1,4 @@
-/* eslint-disable react/jsx-key */
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable @next/next/no-html-link-for-pages */
 import React from "react";
 
@@ -42,7 +42,7 @@ class Navbars extends React.Component {
                         <nav className={this.state.show ? "navbars show" : "navbars"}>
                             <div className="brand">
                                 <div className="mobile-logo">
-                                    
+                                    <img src="/images/favicon.png" alt="logo" />
                                 </div>
                                 <span className="nav-mobile-close" onClick={this.handlerShow} >
                                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
