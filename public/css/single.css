@@ -12,7 +12,16 @@
 }
 
 .single .article-main .article-content {
-    padding: 0 10px;
+    padding: 0 15px;
+}
+
+.single .article-content .article-body a {
+    color: var(--link-color);
+}
+
+.single .article-content .article-body a:hover {
+    color: var(--link-color-hover);
+    text-decoration: underline;
 }
 
 .article-content .article-tags {
@@ -49,6 +58,8 @@
 
 .author-box .author-avatar img {
     border-radius: 50%;
+    border: rgb(250, 0, 0) solid 2px;
+    box-shadow: 0px 0px 8px 8px rgba(220, 0, 0, 0.5);
 }
 
 .article-content .author-box p {

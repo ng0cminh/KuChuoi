@@ -30,6 +30,10 @@
     align-items: center;
 }
 
+.sidebar .widget .item-post a:hover{
+    color: var(--link-color-hover);
+}
+
 .sidebar .widget .item-post:last-child {
     border-bottom: none;
 }

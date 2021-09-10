@@ -10,7 +10,6 @@
 }
 
 
-
 /* Start Article-List */
 .article {
     margin-bottom: 20px;
@@ -27,6 +26,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.article .article-title a:hover {
+    color: var(--link-color-hover);
 }
 
 .article .author-date {
@@ -107,12 +110,14 @@
 }
 
 .pagination .navbar-link {
-    color: var(--link-color);
     font-size: 1.6rem;
     font-weight: 700;
     padding: 8px 12px;
     background-color: var(--white-color);
     border-radius: 5px;
+}
+.pagination .navbar-link:hover {
+    color: var(--link-color-hover);
 }
 /* End Article-List */
 

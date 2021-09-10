@@ -3,7 +3,7 @@ title: DẠY BÉ TÍNH TỰ LẬP VÀ SÁNG TẠO
 author: Kủ Chuối
 date: '2021-09-02'
 isDraft: false
-isFeatured: false
+isFeatured: true
 image: day-be-tinh-tu-lap-sang-tao.jpg
 tags: ["tự lập", "sáng tạo"]
 keywords: dạy trẻ tự lập, bé tự lập, bé sáng tạo, dạy trẻ sáng tạo"
