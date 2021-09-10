@@ -9,6 +9,7 @@ const Layout = ({children, title, categories}) => {
         <Fragment>
             <Head>
                 <title>{title}</title>
+                <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
             </Head>
             <Header>
 
