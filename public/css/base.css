@@ -1,7 +1,7 @@
 :root {
-    --white-color: #fff;
-    --black-color: #000;
-    --text-color: #333;     /* Màu chữ cho web */
+    --white-color: rgb(255, 255, 255);
+    --black-color: rgb(0, 0, 0);
+    --text-color: rgb(69, 69, 69);     /* Màu chữ cho web */
     --link-color: #007bff; /* Màu cho link trong văn bản */
     --link-color-hover: #087cce; /* Màu cho link trong văn bản khi hover */
     --bg-color: #f0f2f5;
@@ -12,6 +12,9 @@
     --border-footer: #ffbe02;   /* Màu cho border bottom */
     --menu-hover-color: #ebebeb;
     --transparent: rgba(255, 255, 255, 0);
+    --highlight-color: #cd3e46; /* Màu nền cho biểu tượng bài viết nổi bật */
+    --trending-color: #77c148; /* Màu nền cho biểu tượng bài viết xu hướng */
+    --newpost-color: #2c31cf; /* Màu nền cho biểu tượng bài viết mới */
 }
 
 * {
@@ -59,12 +62,15 @@ img {
     max-width: 100%;
     margin: 0px;
     padding: 0px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .img-fluid {
     margin: 0;
     padding: 0;
 }
+
 .img-fluid img {
     display: block;
 }

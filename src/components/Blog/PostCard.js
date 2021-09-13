@@ -11,9 +11,12 @@ const PostCard = ({post}) => {
                 <HeaderCard author={post.author} date={post.date} size={16} />
                 <div className="article-main">
                     <figure className="article-figure img-fluid">
+                        <div className="badge featured">
+                            <span>Xem nhiều</span>
+                        </div>
                         <Image 
                             src={post.image ? `/images/contents/${post.folder}/${post.image}` : `/images/default/article.jpg`}
-                            width={900}
+                            width={1000}
                             height={500}
                             alt={post.title ? post.title : `Banner Default`}
                         />
@@ -24,7 +27,7 @@ const PostCard = ({post}) => {
                                 <a >{post.title ? post.title : null}</a>
                             </Link>
                         </h2>
-                        <p>
+                        <p className="article-description">
                             {post.description ? post.description : null}
                         </p>
                     </div>
