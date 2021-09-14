@@ -5,15 +5,16 @@ import HeaderCard from "../Widgets/HeaderCard";
 
 
 const PostCard = ({post}) => {
+    const featured = <div className="badge featured">
+                        <span>Nổi bật</span>
+                    </div>;
     return(
         <div className="card">
             <article className="article">
                 <HeaderCard author={post.author} date={post.date} size={16} />
                 <div className="article-main">
                     <figure className="article-figure img-fluid">
-                        <div className="badge featured">
-                            <span>Xem nhiều</span>
-                        </div>
+                        {post.isFeatured ? featured : null}
                         <Image 
                             src={post.image ? `/images/contents/${post.folder}/${post.image}` : `/images/default/article.jpg`}
                             width={1000}
