@@ -1,24 +1,11 @@
 import Layout from "../components/Layout"
-import {getFolderMenu} from "../lib/posts";
 
-function About({categories}) {
+function About() {
   return (
-    <Layout title="About Pages" categories={categories}>
+    <Layout title="About Pages">
       <h1>About Page</h1>
     </Layout>
   )
 }
 
 export default About;
-
-export async function getStaticProps() {
-
-  const categories = getFolderMenu();
-   // The value of the `props` key will be
-  // passed to the `Home` component
-  return {
-    props: {
-      categories,
-    }
-  }
-}

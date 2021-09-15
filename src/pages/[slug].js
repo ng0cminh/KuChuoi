@@ -1,16 +1,14 @@
-/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
-import Layout from "../../components/Layout";
-import Sidebar from "../../components/Sidebar";
-import HeaderCard from "../../components/Widgets/HeaderCard";
-import AuthorBox from "../../components/Widgets/AuthorBox";
+import Layout from "../components/Layout";
+import Sidebar from "../components/Sidebar";
+import HeaderCard from "../components/Widgets/HeaderCard";
+import AuthorBox from "../components/Widgets/AuthorBox";
 
-import {getAllPostSlug, getPostDataBySlug} from "../../lib/posts/Single";
-import {getPostFeatured, getFolderMenu} from "../../lib/posts";
+import {getAllPostSlug, getPostDataBySlug} from "../lib/posts";
 
-const Single = ({categories, post, featuredPosts}) => {
+const Single = ({post}) => {
     return (
-        <Layout title={post.title} categories={categories}>
+        <Layout title={post.title}>
             <div className="main-content">
                 <section id="content" className="content single">
                     <article className="article">
@@ -39,16 +37,11 @@ const Single = ({categories, post, featuredPosts}) => {
                                             <path d="M1.293 7.793A1 1 0 0 1 1 7.086V2a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l.043-.043-7.457-7.457z"/>
                                         </svg>
                                     </span>
-                                    {
-                                        post.tags.map((tag, index) => {
-                                            return (
-                                                <span className="tag-item" key={index}>{tag}</span>
-                                            )
-                                        })
-                                    }
+                                    <span className="tag-item">tag 1</span>
+                                    <span className="tag-item">tag 2</span>
                                 </div>
 
-                                <AuthorBox author={post.author} />
+                                <AuthorBox />
 
                                 <div id="comments">
                                     <h2>List Comment</h2>
@@ -61,13 +54,15 @@ const Single = ({categories, post, featuredPosts}) => {
                     </article>
                 </section>
                 
-                <Sidebar featuredPosts={featuredPosts} />
+                <Sidebar />
             </div>
         </Layout>
     )
 }
 
 export default Single;
+
+
 
 export async function getStaticPaths() {
     // Return a list of possible value for slug
@@ -82,8 +77,6 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
     // Fetch necessary data for the blog post using params.slug
     const post = await getPostDataBySlug(params.slug);
-    const featuredPosts = getPostFeatured();
-    const categories = getFolderMenu();
 
     if (!post) {
         return {
@@ -93,9 +86,7 @@ export async function getStaticProps({ params }) {
 
     return {
         props: {
-            categories,
             post,
-            featuredPosts
         }
     }
 }

@@ -2,6 +2,7 @@
     --white-color: rgb(255, 255, 255);
     --black-color: rgb(0, 0, 0);
     --text-color: rgb(69, 69, 69);     /* Màu chữ cho web */
+    --primary-color: #2196f3;
     --link-color: #007bff; /* Màu cho link trong văn bản */
     --link-color-hover: #087cce; /* Màu cho link trong văn bản khi hover */
     --bg-color: #f0f2f5;
@@ -56,6 +57,30 @@ p {
 a {
     text-decoration: none;
     color: var(--text-color);
+}
+
+button, input[type=button], input[type=reset], input[type=submit] {
+    -ms-flex-pack: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: transparent;
+    border: .1rem solid #bbb;
+    border-radius: .3rem;
+    color: #222;
+    cursor: pointer;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    display: -webkit-inline-flex;
+    font-size: 1.7rem;
+    height: 3.8rem;
+    justify-content: center;
+    line-height: 3.8rem;
+    margin: 0 0 .8rem;
+    outline: 0;
+    padding: 0 1.5rem;
+    text-decoration: none;
+    text-transform: none;
+    white-space: nowrap;
 }
 
 img {

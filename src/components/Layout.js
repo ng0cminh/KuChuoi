@@ -4,25 +4,21 @@ import Footer from "./Footer";
 import Navbars from './Navbars';
 import Head from 'next/head';
 
-const Layout = ({children, title, categories}) => {
+const Layout = ({children, title}) => {
     return (
         <Fragment>
             <Head>
                 <title>{title}</title>
-                <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
             </Head>
-            <Header>
 
-            </Header>  
-            <Navbars categories={categories} />
+            <Header />
+            <Navbars />
                 <main id="main" className="main">
                     <div className="container">
                         {children}
                     </div>
                 </main>
-            <Footer>
-
-            </Footer>
+            <Footer />
         </Fragment>
     )
 }

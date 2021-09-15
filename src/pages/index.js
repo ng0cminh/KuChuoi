@@ -1,51 +1,55 @@
 import Layout from "../components/Layout"
 import Blog from "../components/Blog";
-import {getFolderMenu} from "../lib/posts";
-import {getPostHomePage} from "../lib/posts/Home";
-import React from "react";
+import {getPostByFolder} from "../lib/posts";
 
-class HomePage extends React.Component {
-  constructor (props) {
-    super(props);
+export default function Home({cat1, cat2}) {
+  return (
+    <Layout title="Home Pages">
+      <section className="main-content grid">
+        <section id="content" className="content">
 
-    this.state = {
-      data: this.props,
-    }
-  }
+            <section className="list-posts">
+              <div className="heading-block">
+                <h2 className="title-block">{cat1.category}</h2>
+                <a href={`/category/${cat1.folder}`} className="views-all">Xem tất cả</a>
+              </div>
+              <div className="row">
+                <Blog posts={cat1.posts.slice(0,3)} />
+              </div>
+            </section>
 
-  render() {
-    const {posts, totalPage, pageIndex, categories} = this.state.data;
-    return (
-      <Layout title="Home Pages" categories={categories}>
-        <section className="main-content grid">
-          <Blog posts={posts} totalPage={totalPage} pageIndex={pageIndex} />
+            <section className="list-posts">
+              <div className="heading-block">
+                <h2 className="title-block">{cat2.category}</h2>
+                <a href={`/category/${cat2.folder}`} className="views-all">Xem tất cả</a>
+              </div>
+              <div className="row">
+                <Blog posts={cat2.posts.slice(0,3)} />
+              </div>
+            </section>
+
         </section>
-      </Layout>
-    )
-  }
+      </section>
+    </Layout>
+  )
 }
 
-export default HomePage;
 
 export async function getStaticProps() {
 
   // Get external data from the file system, API, DB, etc.
-  const data = getPostHomePage();
-  const {
-    posts,
-    totalPage,
-    pageIndex
-  } = data;
+  
+  // const data = getPostsHomePage();
 
-  const categories = getFolderMenu();
-   // The value of the `props` key will be
+  const cat1 = getPostByFolder('day-tre');
+  const cat2 = getPostByFolder('an-uong');
+
+  // The value of the `props` key will be
   // passed to the `Home` component
   return {
     props: {
-      categories,
-      posts,
-      totalPage,
-      pageIndex
+      cat1,
+      cat2
     }
   }
 }

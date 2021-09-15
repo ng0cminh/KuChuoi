@@ -2,11 +2,11 @@
 import FeaturedBox from "../Widgets/FeaturedBox";
 import AboutBox from "../Widgets/AboutBox";
 
-const Sidebar = ({featuredPosts}) => {
+const Sidebar = () => {
     return (
         <aside className="sidebar" id="sidebar">
             <AboutBox />
-            <FeaturedBox posts={featuredPosts} />
+            <FeaturedBox />
         </aside>
     )
 }
