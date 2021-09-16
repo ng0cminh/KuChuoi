@@ -4,7 +4,7 @@ author: Admin
 date: '2021-07-14T22:10:03.284Z'
 isDraft: false
 isHomePage: false
-isFeatured: true
+isFeatured: false
 image: article-2.jpg
 tags: ["greeting", "egg"]
 keywords: example, bài mẫu, bản nháp

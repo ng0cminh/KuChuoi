@@ -77,7 +77,7 @@ export function getPostByFolder (folder, number = undefined, selection = undefin
     }
 }
 
-export function getPostsHomePage (number, selection) {
+export function getPostsHomePage (number = 6, selection) {
     const folders = fs.readdirSync(pathContents);
     let data = [];
     folders.forEach(folder => {
@@ -124,14 +124,14 @@ export function getPostByAuthor (author) {
     const posts = getAllPost()
         .filter(post => {
             return slug(post.author) === author;
-        })
+        });
+    const authorName = posts[0].author;
 
     return {
-        posts
+        posts,
+        authorName
     }
 }
-
-
 
 
 

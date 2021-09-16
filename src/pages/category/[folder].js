@@ -4,7 +4,7 @@ import Blog from "../../components/Blog";
 import Pagination from "../../components/Pagination";
 import {getPostByFolder, getAllFolderSlug} from "../../lib/posts";
 
-export default function Category({allPosts}) {
+export default function Category({allPosts, category}) {
   
   const [posts, setList] = useState ([... allPosts.slice (0, 3)]);
 
@@ -38,7 +38,7 @@ export default function Category({allPosts}) {
   }, [posts]) //eslint-disable-line
 
   return (
-    <Layout title="category">
+    <Layout title={category}>
       <section className="main-content grid">
         <section id="content" className="content">
 

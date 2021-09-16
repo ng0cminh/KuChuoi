@@ -32,7 +32,8 @@ export async function getStaticProps() {
 
   // Get external data from the file system, API, DB, etc.
   
-  const data = getPostsHomePage(6, 'isHomePage');
+  // Đối số thứ 1 nếu không lựa chọn thì sẽ lấy 6 bài viết. Đối số thứ 2 nếu không lựa chọn thì lấy tất cả các bài viết theo thứ tự
+  const data = getPostsHomePage(3, 'isHomePage');
 
 
   // The value of the `props` key will be

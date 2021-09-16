@@ -6,7 +6,7 @@ import Sidebar from "../../components/Sidebar";
 
 import {getAllAuthorSlug, getPostByAuthor, getFeaturedPost} from "../../lib/posts";
 
-export default function Category({allPosts, featuredPosts}) {
+export default function Category({allPosts, authorName, featuredPosts}) {
   const [ posts , setList ] = useState ( [ ... allPosts.slice ( 0 , 3 ) ] );
   // Trạng thái để kích hoạt thêm
   const [ loadMore , setLoadMore ] = useState ( false );
@@ -39,7 +39,7 @@ export default function Category({allPosts, featuredPosts}) {
 
 
   return (
-    <Layout title="Author Pages">
+    <Layout title={authorName}>
       <section className="main-content loop">
         <section id="content" className="content">
             <Blog posts={posts} />
@@ -63,7 +63,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
 
   // Get external data from the file system, API, DB, etc.
-  const {posts} = getPostByAuthor(params.name);
+  const {posts, authorName} = getPostByAuthor(params.name);
 
   const featuredPosts = await getFeaturedPost(5);
 
@@ -73,6 +73,7 @@ export async function getStaticProps({ params }) {
   return {
     props: {
       allPosts: posts,
+      authorName,
       author: params.name,
       featuredPosts
     }
