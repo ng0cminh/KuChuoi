@@ -2,36 +2,24 @@
 /* eslint-disable @next/next/no-img-element */
 
 
-function FeaturedBox () {
+function FeaturedBox ({featuredPosts}) {
         return (
             <div className="widget">
                 <h3 className="widget-title">Featured Posts</h3>
                 <div className="widget-content">
                     <ul className="widget-post">
-                        <li className="item-post" >
-                            <a href="#">
-                                <img src="/images/default/article.jpg" alt="banner" />
-                            </a>
-                        <h4>
-                            <a href="#">Tiêu đề bài viết</a>
-                        </h4>
-                        </li>
-                        <li className="item-post" >
-                            <a href="#">
-                                <img src="/images/default/article.jpg" alt="banner" />
-                            </a>
-                        <h4>
-                            <a href="#">Tiêu đề bài viết</a>
-                        </h4>
-                        </li>
-                        <li className="item-post" >
-                            <a href="#">
-                                <img src="/images/default/article.jpg" alt="banner" />
-                            </a>
-                        <h4>
-                            <a href="#">Tiêu đề bài viết</a>
-                        </h4>
-                        </li>
+                        {featuredPosts.map((post, index) => {
+                            return(
+                                <li className="item-post" key={post.slug + index} >
+                                    <a href={post.slug}>
+                                        <img src={post.image ? `/images/contents/${post.folder}/${post.image}` : `/images/default/article.jpg`} alt={post.title} />
+                                    </a>
+                                <h4>
+                                    <a href={post.slug}>{post.title}</a>
+                                </h4>
+                                </li>
+                            )
+                        })}
                     </ul>
                 </div>
             </div>

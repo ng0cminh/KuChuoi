@@ -195,3 +195,13 @@ export async function getPostDataBySlug(slug) {
         }
     }
 }
+
+
+// Lấy bài viết nổi bật
+export function getFeaturedPost(number) {
+    return getAllPost()
+        .filter(post => {
+           return post.isFeatured == true;
+        })
+        .slice(0, number)
+}

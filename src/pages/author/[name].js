@@ -4,9 +4,9 @@ import Blog from "../../components/Blog";
 import Pagination from "../../components/Pagination";
 import Sidebar from "../../components/Sidebar";
 
-import {getAllAuthorSlug, getPostByAuthor} from "../../lib/posts";
+import {getAllAuthorSlug, getPostByAuthor, getFeaturedPost} from "../../lib/posts";
 
-export default function Category({allPosts}) {
+export default function Category({allPosts, featuredPosts}) {
   const [ posts , setList ] = useState ( [ ... allPosts.slice ( 0 , 3 ) ] );
   // Trạng thái để kích hoạt thêm
   const [ loadMore , setLoadMore ] = useState ( false );
@@ -45,7 +45,7 @@ export default function Category({allPosts}) {
             <Blog posts={posts} />
             <Pagination hasMore={hasMore} handleLoadMore={handleLoadMore} />
         </section>
-        <Sidebar />
+        <Sidebar featuredPosts={featuredPosts} />
       </section>
     </Layout>
   )
@@ -62,20 +62,19 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
 
-// Get external data from the file system, API, DB, etc.
-const data = getPostByAuthor(params.name);
-const {
-  posts,
-} = data;
+  // Get external data from the file system, API, DB, etc.
+  const {posts} = getPostByAuthor(params.name);
+
+  const featuredPosts = await getFeaturedPost(5);
 
 
-// The value of the `props` key will be
-// passed to the `Blog` component
-return {
-  props: {
-    allPosts: posts,
-    author: params.name,
-
+  // The value of the `props` key will be
+  // passed to the `Blog` component
+  return {
+    props: {
+      allPosts: posts,
+      author: params.name,
+      featuredPosts
+    }
   }
-}
 }

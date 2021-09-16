@@ -55,9 +55,6 @@ class Navbars extends React.Component {
                                 <li className="navbar-item">
                                     <a className="navbar-link" href="/category/day-tre">Dạy trẻ</a>
                                 </li>
-                                <li className="navbar-item">
-                                    <a className="navbar-link" href="/posts/single">Pages</a>
-                                </li>
                             </ul>
                         </nav>
                         <form className="search-form" action="#" method="post">
