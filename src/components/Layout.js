@@ -8,6 +8,7 @@ const Layout = ({children, title}) => {
     return (
         <Fragment>
             <Head>
+                <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
                 <title>{title}</title>
             </Head>
 

@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import Sidebar from "../components/Sidebar";
 import HeaderCard from "../components/Widgets/HeaderCard";
 import AuthorBox from "../components/Widgets/AuthorBox";
+import Comment from '../components/comment';
 
 import {getAllPostSlug, getPostDataBySlug, getFeaturedPost} from "../lib/posts";
 
@@ -45,6 +46,7 @@ const Single = ({post, featuredPosts}) => {
 
                                 <div id="comments">
                                     <h2>List Comment</h2>
+                                    <Comment />
                                 </div>
                             </div>
                         </div>
