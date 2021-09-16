@@ -8,7 +8,7 @@ import html from 'remark-html';
 const pathContents = join(process.cwd(), 'contents');
 
 // Get posts theo file .md
-const getPostByFile = (folder) => {
+const getPostByFile = (folder, number = undefined, selection = undefined) => {
     const pathFolder = join(pathContents, folder);
     let fileNames = fs.readdirSync(pathFolder);
 
@@ -35,6 +35,18 @@ const getPostByFile = (folder) => {
             ...matterResult.data,
         }
     })
+    .filter(post => {
+        if(post.isDraft != true) {
+            if(selection) {
+                return post[selection] === undefined ? true : post[selection];
+            }
+            return true;
+        }
+    })
+    .sort(({ date: a }, { date: b }) => {
+        return a < b ? 1 : a > b ? -1 : 0;
+    })
+    .slice(0, number)
 }
 
 export function getAllPost () {
@@ -46,28 +58,18 @@ export function getAllPost () {
     })
     
     // Xoá  bỏ những bài viết nháp
-    return allPost.filter(post => {
-        return post.isDraft != true;
-    })
-    .sort(({ date: a }, { date: b }) => {
-        return a < b ? 1 : a > b ? -1 : 0;
-    })
+    return allPost;
 }
 
 
 
 // Lấy bài viết theo thư mục
-export function getPostByFolder (folder) {
+export function getPostByFolder (folder, number = undefined, selection = undefined) {
     const categoryPath = join(pathContents, folder, 'a.txt');
     const category = fs.readFileSync(categoryPath, 'utf8');
 
-    const posts = getPostByFile(folder)
-        .filter(post => {
-            return post.isDraft != true;
-        })
-        .sort(({ date: a }, { date: b }) => {
-            return a < b ? 1 : a > b ? -1 : 0;
-        })
+    const posts = getPostByFile(folder, number, selection)
+
     return {
         posts,
         folder,
@@ -75,11 +77,11 @@ export function getPostByFolder (folder) {
     }
 }
 
-export function getPostsHomePage () {
+export function getPostsHomePage (number, selection) {
     const folders = fs.readdirSync(pathContents);
     let data = [];
     folders.forEach(folder => {
-       data.push(getPostByFolder(folder));
+        data.push(getPostByFolder(folder, number, selection));
     })
     return data;
 }
@@ -95,7 +97,6 @@ export function getAllFolderSlug () {
         }
     })
 }
-
 
 
 // Lấy các đường dẫn của tác giả bài viết
@@ -122,7 +123,7 @@ export function getPostByAuthor (author) {
 
     const posts = getAllPost()
         .filter(post => {
-            return slug(post.author) == author;
+            return slug(post.author) === author;
         })
 
     return {

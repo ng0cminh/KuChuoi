@@ -45,6 +45,7 @@
 
 .article-header .article-author img {
     display: block;
+    border: 1px solid var(--highlight-color);
     width: 40px;
     height: 40px;
     border-radius: 50%;

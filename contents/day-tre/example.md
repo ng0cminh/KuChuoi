@@ -4,6 +4,7 @@ title: Example Post
 author: Admin
 date: '2021-07-14T22:10:03.284Z'
 isDraft: false
+isHomePage: false
 isFeatured: true
 image: article-1.jpg
 tags: ["greeting", "egg"]

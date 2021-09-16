@@ -3,6 +3,7 @@ title: Dạy bé học nói như thế nào?
 author: Kủ Chuối
 date: '2021-09-02'
 isDraft: false
+isHomePage: false
 isFeatured: true
 image: day-be-tap-noi.jpg
 tags: ["tập nói", "dạy trẻ tập nói"]

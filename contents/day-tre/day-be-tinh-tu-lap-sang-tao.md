@@ -3,6 +3,7 @@ title: Dạy bé tính tự lập và sáng tạo
 author: Kủ Chuối
 date: '2021-09-02'
 isDraft: false
+isHomePage: true
 isFeatured: true
 image: day-be-tinh-tu-lap-sang-tao.jpg
 tags: ["tự lập", "sáng tạo"]

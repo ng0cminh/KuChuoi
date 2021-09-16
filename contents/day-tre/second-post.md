@@ -3,6 +3,7 @@ title: 'Second Post'
 author: Kủ Chuối
 date: '2021-07-14T22:10:03.284Z'
 isDraft: false
+isHomePage: true
 isFeatured: false
 image: article-3.jpg
 tags: ["greeting", "egg"]

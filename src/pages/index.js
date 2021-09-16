@@ -11,11 +11,11 @@ export default function Home({data}) {
               return(
                 <section className="list-posts" key={cat.folder + index}>
                   <div className="heading-block">
-                    <h2 className="title-block">{cat.category}</h2>
-                    <a href={`/category/${cat.folder}`} className="views-all">Xem tất cả</a>
+                    <h2 className="title-block">{cat.posts.length > 0 ? cat.category : null}</h2>
+                    <a href={`/category/${cat.folder}`} className="views-all">{cat.posts.length > 0 ? `Xem tất cả` : null}</a>
                   </div>
                   <div className="row">
-                    <Blog posts={cat.posts.slice(0,3)} />
+                    <Blog posts={cat.posts} />
                   </div>
                 </section>
               )
@@ -32,7 +32,7 @@ export async function getStaticProps() {
 
   // Get external data from the file system, API, DB, etc.
   
-  const data = getPostsHomePage();
+  const data = getPostsHomePage(6, 'isHomePage');
 
 
   // The value of the `props` key will be

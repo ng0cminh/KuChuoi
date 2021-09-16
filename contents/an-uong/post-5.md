@@ -4,6 +4,7 @@ title:  Post-5
 author: Admin
 date: '2021-07-14T22:10:03.284Z'
 isDraft: false
+isHomePage: true
 isFeatured: false
 image: image-6.jpg
 tags: ["greeting", "egg"]

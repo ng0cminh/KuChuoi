@@ -4,6 +4,7 @@ title: Dạy con...để thành công
 author: Admin
 date: '2021-09-01'
 isDraft: false
+isHomePage: true
 isFeatured: true
 image: day-con-de-thanh-cong.jpg
 tags: ["trẻ thành công"]

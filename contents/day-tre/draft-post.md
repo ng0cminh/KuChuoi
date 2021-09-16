@@ -3,6 +3,7 @@ title: 'Draft Post'
 author: Kủ Chuối
 date: '2021-07-14T22:10:03.284Z'
 isDraft: true
+isHomePage: false
 isFeatured: false
 image: article-2.jpg
 tags: ["greeting", "egg"]
