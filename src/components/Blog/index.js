@@ -4,7 +4,7 @@ const BlogList = ({posts}) => {
     return (
         posts.map((post, index) => {
                 return (
-                    <PostCard post={post} key={index} />
+                    <PostCard post={post} key={post.slug + '-' + index} />
                 )
             }
         )

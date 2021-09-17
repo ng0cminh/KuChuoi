@@ -38,9 +38,9 @@ const Navbars = ({menu}) => {
                             <li className="navbar-item">
                                 <a className="navbar-link" href="/">Home</a>
                             </li>
-                            {menu.map((item, index) => {
+                            {menu.map(item => {
                                 return (
-                                    <li className="navbar-item" key={item.folder + index}>
+                                    <li className="navbar-item" key={item.folder}>
                                         <a className="navbar-link" href={`/category/${item.folder}`}>{item.category}</a>
                                     </li>
                                 )
