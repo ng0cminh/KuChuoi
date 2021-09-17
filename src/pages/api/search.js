@@ -1,6 +1,7 @@
 import { getAllPost } from '../../lib/posts';
+import { postData } from '../../../cache/data';
 
-const posts = process.env.NODE_ENV === 'production' ? require('../../cache/data').posts : getAllPost()
+const posts = process.env.NODE_ENV === 'production' ? postData : getAllPost()
 
 export default function search (req, res) {
     const results = req.query.q ? posts.filter(post => post.title.toLowerCase().includes(req.query.q)) : []

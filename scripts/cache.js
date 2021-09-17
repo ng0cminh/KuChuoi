@@ -42,7 +42,7 @@ function postData() {
         posts = posts.concat(getPostByFile(folder));
     })
     
-    return `export const posts = ${JSON.stringify(posts)}`
+    return `export const postData = ${JSON.stringify(posts)}`
 }
 
 try {
