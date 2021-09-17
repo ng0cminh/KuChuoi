@@ -5,7 +5,7 @@
 function FeaturedBox ({featuredPosts}) {
         return (
             <div className="widget">
-                <h3 className="widget-title">Featured Posts</h3>
+                <h3 className="widget-title"><a href="/featured-posts">Bài viết nổi bật</a></h3>
                 <div className="widget-content">
                     <ul className="widget-post">
                         {featuredPosts.map((post, index) => {

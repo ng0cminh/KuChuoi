@@ -7,12 +7,12 @@ import Sidebar from "../../components/Sidebar";
 import {getAllAuthorSlug, getPostByAuthor, getFeaturedPost, getListNameFolder} from "../../lib/posts";
 
 export default function Category({allPosts, authorName, featuredPosts, menu}) {
-  const [ posts , setList ] = useState ( [ ... allPosts.slice ( 0 , 3 ) ] );
+  const [posts, setList ] = useState([...allPosts.slice (0, 3)]);
   // Trạng thái để kích hoạt thêm
-  const [ loadMore , setLoadMore ] = useState ( false );
+  const [loadMore, setLoadMore] = useState( false );
   
   // Trạng thái xem có nhiều thứ khác để tải hay không
-  const [ hasMore , setHasMore ] = useState ( allPosts.length > 3 )
+  const [hasMore, setHasMore ] = useState(allPosts.length > 3)
 
   // Tải thêm lần nhấp vào nút
   const handleLoadMore = () => {     

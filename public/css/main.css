@@ -136,6 +136,11 @@
     font-size: 1.5rem;
 }
 
+.footer .info a {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
 .footer .navbar-link {
     color: var(--white-color);
 }
@@ -144,9 +149,12 @@
     position: fixed;
     bottom: 30px;
     right: 30px;
+}
+
+.footer .back-to-top a {
     color: var(--hover-color)
 }
 
-.footer .back-to-top:hover {
+.footer .back-to-top a:hover {
     color: var(--bg-top);
 }

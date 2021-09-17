@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import Image from "next/image";
@@ -13,7 +14,7 @@ const PostCard = ({post}) => {
                     <figure className="article-figure img-fluid">
                         { post.isFeatured ? (
                             <div className="badge featured">
-                                <span>Nổi bật</span>
+                                <span><a href="/featured-posts">Nổi bật</a></span>
                             </div>
                         ) : null}
                         <Image 

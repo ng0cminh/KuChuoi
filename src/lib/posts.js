@@ -7,8 +7,26 @@ import html from 'remark-html';
 
 const pathContents = join(process.cwd(), 'contents');
 
+// Get danh sách thư mục và tên hiển thị dựa vào file a.text
+export function getListNameFolder () {
+    const folders = fs.readdirSync(pathContents);
+
+    let result = [];
+    folders.forEach(folder => {
+        const folderPath = join(pathContents, folder, 'a.txt');
+        const category = fs.readFileSync(folderPath, 'utf8');
+        result.push({
+            category,
+            folder,
+        })
+
+    })
+
+    return result;
+}
+
 // Get posts theo file .md
-const getPostByFile = (folder, number = undefined, selection = undefined) => {
+export function getPostByFile (folder, number = undefined, selection = undefined) {
     const pathFolder = join(pathContents, folder);
     let fileNames = fs.readdirSync(pathFolder);
 
@@ -49,6 +67,7 @@ const getPostByFile = (folder, number = undefined, selection = undefined) => {
     .slice(0, number)
 }
 
+// Lấy tất cả bài viết
 export function getAllPost () {
     const folders = fs.readdirSync(pathContents);
 
@@ -60,7 +79,6 @@ export function getAllPost () {
     // Xoá  bỏ những bài viết nháp
     return allPost;
 }
-
 
 
 // Lấy bài viết theo thư mục
@@ -206,23 +224,4 @@ export function getFeaturedPost(number) {
            return post.isFeatured === true;
         })
         .slice(0, number)
-}
-
-
-// Get danh sách thư mục và tên hiển thị dựa vào file a.text
-export function getListNameFolder () {
-    const folders = fs.readdirSync(pathContents);
-
-    let result = [];
-    folders.forEach(folder => {
-        const folderPath = join(pathContents, folder, 'a.txt');
-        const category = fs.readFileSync(folderPath, 'utf8');
-        result.push({
-            category,
-            folder,
-        })
-
-    })
-
-    return result;
 }

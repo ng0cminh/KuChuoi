@@ -131,6 +131,9 @@
     transform: rotate(-45deg);
     z-index: 1;
 }
+.grid .badge span a {
+    color: var(--white-color);
+}
 
 .grid .badge.featured::before, .grid .badge.featured::after,
 .grid .badge.featured span {

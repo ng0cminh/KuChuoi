@@ -1,10 +1,10 @@
 import React, { useState , useEffect } from "react";
-import Layout from "../../components/Layout";
-import Blog from "../../components/Blog";
-import Pagination from "../../components/Pagination";
-import {getPostByFolder, getAllFolderSlug, getListNameFolder} from "../../lib/posts";
+import Layout from "../components/Layout";
+import Blog from "../components/Blog";
+import Pagination from "../components/Pagination";
+import {getFeaturedPost, getListNameFolder} from "../lib/posts";
 
-export default function Category({allPosts, category, menu}) {
+export default function Category({allPosts, menu}) {
   
   const [posts, setList] = useState ([...allPosts.slice (0, 3)]);
 
@@ -38,7 +38,7 @@ export default function Category({allPosts, category, menu}) {
   }, [posts]) //eslint-disable-line
 
   return (
-    <Layout title={category} menu={menu} >
+    <Layout title="Bài viết nổi bật" menu={menu} >
       <section className="main-content grid">
         <section id="content" className="content">
 
@@ -55,32 +55,18 @@ export default function Category({allPosts, category, menu}) {
   )
 }
 
-export async function getStaticPaths() {
-  // Return a list of possible value for slug
-  const paths = getAllFolderSlug ()
 
-  return {
-      paths,
-      fallback: false
-  }
-}
+export async function getStaticProps() {
+    const menu = getListNameFolder();
 
-export async function getStaticProps({ params }) {
-  // Get external data from the file system, API, DB, etc.
-  const data = await getPostByFolder(params.folder);
-  const {
-    posts,
-    category,
-  } = data;
-  const menu = getListNameFolder();
+    // Get external data from the file system, API, DB, etc.
+    const posts = await getFeaturedPost();
 
   // The value of the `props` key will be
   // passed to the `Blog` component
   return {
     props: {
-      category,
       allPosts: posts,
-      folder: params.folder,
       menu
     }
   }
