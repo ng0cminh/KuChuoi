@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 import Sidebar from "../components/Sidebar";
 import HeaderCard from "../components/Widgets/HeaderCard";
 import AuthorBox from "../components/Widgets/AuthorBox";
-import Comment from '../components/comment';
+import Comment from '../components/Comment';
 
 import {getAllPostSlug, getPostDataBySlug, getFeaturedPost} from "../lib/posts";
 
