@@ -42,13 +42,14 @@ const Search = () => {
             <form className="search-form" action="#" method="post">
                 <div className="search-box">
                     <input
-                    className={isSearch ? "search-input show" : "search-input"}
-                    onChange={onChange}
-                    onFocus={onFocus}
-                    value={query}
-                    type="text" name="search" placeholder="Nhập từ khóa và lấy búa đập phím Enter" />
+                        className={isSearch ? "search-input show" : "search-input"}
+                        onChange={onChange}
+                        onFocus={onFocus}
+                        value={query}
+                        type="text" name="search" placeholder="Nhập từ khóa và lấy búa đập phím Enter"
+                    />
                     {active && results.length > 0 && (
-                        <ul className="list-search">
+                        <ul className={isSearch ? "list-search show" : "list-search"}>
                             {results.map(({slug, title}) => (
                                 <li key={slug}>
                                     <Link href="/[slug]" as={`/${slug}`}>
@@ -61,14 +62,14 @@ const Search = () => {
                 </div>
             </form>
             <span className={isSearch ? "nav-search-close show" : "nav-search-close"}
-                onClick={() => setIsSearch(!isSearch)}
+                onClick={() => {setIsSearch(!isSearch); setActive(false); setQuery('')}}
             >
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
                 <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
                 </svg>
             </span>
             <span className={isSearch ? "nav-search-btn" : "nav-search-btn show"}
-                onClick={() => setIsSearch(!isSearch)}
+                onClick={() => {setIsSearch(!isSearch); setActive(true)}}
             >
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
                     <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
