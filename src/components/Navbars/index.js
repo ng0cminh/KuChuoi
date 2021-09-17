@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 /* eslint-disable @next/next/no-html-link-for-pages */
 import React from "react";
 
@@ -49,12 +50,13 @@ class Navbars extends React.Component {
                                 <li className="navbar-item">
                                     <a className="navbar-link" href="/">Home</a>
                                 </li>
-                                <li className="navbar-item">
-                                    <a className="navbar-link" href="/category/an-uong">Ăn uống</a>
-                                </li>
-                                <li className="navbar-item">
-                                    <a className="navbar-link" href="/category/day-tre">Dạy trẻ</a>
-                                </li>
+                                {this.props.menu.map((item, index) => {
+                                    return (
+                                        <li className="navbar-item" key={item.folder + index}>
+                                            <a className="navbar-link" href={`/category/${item.folder}`}>{item.category}</a>
+                                        </li>
+                                    )
+                                })}
                             </ul>
                         </nav>
                         <form className="search-form" action="#" method="post">

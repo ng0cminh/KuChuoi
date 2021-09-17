@@ -1,10 +1,10 @@
 import Layout from "../components/Layout"
 import Blog from "../components/Blog";
-import {getPostsHomePage} from "../lib/posts";
+import {getPostsHomePage, getListNameFolder} from "../lib/posts";
 
-export default function Home({data}) {
+export default function Home({data, menu}) {
   return (
-    <Layout title="Home Pages">
+    <Layout title="Home Pages" menu={menu}>
       <section className="main-content grid">
         <section id="content" className="content">
             {data.map((cat, index) => {
@@ -34,13 +34,14 @@ export async function getStaticProps() {
   
   // Đối số thứ 1 nếu không lựa chọn thì sẽ lấy 6 bài viết. Đối số thứ 2 nếu không lựa chọn thì lấy tất cả các bài viết theo thứ tự
   const data = getPostsHomePage(3, 'isHomePage');
-
+  const menu = getListNameFolder();
 
   // The value of the `props` key will be
   // passed to the `Home` component
   return {
     props: {
-      data
+      data,
+      menu
     }
   }
 }

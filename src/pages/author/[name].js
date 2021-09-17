@@ -4,9 +4,9 @@ import Blog from "../../components/Blog";
 import Pagination from "../../components/Pagination";
 import Sidebar from "../../components/Sidebar";
 
-import {getAllAuthorSlug, getPostByAuthor, getFeaturedPost} from "../../lib/posts";
+import {getAllAuthorSlug, getPostByAuthor, getFeaturedPost, getListNameFolder} from "../../lib/posts";
 
-export default function Category({allPosts, authorName, featuredPosts}) {
+export default function Category({allPosts, authorName, featuredPosts, menu}) {
   const [ posts , setList ] = useState ( [ ... allPosts.slice ( 0 , 3 ) ] );
   // Trạng thái để kích hoạt thêm
   const [ loadMore , setLoadMore ] = useState ( false );
@@ -39,7 +39,7 @@ export default function Category({allPosts, authorName, featuredPosts}) {
 
 
   return (
-    <Layout title={authorName}>
+    <Layout title={authorName} menu={menu}>
       <section className="main-content loop">
         <section id="content" className="content">
             <Blog posts={posts} />
@@ -67,11 +67,14 @@ export async function getStaticProps({ params }) {
 
   const featuredPosts = await getFeaturedPost(5);
 
+  const menu = getListNameFolder();
+
 
   // The value of the `props` key will be
   // passed to the `Blog` component
   return {
     props: {
+      menu,
       allPosts: posts,
       authorName,
       author: params.name,

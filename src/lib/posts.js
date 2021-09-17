@@ -77,6 +77,7 @@ export function getPostByFolder (folder, number = undefined, selection = undefin
     }
 }
 
+// Lấy bài viết trên trang chủ
 export function getPostsHomePage (number = 6, selection) {
     const folders = fs.readdirSync(pathContents);
     let data = [];
@@ -202,7 +203,26 @@ export async function getPostDataBySlug(slug) {
 export function getFeaturedPost(number) {
     return getAllPost()
         .filter(post => {
-           return post.isFeatured == true;
+           return post.isFeatured === true;
         })
         .slice(0, number)
+}
+
+
+// Get danh sách thư mục và tên hiển thị dựa vào file a.text
+export function getListNameFolder () {
+    const folders = fs.readdirSync(pathContents);
+
+    let result = [];
+    folders.forEach(folder => {
+        const folderPath = join(pathContents, folder, 'a.txt');
+        const category = fs.readFileSync(folderPath, 'utf8');
+        result.push({
+            category,
+            folder,
+        })
+
+    })
+
+    return result;
 }

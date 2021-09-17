@@ -2,9 +2,9 @@ import React, { useState , useEffect } from "react";
 import Layout from "../../components/Layout";
 import Blog from "../../components/Blog";
 import Pagination from "../../components/Pagination";
-import {getPostByFolder, getAllFolderSlug} from "../../lib/posts";
+import {getPostByFolder, getAllFolderSlug, getListNameFolder} from "../../lib/posts";
 
-export default function Category({allPosts, category}) {
+export default function Category({allPosts, category, menu}) {
   
   const [posts, setList] = useState ([... allPosts.slice (0, 3)]);
 
@@ -38,7 +38,7 @@ export default function Category({allPosts, category}) {
   }, [posts]) //eslint-disable-line
 
   return (
-    <Layout title={category}>
+    <Layout title={category} menu={menu} >
       <section className="main-content grid">
         <section id="content" className="content">
 
@@ -72,6 +72,7 @@ export async function getStaticProps({ params }) {
     posts,
     category,
   } = data;
+  const menu = getListNameFolder();
 
   // The value of the `props` key will be
   // passed to the `Blog` component
@@ -80,6 +81,7 @@ export async function getStaticProps({ params }) {
       category,
       allPosts: posts,
       folder: params.folder,
+      menu
     }
   }
 }

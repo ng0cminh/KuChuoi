@@ -3,13 +3,12 @@ import Layout from "../components/Layout";
 import Sidebar from "../components/Sidebar";
 import HeaderCard from "../components/Widgets/HeaderCard";
 import AuthorBox from "../components/Widgets/AuthorBox";
-import Comment from '../components/Comment';
 
-import {getAllPostSlug, getPostDataBySlug, getFeaturedPost} from "../lib/posts";
+import {getAllPostSlug, getPostDataBySlug, getFeaturedPost, getListNameFolder} from "../lib/posts";
 
-const Single = ({post, featuredPosts}) => {
+const Single = ({post, featuredPosts, menu}) => {
     return (
-        <Layout title={post.title}>
+        <Layout title={post.title} menu={menu}>
             <div className="main-content">
                 <section id="content" className="content single">
                     <article className="article">
@@ -46,7 +45,7 @@ const Single = ({post, featuredPosts}) => {
 
                                 <div id="comments">
                                     <h2>List Comment</h2>
-                                    <Comment />
+                                    
                                 </div>
                             </div>
                         </div>
@@ -80,7 +79,7 @@ export async function getStaticProps({ params }) {
     // Fetch necessary data for the blog post using params.slug
     const post = await getPostDataBySlug(params.slug);
     const featuredPosts = await getFeaturedPost(5);
-
+    const menu = getListNameFolder();
     if (!post) {
         return {
           notFound: true,
@@ -89,6 +88,7 @@ export async function getStaticProps({ params }) {
 
     return {
         props: {
+            menu,
             post,
             featuredPosts
         }
