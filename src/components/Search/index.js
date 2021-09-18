@@ -54,13 +54,14 @@ const Search = () => {
                         onFocus={onFocus}
                         value={query}
                         type="text" name="q" placeholder="Nhập từ khóa và lấy búa đập phím Enter"
+                        autoComplete="off"
                     />
                     {active && results.length > 0 && (
                         <ul className={isSearch ? "list-search show" : "list-search"}>
                             {results.map(({slug, title}) => (
                                 <li className="item-result-search" key={slug}>
                                     <Link href="/[slug]" as={`/${slug}`}>
-                                        <a>{title}</a>
+                                        <a onClick={onClean}>{title}</a>
                                     </Link>
                                 </li>
                             ))}
