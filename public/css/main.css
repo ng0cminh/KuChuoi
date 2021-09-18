@@ -150,11 +150,12 @@
     bottom: 30px;
     right: 30px;
 }
-
-.footer .back-to-top a {
+.footer .back-to-top .back-top {
+    margin: 0px;
+    padding: 0px;
+    border: none;
     color: var(--hover-color)
 }
-
-.footer .back-to-top a:hover {
+.footer .back-to-top .back-top:hover {
     color: var(--bg-top);
 }
