@@ -1,5 +1,5 @@
-
-const AuthorBox = () => {
+/* eslint-disable @next/next/no-img-element */
+const AboutBox = () => {
     return (
         <div className="widget">
             <h3 className="widget-title">About</h3>
@@ -13,4 +13,4 @@ const AuthorBox = () => {
     )
 }
 
-export default AuthorBox;
+export default AboutBox;

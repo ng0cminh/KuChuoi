@@ -58,7 +58,7 @@ const Search = () => {
                     {active && results.length > 0 && (
                         <ul className={isSearch ? "list-search show" : "list-search"}>
                             {results.map(({slug, title}) => (
-                                <li key={slug}>
+                                <li className="item-result-search" key={slug}>
                                     <Link href="/[slug]" as={`/${slug}`}>
                                         <a>{title}</a>
                                     </Link>

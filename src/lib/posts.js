@@ -126,7 +126,7 @@ export function getAllAuthorSlug () {
         return slug(post.author);
     })
     
-    posts = [... new Set(posts)]
+    posts = [...new Set(posts)]
 
     return posts.map(author => {
         return {

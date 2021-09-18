@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="bottom-footer">
                     <div className="info">
                         <p>
-                            Copyright © 2021 by <a href="/about">Ng0cMinh</a>
+                            Copyright © 2021 by <a href="/about">Kủ Chuối</a>
                         </p>
                     </div>
                     <nav className="navbars">
