@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
-import SocialBox from "./SocialBox";
+import { compareAsc, format } from 'date-fns';
 import slug from 'slug';
+import SocialBox from "./SocialBox";
+
 const HeaderCard = ({author, date, size}) => {
     return(
         <header className="article-header">
@@ -19,7 +21,7 @@ const HeaderCard = ({author, date, size}) => {
                     <span className="article-name-author">
                         <a href={`/author/${slug(author)}`}>{author}</a>
                     </span>
-                    <span className="article-date"><time>{date}</time></span>
+                    <span className="article-date"><time>{format(new Date(date), 'dd-MM-yyyy')}</time></span>
                 </span>
             </div>
             <SocialBox size={size} href="#" />
