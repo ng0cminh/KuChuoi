@@ -1,4 +1,4 @@
-import fs, {existsSync} from 'fs';
+import fs from 'fs';
 import {join} from 'path';
 import matter from 'gray-matter';
 import slug from 'slug';
@@ -39,21 +39,26 @@ export function getPostByFile (folder, number = undefined, selection = undefined
 
     const totalFile = fileNames.length - 1; // tính từ 0 theo số mảng
 
-    return fileNames.map(fileName => {
+    return fileNames.map((fileName, index) => {
 
         const fullPath = join(pathFolder, fileName);
         const fileContents = fs.readFileSync(fullPath, 'utf8');
         
         // Tạo metadata cho post bằng cách sử dụng gray-matter
-        const matterResult = matter(fileContents);
+        const {content, data} = matter(fileContents);
 
         const slug = fileName.replace(/\.md$/, '');
+        const prev = index > 0 ? fileNames[index - 1].replace(/\.md$/, '') : null;
+        const next = index < totalFile ? fileNames[index + 1].replace(/\.md$/, '') : null;
 
         return {
             slug,
+            prev,
+            next,
             category,
             folder,
-            ...matterResult.data,
+            content,
+            ...data,
         }
     })
     .filter(post => {
@@ -128,8 +133,8 @@ export function getAllAuthorSlug () {
     posts = posts.map( post => {
         return slug(post.author);
     })
-    
-    posts = [...new Set(posts)]
+
+    posts = [...new Set(posts)]; // loại bỏ những phần tử trùng nhau trong mảng
 
     return posts.map(author => {
         return {
@@ -185,35 +190,23 @@ export function getAllPostSlug() {
 
 // Lấy nội dung bài viết theo đường dẫn
 export async function getPostDataBySlug(slug) {
-    const folders = fs.readdirSync(pathContents);
-    const lengthFolders = folders.length;
+    const posts = getAllPost();
 
-    let fileContents, folder;
-    for(let i = 0; i < lengthFolders; i++) {
-        const fullPath = join(pathContents, folders[i], `${slug}.md`);
-        if(existsSync(fullPath)) {
-            folder = folders[i];
-            fileContents = fs.readFileSync(fullPath, 'utf8');
-            break;
-        }
-    }
+    const post = posts.find(post => {
+        return post.slug === slug;
+    })
 
-    // Use gray-matter to parse the post metadata section
-    const matterResult = matter(fileContents);
-
-    if(!matterResult.data.isDraft) {
+    if(!post.isDraft) {
         // Use remark to convert markdown into HTML string
         const processedContent = await remark()
         .use(html)
-        .process(matterResult.content)
-        const content = processedContent.toString()
+        .process(post.content)
+        const contentHtml = processedContent.toString()
         
         // Combine the data with the slug
         return {
-            folder,
-            slug,
-            content,
-            ...matterResult.data
+            ...post,
+            content: contentHtml
         }
     }
 }

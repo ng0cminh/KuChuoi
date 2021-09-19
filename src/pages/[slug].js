@@ -28,7 +28,7 @@ const Single = ({post, featuredPosts, menu}) => {
                                 
                                 <HeaderCard author={post.author} date={post.date} size={32} />
 
-                                <div dangerouslySetInnerHTML={{ __html: post.contentHtml }} className="article-body" />
+                                <div dangerouslySetInnerHTML={{ __html: post.content }} className="article-body" />
 
                                 <div className="article-tags">
                                     <span>
