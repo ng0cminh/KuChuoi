@@ -63,9 +63,13 @@ Vai trò của từng ngôn ngữ trong website
 Điều đó không có nghĩa là chỉ sử dụng HTML để tạo ra một website mà HTML chỉ đóng một vai trò hình thành trên website. Ví dụ một website như Thachpham.com sẽ được hình thành bởi:
 
 **HTML** – Xây dựng cấu trúc và định dạng các siêu văn bản.
+
 **CSS** – Định dạng các siêu văn bản dạng thô tạo ra từ HTML thành một bố cục website, có màu sắc, ảnh nền,….
+
 **Javascript** – Tạo ra các sự kiện tương tác với hành vi của người dùng (ví dụ nhấp vào ảnh trên nó sẽ có hiệu ứng phóng to).
+
 **PHP** – Ngôn ngữ lập trình để xử lý và trao đổi dữ liệu giữa máy chủ đến trình duyệt (ví dụ như các bài viết sẽ được lưu trong máy chủ).
+
 **MySQL** – Hệ quản trị cơ sở dữ liệu truy vấn có cấu trúc (SQL – ví dụ như các bài viết sẽ được lưu lại với dạng dữ liệu SQL).
 Nhưng ở đây, tạm thời bạn chỉ cần quan tâm đến HTML mà thôi. Dễ hiểu hơn, bạn hãy nghĩ rằng nếu website là một cơ thể hoàn chỉnh thì HTML chính là bộ xương của cơ thể đó, nó như là một cái khung sườn vậy.
 
@@ -74,6 +78,7 @@ Như vậy, dù website thuộc thể loại nào, giao tiếp với ngôn ngữ
 Nhân tiện đây mình cũng nói luôn, website có hai loại chính:
 
 **Website tĩnh (static web)** – Là một website không giao tiếp với máy chủ web để gửi nhận dữ liệu mà chỉ có các dữ liệu được khai báo sẵn bằng HTML và trình duyệt đọc.
+
 **Website động (dynamic web)** – Là một website sẽ giao tiếp với một máy chủ để gửi nhận dữ liệu, các dữ liệu đó sẽ gửi ra ngoài cho người dùng bằng văn bản HTML và trình duyệt sẽ hiển thị nó. Để một website có thể giao tiếp với máy chủ web thì sẽ dùng một số ngôn ngữ lập trình dạng server-side như PHP, ASP.NET, Ruby,..để thực hiện. Ví dụ như một website làm bằng WordPress là website động.
 Tài nguyên tham khảo HTML
 Trong serie này mình không có nói hết về các thẻ trong HTML mà chỉ nói qua các thẻ quan trọng nhất vì bạn sẽ sử dụng nó thường xuyên. Vì vậy, bạn hãy vào trang HTML Reference để tham khảo ý nghĩa và cách sử dụng của tất cả các thẻ HTML.
