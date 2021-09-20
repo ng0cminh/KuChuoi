@@ -3,10 +3,11 @@ import Layout from "../components/Layout";
 import Sidebar from "../components/Sidebar";
 import HeaderCard from "../components/Widgets/HeaderCard";
 import AuthorBox from "../components/Widgets/AuthorBox";
+import markdownToHtml from "../lib/markdownToHtml";
 
 import {getAllPostSlug, getPostDataBySlug, getFeaturedPost, getListNameFolder} from "../lib/posts";
 
-const Single = ({post, featuredPosts, menu}) => {
+const Single = ({post, content, prevPost, nextPost, featuredPosts, menu}) => {
     return (
         <Layout title={post.title} menu={menu}>
             <div className="main-content">
@@ -42,7 +43,20 @@ const Single = ({post, featuredPosts, menu}) => {
                                 </div>
 
                                 <AuthorBox author={post.author} />
-
+                                <div className="post-pagination">
+                                    <div className="prev-post">
+                                        <div><span>bài trước</span></div>
+                                        <a href={prevPost.slug}>
+                                            {prevPost.title}
+                                        </a>
+                                    </div>
+                                    <div className="next-post">
+                                        <div><span>bài kế tiếp</span></div>
+                                        <a href={nextPost.slug}>
+                                            {nextPost.title}
+                                        </a>
+                                    </div>
+                                </div>
                                 <div id="comments">
                                     <h2>List Comment</h2>
                                     
@@ -77,19 +91,24 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
     // Fetch necessary data for the blog post using params.slug
-    const post = await getPostDataBySlug(params.slug);
+    const {post, prevPost, nextPost} = await getPostDataBySlug(params.slug);
     const featuredPosts = await getFeaturedPost(5);
     const menu = getListNameFolder();
-    if (!post) {
-        return {
-          notFound: true,
+    
+        if (!post) {
+            return {
+            notFound: true,
+            }
         }
-    }
+
+        post.content = await markdownToHtml(post.content) || '';
 
     return {
         props: {
             menu,
             post,
+            prevPost,
+            nextPost,
             featuredPosts
         }
     }

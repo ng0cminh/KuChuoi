@@ -193,20 +193,13 @@ export async function getPostDataBySlug(slug) {
 
     const post = posts[postIndex];
     const prevPost = postIndex > 0 ? posts[postIndex - 1] : null;
-    const nextPost = postIndex < postsLength ? posts[postIndex] + 1 : null;
+    const nextPost = postIndex < postsLength ? posts[postIndex + 1] : null;
 
-    if(!post.isDraft) {
-        // Use remark to convert markdown into HTML string
-        const processedContent = await remark()
-        .use(html)
-        .process(post.content)
-        const contentHtml = processedContent.toString()
-        
-        // Combine the data with the slug
-        return {
-            ...post,
-            content: contentHtml
-        }
+
+    return {
+        post,
+        prevPost,
+        nextPost
     }
 }
 
