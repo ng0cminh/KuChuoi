@@ -12,7 +12,7 @@ const posts = process.env.NODE_ENV === 'production' ? postData : getAllPost()
 export default function search (req, res) {
     let results = [];
     let query = req.query.q;
-    query = removeAccents(query).toLowerCase();
+    query = query && removeAccents(query).toLowerCase();
 
     if(query) {
       results = posts.filter(post => {
