@@ -15,7 +15,9 @@
 .single .article-main .article-content {
     padding: 0 10px;
 }
-
+.single .article-main .article-content img {
+    width: 100%;
+}
 .single .article-content .article-body a {
     color: var(--link-color);
 }
