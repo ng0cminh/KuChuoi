@@ -114,7 +114,6 @@ export async function getStaticProps({ params }) {
 
         post.content = await markdownToHtml(post.content) || '';
 
-
     return {
         props: {
             menu,
