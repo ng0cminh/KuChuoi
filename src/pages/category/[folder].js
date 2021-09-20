@@ -26,16 +26,16 @@ export default function Category({allPosts, category, menu}) {
       const nextResults = isMore
         ? allPosts.slice(currentLength, currentLength + 3)
         : []
-      setList([...posts, ...nextResults])
-      setLoadMore(false)
+      setList([...posts, ...nextResults]);
+      setLoadMore(false);
     }
-  }, [loadMore, hasMore]) //eslint-disable-line
+  }, [loadMore, hasMore]); //eslint-disable-line
 
   //Check if there is more
   useEffect(() => {
-    const isMore = posts.length < allPosts.length
-    setHasMore(isMore)
-  }, [posts]) //eslint-disable-line
+    const isMore = posts.length < allPosts.length;
+    setHasMore(isMore);
+  }, [posts]); //eslint-disable-line
 
   return (
     <Layout title={category} menu={menu} >

@@ -1,4 +1,4 @@
-/* eslint-disable react/jsx-key */
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable @next/next/no-html-link-for-pages */
 import React, { useState } from "react";
 import Search from "../Search";
@@ -23,7 +23,7 @@ const Navbars = ({menu}) => {
                     <nav className={isShowMobileMenu ? "navbars show" : "navbars"}>
                         <div className="brand">
                             <div className="mobile-logo">
-                                
+                                <img src="/images/favicon.png" alt="logo" />
                             </div>
                             <span className="nav-mobile-close"
                                 onClick={() => setIsShowMobileMenu(!isShowMobileMenu)}
