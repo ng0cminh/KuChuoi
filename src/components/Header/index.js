@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import TopNavbars from '../Navbars/TopNavbar';
 import SocialBox from '../Widgets/SocialBox';
+import {slogan} from "../../../next.config";
 
 const Header = () => {
     return(
@@ -18,7 +19,7 @@ const Header = () => {
                 <div className="container">
                     <h1 className="site-title">
                         <Link href="/">
-                            <a>My Blog</a>
+                            <a>{slogan}</a>
                         </Link>
                     </h1>
                 </div>

@@ -5,7 +5,7 @@ import {postPerpage} from "../../next.config";
 
 export default function Home({data, menu}) {
   return (
-    <Layout title="Home Pages" menu={menu}>
+    <Layout title="Trang Chủ" menu={menu}>
       <section className="main-content grid">
         <section id="content" className="content">
             {data.map((cat, index) => {

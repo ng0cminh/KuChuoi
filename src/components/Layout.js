@@ -3,8 +3,10 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Navbars from './Navbars';
 import Head from 'next/head';
+import {slogan} from "../../next.config";
 
 const Layout = ({children, title, menu}) => {
+    title = title + " | " + slogan
     return (
         <Fragment>
             <Head>
