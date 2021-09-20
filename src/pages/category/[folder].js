@@ -3,16 +3,17 @@ import Layout from "../../components/Layout";
 import Blog from "../../components/Blog";
 import Pagination from "../../components/Pagination";
 import {getPostByFolder, getAllFolderSlug, getListNameFolder} from "../../lib/posts";
+import {postPerpage} from "../../../next.config";
 
 export default function Category({allPosts, category, menu}) {
   
-  const [posts, setList] = useState ([...allPosts.slice (0, 3)]);
+  const [posts, setList] = useState ([...allPosts.slice (0, postPerpage)]);
 
   // Trạng thái để kích hoạt thêm
   const [loadMore , setLoadMore] = useState(false);
   
   // Trạng thái xem có nhiều thứ khác để tải hay không
-  const [hasMore, setHasMore] = useState(allPosts.length > 3)
+  const [hasMore, setHasMore] = useState(allPosts.length > postPerpage)
 
   // Tải thêm lần nhấp vào nút
   const handleLoadMore = () => {     
@@ -24,7 +25,7 @@ export default function Category({allPosts, category, menu}) {
       const currentLength = posts.length
       const isMore = currentLength < allPosts.length
       const nextResults = isMore
-        ? allPosts.slice(currentLength, currentLength + 3)
+        ? allPosts.slice(currentLength, currentLength + postPerpage)
         : []
       setList([...posts, ...nextResults]);
       setLoadMore(false);
