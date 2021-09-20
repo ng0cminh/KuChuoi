@@ -7,7 +7,7 @@ import markdownToHtml from "../lib/markdownToHtml";
 
 import {getAllPostSlug, getPostDataBySlug, getFeaturedPost, getListNameFolder} from "../lib/posts";
 
-const Single = ({post, content, prevPost, nextPost, featuredPosts, menu}) => {
+const Single = ({post, prevPost, nextPost, featuredPosts, menu}) => {
     return (
         <Layout title={post.title} menu={menu}>
             <div className="main-content">
@@ -44,18 +44,23 @@ const Single = ({post, content, prevPost, nextPost, featuredPosts, menu}) => {
 
                                 <AuthorBox author={post.author} />
                                 <div className="post-pagination">
-                                    <div className="prev-post">
-                                        <div><span>bài trước</span></div>
-                                        <a href={prevPost.slug}>
-                                            {prevPost.title}
-                                        </a>
-                                    </div>
-                                    <div className="next-post">
-                                        <div><span>bài kế tiếp</span></div>
-                                        <a href={nextPost.slug}>
-                                            {nextPost.title}
-                                        </a>
-                                    </div>
+                                    {prevPost && (
+                                        <div className="prev-post">
+                                            <div><span>bài trước</span></div>
+                                            <a href={prevPost.slug}>
+                                                {prevPost.title}
+                                            </a>
+                                        </div>
+                                    )}
+                                    {nextPost && (
+                                        <div className="next-post">
+                                            <div><span>bài kế tiếp</span></div>
+                                            <a href={nextPost.slug}>
+                                                {nextPost.title}
+                                            </a>
+                                        </div>
+                                    )}
+                                    
                                 </div>
                                 <div id="comments">
                                     <h2>List Comment</h2>
@@ -97,7 +102,7 @@ export async function getStaticProps({ params }) {
     
         if (!post) {
             return {
-            notFound: true,
+                notFound: true,
             }
         }
 
