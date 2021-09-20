@@ -1,6 +1,6 @@
-import fetchComment from '../../lib/fetchComment'
-import createComments from '../../lib/createComment'
-import deleteComments from '../../lib/deleteComment'
+import fetchComment from '../../lib/comment/fetchComment'
+import createComments from '../../lib/comment/createComment'
+import deleteComments from '../../lib/comment/deleteComment'
 
 export default async function handler(req, res) {
   switch (req.method) {

@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import distanceToNow from '../../lib/dateRelative'
+import distanceToNow from '../../lib/comment/dateRelative'
 import { useAuth0 } from '@auth0/auth0-react'
 
 function CommentList({ comments, onDelete }) {
