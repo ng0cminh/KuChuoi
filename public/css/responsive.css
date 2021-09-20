@@ -150,8 +150,13 @@
     }
 
     /* Grid */
+    .grid .list-posts .row {
+        margin: 0px;
+    }
+
     .grid .content .card {
         width: 100%;
+        padding: 0px;
     }
     .grid .content > * {
         padding-left: 0px;
