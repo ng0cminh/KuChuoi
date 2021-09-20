@@ -1,7 +1,9 @@
 ---
 
 title:  Post-6
-author: Kủ Chuối
+author:
+    name: Kủ Chuối
+    description: Học không liên quan đến IT, nhưng thích lập trình. Học lập trình vì có thời gian và thấy vui chứ không vì gì hết. Thích chia sẻ với những người cùng sở thích
 date: '2021-07-14T22:10:03.284Z'
 isDraft: false
 isHomePage: true

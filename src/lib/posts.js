@@ -124,7 +124,7 @@ export function getAllAuthorSlug () {
     let posts = getAllPost();
 
     posts = posts.map( post => {
-        return slug(post.author);
+        return slug(post.author.name);
     })
 
     posts = [...new Set(posts)]; // loại bỏ những phần tử trùng nhau trong mảng
@@ -143,9 +143,9 @@ export function getPostByAuthor (author) {
 
     const posts = getAllPost()
         .filter(post => {
-            return slug(post.author) === author;
+            return slug(post.author.name) === author;
         });
-    const authorName = posts[0].author;
+    const authorName = posts[0].author.name;
 
     return {
         posts,

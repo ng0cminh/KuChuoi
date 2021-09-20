@@ -1,7 +1,9 @@
 ---
 
 title: Dạy con...để thành công
-author: Admin
+author:
+    name: Admin
+    description: Học không liên quan đến IT, nhưng thích lập trình. Học lập trình vì có thời gian và thấy vui chứ không vì gì hết. Thích chia sẻ với những người cùng sở thích
 date: '2021-09-01'
 isDraft: false
 isHomePage: true

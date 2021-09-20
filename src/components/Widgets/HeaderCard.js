@@ -19,7 +19,7 @@ const HeaderCard = ({author, date, size}) => {
                 </span>
                 <span className="article-author-time">
                     <span className="article-name-author">
-                        <a href={`/author/${slug(author)}`}>{author}</a>
+                        <a href={`/author/${slug(author.name)}`}>{author.name}</a>
                     </span>
                     <span className="article-date"><time>{format(new Date(date), 'dd-MM-yyyy')}</time></span>
                 </span>

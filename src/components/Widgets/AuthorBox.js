@@ -6,7 +6,7 @@ const AuthorBox = ({author}) => {
     return (
         <div className="author-box">
             <div className="author-avatar">
-                <a href={`/author/${slug(author)}`}>
+                <a href={`/author/${slug(author.name)}`}>
                     <img
                         src="/images/author/admin.jpg"
                         width={120}
@@ -15,8 +15,8 @@ const AuthorBox = ({author}) => {
                 </a>
             </div>
             <div className="author-decription">
-                <a href={`/author/${slug(author)}`}>{author}</a>
-                <p>Đây là phần giới thiệu chi tiết về tác giả và những sở thích cũng như đam mê liên quan hoặc có thể là quảng cáo bản thân :D</p>
+                <a href={`/author/${slug(author.name)}`}>{author.name}</a>
+                <p>{author.description}</p>
             </div>
         </div>
     )
