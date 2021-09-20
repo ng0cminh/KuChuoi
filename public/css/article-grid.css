@@ -163,6 +163,11 @@
     line-height: 2.5rem;
     margin: 0px;
     margin-top: 1rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
 }
 
 .grid .article-main .article-content .article-description {

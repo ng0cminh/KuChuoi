@@ -25,7 +25,7 @@ const PostCard = ({post}) => {
                         />
                     </figure>
                     <div className="article-content">
-                        <h2 className="article-title">
+                        <h2 title={post.title} className="article-title">
                             <Link href={`/${post.slug}`}>
                                 <a >{post.title ? post.title : null}</a>
                             </Link>
