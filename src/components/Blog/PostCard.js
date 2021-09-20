@@ -36,8 +36,8 @@ const PostCard = ({post}) => {
                     </div>
                 </div>
                 <footer className="article-footer">
-                    <span><a href="#">Bình luận</a></span>
-                    <span><a href="#">Xem</a></span>
+                    <span><a href={`/${post.slug}#comments`}>Bình luận</a></span>
+                    <span><a href={`/${post.slug}`}>Xem</a></span>
                 </footer>
             </article>
         </div>

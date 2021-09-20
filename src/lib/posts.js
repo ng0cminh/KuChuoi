@@ -25,7 +25,7 @@ export function getListNameFolder () {
 }
 
 // Get posts theo file .md
-export function getPostByFile (folder, number = undefined, selection = undefined) {
+export function getPostByFile (folder, number, selection) {
     const pathFolder = join(pathContents, folder);
     let fileNames = fs.readdirSync(pathFolder);
 
@@ -84,7 +84,7 @@ export function getAllPost () {
 
 
 // Lấy bài viết theo thư mục
-export function getPostByFolder (folder, number = undefined, selection = undefined) {
+export function getPostByFolder (folder, number, selection) {
     const categoryPath = join(pathContents, folder, 'a.txt');
     const category = fs.readFileSync(categoryPath, 'utf8');
 
