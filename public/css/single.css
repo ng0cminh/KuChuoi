@@ -84,6 +84,7 @@
     text-align: right;
 }
 .post-pagination span {
+    display: block;
     color: var(--bg-footer);
 }
 .post-pagination a {

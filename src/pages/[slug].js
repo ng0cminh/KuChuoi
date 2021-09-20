@@ -43,24 +43,29 @@ const Single = ({post, prevPost, nextPost, featuredPosts, menu}) => {
                                 </div>
 
                                 <AuthorBox author={post.author} />
+                                
                                 <div className="post-pagination">
-                                    {prevPost && (
-                                        <div className="prev-post">
-                                            <div><span>bài trước</span></div>
-                                            <a href={prevPost.slug}>
-                                                {prevPost.title}
-                                            </a>
-                                        </div>
-                                    )}
-                                    {nextPost && (
-                                        <div className="next-post">
-                                            <div><span>bài kế tiếp</span></div>
-                                            <a href={nextPost.slug}>
-                                                {nextPost.title}
-                                            </a>
-                                        </div>
-                                    )}
-                                    
+                                    <div className="prev-post">
+                                        {prevPost && (
+                                            <>
+                                                <span>bài trước</span>
+                                                <a href={prevPost.slug}>
+                                                    {prevPost.title}
+                                                </a>
+                                            </>
+                                        )}
+                                    </div>
+
+                                    <div className="next-post">
+                                        {nextPost && (
+                                            <>
+                                                <span>bài kế tiếp</span>
+                                                <a href={nextPost.slug}>
+                                                    {nextPost.title}
+                                                </a>
+                                            </>
+                                        )}
+                                    </div>
                                 </div>
                                 <div id="comments">
                                     <h2>List Comment</h2>
