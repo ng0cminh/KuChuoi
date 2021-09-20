@@ -7,7 +7,7 @@ author:
 date: '2021-09-20T13:30:03.284Z'
 isDraft: false
 isHomePage: true
-isFeatured: false
+isFeatured: true
 image: trinh-soan-thao-html.jpg
 tags: ["html", "soạn thảo html"]
 keywords: html, html là gì?, soạn thảo html như thế nào
