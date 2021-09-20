@@ -11,11 +11,11 @@ function FeaturedBox ({featuredPosts}) {
                         {featuredPosts.map((post, index) => {
                             return(
                                 <li className="item-post" key={post.slug + index} >
-                                    <a href={post.slug}>
+                                    <a href={`/${post.slug}`}>
                                         <img src={post.image ? `/images/contents/${post.folder}/${post.image}` : `/images/default/article.jpg`} alt={post.title} />
                                     </a>
                                 <h4>
-                                    <a href={post.slug}>{post.title}</a>
+                                    <a href={`/${post.slug}`}>{post.title}</a>
                                 </h4>
                                 </li>
                             )
