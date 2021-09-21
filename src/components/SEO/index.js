@@ -19,7 +19,7 @@ const SEO =  ({metadata}) => {
             
 
             <meta name="description" content={metadata.description} />            
-            <meta name="og:description" property="og:description" content={metadata.description} />            
+            <meta name="og:description" property="og:description" content={metadata.description} />          
             
 
             <meta name="twitter:card" content="summary" /> 

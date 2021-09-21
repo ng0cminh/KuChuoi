@@ -4,6 +4,7 @@ import {getListNameFolder} from "../lib/posts";
 function About({menu}) {
   const metadata = {
     title: "Giới thiệu",
+    slug: "about"
   }
   return (
     <Layout metadata={metadata} menu={menu}>

@@ -7,7 +7,7 @@ import {postPerpage} from "../../../next.config";
 
 import {getAllAuthorSlug, getPostByAuthor, getFeaturedPost, getListNameFolder} from "../../lib/posts";
 
-export default function Category({allPosts, authorName, featuredPosts, menu}) {
+export default function Category({allPosts, author, authorName, featuredPosts, menu}) {
   const [posts, setList ] = useState([...allPosts.slice (0, postPerpage)]);
   // Trạng thái để kích hoạt thêm
   const [loadMore, setLoadMore] = useState( false );
@@ -40,6 +40,7 @@ export default function Category({allPosts, authorName, featuredPosts, menu}) {
 
   const metadata = {
     title: authorName,
+    slug: `author/${author}`,
   }
 
   return (

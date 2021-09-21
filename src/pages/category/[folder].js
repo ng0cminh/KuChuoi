@@ -5,7 +5,7 @@ import Pagination from "../../components/Pagination";
 import {getPostByFolder, getAllFolderSlug, getListNameFolder} from "../../lib/posts";
 import {postPerpage} from "../../../next.config";
 
-export default function Category({allPosts, category, menu}) {
+export default function Category({allPosts, folder, category, menu}) {
   
   const [posts, setList] = useState ([...allPosts.slice (0, postPerpage)]);
 
@@ -40,6 +40,7 @@ export default function Category({allPosts, category, menu}) {
 
   const metadata = {
     title: category,
+    slug: `category/${folder}`,
   }
 
   return (

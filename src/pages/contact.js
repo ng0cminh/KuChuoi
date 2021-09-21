@@ -4,6 +4,7 @@ import {getListNameFolder} from "../lib/posts";
 function Contact({menu}) {
   const metadata = {
     title: "Liên hệ",
+    slug: 'contact',
   }
   
   return (
