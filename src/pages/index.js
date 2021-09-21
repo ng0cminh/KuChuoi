@@ -1,7 +1,7 @@
 import Layout from "../components/Layout"
 import Blog from "../components/Blog";
 import {getPostsHomePage, getListNameFolder} from "../lib/posts";
-import {postPerpage} from "../../next.config";
+import {POST_PER_PAGE} from "../../next.config";
 
 export default function Home({data, menu}) {
   const metadata = {
@@ -37,7 +37,7 @@ export async function getStaticProps() {
   // Get external data from the file system, API, DB, etc.
   
   // Đối số thứ 1 nếu không lựa chọn thì sẽ lấy 6 bài viết. Đối số thứ 2 nếu không lựa chọn thì lấy tất cả các bài viết theo thứ tự
-  const data = getPostsHomePage(postPerpage, 'isHomePage');
+  const data = getPostsHomePage(POST_PER_PAGE, 'isHomePage');
   const menu = getListNameFolder();
 
   // The value of the `props` key will be

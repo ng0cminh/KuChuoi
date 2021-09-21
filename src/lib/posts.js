@@ -2,9 +2,9 @@ import fs from 'fs';
 import {join} from 'path';
 import matter from 'gray-matter';
 import slug from 'slug';
-import {folderContent, postPerpage} from "../../next.config";
+import {FOLDER_CONTENT, POST_PER_PAGE, ORDER_BY} from "../../next.config";
 
-const pathContents = join(process.cwd(), folderContent);
+const pathContents = join(process.cwd(), FOLDER_CONTENT);
 
 // Get danh sách thư mục và tên hiển thị dựa vào file a.text
 export function getListNameFolder () {
@@ -66,7 +66,13 @@ export function getPostByFile (folder, number, selection) {
         }
     })
     .sort(({ date: a }, { date: b }) => {
-        return a < b ? 1 : a > b ? -1 : 0;
+        if(ORDER_BY === 'ASC') {
+            return a < b ? 1 : a > b ? -1 : 0;
+        } else if(ORDER_BY === 'DESC') {
+            return a > b ? 1 : a < b ? -1 : 0;
+        } else {
+            return undefined
+        }
     })
     .slice(0, number)
 }
@@ -100,7 +106,7 @@ export function getPostByFolder (folder, number, selection) {
 }
 
 // Lấy bài viết trên trang chủ
-export function getPostsHomePage (number = postPerpage, selection) {
+export function getPostsHomePage (number = POST_PER_PAGE, selection) {
     const folders = fs.readdirSync(pathContents);
     let data = [];
     folders.forEach(folder => {

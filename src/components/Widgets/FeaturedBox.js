@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 /* eslint-disable @next/next/no-img-element */
-
+import Link from "next/link";
+import Image from "next/image";
 
 function FeaturedBox ({featuredPosts}) {
         return (
@@ -12,7 +13,12 @@ function FeaturedBox ({featuredPosts}) {
                             return(
                                 <li className="item-post" key={post.slug + index} >
                                     <a href={`/${post.slug}`}>
-                                        <img src={post.image ? `/images/contents/${post.folder}/${post.image}` : `/images/default/article.jpg`} alt={post.title} />
+                                        <Image
+                                            src={post.image ? `/images/contents/${post.folder}/${post.image}` : `/images/default/article.jpg`}
+                                            width={90}
+                                            height={60}
+                                            alt={post.title ? post.title : `Banner Default`}
+                                        />
                                     </a>
                                 <h4>
                                     <a href={`/${post.slug}`}>{post.title}</a>

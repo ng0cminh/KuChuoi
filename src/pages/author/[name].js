@@ -3,17 +3,17 @@ import Layout from "../../components/Layout";
 import Blog from "../../components/Blog";
 import Pagination from "../../components/Pagination";
 import Sidebar from "../../components/Sidebar";
-import {postPerpage} from "../../../next.config";
+import {POST_PER_PAGE} from "../../../next.config";
 
 import {getAllAuthorSlug, getPostByAuthor, getFeaturedPost, getListNameFolder} from "../../lib/posts";
 
 export default function Category({allPosts, author, authorName, featuredPosts, menu}) {
-  const [posts, setList ] = useState([...allPosts.slice (0, postPerpage)]);
+  const [posts, setList ] = useState([...allPosts.slice (0, POST_PER_PAGE)]);
   // Trạng thái để kích hoạt thêm
   const [loadMore, setLoadMore] = useState( false );
   
   // Trạng thái xem có nhiều thứ khác để tải hay không
-  const [hasMore, setHasMore ] = useState(allPosts.length > postPerpage)
+  const [hasMore, setHasMore ] = useState(allPosts.length > POST_PER_PAGE)
 
   // Tải thêm lần nhấp vào nút
   const handleLoadMore = () => {     
@@ -25,7 +25,7 @@ export default function Category({allPosts, author, authorName, featuredPosts, m
       const currentLength = posts.length
       const isMore = currentLength < allPosts.length
       const nextResults = isMore
-        ? allPosts.slice(currentLength, currentLength + postPerpage)
+        ? allPosts.slice(currentLength, currentLength + POST_PER_PAGE)
         : []
       setList([...posts, ...nextResults]);
       setLoadMore(false);

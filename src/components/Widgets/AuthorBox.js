@@ -8,15 +8,16 @@ const AuthorBox = ({author}) => {
             <div className="author-avatar">
                 <a href={`/author/${slug(author.name)}`}>
                     <img
-                        src="/images/author/admin.jpg"
+                        src={`/images/author/${slug(author.name)}.jpg`}
                         width={120}
                         height={120}
+                        alt={author.name ? author.name : "tác giả"}
                     />
                 </a>
             </div>
             <div className="author-decription">
                 <a href={`/author/${slug(author.name)}`}>{author.name}</a>
-                <p>{author.description}</p>
+                <p>{author.description && author.description}</p>
             </div>
         </div>
     )
