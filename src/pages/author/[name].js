@@ -41,6 +41,7 @@ export default function Category({allPosts, author, authorName, featuredPosts, m
   const metadata = {
     title: authorName,
     slug: `author/${author}`,
+    image: `/image/author/${author}.jpg`
   }
 
   return (

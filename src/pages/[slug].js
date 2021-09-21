@@ -17,7 +17,7 @@ const Single = ({post, prevPost, nextPost, featuredPosts, menu}) => {
                         <div className="article-main">
                             <figure className="article-figure img-fluid">
                                 <Image
-                                    src={post.image ? `/images/contents/${post.folder}/${post.image}` : `/images/default/article.jpg`}
+                                    src={post.image ? post.image : `/images/default/article.jpg`}
                                     width={1000}
                                     height={500}
                                     alt={post.title}
@@ -114,6 +114,7 @@ export async function getStaticProps({ params }) {
         }
 
         post.content = await markdownToHtml(post.content) || '';
+        post.image = `/images/contents/${post.folder}/${post.image}`
 
     return {
         props: {

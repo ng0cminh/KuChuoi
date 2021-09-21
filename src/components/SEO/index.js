@@ -12,8 +12,8 @@ const SEO =  ({metadata}) => {
             <meta property="og:locale" content="vi_VN" />
             <meta property="og:site_name" content={slogan} />
 
-            <meta property="og:image" content={metadata.image ? domain + `/images/contents/${metadata.folder}/${metadata.image}` : domain + `/images/default/article.jpg`} />
-            <meta property="og:image:secure_url" content={metadata.image ? domain + `/images/contents/${metadata.folder}/${metadata.image}` : domain + `/images/default/article.jpg`} />
+            <meta property="og:image" content={metadata.image ? domain + metadata.image : domain + `/images/default/article.jpg`} />
+            <meta property="og:image:secure_url" content={metadata.image ? domain + metadata.image : domain + `/images/default/article.jpg`} />
             <meta property="og:image:type" content="image/jpeg" />
 
             
