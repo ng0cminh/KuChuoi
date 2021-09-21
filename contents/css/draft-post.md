@@ -19,4 +19,4 @@ description: Đây là phần mô tả bài viết
 #### Đây là thẻ h4
 ##### Đây là thẻ h5
 ###### Đây là thẻ h6
-![girlxinh](/images/contents/day-tre/article-5.jpg)
+![girlxinh](/images/contents/css/article-5.jpg)
