@@ -1,3 +1,7 @@
+.main-content.grid .content {
+    margin-right: 0px;
+}
+
 .grid .heading-block {
     display: flex;
     justify-content: space-between;
