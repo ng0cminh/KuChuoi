@@ -28,7 +28,7 @@ const Single = ({post, prevPost, nextPost, featuredPosts, menu}) => {
                                     {post.title}
                                 </h1>
                                 
-                                <HeaderCard author={post.author} date={post.date} size={32} />
+                                <HeaderCard author={post.author} date={post.date} size={32} href={post.slug} />
 
                                 <div dangerouslySetInnerHTML={{ __html: post.content }} className="article-body" />
 

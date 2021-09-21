@@ -1,15 +1,22 @@
-/* eslint-disable @next/next/no-html-link-for-pages */
+import Link from "next/link";
+
 const TopNavbars = () => {
     return(
         <ul className="navbar-list">
             <li className="navbar-item">
-                <a className="navbar-link" href="/">Home</a>
+                <Link href="/">
+                    <a className="navbar-link">Home</a>
+                </Link>
             </li>
             <li className="navbar-item">
-                <a className="navbar-link" href="/about">About</a>
+                <Link href="/about">
+                    <a className="navbar-link">About</a>
+                </Link>
             </li>
             <li className="navbar-item">
-                <a className="navbar-link" href="/contact">Contact</a>
+                <Link href="/contact">
+                    <a className="navbar-link">Contact</a>
+                </Link>
             </li>
         </ul>
     )

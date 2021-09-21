@@ -1,30 +1,32 @@
 /* eslint-disable @next/next/no-img-element */
-import { compareAsc, format } from 'date-fns';
+import { format } from 'date-fns';
 import slug from 'slug';
+import Link from "next/link";
+import Image from "next/image";
 import SocialBox from "./SocialBox";
 
-const HeaderCard = ({author, date, size}) => {
+const HeaderCard = ({author, date, size, href}) => {
     return(
         <header className="article-header">
             <div className="author-date">
                 <span className="article-author">
-                        <a>
-                            <img 
-                                src="/images/author/admin.jpg"
-                                width="120"
-                                height="120"
-                                alt="avatar"
-                            />
-                        </a>
+                    <Image 
+                        src={`/images/author/${slug(author.name)}.jpg`}
+                        width="120"
+                        height="120"
+                        alt="avatar"
+                    />
                 </span>
                 <span className="article-author-time">
                     <span className="article-name-author">
-                        <a href={`/author/${slug(author.name)}`}>{author.name}</a>
+                        <Link href={`/author/${slug(author.name)}`}>
+                            <a>{author.name}</a>
+                        </Link>
                     </span>
                     <span className="article-date"><time>{format(new Date(date), 'dd-MM-yyyy')}</time></span>
                 </span>
             </div>
-            <SocialBox size={size} href="#" />
+            <SocialBox size={size} href={href} />
         </header>
     )
 }

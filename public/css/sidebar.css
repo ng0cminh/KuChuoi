@@ -28,8 +28,10 @@
 }
 
 .sidebar .widget .item-post {
+    display: block;
     list-style: none;
     display: flex;
+    line-height: 0px;
     padding: 15px 0;
     border-bottom: 1px solid var(--border-color);
     align-items: center;
@@ -43,11 +45,12 @@
     border-bottom: none;
 }
 
-.sidebar .widget .item-post a {
-    max-width: 90px;
+
+.sidebar .widget .item-post span a {
+    display: block;
+    width: 85px;
     margin-right: 8px;
 }
-
 .sidebar .widget .item-post h4 {
     margin: 0px;
     padding: 0px;

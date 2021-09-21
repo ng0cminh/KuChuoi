@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable @next/next/no-html-link-for-pages */
 import React, { useState } from "react";
+import Link from "next/link";
 import Search from "../Search";
 
 const Navbars = ({menu}) => {
