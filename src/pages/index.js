@@ -6,6 +6,7 @@ import {postPerpage} from "../../next.config";
 export default function Home({data, menu}) {
   const metadata = {
     title: "Trang Chủ",
+    description: `Trang blog của Kủ Chuối`,
   }
   return (
     <Layout metadata={metadata} menu={menu}>

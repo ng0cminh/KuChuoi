@@ -41,7 +41,6 @@ export default function Category({allPosts, folder, category, menu}) {
   const metadata = {
     title: category,
     slug: `category/${folder}`,
-    image: `/image/${folder}/banner.jpg`
   }
 
   return (

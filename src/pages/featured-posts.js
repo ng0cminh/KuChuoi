@@ -40,6 +40,7 @@ export default function Category({allPosts, menu}) {
 
   const metadata = {
     title: "Bài viết nổi bật",
+    description: `Trang tập hợp các bài viết nổi bật của website`,
   }
   return (
     <Layout metadata={metadata} menu={menu} >

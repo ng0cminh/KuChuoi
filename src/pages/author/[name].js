@@ -40,6 +40,7 @@ export default function Category({allPosts, author, authorName, featuredPosts, m
 
   const metadata = {
     title: authorName,
+    description: `Trang bài viết của tác giả ${authorName}`,
     slug: `author/${author}`,
     image: `/image/author/${author}.jpg`
   }
