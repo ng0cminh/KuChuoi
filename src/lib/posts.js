@@ -43,6 +43,8 @@ export function getPostByFile (folder, number, selection) {
         
         // Tạo metadata cho post bằng cách sử dụng gray-matter
         const {content, data} = matter(fileContents);
+        const wordsContent = content.trim().split(/\s+/).length;
+        const readTime = Math.ceil(wordsContent / 200);
         
         const slug = fileName.replace(/\.md$/, '');
 
@@ -50,6 +52,7 @@ export function getPostByFile (folder, number, selection) {
             slug,
             category,
             folder,
+            readTime,
             content,
             ...data,
         }

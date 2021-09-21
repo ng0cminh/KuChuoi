@@ -27,17 +27,21 @@ const PostCard = ({post}) => {
                     <div className="article-content">
                         <h2 title={post.title} className="article-title">
                             <Link href={`/${post.slug}`}>
-                                <a >{post.title ? post.title : null}</a>
+                                <a >{post.title && post.title}</a>
                             </Link>
                         </h2>
                         <p className="article-description">
-                            {post.description ? post.description : null}
+                            {post.description && post.description}
                         </p>
                     </div>
                 </div>
                 <footer className="article-footer">
-                    <span><a href={`/${post.slug}#comments`}>Bình luận</a></span>
-                    <span><a href={`/${post.slug}`}>Xem</a></span>
+                    <a href={`/${post.slug}#comments`}>
+                        <span>Bình luận</span>
+                    </a>
+                    <a href={`/${post.slug}`}>
+                        <span>{post.readTime} phút đọc</span>
+                    </a>
                 </footer>
             </article>
         </div>
