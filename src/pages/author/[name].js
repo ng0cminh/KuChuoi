@@ -38,9 +38,12 @@ export default function Category({allPosts, authorName, featuredPosts, menu}) {
     setHasMore(isMore);
   }, [posts]); //eslint-disable-line
 
+  const metadata = {
+    title: authorName,
+  }
 
   return (
-    <Layout title={authorName} menu={menu}>
+    <Layout metadata={metadata} menu={menu}>
       <section className="main-content loop">
         <section id="content" className="content">
             <Blog posts={posts} />

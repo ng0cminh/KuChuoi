@@ -2,8 +2,12 @@ import Layout from "../components/Layout"
 import {getListNameFolder} from "../lib/posts";
 
 function Contact({menu}) {
+  const metadata = {
+    title: "Liên hệ",
+  }
+  
   return (
-    <Layout title="Contact Pages" menu={menu}>
+    <Layout metadata={metadata} menu={menu}>
       <h1>Contact Page</h1>
     </Layout>
   )

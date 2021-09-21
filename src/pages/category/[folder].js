@@ -38,8 +38,12 @@ export default function Category({allPosts, category, menu}) {
     setHasMore(isMore);
   }, [posts]); //eslint-disable-line
 
+  const metadata = {
+    title: category,
+  }
+
   return (
-    <Layout title={category} menu={menu} >
+    <Layout metadata={metadata} menu={menu} >
       <section className="main-content grid">
         <section id="content" className="content">
 

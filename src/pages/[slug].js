@@ -10,7 +10,7 @@ import {getAllPostSlug, getPostDataBySlug, getFeaturedPost, getListNameFolder} f
 
 const Single = ({post, prevPost, nextPost, featuredPosts, menu}) => {
     return (
-        <Layout title={post.title} menu={menu}>
+        <Layout metadata={post} menu={menu}>
             <div className="main-content">
                 <section id="content" className="content single">
                     <article className="article">

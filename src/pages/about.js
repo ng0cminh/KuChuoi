@@ -2,8 +2,11 @@ import Layout from "../components/Layout"
 import {getListNameFolder} from "../lib/posts";
 
 function About({menu}) {
+  const metadata = {
+    title: "Giới thiệu",
+  }
   return (
-    <Layout title="About Pages" menu={menu}>
+    <Layout metadata={metadata} menu={menu}>
       <h1>About Page</h1>
     </Layout>
   )

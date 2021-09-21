@@ -4,8 +4,11 @@ import {getPostsHomePage, getListNameFolder} from "../lib/posts";
 import {postPerpage} from "../../next.config";
 
 export default function Home({data, menu}) {
+  const metadata = {
+    title: "Trang Chủ",
+  }
   return (
-    <Layout title="Trang Chủ" menu={menu}>
+    <Layout metadata={metadata} menu={menu}>
       <section className="main-content grid">
         <section id="content" className="content">
             {data.map((cat, index) => {
@@ -21,7 +24,6 @@ export default function Home({data, menu}) {
                 </section>
               )
             })}
-
         </section>
       </section>
     </Layout>
