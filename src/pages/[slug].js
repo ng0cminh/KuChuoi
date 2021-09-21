@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 import Layout from "../components/Layout";
 import Sidebar from "../components/Sidebar";
@@ -50,9 +51,9 @@ const Single = ({post, prevPost, nextPost, featuredPosts, menu}) => {
                                         {prevPost && (
                                             <>
                                                 <span>bài trước</span>
-                                                <a href={prevPost.slug}>
-                                                    {prevPost.title}
-                                                </a>
+                                                <Link href={prevPost.slug}>
+                                                    <a>{prevPost.title}</a>
+                                                </Link>
                                             </>
                                         )}
                                     </div>
@@ -61,9 +62,9 @@ const Single = ({post, prevPost, nextPost, featuredPosts, menu}) => {
                                         {nextPost && (
                                             <>
                                                 <span>bài kế tiếp</span>
-                                                <a href={nextPost.slug}>
-                                                    {nextPost.title}
-                                                </a>
+                                                <Link href={nextPost.slug}>
+                                                    <a>{nextPost.title}</a>
+                                                </Link>
                                             </>
                                         )}
                                     </div>

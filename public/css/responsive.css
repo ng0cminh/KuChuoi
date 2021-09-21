@@ -150,6 +150,9 @@
     }
 
     /* Grid */
+    .grid .heading-block {
+        margin: 0px 10px;
+    }
     .grid .list-posts .row {
         margin: 0px;
     }
