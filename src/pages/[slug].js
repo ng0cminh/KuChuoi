@@ -51,7 +51,7 @@ const Single = ({post, prevPost, nextPost, featuredPosts, menu}) => {
                                         {prevPost && (
                                             <>
                                                 <span>bài trước</span>
-                                                <Link href={prevPost.slug}>
+                                                <Link href={`/${prevPost.slug}`}>
                                                     <a>{prevPost.title}</a>
                                                 </Link>
                                             </>
@@ -62,7 +62,7 @@ const Single = ({post, prevPost, nextPost, featuredPosts, menu}) => {
                                         {nextPost && (
                                             <>
                                                 <span>bài kế tiếp</span>
-                                                <Link href={nextPost.slug}>
+                                                <Link href={`/${nextPost.slug}`}>
                                                     <a>{nextPost.title}</a>
                                                 </Link>
                                             </>

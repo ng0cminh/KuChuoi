@@ -27,7 +27,7 @@ const PostCard = ({post}) => {
                     <div className="article-content">
                         <h2 title={post.title} className="article-title">
                             <Link href={`/${post.slug}`}>
-                                <a >{post.title && post.title}</a>
+                                <a>{post.title && post.title}</a>
                             </Link>
                         </h2>
                         <p className="article-description">
