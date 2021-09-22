@@ -20,7 +20,7 @@ export default function Home({data, menu}) {
                     <a href={`/category/${cat.folder}`} className="views-all">{cat.posts.length > 0 ? `Xem tất cả` : null}</a>
                   </div>
                   <div className="row">
-                    <Blog posts={cat.posts} />
+                    <Blog posts={cat.posts} imgWidth={740} imgHeight={370} />
                   </div>
                 </section>
               )

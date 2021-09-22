@@ -49,7 +49,7 @@ export default function Category({allPosts, menu}) {
 
           <section className="list-posts">
             <div className="row">
-              <Blog posts={posts} />
+              <Blog posts={posts} imgWidth={740} imgHeight={370} />
             </div>
             <Pagination hasMore={hasMore} handleLoadMore={handleLoadMore} />
           </section>

@@ -18,8 +18,8 @@ const Single = ({post, prevPost, nextPost, featuredPosts, menu}) => {
                             <figure className="article-figure img-fluid">
                                 <Image
                                     src={post.image ? post.image : `/images/default/article.jpg`}
-                                    width={1000}
-                                    height={500}
+                                    width={900}
+                                    height={450}
                                     alt={post.title}
                                 />
                             </figure>

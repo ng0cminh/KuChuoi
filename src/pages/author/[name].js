@@ -49,7 +49,7 @@ export default function Category({allPosts, author, authorName, featuredPosts, m
     <Layout metadata={metadata} menu={menu}>
       <section className="main-content loop">
         <section id="content" className="content">
-            <Blog posts={posts} />
+            <Blog posts={posts} imgWidth={900} imgHeight={450} />
             <Pagination hasMore={hasMore} handleLoadMore={handleLoadMore} />
         </section>
         <Sidebar featuredPosts={featuredPosts} />

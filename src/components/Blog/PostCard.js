@@ -5,7 +5,7 @@ import Image from "next/image";
 import HeaderCard from "../Widgets/HeaderCard";
 
 
-const PostCard = ({post}) => {
+const PostCard = ({post, imgWidth, imgHeight}) => {
     return(
         <div className="card">
             <article className="article">
@@ -19,8 +19,8 @@ const PostCard = ({post}) => {
                         ) : null}
                         <Image 
                             src={post.image ? `/images/contents/${post.folder}/${post.image}` : `/images/default/article.jpg`}
-                            width={1000}
-                            height={500}
+                            width={imgWidth}
+                            height={imgHeight}
                             alt={post.title ? post.title : `Banner Default`}
                         />
                     </figure>
