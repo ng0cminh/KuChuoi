@@ -3,7 +3,7 @@ module.exports = {
   images: {
     domains: ['example.com'],
   },
-  domain: "https://kuchuoi.herokuapp.com",
+  domain: process.env.SITE_URL || "https://kuchuoi.herokuapp.com",
   slogan: "Kủ Chuối Blog",
 
   POST_PER_PAGE: 3, // số bài viết trên 1 trang

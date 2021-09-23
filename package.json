@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "cache-posts": "node scripts/cache.js"
+    "cache-posts": "node scripts/cache.js",
+    "postbuild": "next-sitemap --config config-sitemap.js"
   },
   "husky": {
     "hooks": {
@@ -18,10 +19,10 @@
     "@auth0/auth0-react": "^1.4.0",
     "date-fns": "^2.19.0",
     "gray-matter": "^4.0.3",
-    "husky": "^7.0.2",
     "ioredis": "^4.27.1",
     "nanoid": "^3.1.22",
     "next": "11.1.2",
+    "next-sitemap": "^1.6.168",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "remark": "^13.0.0",
@@ -31,6 +32,7 @@
   },
   "devDependencies": {
     "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2"
+    "eslint-config-next": "11.1.2",
+    "husky": "^7.0.2"
   }
 }
