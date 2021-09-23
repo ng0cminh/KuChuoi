@@ -1,6 +1,6 @@
 import React, { useState , useEffect } from "react";
 import Layout from "../../components/Layout";
-import Blog from "../../components/Blog";
+import BlogList from "../../components/Blog";
 import Pagination from "../../components/Pagination";
 import {getPostByFolder, getAllFolderSlug, getListNameFolder} from "../../lib/posts";
 import {POST_PER_PAGE} from "../../../next.config";
@@ -50,7 +50,7 @@ export default function Category({allPosts, folder, category, menu}) {
 
           <section className="list-posts">
             <div className="row">
-              <Blog posts={posts} imgWidth={740} imgHeight={370} />
+              <BlogList key={folder} posts={posts} imgWidth={740} imgHeight={370} />
             </div>
             <Pagination hasMore={hasMore} handleLoadMore={handleLoadMore} />
           </section>

@@ -10,7 +10,7 @@ const Header = () => {
                 <div className="container">
                     <nav className="navbars">
                         <TopNavbars />
-                        <SocialBox size={16} href="localhost:3000" />
+                        <SocialBox size={16} href="#" />
                     </nav>
                 </div>
             </div>

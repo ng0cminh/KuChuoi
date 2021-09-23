@@ -37,7 +37,9 @@ const Navbars = ({menu}) => {
                         
                         <ul className="navbar-list">
                             <li className="navbar-item">
-                                <a className="navbar-link" href="/">Home</a>
+                                <Link href="/">
+                                    <a className="navbar-link">Home</a>
+                                </Link>
                             </li>
                             {menu.map(item => {
                                 return (
