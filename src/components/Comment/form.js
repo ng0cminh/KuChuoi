@@ -1,7 +1,7 @@
-import { useAuth0 } from '@auth0/auth0-react'
+import { useAuth0 } from "@auth0/auth0-react";
 
 function CommentForm({ text, setText, onSubmit }) {
-  const { isAuthenticated, logout, loginWithPopup } = useAuth0()
+  const { isAuthenticated, logout, loginWithPopup } = useAuth0();
 
   return (
     <form onSubmit={onSubmit}>
@@ -11,7 +11,7 @@ function CommentForm({ text, setText, onSubmit }) {
         placeholder={
           isAuthenticated
             ? `What are your thoughts?`
-            : 'Please login to leave a comment'
+            : "Please login to leave a comment"
         }
         onChange={(e) => setText(e.target.value)}
         value={text}
@@ -39,7 +39,7 @@ function CommentForm({ text, setText, onSubmit }) {
         )}
       </div>
     </form>
-  )
+  );
 }
 
-export default CommentForm
+export default CommentForm;

@@ -1,24 +1,22 @@
-import Layout from "../components/Layout"
-import {getListNameFolder} from "../lib/posts";
+import Layout from "../components/Layout";
+import { getListNameFolder } from "../lib/posts";
 
-function Contact({menu}) {
+function Contact({ menu }) {
   const metadata = {
     title: "Liên hệ",
-    slug: 'contact',
-  }
-  
+    slug: "contact",
+  };
+
   return (
     <Layout metadata={metadata} menu={menu}>
       <h1>Contact Page</h1>
     </Layout>
-  )
+  );
 }
 
 export default Contact;
 
-
 export async function getStaticProps() {
-
   // Get external data from the file system, API, DB, etc.
   const menu = getListNameFolder();
 
@@ -26,7 +24,7 @@ export async function getStaticProps() {
   // passed to the `Home` component
   return {
     props: {
-      menu
-    }
-  }
+      menu,
+    },
+  };
 }

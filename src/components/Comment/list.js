@@ -1,16 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
-import distanceToNow from '../../lib/comment/dateRelative'
-import { useAuth0 } from '@auth0/auth0-react'
+import distanceToNow from "../../lib/comment/dateRelative";
+import { useAuth0 } from "@auth0/auth0-react";
 
 function CommentList({ comments, onDelete }) {
-  const { user } = useAuth0()
+  const { user } = useAuth0();
 
   return (
     <div className="space-y-6 mt-10">
       {comments.map((comment) => {
-        const isAuthor = user && user.sub === comment.user.sub
+        const isAuthor = user && user.sub === comment.user.sub;
         const isAdmin =
-          user && user.email === process.env.NEXT_PUBLIC_AUTH0_ADMIN_EMAIL
+          user && user.email === process.env.NEXT_PUBLIC_AUTH0_ADMIN_EMAIL;
 
         return (
           <div key={comment.created_at} className="flex space-x-4">
@@ -44,10 +44,10 @@ function CommentList({ comments, onDelete }) {
               <div>{comment.text}</div>
             </div>
           </div>
-        )
+        );
       })}
     </div>
-  )
+  );
 }
 
-export default CommentList
+export default CommentList;

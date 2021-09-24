@@ -1,23 +1,21 @@
-import Layout from "../components/Layout"
-import {getListNameFolder} from "../lib/posts";
+import Layout from "../components/Layout";
+import { getListNameFolder } from "../lib/posts";
 
-function About({menu}) {
+function About({ menu }) {
   const metadata = {
     title: "Giới thiệu",
-    slug: "about"
-  }
+    slug: "about",
+  };
   return (
     <Layout metadata={metadata} menu={menu}>
       <h1>About Page</h1>
     </Layout>
-  )
+  );
 }
 
 export default About;
 
-
 export async function getStaticProps() {
-
   // Get external data from the file system, API, DB, etc.
   const menu = getListNameFolder();
 
@@ -25,7 +23,7 @@ export async function getStaticProps() {
   // passed to the `Home` component
   return {
     props: {
-      menu
-    }
-  }
+      menu,
+    },
+  };
 }
