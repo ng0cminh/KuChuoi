@@ -12,15 +12,12 @@ function removeAccents(str) {
 const posts = process.env.NODE_ENV === "production" ? postData : getAllPost();
 
 export default function search(req, res) {
-  let results = [];
   let query = req.query.q;
   query = query && removeAccents(query).toLowerCase();
 
-  if (query) {
-    results = posts.filter((post) => {
-      return removeAccents(post.title).toLowerCase().includes(query);
-    });
-  }
+  const results = posts.filter(post => {
+    return removeAccents(post.title).toLowerCase().includes(query);
+  });
 
   res.statusCode = 200;
   res.setHeader("Content-Type", "application/json");

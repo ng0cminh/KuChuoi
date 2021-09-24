@@ -94,6 +94,10 @@
     .list .article-main {
         flex-direction: column;
     }
+
+    .list .article-main .article-figure {
+        width: 100%;
+    }
     
     .list.reverse .article-main {
         flex-direction: column-reverse;

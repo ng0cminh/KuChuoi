@@ -46,7 +46,7 @@ const Search = () => {
 
   return (
     <Fragment>
-      <form className="search-form" action="/api/search" method="GET">
+      <form className="search-form" action="/search" method="GET">
         <div className="search-box">
           <input
             className={isSearch ? "search-input show" : "search-input"}

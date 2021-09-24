@@ -15,25 +15,27 @@ const PostCard = ({ post, imgWidth, imgHeight }) => {
           href={post.slug}
         />
         <div className="article-main">
-          <figure className="article-figure img-fluid">
-            {post.isFeatured ? (
-              <div className="badge featured">
-                <span>
-                  <a href="/featured-posts">Nổi bật</a>
-                </span>
-              </div>
-            ) : null}
-            <Image
-              src={
-                post.image
-                  ? `/images/contents/${post.folder}/${post.image}`
-                  : `/images/default/article.jpg`
-              }
-              width={imgWidth}
-              height={imgHeight}
-              alt={post.title ? post.title : `Banner Default`}
-            />
-          </figure>
+          <div className="article-banner">
+            <figure className="article-figure img-fluid">
+              {post.isFeatured ? (
+                <div className="badge featured">
+                  <span>
+                    <a href="/featured-posts">Nổi bật</a>
+                  </span>
+                </div>
+              ) : null}
+              <Image
+                src={
+                  post.image
+                    ? `/images/contents/${post.folder}/${post.image}`
+                    : `/images/default/article.jpg`
+                }
+                width={imgWidth}
+                height={imgHeight}
+                alt={post.title ? post.title : `Banner Default`}
+              />
+            </figure>
+          </div>
           <div className="article-content">
             <h2 title={post.title} className="article-title">
               <Link href={`/${post.slug}`}>

@@ -17,17 +17,23 @@ function getPostByFile(folder) {
 
   return fileNames
     .map((fileName) => {
-      const slug = fileName.replace(/\.md$/, "");
-
       const fullPath = join(pathFolder, fileName);
       const fileContents = fs.readFileSync(fullPath, "utf8");
 
       // Tạo metadata cho post bằng cách sử dụng gray-matter
-      const matterResult = matter(fileContents);
+      const { content, data } = matter(fileContents);
+      const wordsContent = content.trim().split(/\s+/).length;
+      const readTime = Math.ceil(wordsContent / 200);
+
+      const slug = fileName.replace(/\.md$/, "");
+
       return {
         slug,
         category,
-        title: matterResult.data.title,
+        folder,
+        readTime,
+        content,
+        ...data,
       };
     })
     .filter((post) => post.isDraft != true);

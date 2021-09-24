@@ -17,7 +17,7 @@
     flex-direction: row-reverse;
 }
 
-.list .article-main .article-figure img {
+.list .article-main .article-figure {
     width: 300px;
 }
 
