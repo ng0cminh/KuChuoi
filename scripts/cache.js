@@ -32,7 +32,6 @@ function getPostByFile(folder) {
         category,
         folder,
         readTime,
-        content,
         ...data,
       };
     })
