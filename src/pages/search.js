@@ -39,7 +39,6 @@ export async function getServerSideProps({ query }) {
     return removeAccents(post.title).toLowerCase().includes(keywords);
   });
 
-
   // Get external data from the file system, API, DB, etc.
   const featuredPosts = await getFeaturedPost(5);
 

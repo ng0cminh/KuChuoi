@@ -12,6 +12,7 @@ const Footer = () => {
         setShowBackTop(false);
       }
     });
+    return () => setShowBackTop(false);
   }, []);
 
   const scrollToTop = () => {
