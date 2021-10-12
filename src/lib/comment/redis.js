@@ -1,31 +1,31 @@
-import Redis from 'ioredis'
+import Redis from "ioredis";
 
 function fixUrl(url) {
   if (!url) {
-    return ''
+    return "";
   }
-  if (url.startsWith('redis://') && !url.startsWith('redis://:')) {
-    return url.replace('redis://', 'redis://:')
+  if (url.startsWith("redis://") && !url.startsWith("redis://:")) {
+    return url.replace("redis://", "redis://:");
   }
-  if (url.startsWith('rediss://') && !url.startsWith('rediss://:')) {
-    return url.replace('rediss://', 'rediss://:')
+  if (url.startsWith("rediss://") && !url.startsWith("rediss://:")) {
+    return url.replace("rediss://", "rediss://:");
   }
-  return url
+  return url;
 }
 
 class ClientRedis {
   constructor() {
-    throw new Error('Use Singleton.getInstance()')
+    throw new Error("Use Singleton.getInstance()");
   }
 
   static getInstance() {
     if (!ClientRedis.instance) {
-      ClientRedis.instance = new Redis(fixUrl(process.env.REDIS_URL))
+      ClientRedis.instance = new Redis(fixUrl(process.env.REDIS_URL));
     }
-    return ClientRedis.instance
+    return ClientRedis.instance;
   }
 }
 
-const redis = ClientRedis.getInstance()
+const redis = ClientRedis.getInstance();
 
-export default redis
+export default redis;
