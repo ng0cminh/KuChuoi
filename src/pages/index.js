@@ -14,19 +14,19 @@ export default function Home({ data, menu }) {
         <section id="content" className="content">
           {data.map((cat, index) => {
             return (
-              <section className="list-posts" key={cat.folder + index}>
-                <div className="heading-block">
-                  <h2 className="title-block">
-                    {cat.posts.length > 0 ? cat.category : null}
-                  </h2>
-                  <a href={`/category/${cat.folder}`} className="views-all">
-                    {cat.posts.length > 0 ? `Xem tất cả` : null}
-                  </a>
-                </div>
-                <div className="row">
-                  <Blog posts={cat.posts} imgWidth={740} imgHeight={370} />
-                </div>
-              </section>
+              cat.posts.length > 0 && (
+                <section className="list-posts" key={cat.folder + index}>
+                  <div className="heading-block">
+                    <h2 className="title-block">{cat.category}</h2>
+                    <a href={`/category/${cat.folder}`} className="views-all">
+                      Xem tất cả
+                    </a>
+                  </div>
+                  <div className="row">
+                    <Blog posts={cat.posts} imgWidth={740} imgHeight={370} />
+                  </div>
+                </section>
+              )
             );
           })}
         </section>

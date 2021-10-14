@@ -4,22 +4,40 @@ import HeaderCard from "../Widgets/HeaderCard";
 
 const PostCard = ({ post, imgWidth, imgHeight }) => {
   return (
-    <div className='card'>
-      <article className='article'>
+    <div className="card">
+      <article className="article">
         <HeaderCard
           author={post.author}
           date={post.date}
           size={16}
           href={post.slug}
         />
-        <div className='article-main'>
-          <div className='article-banner'>
-            <figure className='article-figure img-fluid'>
+        <div className="article-main">
+          <div className="article-banner">
+            <figure className="article-figure img-fluid">
               {post.isFeatured && (
-                <div className='badge featured'>
+                <div className="badge featured">
                   <span>
-                    <Link href='/featured-posts'>
+                    <Link href="/featured-posts">
                       <a>Nổi bật</a>
+                    </Link>
+                  </span>
+                </div>
+              )}
+              {post.isTrending && (
+                <div className="badge trending">
+                  <span>
+                    <Link href="/trending-posts">
+                      <a>Xu Hướng</a>
+                    </Link>
+                  </span>
+                </div>
+              )}
+              {post.isHotnew && (
+                <div className="badge hotnew">
+                  <span>
+                    <Link href="/hotnew-posts">
+                      <a>Mới nhất</a>
                     </Link>
                   </span>
                 </div>
@@ -36,18 +54,18 @@ const PostCard = ({ post, imgWidth, imgHeight }) => {
               />
             </figure>
           </div>
-          <div className='article-content'>
-            <h2 title={post.title} className='article-title'>
+          <div className="article-content">
+            <h2 title={post.title} className="article-title">
               <Link href={`/${post.slug}`}>
                 <a>{post.title && post.title}</a>
               </Link>
             </h2>
-            <p className='article-description'>
+            <p className="article-description">
               {post.description && post.description}
             </p>
           </div>
         </div>
-        <footer className='article-footer'>
+        <footer className="article-footer">
           <a href={`/${post.slug}#comments`}>
             <span>Bình luận</span>
           </a>

@@ -50,17 +50,19 @@ export default function Category({ allPosts, folder, category, menu }) {
     <Layout metadata={metadata} menu={menu}>
       <section className="main-content grid">
         <section id="content" className="content">
-          <section className="list-posts">
-            <div className="row">
-              <BlogList
-                key={folder}
-                posts={posts}
-                imgWidth={740}
-                imgHeight={370}
-              />
-            </div>
-            <Pagination hasMore={hasMore} handleLoadMore={handleLoadMore} />
-          </section>
+          {posts.length > 0 && (
+            <section className="list-posts">
+              <div className="row">
+                <BlogList
+                  key={folder}
+                  posts={posts}
+                  imgWidth={740}
+                  imgHeight={370}
+                />
+              </div>
+              <Pagination hasMore={hasMore} handleLoadMore={handleLoadMore} />
+            </section>
+          )}
         </section>
       </section>
     </Layout>
