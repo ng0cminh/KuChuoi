@@ -109,11 +109,11 @@ _Hội chứng thiếu máu:_ bệnh nhân thường bị thiếu máu. Có nhi�
 
 Hiện tượng rối loạn thần kinh thực vật biểu hiện ở các cơn bốc hỏa, thay đổi tính tình cũng thường gặp.
 
-_Các_ _biểu hiện hiếm gặp:_ hội chứng đường hầm cổ tay, cổ chân do tổn thương dây chằng, hủy khớp trong bệnh viêm khớp dạng thấp; viêm mống mắt, nhiễm bột ở thận đôi khi cũng gặp.
+_Các biểu hiện hiếm gặp:_ hội chứng đường hầm cổ tay, cổ chân do tổn thương dây chằng, hủy khớp trong bệnh viêm khớp dạng thấp; viêm mống mắt, nhiễm bột ở thận đôi khi cũng gặp.
 
 ### Các triệu chứng cận lâm sàng
 
-_Hội_ _chứng viêm sinh học_
+_Hội chứng viêm sinh học_
 
 Trong các bệnh thấp khớp học nói chung và viêm khớp dạng thấp nói riêng. có hội chứng viêm sinh học, do xuất hiện các protein của quá trình viêm. Hội chứng viêm sinh học, biểu hiện bởi các thông số sau:
 
