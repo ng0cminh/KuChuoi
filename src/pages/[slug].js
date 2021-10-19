@@ -16,8 +16,8 @@ import {
 const Single = ({ post, prevPost, nextPost, featuredPosts, menu }) => {
   return (
     <Layout metadata={post} menu={menu}>
-      <div className="main-content">
-        <section id="content" className="content single">
+      <div className="main-content single">
+        <section id="content" className="content">
           <article className="article">
             <div className="article-main">
               <figure className="article-figure img-fluid">
