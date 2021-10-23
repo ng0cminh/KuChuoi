@@ -2,7 +2,7 @@ import { Fragment } from "react";
 
 const TableContent = () => {
   const [showTableContent, setShowTableContent] = useState(false)
-
+  console.log(showTableContent)
   return (
     <Fragment>
       <aside className={showTableContent ? "sidebar show": "sidebar"} id="sidebar">
@@ -25,7 +25,9 @@ const TableContent = () => {
           </ul>
         </nav>
       </aside>
-      <div className={showTableContent ? "table-content show": "table-content"} onClick={()=> setShowTableContent(!showTableContent)}>
+      <div className={showTableContent ? "table-content show": "table-content"}
+        onClick={()=> setShowTableContent(!showTableContent)}
+       >
         <div className="table-width">
           <div className="table-height">
             <div className="table-content-button">
