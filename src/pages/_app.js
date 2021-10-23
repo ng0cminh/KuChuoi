@@ -8,6 +8,7 @@ import "../../public/css/article-list.css";
 import "../../public/css/article-loop.css";
 import "../../public/css/sidebar.css";
 import "../../public/css/single.css";
+import "../../public/css/wiki.css";
 import "../../public/css/responsive.css";
 
 function MyApp({ Component, pageProps }) {
