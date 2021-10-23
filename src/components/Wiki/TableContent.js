@@ -7,7 +7,7 @@ const TableContent = () => {
     <Fragment>
       <aside className={showTableContent ? "sidebar show" : "sidebar"} id="sidebar">
         <nav className="sidebar-nav">
-          <ul className="sidebar-list show">
+          <ul className="sidebar-list">
           <li className="list-item">
             <a href="#">Đây là thẻ heading 2</a>
             <ul>
