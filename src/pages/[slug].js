@@ -13,7 +13,7 @@ import {
 
 const Detail = ({ post, prevPost, nextPost, featuredPosts, menu }) => {
   return (
-    <Layout metadata={post} menu={menu}>
+    <Layout metadata={post} menu={menu} isWiki={post.isWiki}>
       {post.isWiki ? (
         <Wiki post={post} />
       ) : (
