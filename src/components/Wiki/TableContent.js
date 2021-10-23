@@ -1,8 +1,6 @@
 import { Fragment } from "react";
 
 const TableContent = () => {
-  const [showTableContent, setShowTableContent] = useState(false)
-  console.log(showTableContent)
   return (
     <Fragment>
       <aside className="sidebar" id="sidebar">
