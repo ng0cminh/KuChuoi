@@ -8,7 +8,7 @@ const TableContent = () => {
   }
   return (
     <Fragment>
-      <aside className="sidebar" id="sidebar">
+      <aside className="sidebar {showTableContent && "show"}" id="sidebar">
         <nav className="sidebar-nav">
           <ul className="sidebar-list show">
           <li className="list-item">
@@ -28,7 +28,7 @@ const TableContent = () => {
           </ul>
         </nav>
       </aside>
-      <div className="table-content" onClick={handeClickBtnTableContent()}>
+      <div className="table-content {showTableContent && "show"}" onClick={handeClickBtnTableContent()}>
         <div className="table-width">
           <div className="table-height">
             <div className="table-content-button">
