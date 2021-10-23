@@ -5,14 +5,11 @@ import TopNavbars from "../Navbars/TopNavbar";
 const Footer = () => {
   const [showBackTop, setShowBackTop] = useState(false);
   useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 300) {
-        setShowBackTop(true);
-      } else {
-        setShowBackTop(false);
-      }
-    });
-    return () => setShowBackTop(false);
+    const handleScroll = () => setShowBackTop(window.pageYOffset > 300);
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const scrollToTop = () => {
