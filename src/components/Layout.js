@@ -4,7 +4,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Navbars from "./Navbars";
 
-const Layout = ({ children, metadata, menu }) => {
+const Layout = ({ children, metadata, menu, isWiki }) => {
   return (
     <Fragment>
       <Seo metadata={metadata} />
@@ -13,7 +13,7 @@ const Layout = ({ children, metadata, menu }) => {
       <main id="main" className="main">
         <div className="container">{children}</div>
       </main>
-      <Footer />
+      <Footer isWiki={isWiki} />
     </Fragment>
   );
 };
