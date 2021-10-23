@@ -5,7 +5,7 @@ const TableContent = () => {
   console.log(showTableContent)
   return (
     <Fragment>
-      <aside className={showTableContent ? "sidebar show": "sidebar"} id="sidebar">
+      <aside className={showTableContent ? "sidebar show" : "sidebar"} id="sidebar">
         <nav className="sidebar-nav">
           <ul className="sidebar-list show">
           <li className="list-item">
@@ -25,7 +25,7 @@ const TableContent = () => {
           </ul>
         </nav>
       </aside>
-      <div className={showTableContent ? "table-content show": "table-content"}
+      <div className={showTableContent ? "table-content show" : "table-content"}
         onClick={()=> setShowTableContent(!showTableContent)}
        >
         <div className="table-width">
