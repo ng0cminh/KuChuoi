@@ -2,10 +2,7 @@ import { Fragment } from "react";
 
 const TableContent = () => {
   const [showTableContent, setShowTableContent] = useState(false)
-  
-  const handeClickBtnTableContent = () => {
-    setShowTableContent(!showTableContent)
-  }
+
   return (
     <Fragment>
       <aside className="sidebar {showTableContent && "show"}" id="sidebar">
@@ -28,7 +25,7 @@ const TableContent = () => {
           </ul>
         </nav>
       </aside>
-      <div className="table-content {showTableContent && "show"}" onClick={handeClickBtnTableContent()}>
+      <div className="table-content {showTableContent && "show"}" onClick={()=> setShowTableContent(!showTableContent)}>
         <div className="table-width">
           <div className="table-height">
             <div className="table-content-button">
