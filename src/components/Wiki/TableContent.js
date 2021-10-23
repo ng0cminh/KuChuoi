@@ -25,7 +25,7 @@ const TableContent = () => {
           </ul>
         </nav>
       </aside>
-      <div className={{showTableContent ? "table-content show": "table-content"}} onClick={()=> setShowTableContent(!showTableContent)}>
+      <div className={showTableContent ? "table-content show": "table-content"} onClick={()=> setShowTableContent(!showTableContent)}>
         <div className="table-width">
           <div className="table-height">
             <div className="table-content-button">
