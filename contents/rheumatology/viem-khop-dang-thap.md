@@ -16,23 +16,23 @@ keywords: viêm khớp dạng thấp, thấp khớp
 description: Viêm khớp dạng thấp là bệnh thường gặp trong chuyên ngành cơ xương khớp với tổn thương các khớp nhỏ nhỡ tiến triển mạn tính gây phá huỷ khớp và phần mềm cạnh khớp từ đó có thể làm cho người bệnh tàn tật
 ---
 
-**ĐẠI CƯƠNG VỀ BỆNH VIÊM KHỚP DẠNG THẤP**
+##ĐẠI CƯƠNG VỀ BỆNH VIÊM KHỚP DẠNG THẤP
 
 Nghiên cứu đặc điểm một số bộ xương của người cổ ở Bắc Mỹ, các nhà khoa học đã cho rằng viêm khớp dạng thấp có thể tồn tại ít nhất cách đây 3000 năm. Năm 1819 Brodie đã mô tả bệnh viêm khớp dạng thấp với đặc điểm tiến triển chậm, ảnh hưởng tới nhiều khớp, các gân và dây chằng. Bệnh được Charcot phân lập khỏi một _số_ bệnh khớp khác năm 1853. Thuật ngữ viêm khớp dạng thấp do Garrod đề nghị năm 1858. Đặc điểm chính của bệnh là tình trạng viêm mạn tính của các khớp được đặc trưng bởi viêm nhiều khớp đối xứng, thường kèm theo dấu hiệu cứng khớp buổi sáng và sự có mặt của yếu tố dạng thấp trong huyết thanh. Waaler (1940) và Rose (1947) phát hiện ra yếu tố dạng thấp bằng phản ứng ngưng kết hồng cầu cừu. Viêm khớp dạng thấp là một trong các bệnh viêm khớp mạn tính thường gặp nhất. Các biểu hiện ngoài khốp cũng rất phong phú: hạt dưới da, viêm phổi, màng phổi, viêm mạch, tổn thương tim... Bệnh chủ yếu gặp ở nữ giới, tuổi trung niên.
 
 Mục đích điều trị nhằm khống chế quá trình viêm khớp để bệnh nhân có thể có cuộc sống bình thường. Ngoài các thuốc chống viêm (sterocorticoid hoặc thuốc chống viêm không steroid) nhóm thuốc chống thấp khớp tác dụng chậm (Slow-Acting Antirheumatic Drugs (SAARDs) hay còn gọi là thuốc chống thấp khớp làm thay đổi bệnh (Disease-modifying antirheumatic drugs (DMARDs) có vai trò quan trọng trong việc ổn định bệnh, tránh hủy khốp. Phục hồi chức năng, thay khớp nhân tạo, giáo dục bệnh nhân hoà hợp vôi cộng đồng đóng vai trò quan trọng.
 
-**DỊCH TỄ HỌC, NGUYÊN NHÂN VÀ CƠ CHẾ BỆNH SINH**
+##DỊCH TỄ HỌC, NGUYÊN NHÂN VÀ CƠ CHẾ BỆNH SINH
 
-**Dịch tễ học**
+###Dịch tễ học
 
 Bệnh viêm khớp dạng thấp gặp ở mọi quốc gia trên thế giới, chiếm khoảng 1% dân số. Tỷ lệ bệnh là khoảng 0,5 - 1% dân số một số nước châu Âu và khoảng 0,17 - 0,3% ở các nước châu Á. Tỷ lệ này tại miền Bắc Việt Nam, theo thống kê năm 2000 là 0,28%. Bệnh thường gặp ở nữ giới với tỷ lệ nữ/nam thay đổi từ 2,5 đến 1. Theo nghiên cứu về tình hình bệnh tật tại khoa Cơ xương khớp Bệnh viện Bạch Mai từ 1991 - 2000. Bệnh viêm khớp dạng thấp chiếm tỉ lệ 21,94% trong đó nữ chiếm 92.3%. lứa tuổi chiếm đa số là từ 36 - 65 (72,6%). Bệnh có tính chất gia đình trong một số trường hợp.
 
-**Nguyên nhân gây bệnh**
+###Nguyên nhân gây bệnh
 
 Nguyên nhân gây bệnh chưa rõ ràng, viêm khớp dạng thấp được coi là một bệnh tự miễn dịch với sự tham gia của nhiều yếu tố như nhiễm khuẩn hoặc di truyền.
 
-**Cơ chế bệnh sinh**
+###Cơ chế bệnh sinh
 
 Phản ứng miễn dịch: sinh lý bệnh học của bệnh viêm khớp dạng thấp còn chưa rõ. Tuy nhiên, nhiều nghiên cứu cho thấy phản ứng miễn dịch (mà nguyên nhân ban đầu khởi phát phản ứng miễn dịch này cũng còn chưa rõ) xảy ra ở màng hoạt dịch, đóng một vai trò cơ bản trong bệnh viêm khớp dạng thấp. Tổn thương xuất hiện sớm nhất, cơ bản nhất và là nguyên nhân dẫn đến mọi tổn thương khác trong bệnh viêm khớp dạng thấp, là tình trạng viêm không đặc hiệu mạn tính của màng hoạt dịch khớp. Tình trạng viêm không đặc hiệu của màng hoạt dịch khớp lúc đầu là sự phù nề, xung huyết, thâm nhập nhiều tế bào viêm. Sau một thời gian hiện tượng phù nề được thay bằng quá trình tăng sinh và phì đại của các hình lông và lớp liên bào phủ. Các hình lông của màng hoạt dịch tăng sinh và phì đại sẽ phát triển xâm lấn sâu vào đầu xương phần dưới sụn khớp gây nên các thương tổn ở phần này. Hậu quả của quá trình viêm tiến triển này là tổ chức xơ phát triển thay thế tổ chức viêm, dẫn đến tình trạng dính và biến dạng khớp. Có hai loại đáp ứng miễn dịch là miễn dịch dịch thể (dẫn đến sự tạo thành phức hợp miễn dịch) và miễn dịch tế bào. Đây là nguyên nhân chính giải phóng ra các enzym gây phản ứng viêm và phá hủy khớp. Các tương bào (plasmocyte) của màng hoạt dịch viêm khớp dạng thấp tiết quá mức các globulin miễn dịch. Một số trong số này là các yếu tố dạng thấp, đa số thuộc nhóm IgG, một số thuộc nhóm IgM. Các globulin miễn dịch do màng hoạt dịch tiết ra tham gia tạo nên các phức hợp miễn dịch, được phát hiện bằng các phương pháp khác nhau . có máu và dịch khớp: dường như ổ dịch khớp có nồng độ cao hơn ỏ huyết thanh.
 
@@ -40,7 +40,7 @@ Kháng nguyên là các tác nhân gây bệnh xâm nhập vào cơ thể gây k
 
 _Yếu tố nhiễm khuẩn:_ có một số giả thuyết cho rằng. một số virus hay vi khuẩn phổ biến tác động vào yếu tố cơ địa thuận lợi (cơ thể suy yếu. mệt mỏi. chấn thương, phẫu thuật. mắc bệnh truyền nhiễm). hoặc yếu tố môi trường (lạnh ẩm kéo dài) làm khởi phát bệnh. Mặc dù một vài nghiên cứu đã tìm thấy một số bằng chứng về vai trò của các virus như Epstein-Barr virus. Parvovirus. Lentivirus. Rubella virus... hoặc các vi khuẩn: Mycoplasma. Mycobacteria. vi khuẩn đường ruột. song cho đến nay. chưa có chính xác một tác nhân nhiễm khuẩn nào được chứng minh.
 
-**Các yếu tố ảnh hưởng**
+###Các yếu tố ảnh hưởng
 
 _Tuổi:_ trong bệnh viêm khớp dạng thấp. tỷ lệ nữ cao gấp 4 lần nam giới. Sự chênh lệch này giâm đi đôi chút theo tuổi. Có một số nghiên cứu (tuy không phải là tất cả các nghiên cứu) nhận thấy bệnh ít gặp hơn ỏ phụ nữ dùng thuốc tránh thai đường uống.
 
