@@ -1,6 +1,6 @@
 import { Fragment, useState, useEffect } from "react";
 
-const TableContent = ({ content, headings }) => {
+const TableContent = ({ headings }) => {
   const [showTableContent, setShowTableContent] = useState(false);
 
   const getNestedHeadings = (headingElements) => {
