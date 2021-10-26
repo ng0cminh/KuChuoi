@@ -1,30 +1,80 @@
-import { Fragment, useState } from "react";
+import { Fragment, useState, useEffect } from "react";
 
-const TableContent = () => {
+const TableContent = ({ content, headings }) => {
   const [showTableContent, setShowTableContent] = useState(false);
+
+  const getNestedHeadings = (headingElements) => {
+    const nestedHeadings = [];
+
+    headingElements.forEach((heading, index) => {
+      const id = heading.id;
+      const title = heading.rawText.trim();
+
+      if (heading.tagName === "H2") {
+        nestedHeadings.push({ id, title, items: [] });
+      } else if (heading.tagName === "H3" && nestedHeadings.length > 0) {
+        nestedHeadings[nestedHeadings.length - 1].items.push({
+          id,
+          title,
+        });
+      }
+    });
+
+    return nestedHeadings;
+  };
+
+  const useHeadingsData = () => {
+    const [nestedHeadings, setNestedHeadings] = useState([]);
+
+    useEffect(() => {
+      const headingElements = headings;
+
+      const newNestedHeadings = getNestedHeadings(headingElements);
+      setNestedHeadings(newNestedHeadings);
+    }, []);
+    return { nestedHeadings };
+  };
+  const { nestedHeadings } = useHeadingsData();
+
   return (
     <Fragment>
-      <aside className={showTableContent ? "sidebar show" : "sidebar"} id="sidebar">
+      <aside
+        className={showTableContent ? "sidebar show" : "sidebar"}
+        id="sidebar"
+      >
         <nav className="sidebar-nav">
           <ul className="sidebar-list">
-          <li className="list-item">
-            <a href="#">Đây là thẻ heading 2</a>
-            <ul>
-              <li className="list-item"><a href="#">Đây là thẻ heading 3</a></li>
-              <li className="list-item"><a href="#">Đây là thẻ heading 3 dài hơn hai dòng hoặc dài hơn</a></li>
-              <li className="list-item"><a href="#">Đây là thẻ heading 3</a></li>
-            </ul>
-          </li>
-          <li className="list-item">
-            <a href="#">Đây là thẻ heading 2 dài hơn hai dòng hoặc dài hơn</a>
-          </li>
-          <li className="list-item">
-            <a href="#">Đây là thẻ heading 2</a>
-          </li>
+            {nestedHeadings.map((heading) => {
+              return (
+                <li
+                  key={heading.id}
+                  className="list-item"
+                  onClick={() => setShowTableContent(false)}
+                >
+                  <a href={`#${heading.id}`}>{heading.title}</a>
+                  {heading.items.length > 0 && (
+                    <ul>
+                      {heading.items.map((child) => (
+                        <li
+                          key={child.id}
+                          className="list-item"
+                          onClick={() => setShowTableContent(!showTableContent)}
+                        >
+                          <a href={`#${child.id}`}>{child.title}</a>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </li>
+              );
+            })}
           </ul>
         </nav>
       </aside>
-      <div className={showTableContent ? "table-content show" : "table-content"} onClick={() => setShowTableContent(!showTableContent)}>
+      <div
+        className={showTableContent ? "table-content show" : "table-content"}
+        onClick={() => setShowTableContent(!showTableContent)}
+      >
         <div className="table-width">
           <div className="table-height">
             <div className="table-content-button">

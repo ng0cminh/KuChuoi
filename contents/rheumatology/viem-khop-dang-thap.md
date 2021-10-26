@@ -50,7 +50,7 @@ Các yếu tố môi trường dường như rất quan trọng. Tuy nhiên, cá
 
 ![cơ chế bệnh sinh](images/contents/rheumatology/viem-khop-dang-thap/co-che-benh-sinh-viem-khop-dang-thap.png)
 
-## TRIỆU CHỨNG HỌC BỆNHVIÊM KHỚP DẠNG THẤP
+## TRIỆU CHỨNG HỌC BỆNH VIÊM KHỚP DẠNG THẤP
 
 ### Triệu chứng lâm sàng
 

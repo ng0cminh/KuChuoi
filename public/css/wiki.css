@@ -13,6 +13,21 @@
   padding-right: 30px;
   margin-right: 0px;
 }
+.wiki-body h1,
+.wiki-body h2,
+.wiki-body h3,
+.wiki-body h4,
+.wiki-body h5 {
+  scroll-margin-top: 80px;
+}
+.wiki-body .anchor {
+  margin-left: -20px;
+  padding-right: 4px;
+  float: left;
+}
+.wiki-body .anchor:hover {
+  text-decoration: none;
+}
 .main-content.wiki .sidebar {
   margin-left: 0px;
 }
