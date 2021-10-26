@@ -2,6 +2,7 @@ import { Fragment, useState, useEffect } from "react";
 
 const TableContent = ({ headings }) => {
   const [showTableContent, setShowTableContent] = useState(false);
+  const [active, setActive] = useState(false);
 
   const getNestedHeadings = (headingElements) => {
     const nestedHeadings = [];
