@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://kuchuoi.herokuapp.com</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-23T06:04:36.396Z</lastmod></url>
-<url><loc>https://kuchuoi.herokuapp.com/about</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-23T06:04:36.397Z</lastmod></url>
-<url><loc>https://kuchuoi.herokuapp.com/contact</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-23T06:04:36.397Z</lastmod></url>
-<url><loc>https://kuchuoi.herokuapp.com/featured-posts</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-23T06:04:36.397Z</lastmod></url>
-<url><loc>https://kuchuoi.herokuapp.com/search</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-23T06:04:36.397Z</lastmod></url>
-<url><loc>https://kuchuoi.herokuapp.com/category/cardiology</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-23T06:04:36.397Z</lastmod></url>
-<url><loc>https://kuchuoi.herokuapp.com/category/endocrinology</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-23T06:04:36.397Z</lastmod></url>
-<url><loc>https://kuchuoi.herokuapp.com/category/gastroenterological</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-23T06:04:36.397Z</lastmod></url>
-<url><loc>https://kuchuoi.herokuapp.com/category/respiratory</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-23T06:04:36.397Z</lastmod></url>
-<url><loc>https://kuchuoi.herokuapp.com/category/rheumatology</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-23T06:04:36.397Z</lastmod></url>
-<url><loc>https://kuchuoi.herokuapp.com/category/urology-nephrology</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-23T06:04:36.397Z</lastmod></url>
-<url><loc>https://kuchuoi.herokuapp.com/author/ku-chuoi</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-23T06:04:36.397Z</lastmod></url>
-<url><loc>https://kuchuoi.herokuapp.com/viem-khop-dang-thap</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-23T06:04:36.397Z</lastmod></url>
+<url><loc>https://kuchuoi.herokuapp.com</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-27T02:48:52.245Z</lastmod></url>
+<url><loc>https://kuchuoi.herokuapp.com/about</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-27T02:48:52.246Z</lastmod></url>
+<url><loc>https://kuchuoi.herokuapp.com/contact</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-27T02:48:52.246Z</lastmod></url>
+<url><loc>https://kuchuoi.herokuapp.com/featured-posts</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-27T02:48:52.246Z</lastmod></url>
+<url><loc>https://kuchuoi.herokuapp.com/search</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-27T02:48:52.246Z</lastmod></url>
+<url><loc>https://kuchuoi.herokuapp.com/category/cardiology</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-27T02:48:52.246Z</lastmod></url>
+<url><loc>https://kuchuoi.herokuapp.com/category/endocrinology</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-27T02:48:52.246Z</lastmod></url>
+<url><loc>https://kuchuoi.herokuapp.com/category/gastroenterological</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-27T02:48:52.246Z</lastmod></url>
+<url><loc>https://kuchuoi.herokuapp.com/category/respiratory</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-27T02:48:52.246Z</lastmod></url>
+<url><loc>https://kuchuoi.herokuapp.com/category/rheumatology</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-27T02:48:52.246Z</lastmod></url>
+<url><loc>https://kuchuoi.herokuapp.com/category/urology-nephrology</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-27T02:48:52.246Z</lastmod></url>
+<url><loc>https://kuchuoi.herokuapp.com/author/ku-chuoi</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-27T02:48:52.246Z</lastmod></url>
+<url><loc>https://kuchuoi.herokuapp.com/viem-khop-dang-thap</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-27T02:48:52.246Z</lastmod></url>
 </urlset>

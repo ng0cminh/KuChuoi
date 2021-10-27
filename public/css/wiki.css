@@ -20,6 +20,11 @@
 .wiki-body h5 {
   scroll-margin-top: 80px;
 }
+.wiki-body img {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+}
 .wiki-body .anchor {
   margin-left: -20px;
   padding-right: 4px;
