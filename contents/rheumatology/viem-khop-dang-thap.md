@@ -175,3 +175,137 @@ _Siêu âm khớp tổn thương:_ siêu âm phát hiện dễ dàng tình trạ
 _Viêm màng hoạt dịch phút hiện trên siêu âm:_ theo một nghiên cứu trên các bệnh nhân viêm khớp dạng thấp ở nước ta. độ dày trung bình màng hoạt dịch viêm: 3,7 ± 0,57mm (từ 3 - 6mm) trong khi ỏ người hình thường: 1,45 ± 0.28mm (từ 0.8 - 2.2mm). Phân bố vị trí viêm màng hoạt dịch trên siêu âm: có khoang 93 - 96°0 số bệnh nhân có biểu hiện viêm màng hoạt dịch ở khớp quay-trụ xa, khớp quay - cổ tay. khớp cổ-bàn tay. Không có sự khác biệt về độ dày màng hoạt dịch viêm giữa các vị trí khớp nói trên. Kết quả này tương tự với kết quả phát hiện trên cộng hưởng từ.
 
 Hình ảnh bào mòn xương: phát hiện được sớm nhất trên cộng hưởng từ. sau đó là Xquang. cuối cùng là trên siêu âm. Hình ảnh bào mòn xương gặp nhiều nhất tại vị trí đầu dưới xương quay (khoảng 60 - 70%): xương cà. xương trụ (khoang ỏ 30 - 45%) và xương thuyền (20 - 50%). Hầu như không gặp bào mòn xương ở xương đậu. Khi ở giai đoạn sớm (thời gian mắc bệnh dưới 12 tháng, tỷ lệ phát hiện tổn thương bào mòn xương của siêu âm và Xquang không có sự khác biệt (p > 0.05) ở giai đoạn muộn Xquang có khả năng phát hiện bào mòn cao hơn siêu âm.
+
+## CHẨN ĐOÁN BỆNH VIÊM KHỚP DẠNG THẤP
+
+### Chẩn đoán xác định bệnh viêm khớp dạng thấp
+
+Năm 1958, Hội Thấp khớp học Mỹ (American College of Rheumatology-ACR) đề ra tiêu chuẩn chẩn đoán bệnh viêm khớp dạng thấp (ACR 1958) gồm 11 yếu tố dựa vào lâm sàng, hình ảnh Xquang, mô bệnh học màng hoạt dịch và huyết thanh. Đến năm 1987, hội này đã thống nhất cải tiến tiêu chuẩn chẩn đoán gồm 7 yếu tố (ACR 1987) mà hiện nay vẫn được ứng dụng rộng rãi trên phạm vi toàn thế giới. Tiêu chuẩn ACR — 1987 như sau:
+
+1. Thời gian cứng khớp buổi sáng kéo dài trên một giò.
+
+2. Viêm ít nhất 3 trong số 14 khớp sau: ngón gần, bàn ngón tay, cổ tay, khuỷu, gối, cổ chân, bàn ngón chân (hai bên).
+
+3. Trong đó có ít nhất một khớp thuộc các vị trí sau: ngón gần, bàn ngón tay, cổ tay.
+
+4. Có tính chất đối xứng.
+
+5. Hạt dưới da.
+
+6. Yếu tố dạng thấp huyết thanh (kỹ thuật đạt độ đặc hiệu 95%) dương tính.
+
+7. Xquang điển hình ở khối xương cổ tay (hình bào mòn. mất chất khoáng đầu xương).
+
+_Thời gian diễn biến của bệnh ít nhất phải 6 tuần_
+
+_Chẩn đoán xác định khi có ít nhất 4 trong số 7 yếu tố_
+
+Dễ dàng nhận thấy rằng theo tiêu chuẩn này, dù _ở_ cơ sở không có phòng xét nghiệm cận lâm sàng cùng vẫn có thể chẩn đoán xác định được bệnh viêm khớp dạng thấp.
+
+### Chẩn đoán phân biệt
+
+_Thấp khớp cấp_
+
+Gặp ỏ người trẻ tuổi, nói chung không gặp sau 26 tuổi. Tỷ lệ nam, nữ như nhau. Triệu chứng chính là sưng đau các khớp nhỡ, viêm cấp tính, kiểu di chuyển. Bệnh nhân thường có tiền sử nhiễm liên cầu khuẩn: sốt, đau họng trước đó khoảng một tuần, xét nghiệm ASLO dương tính. Thường kèm theo viêm tim: nhịp tim nhanh, có thể có tiếng thổi (tổn thương van tim), có thể có tổn thương cơ tim hoặc màng ngoài tim. Các triệu chứng đáp ứng tốt với thuốc (corticoid hoặc thuốc chống viêm không steroid). Chẩn đoán xác định theo tiêu chuẩn Jones — cải tiến năm 1992.
+
+_Lupus ban đỏ hệ thống_
+
+Bệnh thường gặp ở nữ. trẻ tuổi. Triệu chứng đau khớp hoặc đau cơ là chính, vị trí tương tự như trong bệnh viêm khớp dạng tháp (các khớp nhỏ. nhỡ â bàn tay) viêm khớp trong bệnh lupus ban đỏ hệ thông thường không có hình bào
+
+Đòn trên Xquang. Triệu chứng ban cánh bướm, nhạy cảm với ánh nắng: tổn thương thận: sốt kéo dài. rụng tóc. mất kinh giúp định hướng chẩn đoán. Chân đoán theo tiêu chuẩn ACR 1982.
+
+_Xơ cứng bì toàn thể_
+
+Đa số bệnh nhãn là nữ. tuổi trung niên. Các triệu chứng đau khớp, viêm khớp biểu hiện ở các khớp nhỏ nhỡ ở bàn tay tương tự như bệnh viêm khớp dạng thấp. Hội chứng Raynaud rất thường gặp. Tổn thương da rất đặc hiệu: dạ dày. cứng. rối loạn sắc tố... Chẩn đoán theo tiêu chuẩn ACR VỚI bệnh xơ cứng bì.
+
+_Thoái hoá khớp_
+
+Bệnh thường gặp ở nữ. trung niên. Các vị trí thường gặp là khớp gối. khớp nhỏ tại bàn tay. Các khớp nhỏ ở bàn tay. đặc biệt ở khớp ngón xa rất thường gặp: có thể tổn thương cả khớp ngón gần. Có thể xuất hiện các hạt Heberden (ở ngón xa) hoặc Bouchat (ở ngón gần). Ngoài ra. thường tổn thương các khớp chi dưới. đặc biệt khớp gối. Bệnh nhân đau kiểu cơ học. có dấu hiệu phá rỉ khớp. tức là dấu hiệu cứng khớp vào buổi sáng. thường không quả lõ phút (tiêu chuẩn là dưới 30 phút). Tại khớp thường thông có dấu hiệu viêm hoặc triệu chứng viêm ít trầm trọng. Xét nghiệm máu và dịch khớp: không có hội chứng viêm sinh học. RF thường âm tinh.
+
+_Gút mạn tính_
+
+Cần phân biệt khi bệnh nhân là nam giới. trung niên. Biêu hiện tại khớp: sưng đau các khớp nhỏ nhỡ ở bàn chân. bàn tay. _c\*\*ổ_ chân. khuvu. gòì... đôl súng hai bên. Khai thác tiền sú thường có đợt sưng đau cấp tính ngón chân cái hoặc các khớp ò chi dưới với tính đặc biệt của cơn gút cấp. 0 giai đoạn này thường có hạt tô phi. Có thể tìm thấy tinh thể urat ở hạt tò phi hoặc trong dịch khớp. Acid uric máu thường tảng (trên 420 umol/1). _c\*\*ó_ thể kèm các rối loạn chuyển hóa đường và hoặc lipid máu. Chẩn đoán theo tiêu chuẩn chẩn đoán gút của Bennett và Wood 1968.
+
+_Hội chứng Pierre Marie_
+
+Thường gặp ở nam giới. trung niên. có tiền sú nghiện thuốc lá. thuốc lào: ho khạc đờm kéo dài hoặc ho ra máu. Triệu chứng tại khớp sưng đau các khớp nhỏ nhỡ ỏ bàn tay. chân. đối xứng hai bên. Bệnh nhân có thể đau dọc xương chày hai bên. Ngón tay dùi trống hoặc mặt kính đồng hồ là triệu chứng rất gợi ý. Chụp phim Xquang quy ước (hoặc cát lớp vi tính) có thể phát hiện u phế quản phổi. u trung thất. Nếu cắt bỏ u khớp sẽ hết sưng đau và móng tay. ngón tay trỏ lại bình thường
+
+### Chẩn đoán giai đoạn bệnh viêm khớp dạng thấp - khái niệm đợt tiến triển của bệnh
+
+Trước kia. bệnh viêm khớp dạng thấp được xác định giai đoạn theo Steinbrocker. Tác giả này dựa vào chức năng vận động và tổn thương Xquang _gồm_ bốn giai đoạn như sau:
+
+- Giai đoạn 1: tổn thương mới khu trú ở màng hoạt dịch, sưng đau chỉ ở phần mềm. Xquang chưa có thay đổi. bệnh nhân còn vận động gần như bình thường.
+
+- Giai đoạn 2: tổn thương đã ảnh hưởng một phần đến đầu xương, sụn khớp. Trên Xquang có hình bào mòn, khe khớp hẹp. Khả năng vận động bị hạn chế ít, tay còn nắm được, đi lại bằng nạng.
+
+- Giai đoạn 3: tổn thương nhiều ở đầu xương, sụn khớp, dính khớp một phần. Khả năng vận động còn ít. bệnh nhân chì còn tự phục vụ mình trong sinh hoạt, không đi lại được.
+
+- Giai đoạn 4: dính khớp và biến dạng trầm trọng, mất hết chức năng vận động, tàn phế hoàn toàn.
+
+Hiện nay. giai đoạn Steinbrocker ít được sử dụng do mức độ tổn thương của các giai đoạn cách nhau quá xa, trong khi chỉ định các thuốc điều trị cần các tiêu chí rõ ràng, cụ thể hơn. Thay vào đó, khái niệm đợt tiến triển rất quan trọng trong bệnh viêm khớp dạng thấp. Mục tiêu điều trị là tránh các đợt tiến triển xuất hiện và cần điều trị tích cực khi bệnh nhân có đợt tiến triển.
+
+_Các tiêu chuẩn chẩn đoán đợt tiến triển của bệnh_
+
+Có nhiều yếu tố để đánh giá mức độ tiến triển của bệnh như sau:
+
+_Xác định mức độ đau theo VAS (thang điểm VAS - Visual Analog Scale)_
+
+Thang điểm VAS là thang điểm đánh giá cường độ đau theo cảm giác chủ
+
+quan của bệnh nhân tại thời điểm nghiên cứu được lượng hoá. Bệnh nhân nhìn vào một thước có biểu diễn các mức độ đau và chỉ vào mức độ đau mà bệnh nhân cảm nhận được tại thời điểm đánh giá. Phần mặt sau của thước chia thành 10 vạch, mỗi vạch cách nhau 10 mm, thầy thuốc xác định điểm tương ứng với điểm mà bệnh nhân vừa chỉ ở mặt trước của thước. Cấu tạo thước đo VAS như sau:
+
+![VAS SCORE](images/contents/rheumatology/viem-khop-dang-thap/vas-score.jpg)
+
+Mặt sau của thước dài 100mm. chia Thành 10 vạch mỗi vạch cách nhau 10mm. Đánh giá mức độ đau theo thang điểm VAS theo ba mức độ sau:
+
+- Từ 10 đến 40 (mm): đau nhẹ
+
+- Từ 50 đến 60 (mm): đau vừa
+
+- Từ 70 đến 100 (mm): đau nặng
+
+_Thời gian cứng khớp buổi sáng:_ thời gian này càng dài thì mức độ hoạt động của bệnh càng nặng. Một số tác giả cho rằng, thời gian cứng khớp buổi sáng trong đợt tiến triển của bệnh ít nhất là 45 phút.
+
+_Số khớp sưng, số khớp đau:_ càng nhiều khớp sưng đau thì mức độ hoạt động của bệnh càng nặng. Trong đợt tiến triển của bệnh có ít nhất ba khớp sừng theo tiêu chuẩn của EULAR.
+
+_Chỉ số Ritchie:_ chỉ số này được đánh giá như sau: thầy thuốc dừng đầu ngón tay cái của mình ấn lên trên diện khớp của bệnh nhân vôi áp lực vừa phải. Tổng cộng có 26 vị trí khớp. mỗi vị trí khớp được tính điểm như sau:
+
+- 0 điểm - không đau
+
+- 1 điểm - Đau ít. bệnh nhân nói là thao tác gây đau.
+
+- 2 điểm - Đau vừa. bệnh nhân kêu đau và nhăn mặt.
+
+- 3 điểm - Đau nhiều, đến nỗi bệnh nhân rút chỉ lại.
+
+_Kết quả:_ đau tối đa là 78 điểm. hoàn toàn không đau là 0 điểm. đợt tiến triển của bệnh từ 9 điểm trở lên.
+
+_Tình trạng viêm trên xét nghiệm:_ tốc độ máu lắng, protein c phản ứng (CRP tăng cao trong đợt tiến triển).
+
+Trên cơ sở các thông số trên. có hai loại tiêu chuẩn đánh giá đợt tiến triển thường được sử dụng nhiều nhất trên lâm sàng. Đó là tiêu chuẩn theo EULAR và theo DAS.
+
+_Tiêu_ _chuẩn đánh giá đợt tiến triển của bệnh viêm khớp dạng thấp theo EULAR_
+
+Có ít nhất ba khớp sừng và ít nhất một trong sô ba tiêu chí sau.:
+
+\+ Chỉ số Ritchie từ 9 điểm trở lên.
+
+\+ Cứng khớp buổi sáng ít nhất 45 phút.
+
+\+ Tốc độ máu lắng giờ đầu 28 mm.
+
+_Điểm mức độ hoạt động của bệnh theo DAS 2S DAS: Disease activity score_
+
+Thang điểm DAS đánh giá mức độ hoạt động bệnh đã được biết đến từ năm
+
+1983 trong một thử nghiệm lâm sàng của Van Riel và áp dụng phờ biến từ những năm 90. Đây là một công thức toán học được đánh giá dựa trên các biến số. số khớp sưng. sô khớp đau. tốc độ máu lắng giờ đầu. điểm YAS. chỉ số Ritchie. VỚI mỗi biến số đứng độc lập căng có thể phản ánh phần nào mức độ hoạt động của bệnh; khi cùng phối hợp với nhau để đánh giá mức độ hoạt động bệnh thì sẽ cho kết quả chính xác hơn. Đã có nhiều công thức được áp dụng. Ban đầu công thức DAS cổ điển (3 hoặc 4 biến) đếm số lượng khớp sưng đau trên tổng số 44 khớp, bao gồm các khớp chi trên và chi dưới. Sau này Prevoo và cộng sự (1995) đã sử dụng 28 khớp bao gồm các khớp chi trên và hai khớp gối trong nghiên cứu của ông để đánh giá mức độ hoạt động bệnh thay thế cho 44 khớp đã sử dụng trước đó. Đây cũng là những khớp đã được chứng minh thường bị tổn thương trong VKDT. 28 khớp trớ thành số khốp chuẩn được sử dụng phổ biến trên thế giới để đánh giá mức độ hoạt động của bệnh trong VKDT (công thức DAS 28). Đã có nhiều nghiên cứu so sánh về tính ưu việt của DAS 28 so với DAS cô điên. Brooten và cộng sự đã nghiên cứu trên 735 bệnh nhân VKDT vối mục đích so sánh giữa phương pháp đếm 28 khốp và 44 khốp cho thấy đếm 28 khớp là phương pháp đơn giản, dễ thực hiện và đáng tin cậy hơn. Nhiều nghiên cứu cũng cho thấy DAS 28 có giá trị dự báo mức độ tàn tật và tổn thương Xquang tốt hơn so với DAS cổ điển. [Công thức tính DAS-28](https://www.das-score.nl/das28/DAScalculators/dasculators.html):
+
+- DAS 28 < 2.9 Bệnh không hoạt động
+
+- 2.9 < DAS 28 < 3,2 Hoạt động bệnh mức độ nhẹ
+
+- 3,2 < DAS 28 < 5.1 Hoạt động bệnh mức độ trung bình
+
+- DAS 28 >5,1 Bệnh hoạt động mạnh
+
+Ngoài DAS 28 sử dụng tốc độ máu lắng, gần đây nhiều tác giả sử dụng DAS 28 CRP thay vì thông số tốc độ máu lắng để đánh giá mức độ hoạt động bệnh.
