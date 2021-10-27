@@ -1,8 +1,8 @@
-import { Fragment, useState, useEffect } from "react";
+import { Fragment, useState, useEffect, useRef } from "react";
 
 const TableContent = ({ headings }) => {
   const [showTableContent, setShowTableContent] = useState(false);
-  const [active, setActive] = useState(false);
+  const [activeId, setActiveId] = useState();
 
   const getNestedHeadings = (headingElements) => {
     const nestedHeadings = [];
@@ -37,6 +37,50 @@ const TableContent = ({ headings }) => {
   };
   const { nestedHeadings } = useHeadingsData();
 
+  const useIntersectionObserver = (setActiveId) => {
+    const headingElementsRef = useRef({});
+    useEffect(() => {
+      const callback = (headings) => {
+        headingElementsRef.current = headings.reduce((map, headingElement) => {
+          map[headingElement.target.id] = headingElement;
+          return map;
+        }, headingElementsRef.current);
+
+        const visibleHeadings = [];
+        Object.keys(headingElementsRef.current).forEach((key) => {
+          const headingElement = headingElementsRef.current[key];
+          if (headingElement.isIntersecting)
+            visibleHeadings.push(headingElement);
+        });
+
+        const getIndexFromId = (id) =>
+          headingElements.findIndex((heading) => heading.id === id);
+
+        if (visibleHeadings.length === 1) {
+          setActiveId(visibleHeadings[0].target.id);
+        } else if (visibleHeadings.length > 1) {
+          const sortedVisibleHeadings = visibleHeadings.sort(
+            (a, b) => getIndexFromId(a.target.id) > getIndexFromId(b.target.id)
+          );
+          setActiveId(sortedVisibleHeadings[0].target.id);
+        }
+      };
+
+      const observer = new IntersectionObserver(callback, {
+        rootMargin: "-80px 0px -50% 0px",
+      });
+
+      const headingElements = Array.from(
+        document.querySelectorAll(".wiki-content h2, .wiki-content h3")
+      );
+
+      headingElements.forEach((element) => observer.observe(element));
+
+      return () => observer.disconnect();
+    }, [setActiveId]);
+  };
+
+  useIntersectionObserver(setActiveId);
   return (
     <Fragment>
       <aside
@@ -52,16 +96,32 @@ const TableContent = ({ headings }) => {
                   className="list-item"
                   onClick={() => setShowTableContent(false)}
                 >
-                  <a href={`#${heading.id}`}>{heading.title}</a>
+                  <a
+                    className={heading.id === activeId ? "active" : ""}
+                    href={`#${heading.id}`}
+                  >
+                    {heading.id === activeId && (
+                      <span className="icon-border"></span>
+                    )}
+                    {heading.title}
+                  </a>
                   {heading.items.length > 0 && (
                     <ul>
                       {heading.items.map((child) => (
                         <li
-                          key={child.id}
                           className="list-item"
+                          key={child.id}
                           onClick={() => setShowTableContent(!showTableContent)}
                         >
-                          <a href={`#${child.id}`}>{child.title}</a>
+                          <a
+                            className={child.id === activeId ? "active" : ""}
+                            href={`#${child.id}`}
+                          >
+                            {child.id === activeId && (
+                              <span className="icon-border"></span>
+                            )}
+                            {child.title}
+                          </a>
                         </li>
                       ))}
                     </ul>

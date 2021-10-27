@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import TopNavbars from "../Navbars/TopNavbar";
 
-const Footer = ({isWiki}) => {
+const Footer = ({ isWiki }) => {
   const [showBackTop, setShowBackTop] = useState(false);
   useEffect(() => {
     const handleScroll = () => setShowBackTop(window.pageYOffset > 300);
@@ -32,8 +32,8 @@ const Footer = ({isWiki}) => {
           </nav>
         </div>
       </div>
-  {!isWiki && (
-    <div className="back-to-top">
+
+      <div className={isWiki ? "back-to-top is-wiki" : "back-to-top"}>
         {showBackTop && (
           <button className="back-top" onClick={scrollToTop}>
             <svg
@@ -48,7 +48,6 @@ const Footer = ({isWiki}) => {
           </button>
         )}
       </div>
-  )}
     </footer>
   );
 };

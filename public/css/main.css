@@ -146,6 +146,11 @@
   bottom: 30px;
   right: 30px;
 }
+@media (max-width: 740px) {
+  .footer .back-to-top.is-wiki {
+    display: none;
+  }
+}
 .footer .back-to-top .back-top {
   margin: 0px;
   padding: 0px;
