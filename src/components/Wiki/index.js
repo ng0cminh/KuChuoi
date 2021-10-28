@@ -1,6 +1,7 @@
 import { format } from "date-fns";
 import slug from "slug";
 import { parse } from "node-html-parser";
+import Link from "next/link";
 import TableContent from "./TableContent";
 
 const Wiki = ({ post }) => {
@@ -25,9 +26,9 @@ const Wiki = ({ post }) => {
                     </span>
                     <span className="wiki-name-author">
                       <span> bởi </span>
-                      <a href={`/author/${slug(post.author.name)}`}>
-                        {post.author.name}
-                      </a>
+                      <Link href={`/author/${slug(post.author.name)}`}>
+                        <a>{post.author.name}</a>
+                      </Link>
                     </span>
                   </span>
                 </div>

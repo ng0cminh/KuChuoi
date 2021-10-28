@@ -224,7 +224,7 @@ Bệnh thường gặp ở nữ. trung niên. Các vị trí thường gặp là
 
 _Gút mạn tính_
 
-Cần phân biệt khi bệnh nhân là nam giới. trung niên. Biêu hiện tại khớp: sưng đau các khớp nhỏ nhỡ ở bàn chân. bàn tay. _c\*\*ổ_ chân. khuvu. gòì... đôl súng hai bên. Khai thác tiền sú thường có đợt sưng đau cấp tính ngón chân cái hoặc các khớp ò chi dưới với tính đặc biệt của cơn gút cấp. 0 giai đoạn này thường có hạt tô phi. Có thể tìm thấy tinh thể urat ở hạt tò phi hoặc trong dịch khớp. Acid uric máu thường tảng (trên 420 umol/1). _c\*\*ó_ thể kèm các rối loạn chuyển hóa đường và hoặc lipid máu. Chẩn đoán theo tiêu chuẩn chẩn đoán gút của Bennett và Wood 1968.
+Cần phân biệt khi bệnh nhân là nam giới. trung niên. Biêu hiện tại khớp: sưng đau các khớp nhỏ nhỡ ở bàn chân, bàn tay, cổ chân, khuỷu, gối... đối súng hai bên. Khai thác tiền sử thường có đợt sưng đau cấp tính ngón chân cái hoặc các khớp ở chi dưới với tính đặc biệt của cơn gút cấp. Ở giai đoạn này thường có hạt tô phi. Có thể tìm thấy tinh thể urat ở hạt tò phi hoặc trong dịch khớp. Acid uric máu thường tảng (trên 420 umol/1). có thể kèm các rối loạn chuyển hóa đường và hoặc lipid máu. Chẩn đoán theo tiêu chuẩn chẩn đoán gút của Bennett và Wood 1968.
 
 _Hội chứng Pierre Marie_
 
