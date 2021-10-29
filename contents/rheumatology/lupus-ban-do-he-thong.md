@@ -34,23 +34,23 @@ Cho đến nay, nguyên nhân gây bệnh và cơ chế bệnh sinh chính xác 
 
 − _Toàn phát: tổn thương nhiều cơ quan:_
 
-\+ Toàn thân: sốt dai dẳng kéo dài, mệt mỏi, gầy sút.
+- Toàn thân: sốt dai dẳng kéo dài, mệt mỏi, gầy sút.
 
-\+ Cơ xương khớp: đau hoặc viêm các khớp với biểu hiện tương tự trong bệnh viêm khớp dạng thấp song hiếm khi biến dạng khớp; đau cơ. Một số hiếm trường hợp có hoại tử xương (thường gặp hoại tử vô mạch đầu trên xương đùi).
+- Cơ xương khớp: đau hoặc viêm các khớp với biểu hiện tương tự trong bệnh viêm khớp dạng thấp song hiếm khi biến dạng khớp; đau cơ. Một số hiếm trường hợp có hoại tử xương (thường gặp hoại tử vô mạch đầu trên xương đùi).
 
-\+ Da niêm mạc: ban đỏ hình cánh bướm ở mặt (rất thường gặp), ban dạng đĩa (gặp trong thể mạn tính), nhạy cảm với ánh sáng (cháy, bỏng, xạm da sau khi tiếp xúc với ánh nắng), loét niêm mạc miệng, niêm mạc mũi, rụng tóc, viêm mao mạch dưới da..
+- Da niêm mạc: ban đỏ hình cánh bướm ở mặt (rất thường gặp), ban dạng đĩa (gặp trong thể mạn tính), nhạy cảm với ánh sáng (cháy, bỏng, xạm da sau khi tiếp xúc với ánh nắng), loét niêm mạc miệng, niêm mạc mũi, rụng tóc, viêm mao mạch dưới da..
 
-\+ Máu và cơ quan tạo máu: thiếu máu do viêm, thiếu máu huyết tán, chảy máu dưới da (do giảm tiểu cầu), lách to, hạch to.
+- Máu và cơ quan tạo máu: thiếu máu do viêm, thiếu máu huyết tán, chảy máu dưới da (do giảm tiểu cầu), lách to, hạch to.
 
-\+ _Thần kinh tâm thần: rối loạn tâm thần, động kinh..._
+- _Thần kinh tâm thần: rối loạn tâm thần, động kinh..._
 
-\+ Tuần hoàn, hô hấp: thường gặp các triệu chứng tràn dịch màng tim, màng phổi, tăng áp lực động mạch phổi, viêm phổi kẽ. Các triệu chứng hiếm gặp: viêm cơ tim, viêm nội tâm mạc , hội chứng Raynaud, viêm tắc động mạch, tĩnh mạch...
+- Tuần hoàn, hô hấp: thường gặp các triệu chứng tràn dịch màng tim, màng phổi, tăng áp lực động mạch phổi, viêm phổi kẽ. Các triệu chứng hiếm gặp: viêm cơ tim, viêm nội tâm mạc , hội chứng Raynaud, viêm tắc động mạch, tĩnh mạch...
 
-\+ Thận: rất thường gặp: protein niệu, tế bào trụ niệu, hội chứng thận hư, viêm cầu thận...
+- Thận: rất thường gặp: protein niệu, tế bào trụ niệu, hội chứng thận hư, viêm cầu thận...
 
-\+ Gan: cổ trướng, rối loạn chức năng gan (hiếm gặp).
+- Gan: cổ trướng, rối loạn chức năng gan (hiếm gặp).
 
-\+ Mắt: giảm tiết nước mắt (Hội chứng Sjogren), viêm giác mạc, viêm kết mạc, viêm võng mạc.
+- Mắt: giảm tiết nước mắt (Hội chứng Sjogren), viêm giác mạc, viêm kết mạc, viêm võng mạc.
 
 ### 3.2. Cận lâm sàng
 
@@ -60,11 +60,11 @@ Cho đến nay, nguyên nhân gây bệnh và cơ chế bệnh sinh chính xác 
 
 − Sinh thiết các cơ quan tổn thương:
 
-\+ Sinh thiết da: lắng đọng globulin miễn dịch IgM, IgG và bổ thể thành một lớp thượng bì và trung bì của da (+70%).
+- Sinh thiết da: lắng đọng globulin miễn dịch IgM, IgG và bổ thể thành một lớp thượng bì và trung bì của da (+70%).
 
-\+ Thận: viêm cầu thận, dày màng đáy do lắng đọng IgG, IgM và bổ thể.
+- Thận: viêm cầu thận, dày màng đáy do lắng đọng IgG, IgM và bổ thể.
 
-\+ Màng hoạt dịch khớp: tổn thương gần tương tự viêm khớp dạng thấp.
+- Màng hoạt dịch khớp: tổn thương gần tương tự viêm khớp dạng thấp.
 
 ### 3.3. Chẩn đoán xác định
 
@@ -90,11 +90,11 @@ Rối loạn về máu: (a) Thiếu máu huyết tán có tăng hồng cầu lư
 
 − Rối loạn về miễn dịch:
 
-\+ Kháng thể kháng Ds-DNA (+), hoặc
+- Kháng thể kháng Ds-DNA (+), hoặc
 
-\+ Kháng thể kháng Sm (+), hoặc
+- Kháng thể kháng Sm (+), hoặc
 
-\+ Kháng thể kháng phospholipids (+) căn cứ vào: tăng kháng thể kháng cardiolipin loại IgM hoặc IgG, lupus anticoagulant (+), test huyết thanh giang mai dương tính giả > 6 tháng có kiểm chứng test cố định Treponema Pallidum.
+- Kháng thể kháng phospholipids (+) căn cứ vào: tăng kháng thể kháng cardiolipin loại IgM hoặc IgG, lupus anticoagulant (+), test huyết thanh giang mai dương tính giả > 6 tháng có kiểm chứng test cố định Treponema Pallidum.
 
 − Kháng thể kháng nhân: hiệu giá cao theo tiêu chuẩn của phòng xét nghiệm và không do sử dụng các thuốc trong danh mục gây ra hội chứng giả Lupus.
 
@@ -104,41 +104,41 @@ Gần đây, năm 2012, những trung tâm cộng tác quốc tế về lupus h�
 
 #### Tiêu chuẩn lâm sàng
 
-\1. Lupus da cấp
+1. Lupus da cấp
 
-\2. Lupus da mạn
+2. Lupus da mạn
 
-\3. Loét miệng hay mũi
+3. Loét miệng hay mũi
 
-\4. Rụng tóc không sẹo
+4. Rụng tóc không sẹo
 
-\5. Viêm khớp
+5. Viêm khớp
 
-\6. Viêm thanh mạc
+6. Viêm thanh mạc
 
-\7. Thận (Không được tính khi có
+7. Thận (Không được tính khi có
 
-\8. Thần kinh sự tồn tại của thiếu máu
+8. Thần kinh sự tồn tại của thiếu máu
 
-\9. Thiếu máu tan huyết tan huyết)
+9. Thiếu máu tan huyết tan huyết)
 
-\10. Giảm bạch cầu
+10. Giảm bạch cầu
 
-\11. Giảm tiểu cầu (<100.000/mm3)
+11. Giảm tiểu cầu (<100.000/mm3)
 
 #### Tiêu chuẩn miễn dịch
 
-\1. ANA
+1. ANA
 
-\2. Anti-DNA
+2. Anti-DNA
 
-\3. Anti-Sm
+3. Anti-Sm
 
-\4. KT Antiphospholipid
+4. KT Antiphospholipid
 
-\5. Giảm bổ thể (C3, C4)
+5. Giảm bổ thể (C3, C4)
 
-\6. Test Coombs trực tiếp (Không được tính khi có sự tồn tại của thiếu máu tan huyết)
+6. Test Coombs trực tiếp (Không được tính khi có sự tồn tại của thiếu máu tan huyết)
 
 Chẩn đoán lupus ban đỏ hệ thống khi có ≥ 4 tiêu chuẩn (có ít nhất một tiêu chuẩn lâm sàng và một tiêu chuẩn cận lâm sàng) hoặc bệnh thận lupus được chứng minh trên sinh thiết kèm với ANA hoặc anti-DNA.
 
@@ -184,9 +184,9 @@ Chỉ định: lupus ban đỏ có đe dọa tính mạng như có tổn thươn
 
 Liều dùng:
 
-\+ 1-2mg/kg đường uống. Khi bệnh kiểm soát tốt, giảm liều prednisolone 10% mỗi 7-10 ngày.
+- 1-2mg/kg đường uống. Khi bệnh kiểm soát tốt, giảm liều prednisolone 10% mỗi 7-10 ngày.
 
-\+ Dùng methylprednisolone đường tĩnh mạch 500mg mỗi 12 giờ trong 3-5 ngày được dùng trong các trường hợp tổn thương thận tiến triển nhanh, tổn thương thần kinh nặng và giảm tiểu cầu nặng. Sau đó chuyển sang dùng corticoid bằng đường uống và giảm liều tương tự như trên.
+- Dùng methylprednisolone đường tĩnh mạch 500mg mỗi 12 giờ trong 3-5 ngày được dùng trong các trường hợp tổn thương thận tiến triển nhanh, tổn thương thần kinh nặng và giảm tiểu cầu nặng. Sau đó chuyển sang dùng corticoid bằng đường uống và giảm liều tương tự như trên.
 
 Liệu pháp dùng các thuốc ức chế miễn dịch khác:
 
@@ -194,17 +194,17 @@ Chỉ định: Lupus ban đỏ thể nặng có khả năng đe dọa tính mạ
 
 Liều dùng: có nhiều loại thuốc có thể sử dụng đơn độc hoặc phối hợp với nhau, hoặc với corticoid.
 
-\+ Cyclophosphamide: 0,5- 1g/m2 da, đường tĩnh mạch 3-4 tuần/ lần trong 6-7 tháng hoặc 1,0-5,0 mg/kg/ngày đường uống. Cần phối hợp với mesna (mercapto - ethanesulphonic acid) để dự phòng biến chứng tại bàng quang.
+- Cyclophosphamide: 0,5- 1g/m2 da, đường tĩnh mạch 3-4 tuần/ lần trong 6-7 tháng hoặc 1,0-5,0 mg/kg/ngày đường uống. Cần phối hợp với mesna (mercapto - ethanesulphonic acid) để dự phòng biến chứng tại bàng quang.
 
-\+ Dapsone 100mg/ngày (ít sử dụng).
+- Dapsone 100mg/ngày (ít sử dụng).
 
-\+ Azathioprine (2-2,5mg/kg/ngày), mycophenolate mofetil (500-1500mg), đây là nhóm thuốc hiện đang được ưa chuộng vì ít tác dụng phụ, hiệu quả cao, thích hợp với các phụ nữ còn độ tuổi sinh đẻ, tuy nhiên giá thành tương đối cao.
+- Azathioprine (2-2,5mg/kg/ngày), mycophenolate mofetil (500-1500mg), đây là nhóm thuốc hiện đang được ưa chuộng vì ít tác dụng phụ, hiệu quả cao, thích hợp với các phụ nữ còn độ tuổi sinh đẻ, tuy nhiên giá thành tương đối cao.
 
-\+ Methotrexate 7,5-20 mg/tuần.
+- Methotrexate 7,5-20 mg/tuần.
 
-\+ Các thuốc khác: leflunomide, liệu pháp hormon, thalidomide, truyền tĩnh mạch immunoglobulin liều cao…
+- Các thuốc khác: leflunomide, liệu pháp hormon, thalidomide, truyền tĩnh mạch immunoglobulin liều cao…
 
-\+ Chế phẩm sinh học: rituximab (mab Thera) là thuốc ức chế tế bào B với liều mỗi năm một lần gồm hai đợt mỗi đợt truyền hai lần cách nhau hai tuần với liều 500-1000mg/lần. Cần sàng lọc lao, viêm gan và các bệnh nhiễm khuẩn nặng trước khi điều trị sinh học cho bệnh nhân lupus ban đỏ hệ thống.
+- Chế phẩm sinh học: rituximab (mab Thera) là thuốc ức chế tế bào B với liều mỗi năm một lần gồm hai đợt mỗi đợt truyền hai lần cách nhau hai tuần với liều 500-1000mg/lần. Cần sàng lọc lao, viêm gan và các bệnh nhiễm khuẩn nặng trước khi điều trị sinh học cho bệnh nhân lupus ban đỏ hệ thống.
 
 ### 4.3. Điều trị không dùng thuốc
 
