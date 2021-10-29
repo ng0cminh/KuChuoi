@@ -27,21 +27,15 @@ Có ghi nhận sự gia tăng một nhóm nhỏ những người đã mất HBeA
 Ở một nghiên cứu khác từ Ý, giữa 837 bệnh nhân HBsAg (+) thực hiện tiền cứu ở 14 trung tâm Ý, xơ gan được biểu hiện ở 15,1% với HBV một mình, 43% với đồng nhiễm HDV, và với 28% với đồng nhiễm HCV.
 Những cá thể với việc đồng nhiễm HBV/ HIV có một nguy cơ gia tăng tử vong liên quan đến gan. trong khi việc ức chế miễn dịch của việc nhiễm HIV có thể được ước đoán là sẽ tăng cao sự nhân đôi của HBV.
 
-
-
 ### Ảnh hưởng quan trọng của việc điều trị kháng virus thành công trên hiệu quả lâm sàng đã được xác nhận ở hai nghiên cứu cộng đồng gầy đây
 
 165 bệnh nhân HBeAg (+) từ Netherland được điều trị với interferon, 52% đáp ứng làm mất HBsAg được so sánh với 9% những người không đáp ứng
 (P < .001), với vịêc giảm quá trình xơ hóa ở những người đáp ứng. Những phân tích với nhiều thông số đã cho thấy sự sống còn được cải thiện có ý nghĩa thống kê và giảm nguy cơ phát triên HCC ở những người đáp ứng.
 Tương tự, qua một thời gian theo dõi 101 bệnh nhân HBV mạn tính HBeAg (-) được điều trị interferon 24 tháng, bệnh gan tiến triển không gặp ở bệnh nhân nào có đáp ứng điều trị trong khi đó có xảy ra 22% ở những người thất bại điều trị; HCC phát triển với tần xuất tương tự ở cả hai nhóm (7%).
 
-
-
 ### Số lượng virus cao biểu hiện một yếu tố nguy cơ HCC
 
 Trong một nghiên cứu gần đây của 73 bệnh nhân HBV mạn tính (chẩn đoán bởi sinh thiết và những xét nghiệm chức năng gan bị tăng), 64% số những người này là HBeAg (+), DNA HBV > 106 gEq/ml là một tiên đoán nguy cơ HCC.
-
-
 
 ### Tỉ lệ nhiễm hbv mạn tính hbeag (-) đang gia tăng
 
@@ -57,41 +51,29 @@ Số lượng trong những nghiên cứu đầu tiên của việc dùng interf
 Có 8 genotype của HBV, được chia từ A đến H, dựa vào sự khác biệt nhiều hơn 8% của nulceoide trên toàn bộ gen. Sự phân bổ genotype HBV khác nhau theo địa lý (bảng 1). Ở Mỹ, genotype A và C là hay gặp nhất; genotype A thì hay gặp ở người da trắng và người Mỹ gốc phi, và genotype C và C thì thường gặp hơn ở người Mỹ gốc châu á. Có một mối liên quan gần gũi giữa genotype và sự hiện diện của những thay đổi ở tiền nhân và core promoter. Genotype B HBV thì liên quan hay gặp nhất đối với đột biến tiền nhân, trong khi đó genotype C HBV thì liên quan thông dụng hơn đối với đột biến core promoter (bảng 1).
 Cuối cùng, việc đo được cccDNA là quan trọng, việc đánh giá cccDNA viêm gan như một điểm kết thúc điều trị. Nơi chứa cccDNA HBV ở nhân thì không bị loại trừ bởi hầu hết kháng virus và được coi như là một nguyên nhân cho việc tái phát virus sau khi không tiếp tục điều trị. Những báo cáo đầu tiên cung cấp một sự liên hệ không thống nhất giữa cccDNA và những điểm ngừng khác nhau của hiệu quả điều trị. Những xét nghiệm cccDNA thì không sẵn để thương mại hoá.
 
-
-
 ### Xét nghiệm DNA HBV:
 
 Mỗi xét nghiêm đo lường DNA HBV theo những phương pháp khác nhau, mỗi xét nghiệm có những giới hạn phát hiện thấp hơn và cao hơn khác nhau, và vì vậy những kết quả của một xét nghiệm không thể so sánh với một cái khác. Mặc dù có giới hạn này, nhiều nghiên cứu gần đây đang kiểm tra xem HBV DNA có phải là một tiên lượng hữu hiệu của nhiều vấn đề liên quan đến điều trị.
-
-
 
 ### Lượng virus DNA HBV như một tiên đoán về việc tái phát sau khi ngưng điều trị
 
 Trong một phân tích của 130 bệnh nhân HBeAg (+) được nhận điều trị với interferon, interferon + lamivudine, hay lamivudine, những tiên đoán của việc tái phát không phụ thuộc vào việc điều trị, giới tính, giới hạn mức ALT, giới hạn mức DNA HBV. Nguy cơ của tái phát HbeAg đã gia tăng 1,7 - … lần đối với những người có giới hạn DNA HBV > 108 gEq/ml.
 Chú ý: sự liên quan giữa mức HBV DNA trước điều trị cao và tỉ lệ đáp điều trị thấp thì không có mới. Tuy nhiên, cần một xác định: chỉ định điều trị cụ thể cho trường hợp mẫu virus “cao”?
 
-
-
 ### Lượng DNA HBV như một tiên đoán về sự kháng thuốc đối với điều trị chống virus
 
 Giữa 794 bệnh nhân được điều trị với lamivudine trong 4 nghiên cứu được kiểm soát trong suốt 1 năm, giới tính, giới hạn chỉ số khối lượng cơ thể (BMI), và giới hạn mức DNA HBV thì có liên quan tới việc xuất hiện những thay đổi YMDD. Genotype HBV đã không được đánh giá trong những phân tích.
 Mức DNA HBV trước điều trị cao (> 100 mEq/ml bằng xét nghiệm Quantiplex bDNA) thì có liên quan tới nguy cơ cao hơn của việc đột biến ở những bệnh nhân HBeAg (+).
 
-
-
 ### Những thay đổi của mức DNA HBV trong quá trình điều trị như là một tiên đoán cho việc điều trị đáp ứng hay không đáp ứng.
 
 Ở một phân tích của những bệnh nhân HBeAg (+) được điều trị với adefovir trong 48 tuần, mẫu đầu tiên trong huyết thanh DNA HBV ở tuần 12 có liên quan tới khả năng thu được sự đảo ngược huyết thanh HBeAg (P = .06).
-
-
 
 ### Lượng DNA HBV của cuối điều trị như một tiên đoán sự tái phát
 
 Giữa 49 bệnh nhân đạt được chuyển đổi huyết thanh HBeAg trong suốt 12 tháng dùng lamivudine và điều trị thêm từ 6 -12 tháng, tuổi, khoảng thời gian để mất/ chuyển đổi huyết thanh HBeAg, mức DNA HBV huyết thanh tại thời điểm ngừng điều trị là những yếu tố tiên đoán không phụ thuộc cho việc tái phát sau điều trị. Tỉ lệ tái phát sau điều trị là 37% ở những bệnh nhân với mức DNA HBV huyết thanh < 20 copies/ml nhưng là 73% ở những bệnh nhân với mức DNA > = 1000 copies/ml, gợi ý là việc kiểm tra DNA HBV huyết thanh bằng phương pháp PCR định lượng có thể hữu ích trong việc tiên đoán tái phát sau điều trị.
 
-
-
-### Genotype HBV và liên quan bệnh/điều trị
+### Genotype HBV và liên quan bệnh /điều trị
 
 Khi những genotype HBV được xem là yếu tố tiên đoán tình trạng bệnh hay hiệu quả điều trị là không rõ ràng nhưng nó là một vùng rất thiết thực cho nghiên cứu. Từ sự phân bổ genotype khác nhau theo địa lý, những nghiên cứu ở bắc Mỹ có một cách điển hình những cỡ mẫu thích hợp cho việc so sánh giữa genotype A và duy nhất D, trong khi ở châu Á, việc so sánh thì thường giữa genotype C và B. Những liên quan lâm sàng sau đây đã được khẳng định:
 
@@ -116,7 +98,7 @@ Cả AASLD và AGA đều có những hướng dẫn điều trị HBV được 
 Có 3 phần đặc biệt mà hướng dẫn khác nhau:
 
 - Mức ALT để xác định đối tượng điều trị.
--  Mức HBV DNA tối thiểu để xác định đối tượng điều trị ở những bệnh nhân HBeAg (-).
+- Mức HBV DNA tối thiểu để xác định đối tượng điều trị ở những bệnh nhân HBeAg (-).
 - Dùng kháng virus ở trường hợp xơ gan mất bù.
   Trong cả hai hướng dẫn, những người xơ gan còn và hết bù có những điều trị cụ thể.
 
@@ -145,25 +127,23 @@ Có 3 phần đặc biệt mà hướng dẫn khác nhau:
 
 **Bảng 2. Những kiểu lâm sàng của HBV mạn tính**
 
-| **Định nghĩa**                              | **Tiêu chuẩn chẩn đoán**                                     |
-| ------------------------------------------- | ------------------------------------------------------------ |
-| Viêm gan mạn, hoạt độngHBeAg(+)HBeAg (-)    | HBsAg (+) > 6 thángHBV DNA > 105 copies/mlTồn tại hay từng đợt tăng ALT/ ASTSinh thiết gan cho thấy viêm gan mạn tính (Điểm viêm và hoại tử >= 4)HBeAg (+) hay (-) |
+| **Định nghĩa**                              | **Tiêu chuẩn chẩn đoán**                                                                                                                                              |
+| ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Viêm gan mạn, hoạt độngHBeAg(+)HBeAg (-)    | HBsAg (+) > 6 thángHBV DNA > 105 copies/mlTồn tại hay từng đợt tăng ALT/ ASTSinh thiết gan cho thấy viêm gan mạn tính (Điểm viêm và hoại tử >= 4)HBeAg (+) hay (-)    |
 | Người mang HBsAg không hoạt động            | HBsAg (+) > 6 thángHBeAg (-), anti-HBe (+)DNA HBV < 105 copies/mlALT/ AST bình thường ổn địnhSinh thiết gan cho thấy viêm gan mạn (điểm viêm hoại tử tế bào < 4 điểm) |
 | Nhiễm virus viêm gan B đã qua trong quá khứ | Tiền sử trước đó có HBV cấp tính hay mạn tính hay xuất hiện anti- HBc ,cóthể anti – HBsHBsAg (-)Không phát hiện HBV (mức rất thấp bằngphương pháp PCR)ALT bình thường |
 
 **Bảng 3. So sánh những hướng dẫn điều trị**
 
-| **Sơ lược lâm sàng**                                         | **Hướng dẫn thực hành của AASLD** **(Hiệp hội nghiên cứu bệnh gan Hoa Kỳ)** | **Những khuyến cáo của hội thảo bệnh gan AGA** **(Hiệp hội tiêu hóa-gan mật Hoa Kỳ)** |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| HBeAg + / - DNA HBV > 105 copies/ml ALT bình thường          | Không điều trị nhưng theo dõi sinh hoá về hoạt động bệnh.    | Không điều trị nhưng kiểm tra sinh thiết có thể và điều trị nếu bệnh ở mức độ mô học có ý nghĩa thống kê. |
-| HBeAg + DNA HBV > 105 copies/ml ALT < 2 x giới hạn bt và mô học nhẹ | Không điều trị, điều trị nếu ALT tăng hơn                    | ALT tăng và DNA HBV → 105 copies/ml: cần điều trị            |
-| HBeAg + DNA HBV > 105 copies/ml ALT > 2 x giới hạn bt hay Mô học trung bình /nặng | Điều trị                                                     | Điều trị                                                     |
-| HBeAg – DNA HBV > 105 copies/ml ALT > 2 x giới hạn bt và mô học nhẹ | Không điều trị                                               | ALT tăng và DNA HBV → 104 copies/ml: cần điều trị            |
-| HBeAg – DNA HBV > 105 copies/ml ALT > 2 x giới hạn bt và mô học trung bình / nặng | Điều trị                                                     | Điều trị                                                     |
-| HBeAg +/ - Xơ gan còn bù                                     | DNA HBV < 105 copies/ml: không điều trị                      | DNA HBV < 104 copies/ml: không điều trị                      |
-| DNA HBV → 105 copies/ml: cần điều trị                        | DNA HBV → 104 copies/ml: cần điều trị                        |                                                              |
-| Xơ gan mất bù                                                | Điều trị nếu DNA HBV > 105 copies/ml                         | Điều tri                                                     |
+| **Sơ lược lâm sàng**                                                              | **Hướng dẫn thực hành của AASLD (Hiệp hội nghiên cứu bệnh gan Hoa Kỳ)** | **Những khuyến cáo của hội thảo bệnh gan AGA (Hiệp hội tiêu hóa-gan mật Hoa Kỳ)**                         |
+| --------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| HBeAg + / - DNA HBV > 105 copies/ml ALT bình thường                               | Không điều trị nhưng theo dõi sinh hoá về hoạt động bệnh.               | Không điều trị nhưng kiểm tra sinh thiết có thể và điều trị nếu bệnh ở mức độ mô học có ý nghĩa thống kê. |
+| HBeAg + DNA HBV > 105 copies/ml ALT < 2 x giới hạn bt và mô học nhẹ               | Không điều trị, điều trị nếu ALT tăng hơn                               | ALT tăng và DNA HBV → 105 copies/ml: cần điều trị                                                         |
+| HBeAg + DNA HBV > 105 copies/ml ALT > 2 x giới hạn bt hay Mô học trung bình /nặng | Điều trị                                                                | Điều trị                                                                                                  |
+| HBeAg – DNA HBV > 105 copies/ml ALT > 2 x giới hạn bt và mô học nhẹ               | Không điều trị                                                          | ALT tăng và DNA HBV → 104 copies/ml: cần điều trị                                                         |
+| HBeAg – DNA HBV > 105 copies/ml ALT > 2 x giới hạn bt và mô học trung bình / nặng | Điều trị                                                                | Điều trị                                                                                                  |
+| HBeAg +/ - Xơ gan còn bù                                                          | DNA HBV < 105 copies/ml: không điều trị                                 | DNA HBV < 104 copies/ml: không điều trị                                                                   |
+| DNA HBV → 105 copies/ml: cần điều trị                                             | DNA HBV → 104 copies/ml: cần điều trị                                   |                                                                                                           |
+| Xơ gan mất bù                                                                     | Điều trị nếu DNA HBV > 105 copies/ml                                    | Điều tri                                                                                                  |
 
-
-
-------
+---
