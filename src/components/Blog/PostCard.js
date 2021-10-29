@@ -7,7 +7,7 @@ const PostCard = ({ post, imgWidth, imgHeight }) => {
     <div className="card">
       <article className="article">
         <HeaderCard
-          author={post.author}
+          author={post.author ? post.author : {}}
           date={post.date}
           size={16}
           href={post.slug}

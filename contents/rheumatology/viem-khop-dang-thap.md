@@ -309,3 +309,217 @@ Thang điểm DAS đánh giá mức độ hoạt động bệnh đã được bi
 - DAS 28 >5,1 Bệnh hoạt động mạnh
 
 Ngoài DAS 28 sử dụng tốc độ máu lắng, gần đây nhiều tác giả sử dụng DAS 28 CRP thay vì thông số tốc độ máu lắng để đánh giá mức độ hoạt động bệnh.
+
+
+
+## ĐIỀU TRỊ BỆNH VIÊM KHỚP DẠNG THẤP
+
+Sự ra đời của các thuốc chống thấp khớp tác dụng chậm - DMARDs Disease Modifying Anti Rheumatis Drugs (thuốc chống thấp khớp có thể làm chuyển biến bệnh) đã làm thay đổi tiên lượng cơ bản của bệnh viêm khớp dạng thấp nói riêng và các bệnh khớp khác nói chung (xem thêm bài này). Đây là một nhóm thuốc có vai trò hết sức quan trọng, có thể điều trị “tận gốc” bệnh viêm khớp dạng thấp, do đỏ nhóm thuốc này gân đây còn được gọi là các thuốc “thay thế corticoid” (steroid sparing drugs).
+
+Mục đích điều trị: kiểm soát quá trình biên dịch và quá trình viêm khớp. Phòng ngừa hủy khớp, bảo vệ chức năng khớp, giảm thiểu tối đa các triệu chứng để bệnh nhân có thể có cuộc sống bình thường. Tránh các biến chứng của bệnh và của các thuôc điêu tri. Giáo dục. tư vấn bệnh nhân, vật lý trị liệu và phục hồi chức năng cho bệnh nhân.
+
+***Nguyên tắc điều trị thuốc***
+
+- Kết hợp nhiều nhóm thuốc: thuốc điều trị triệu chứng (thuốc chống viêm, thuốc giảm đau) và thuốc chống thấp khớp tác dụng chậm — DMARDs ngay từ giai đoạn đầu của bệnh). Các thuốc điều trị có thể phải duy trì nhiều năm. thậm chí phải dùng thuốc suốt đời trên nguyên tắc số nhóm thuốc và liều thuốc tối thiểu có hiệu quả. Riêng corticoid thường chi sử dụng trong những đợt tiến triển.
+
+- Các thuốc điều trị triệu chứng có thể giảm liều hoặc ngừng han theo thứ tự: corticoid. thuốc chống viêm không steroid, giảm đau.
+
+- Phác đồ thường dùng, có hiệu quả. ít tác dụng phụ. đơn giản, rẻ tiền nhất ở nước ta là methotrexat phối hợp với chloroquin trong những năm đầu và sau đó là methotrexat đơn độc.
+
+**Lập kế hoạch điều trị**
+
+Nhằm lập kế hoạch điều trị, cần thiết xác định các thông số sau:
+
+- Xác định giai đoạn bệnh là tiến triển hoặc ổn định.
+
+- Xác đỊnh tình trạng tính thần của bệnh nhân nhất là trong đợt tiến triển bệnh.
+
+- Đánh giá chức năng vận động của bệnh nhàn về vận động chủ động. thụ động.
+
+- Lượng hoá các cơ quan bị tổn thương.
+
+- Lượng hoá các thuốc đang được dùng.
+
+- Đánh giá các tai biến do thuốc, đặc biệt khi sử dụng không đúng chỉ dẫn. Bao gồm các thông số sau:
+
+\+ Các tai biến do dùng corticoid kéo dài: tổn thương dạ dày tá tràng với các tai biến, tàng đường máu, loãng xương, tăng huyết áp. hội chứng Cushing do corticoid. lao và các bội nhiễm khác...
+
+\+ Các tai biến do thuốc chống viêm không steroid: tổn thương dạ dày — tá tràng, thận...
+
+\+ Các tai biến do các thuốc điều trị cơ bản: suy tủy. suy gan. suy thận, lao và các bội nhiễm khác...
+
+### Các thuốc điều trị toàn thân
+
+#### ***Thuốc chống viêm***
+
+Lựa chọn một trong hai loại thuốc chống viêm: glucocorticoid hoặc thuốc chống viêm không steroid.
+
+***Glucocorticoid***
+
+Chì định dùng corticoid: trong khi chờ thuốc chống thấp khớp tác dụng chậm — DMARDs có hiệu quá: có đứt tiến triển hoặc bệnh nhân đã phụ thuộc corricoid.
+
+*Nguyên* tắc: dùng liều tấn công, ngắn ngày để tránh hủy khớp và tranh phụ thuộc thuốc. Đến khi đạt hiệu quả. giảm liều dần. thay thế bằng thuốc chống viêm không steroid.
+
+Liều dùng: đợt tiến triển nặng (có tổn thương nội tạng như tràn dịch màng tim. màng phổi, sốt, viêm nhiều khớp...): thường dùng mini bolus: truyền tĩnh mạch 80 - 125mg methyl-prednisolon pha trong 250 ml dung dịch sinh lý trong 3-5 ngày liên tiếp. Sau liều này, duy trì tiếp tục bằng đường uống với liều 1.5 - 2 mg/kg/24 h tính theo prednisolon.
+
+Đợt tiến triển trung bình: thường bắt đầu bằng liều 1-1.5 mg/kg/ngày. Giảm dần 10°o liều đang dùng mỗi tuần tùy theo triệu chứng lâm sàng và xét nghiệm. Khi ở liều cao. thường chia uống 2/3 liều vào buổi sáng và 1/3 liều uống vào buổi chiều. Khi ờ liều từ 40 mg/ngày trở xuống. uống một lần duy nhất vào lúc 08g. sau ăn. Thường sau 1—2 tháng. có thể thay thế corticoid bằng thuốc chống viêm không steroid.
+
+Trường hợp phụ thuộc corticoid: duy trì 5 — 7.5mg/24h. uống một lần duy nhất vào lúc 8 giờ sáng sau ăn.
+
+***Thuốc chống viêm không steroid***
+
+Chỉ định của thuốc chống viêm không steroid: giai đoạn khớp viêm mức độ vừa phải. Chỉ định ngay từ đầu hoặc sau khi dùng corticoid. Có thể dùng kéo dài nhiều năm khi còn triệu chứng viêm. Lưu ý các chống chỉ định của thuốc.
+
+Có thể chỉ định một trong các thuốc sau: diclofenac (Voltaren®): 100 mg/ngày; piroxicam (Felden®. Brexin®): 20 mg/ngày: meloxicam (Mobic®): 7.5 mg/ngày; celecoxib (Celebrex®): 200 - 400 mg/ngày. Liều dựa trên nguyên tắc liều tối thiểu có hiệu quả.
+
+*Các thuốc giảm đau*
+
+Sử dụng kết hợp các thuốc giảm đau theo sơ đồ bậc thang của Tổ chức Y tế Thế giới (WHO). Đối với bệnh viêm khớp dạng thấp. thường dùng thuốc giảm đau bậc 1 hoặc 2. Đây là nhóm thuốc rất thường được chỉ định kết hợp. vì thuốc có hiệu quả tốt. ít tác dụng phụ. Có thể chỉ định một trong các thuốc sau:
+
+- Paracetamol: 2—3 gam/ngày
+
+- Paracetamol kết hợp với codein (Efferalgan Codein®): 4-6 viên/ngày.
+
+- Paracetamol kết hợp với dextropropoxyphen (Di-antalvic®): 4-6 viên/ ngày.
+
+- Floctafemn (Idarac®) 2 — 6 viên/ngày (viên nên 200 mg/viền): chỉ định trong trường hợp tổn thương tế bào gan. suy gan.
+
+**Nhóm thuốc chống thấp khớp tác dụng chậm - DMARDs**
+
+***Thuốc chống sốt rét tổng hợp***
+
+Biệt dược: Hydroxychloroquine (Plaquenil® viên nên 200 mg) hoặc Quinacrme Hydrochlorid (Atabrine® viên nên 100 mg).
+
+Liêu dùng: 200 — 600 mg/ngày. Việt Nam thường dùng 200 mg/ngày.
+
+Chống chỉ định: bệnh nhân có thai — do thuốc gây những thiếu hụt bẩm sinh như hở hàm ếch. tổn thương thần kinh thính giác và thiếu hụt cột sau... Tuy nhiên. một nghiên cứu trên 133 bệnh nhân lupus có tổn thương da *c**^* thai được điều trị hydroxychloroquin năm 2005 cho thấy thuốc này không gây u quái và không gây độc đối với người mẹ, và vẫn có thể cho con bú Ngoài ra, chống chỉ định với người có suy giảm G6PD (glucose—6 phosphate dehydrogenase) hoặc có tổn thương gan.
+
+Tác dụng phụ: chán ăn. nôn. đau thượng vị: sạm da. khò da: viêm tổ chức lưới của võng mạc không hồi phục, gây mù. Tuy nhiên với liều thấp thì tỷ lệ tai biến CU01 cùng này không đáng kể. *so*n*s* cấn kiểm tra thị lực. thi trường, soi đáy mắt mỗi 6 tháng và khòng dùng quá 6 năm.
+
+*Methotrexat RheumatrexS*
+
+Cơ chế: do methotrexat *c**ó* cấu trúc tương tự acid folic, cơ chế chính của thuốc là tranh chấp với vị trí hoạt động của acid folic trong quá trình tổng hợp pyrimidin. dẫn đến giảm tổng hợp ADN. Ngoài ra. methotrexat còn có tính chất chống viêm và ức chế miễn dịch.
+
+Chi định: hiện nay đây là thuốc chính thấp khớp tác dụng chậm — DMARDs hàng đau được chi định đối với viêm khớp dạng thấp và thấp khớp vảy nến.
+
+Chống chỉ định: hạ bạch cầu, suy gan. thận, tổn thương phổi mạn tính
+
+Tác dụng không mong muốn: thường gặp loét miệng, nôn. buồn nôn. Có thể gặp độc tế bào gan và tuỷ.
+
+Liều: trung bình 10 — 20 mf mỗi tuần (5 — 20 mg/tuần) tiêm bắp hoặc uống. Thường khởi đầu bằng liều 10 mg/ tuần.
+
+Chế phẩm: 2.5 mg-viên. tiêm bắp ống 10mg hoặc 15 mg
+
+Cách dùng: thường khởi đầu bằng đường uống với liều 10 me tuần. Xên uổng một lần cả liều vào một ngày cố định trong tuần. Trường hợp kém hiệu quả hoặc kém dung nạp. có thể dùng đường tiêm bắp hoặc tiêm dưới da. mỗi tuần tiêm một mũi duy nhất vào một ngày cô định trong tuần. Liều methotrexat có thể tăng hoặc giảm tuỳ hiệu quả đạt được. Dùng kéo dài nếu có hiệu quả và dung nạp tốt. Hiệu quà thưởng đạt được sau 1 — 2 thang, do đó thường duy trì liều đã chọn trong 1 — 2 tháng sau đó mới chính liều. Khi các triệu chứng đã thuvên giảm, có thể giảm liều các thuốc kết hợp: lần lượt giảm liều corticoid. thay bằng chống viêm không steroid. Thuốc giảm đau muộn hơn. Thuốc thường duy trì nhiêu năm. thậm chí suốt đời. Tuy nhiên, sau một giai đoạn ổn định kéo dài. thường xuất hiện tình trạng "kháng" methotresat Nếu không có hiệu quả nên kết hợp hoặc đổi các thuốc khác trong nhom.
+
+Thuốc kết hợp: thường kết hợp methotrexat với thuốc chống sốt rét tổng hợp nhằm tăng hiệu quả và giảm tác dụng không mong muốn của methotrexat trên
+ gan. Cần bổ sung acid folic (liều tương đương với liều methotrexat) nhằm giảm thiểu tác dụng phụ về máu.
+
+Các xét nghiệm cần tiến hành trước khi cho thuốc và kiểm tra trong thời gian dùng thuốc:
+
+- Tế bào máu ngoại vi: ngừng thuốc khi số lượng bạch cầu dưới 2.000/mm3
+- Enzym gan, chức năng gan (tỷ lệ prothrombin và albumin huyết thanh).
+
+- Chức năng thận (ít nhất là creatinin huyết thanh).
+
+- Chức năng hô hấp: nếu bệnh nhân có bệnh phổi mạn tính thì không được chỉ định thuốc này. Nên chỉ đo chức năng hô hấp trước khi chỉ định methotrexat để khẳng định là phổi bình thường, cần chụp lại phổi mỗi khi có các triệu chứng hô hấp.
+
+- Nếu bệnh nhân là phụ nữ ở tuổi sinh đẻ, hoặc là nam giới có vợ muốn sinh đẻ phải có biện pháp tránh thai hữu hiệu. Ngừng thuốc ít nhất trước 2 tháng mới được phép thụ thai.
+
+*Sulfasalazine (Salazopyrine®)*
+
+Thành phần: kết hợp giữa 5-aminosalysilic và sulfapyridin
+
+Chỉ định: do methotrexat là thuốc được lựa chọn hàng đầu, có hiệu quả ưu việt, nên chỉ dùng thuốc này khi có chông chỉ định đôi với methotrexat hoặc được dùng kết hợp với methotrexat.
+
+Chế phẩm: viên nén, 0,5 gam.
+
+Liêu và cách dùng: liều 2-3 gam/ngày. Ba ngày đầu mỗi ngày 1 viên, ba ngày tiếp mỗi ngày 2 viên, chia hai lần. Nếu không thấy tác dụng phụ, duy trì ngày 4 viên, chia hai lần.
+
+Tác dụng phụ: rối loạn tiêu hóa, chán ăn, đau thượng vị, ban ngoài da, bọng nước, loét miệng, protein niệu, hội chứng thận hư, viêm giáp trạng, giảm tiểu cầu, bạch cầu, huyết tán, hội chứng dạng lupus.
+
+*Cyclosporin A (Neoral® Sandimmume®*
+
+Cơ chế: ức chế vận chuyển ADN và phòng ngừa sự tích tụ mARN có vai trò tạo ra một số cytokin. Thuốc cũng ức chế các pha ban đầu của sự hoạt hoá tế bào T đối với các đại thực bào, làm giảm tổng hợp các interleukin-2. Thuốc có tác dụng ức chế miễn dịch song không có độc tính đối với tuỷ xương.
+
+Chỉ định: viêm khớp dạng thấp thể nặng, không đáp ứng với methotrexat.
+
+Cách dùng: dùng đơn độc hoặc kết hợp VỚI methotrexat.
+
+Liêu: bắt đầu bằng liêu 2,5 mg/kg/ngày, chia hai lần, cách nhau 12 giờ. Sau 4-8 tuần, nếu không có hiệu quả, tăng 0,5 - 1 mg/kg/ngày trong 1 — 2 tháng; cho đên khi đạt 5 mg/kg/ngày. Cẩn thận trọng với liều trên 4 mg/kg/ngày. Liều an toàn
+ là 2 — 3 mg/kg/ngày. Giảm liều khi chức năng thận suy giảm. Chong chi định khi bệnh nhân có tiền sử bệnh thận trước đó (độ thanh thải creatinin dưới 80 ml/phút).
+
+Biệt dược: Neoral® viên 25 và 100 mg: Sandimmume® ống 100 mg.
+
+*Các tác nhân sinh học các thuốc ức chế cytokines*
+
+Là các tác nhân gây chẹn hoặc tương tác với các chức năng của các cytokines hoạt động trong cơ chế bệnh sinh của viêm khớp dạng thấp. Đã được sử dụng tại Mỹ. Pháp và một số nước khác, chưa có ở nước ta. Trong số này. điển hình nhất là các thuốc kháng TNF.
+
+Chi định trong các trường hợp viêm khớp dạng thấp nặng, khảng với các điều trị thông thường khác; thường van kết hợp với methotrexat.
+
+Tác dụng không mong muốn đảng ngại nhất của các thuốc này là lao và các nhiễm khuẩn cơ hội.
+
+Nhóm thuốc này bao gồm các tác nhân gây chẹn hoặc tương tác với các chức năng của các cytokines hoạt động trong cơ chế bệnh sinh của viêm khớp dạng thấp. Có thể nói viêm khớp dạng thấp là một bệnh chúa được chữa khỏi hoàn toàn. Có một giai đoạn khi khớp chưa bị tổn thương, được coi là "cửa sổ cơ hội" đê có thể can thiệp, phòng tránh các tổn thương hủy khốp. dính khớp, mất chức năng vận động của khớp. Với việc điều trị sớm bằng các thuốc như methotrexat kết hợp thuốc điều trị sinh học sẽ giúp kiểm soát được bệnh, và đây là cách duy nhất để tránh các tổn thương khớp (vốn không hồi phục), cải thiện triệu chứng, tránh tàn phế, nàng cao chất lượng cuộc sống cho bệnh nhân.
+
+Các tác nhân sinh học được chỉ định trong các trường hợp viêm khớp dạng thấp nặng, kháng với các điều trị thông thường khác; thường vẫn kết hợp với Methotrexat. Thuộc nhóm này có các thuốc kháng TNF-a, thuốc ức chế tế bào B hoặc T như Mycophenolat mofetil (CellCept®) hoặc thuốc ức chế tế bào B (B-cell depletion) như Rituximab (MabThera®, Rituxan®) ; ức chế các Interleukin 6 như tocilizumab (Actemra®)... Dưới đây trình bày sơ đồ tóm tắt cơ chế các thuốc điều trị sinh học chỉ định trong bệnh viêm khớp dạng thấp, về các thuốc nhóm này, xem thêm mục điều trị sinh học (thuộc chương 6).
+
+### Điều trị tại chỗ
+
+Do hiện nay có các thuốc điều trị toàn thân tốt, các điều trị tại chỗ này ngày càng ít được sử dụng. Các phương pháp như cắt bỏ màng hoạt dịch bằng cách dùng hoá chất (tiêm acid osmic nội khớp) hoặc bằng phương pháp ngoại khoa (cắt dưới nội soi hoặc mổ mỏ) hiện ít được sử dụng, đặc biệt từ khi có các thuốc chống thấp khớp tác dụng chậm -DMARDs. Có thể tiêm các chế phẩm có cortison nội khớp đối với các khớp có tình trạng viêm kéo dài mặc dù đã được điều trị toàn thân.
+
+### Các phương pháp khác
+
+*Phục hồi chức năng*
+
+Có nhiều bài tập để giảm cứng và đau khớp, chống dính khớp. Ngoài ra cần tránh vận động quá mức ở các khớp tổn thương, tránh các động tác có thể gây ra hoặc làm đau khớp tăng lên.
+
+Người bệnh cần sử dụng các loại quần áo mềm dễ mặc, quần áo cài bằng khoá; sử dụng các loại nước uống đóng trong hộp dễ mở, cốc nhẹ, dụng cụ mở hộp dễ sử dụng; dùng thìa có cán dài và to ; giày dép đi quai dán... nhằm tạo điều kiện và khuyến khích người bệnh vận động và tự phục vụ. cần cho người bệnh có đủ thời gian để có thể thực hiện các thao tác một cách bình tĩnh.
+
+Chăm sóc các khớp ỏ cánh tay, bàn tay: hướng dẫn bệnh nhân khi nâng vật cần nâng bằng cả hai tay. Nếu bệnh nhân đau nhiều, có thể băng nẹp cổ bàn tay. Vối khớp háng và/hoặc gối, nên khuyên bệnh nhân nằm tư thế sấp trên giường cứng: nằm thẳng, đứng hoặc đi dạo. tránh đứng hoặc ngồi quá lâu; nên dùng can chống hỗ trợ đối với bên khớp đau.
+
+*Y học* *cổ truyền và nước suối khoáng*
+
+Trong các đợt tiến triển, các thuốc chống viêm mạnh là cần thiết. Song ở giai đoạn bệnh thuyên giảm, có thể nước suối khoáng nóng có thể gia tăng tác dung của phục hồi chức năng khớp. Châm cứu hoặc một số bài thuốc nam (trinh nữ hoàng cung, độc hoạt Lai Châu hoặc các thuốc đã được điều chế thành viên nén nhu Hydan, Vifotin...) có tác dụng chống viêm khớp có thể làm thuyên giảm triệu 
+
+chứng viêm, giảm liều các thuốc chống viêm, do đó làm giảm tác dụng phụ cua các thuốc nhóm này.
+
+*Điều trị ngoại khoa*
+
+Chinh hình, thay khớp nhân tạo. Hiện nay ở nước ta chủ yếu là thay các khớp háng. gối. Gần đây các phẫu thuật chỉnh hình đối với các gân. cơ. khớp nhỏ ở bàn tay bắt đầu được triển khai
+
+*Tóm* *tắt phác đồ điều trị bệnh viêm khớp dạng thấp tại Việt Nam*
+
+Kết hợp đồng thời ba nhóm thuốc dưới đây.
+
+*1.* *Thuốc chống viêm*
+
+- Corticoid liều cao và ngán ngày (thường khoảng 1-2 tháng).
+
+- Hoặc thuốc chống viêm không steroid nếu tình trạng viêm khớp cho phép.
+
+*2.* *Thuốc giảm đau*
+
+Paracetamol và các chế phẩm kết hợp khác.
+
+*3.* *Thuốc chống thấp khớp tác dụng chậm — DMARDs*
+
+- Hydroxychloroquine hoặc chloroquin (đôì với thể nhẹ)
+
+- Methotrexat + Hydroxychloroquine (được lựa chọn hàng đầu)
+
+- Salazopyrin (chỉ định khi không dung nạp methotrexat )
+
+- Methotrexat + Hydroxychloroquin + Salazopyrin
+
+- Methotrexat + Cyclosporin A
+
+- Methotrexat + Entanercept
+
+- Methotrexat + Rituximab
+
+- Methotrexat + Actemra
+
+*Ghi chú:* dùng hydroxychloroquin hoặc chloroquine
+
+Tuỳ theo mức độ tiến triển của bệnh mà tảng hoặc giảm liều các thuốc trong ba nhóm trên. Các thuốc chống viêm và giảm đau có thể giảm liều hoặc ngừng hẳn trong khi các thuốc DMADRs thường phải duy trì kéo dài. thậm chí suốt đời với số nhóm thuốc và liều thuốc tối thiểu có hiệu quả.
+
