@@ -5,6 +5,7 @@ import Link from "next/link";
 const Search = () => {
   const [isSearch, setIsSearch] = useState(false);
   const searchRef = useRef(null);
+  const inputElemennt = useRef();
   const [query, setQuery] = useState("");
   const [active, setActive] = useState(false);
   const [results, setResults] = useState([]);
@@ -49,6 +50,7 @@ const Search = () => {
       <form className="search-form" action="/search" method="GET">
         <div className="search-box">
           <input
+            ref={inputElemennt}
             className={isSearch ? "search-input show" : "search-input"}
             onChange={onChange}
             onFocus={onFocus}
@@ -90,6 +92,7 @@ const Search = () => {
         onClick={() => {
           setIsSearch(!isSearch);
           setActive(true);
+          inputElemennt.current.focus();
         }}
       >
         <svg
