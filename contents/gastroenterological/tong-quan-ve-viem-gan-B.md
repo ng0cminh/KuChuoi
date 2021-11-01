@@ -18,9 +18,9 @@ description: Hơn 400 triệu ngưiời trên thế giới nhiễm siêu vi B, �
 
 ## GIỚI THIỆU
 
-Các biểu hiện lâm sàng của nhiễm vi rút viêm gan B (HBV) khác nhau ở cả bệnh cấp tính và mãn tính. Trong giai đoạn cấp tính, các biểu hiện từ viêm gan cận lâm sàng hoặc hậu môn đến viêm gan ruột và trong một số trường hợp là viêm gan tối cấp; trong giai đoạn mãn tính, các biểu hiện bao gồm từ trạng thái mang mầm bệnh không triệu chứng đến viêm gan mãn tính, xơ gan và ung thư biểu mô tế bào gan. Các biểu hiện ngoài gan cũng có thể xảy ra với cả nhiễm trùng cấp tính và mãn tính.
+Các biểu hiện lâm sàng của nhiễm vi rút viêm gan B (HBV) khác nhau ở cả bệnh cấp tính và mãn tính. Trong giai đoạn cấp tính, các biểu hiện từ viêm gan cận lâm sàng hoặc viêm gan không vàng da đến viêm gan có hội chứng hoàng đảm và trong một số trường hợp là viêm gan tối cấp; trong giai đoạn mãn tính, các biểu hiện bao gồm từ trạng thái mang mầm bệnh không triệu chứng đến viêm gan mãn tính, xơ gan và ung thư biểu mô tế bào gan. Các biểu hiện ngoài gan cũng có thể xảy ra với cả nhiễm trùng cấp tính và mãn tính.
 
-Các biểu hiện lâm sàng và tiền sử tự nhiên của nhiễm HBV sẽ được xem xét ở đây. Các vấn đề liên quan đến dịch tễ học, lây truyền và điều trị được thảo luận riêng (xem phần đánh giá chủ đề thích hợp). Các thuật ngữ được sử dụng để xác định các trạng thái lâm sàng khác nhau được tóm tắt trong bảng bên dưới (Bảng 1).
+Các biểu hiện lâm sàng và diễn biến tự nhiên của nhiễm HBV sẽ được xem xét ở đây. Các thuật ngữ được sử dụng để xác định các trạng thái lâm sàng khác nhau được tóm tắt trong bảng bên dưới.
 
 **Bảng chú giải thuật ngữ lâm sàng được sử dụng trong nhiễm HBV**
 
