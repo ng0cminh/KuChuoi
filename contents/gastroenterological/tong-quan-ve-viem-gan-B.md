@@ -88,9 +88,9 @@ Khám sức khỏe có thể bình thường, hoặc có thể có dấu hiệu 
 Quá trình tự nhiên của nhiễm vi rút viêm gan B mãn tính (HBV) được xác định bởi sự tác động lẫn nhau giữa sự nhân lên của vi rút và phản ứng miễn dịch của vật chủ (bảng 2).
 
 **Các xét nghiệm chẩn đoán để xác định giai đoạn nhiễm vi rút viêm gan B cấp tính hoặc mãn tính**
-![cac giai doan viem gan B](images/contents/gastroenterological/tong-quan-ve-viem-gan-B/cac-giai-doan-viem-gan-b.png)
+![Các xét nghiệm xác định giai đoạn viêm gan B](images/contents/gastroenterological/tong-quan-ve-viem-gan-B/cac-giai-doan-viem-gan-b.png)
 
-> **Ghi chú bảng 2**
+> **Ghi chú**
 >
 > \* Xét nghiệm này thường được đặt hàng là anti-HBc toàn phần, bao gồm IgM và IgG.
 >
