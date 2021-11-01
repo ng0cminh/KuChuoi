@@ -37,6 +37,9 @@
 .main-content.wiki .sidebar {
   margin-left: 0px;
 }
+.wiki p {
+  overflow: hidden;
+}
 .wiki a {
   color: var(--link-color);
 }
