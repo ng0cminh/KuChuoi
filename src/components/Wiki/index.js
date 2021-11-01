@@ -67,7 +67,11 @@ const Wiki = ({ post, prevPost, nextPost }) => {
         </article>
       </section>
 
-      <TableContent content={content} headings={headings} />
+      <TableContent
+        key={slug(post.title)}
+        content={content}
+        headings={headings}
+      />
     </div>
   );
 };

@@ -4,3 +4,6 @@ Allow: /
 
 # Host
 Host: https://kuchuoi.herokuapp.com
+
+# Sitemaps
+Sitemap: https://kuchuoi.herokuapp.com/sitemap.xml

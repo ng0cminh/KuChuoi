@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Layout from "../../components/Layout";
-import BlogList from "../../components/Blog";
-import Pagination from "../../components/Pagination";
+import Category from "../../components/Blog/Category";
+
 import {
   getPostByFolder,
   getAllFolderSlug,
@@ -9,7 +9,7 @@ import {
 } from "../../lib/posts";
 import { POST_PER_PAGE } from "../../../next.config";
 
-export default function Category({ allPosts, folder, category, menu }) {
+export default function Folder({ allPosts, folder, category, menu }) {
   const [posts, setList] = useState([...allPosts.slice(0, POST_PER_PAGE)]);
 
   // Trạng thái để kích hoạt thêm
@@ -48,23 +48,12 @@ export default function Category({ allPosts, folder, category, menu }) {
 
   return (
     <Layout metadata={metadata} menu={menu}>
-      <section className="main-content grid">
-        <section id="content" className="content">
-          {posts.length > 0 && (
-            <section className="list-posts">
-              <div className="row">
-                <BlogList
-                  key={folder}
-                  posts={posts}
-                  imgWidth={740}
-                  imgHeight={370}
-                />
-              </div>
-              <Pagination hasMore={hasMore} handleLoadMore={handleLoadMore} />
-            </section>
-          )}
-        </section>
-      </section>
+      <Category
+        folder={folder}
+        posts={posts}
+        hasMore={hasMore}
+        handleLoadMore={handleLoadMore}
+      />
     </Layout>
   );
 }

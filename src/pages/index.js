@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-import Blog from "../components/Blog";
+import BlogList from "../components/Blog/";
 import { getPostsHomePage, getListNameFolder } from "../lib/posts";
 import { POST_PER_PAGE } from "../../next.config";
 
@@ -22,9 +22,12 @@ export default function Home({ data, menu }) {
                       Xem tất cả
                     </a>
                   </div>
-                  <div className="row">
-                    <Blog posts={cat.posts} imgWidth={740} imgHeight={370} />
-                  </div>
+                  <BlogList
+                    key={cat.folder}
+                    posts={cat.posts}
+                    imgWidth={740}
+                    imgHeight={370}
+                  />
                 </section>
               )
             );
