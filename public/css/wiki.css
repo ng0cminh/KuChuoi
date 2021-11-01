@@ -1,6 +1,7 @@
 .main-content.wiki {
   margin: 0px;
   font-size: 1.6rem;
+  overflow: hidden;
 }
 .wiki .content,
 .wiki .sidebar {
