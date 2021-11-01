@@ -63,6 +63,15 @@ a {
   color: var(--text-color);
 }
 
+table,
+th,
+td {
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+}
+
 button,
 input[type="button"],
 input[type="reset"],

@@ -68,7 +68,7 @@
   margin-bottom: 0px;
 }
 
-.article-content .post-pagination {
+.post-pagination {
   display: flex;
   padding: 15px 0px;
   justify-content: space-between;
@@ -98,7 +98,7 @@
 }
 
 @media (max-width: 1024px) {
-  .article-content .post-pagination {
+  .post-pagination {
     flex-direction: column;
   }
   .post-pagination .prev-post {

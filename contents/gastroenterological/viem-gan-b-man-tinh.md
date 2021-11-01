@@ -145,5 +145,3 @@ Có 3 phần đặc biệt mà hướng dẫn khác nhau:
 | HBeAg +/ - Xơ gan còn bù                                                          | DNA HBV < 105 copies/ml: không điều trị                                 | DNA HBV < 104 copies/ml: không điều trị                                                                   |
 | DNA HBV → 105 copies/ml: cần điều trị                                             | DNA HBV → 104 copies/ml: cần điều trị                                   |                                                                                                           |
 | Xơ gan mất bù                                                                     | Điều trị nếu DNA HBV > 105 copies/ml                                    | Điều tri                                                                                                  |
-
----

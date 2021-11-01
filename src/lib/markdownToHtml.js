@@ -1,7 +1,8 @@
-import remark from "remark";
-import html from "remark-html";
+import markdownIt from "markdown-it";
 
 export default async function markdownToHtml(markdown) {
-  const result = await remark().use(html).process(markdown);
+  const md = markdownIt();
+  const result = md.render(markdown);
+
   return result.toString();
 }

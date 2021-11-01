@@ -4,7 +4,7 @@ import { parse } from "node-html-parser";
 import Link from "next/link";
 import TableContent from "./TableContent";
 
-const Wiki = ({ post }) => {
+const Wiki = ({ post, prevPost, nextPost }) => {
   const content = parse(post.content);
   const headings = content.querySelectorAll("h1, h2, h3");
   for (const heading of headings) {
@@ -37,6 +37,30 @@ const Wiki = ({ post }) => {
                 className="wiki-body"
                 dangerouslySetInnerHTML={{ __html: content }}
               />
+
+              <div className="post-pagination">
+                <div className="prev-post">
+                  {prevPost && (
+                    <>
+                      <span>bài trước</span>
+                      <Link href={`/${prevPost.slug}`}>
+                        <a>{prevPost.title}</a>
+                      </Link>
+                    </>
+                  )}
+                </div>
+
+                <div className="next-post">
+                  {nextPost && (
+                    <>
+                      <span>bài kế tiếp</span>
+                      <Link href={`/${nextPost.slug}`}>
+                        <a>{nextPost.title}</a>
+                      </Link>
+                    </>
+                  )}
+                </div>
+              </div>
             </div>
           </div>
           <footer className="wiki-footer"></footer>
