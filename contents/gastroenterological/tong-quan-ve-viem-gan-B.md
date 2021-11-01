@@ -88,19 +88,7 @@ Khám sức khỏe có thể bình thường, hoặc có thể có dấu hiệu 
 Quá trình tự nhiên của nhiễm vi rút viêm gan B mãn tính (HBV) được xác định bởi sự tác động lẫn nhau giữa sự nhân lên của vi rút và phản ứng miễn dịch của vật chủ (bảng 2).
 
 **Các xét nghiệm chẩn đoán để xác định giai đoạn nhiễm vi rút viêm gan B cấp tính hoặc mãn tính**
-
-| **HBsAg**                                                | **HBeAg** | **IgM anti-HBc** | **Total anti-HBc\*** | **Anti-HBs** | **Anti-HBe** | **HBV DNA**                                               | **ALT¶**                  | **Diễn giải**                          |
-| -------------------------------------------------------- | --------- | ---------------- | -------------------- | ------------ | ------------ | --------------------------------------------------------- | ------------------------- | -------------------------------------- |
-| **Nhiễm HBV cấp tính**                                   |           |                  |                      |              |              |                                                           |                           |                                        |
-| +                                                        | +         | +                | ±                    |              |              | +++                                                       | Cao                       | Giai đoạn đầu                          |
-|                                                          |           | +                | ±                    |              |              | +                                                         | Cao                       | Giai đoạn cửa sổ                       |
-|                                                          |           |                  | +                    | +            | +            | ±                                                         | Bình thường               | Giai đoạn phục hồi                     |
-| **Nhiễm HBV mãn tính (HBsAg dương tính trong> 6 tháng)** |           |                  |                      |              |              |                                                           |                           |                                        |
-| +                                                        | +         |                  | +                    | -            | -            | +++ (HBV huyết thanh thường> 1 triệu đơn vị quốc tế / mL) | Bình thường hoặc tăng nhẹ | Giai đoạn dung nạp miễn dịch Δ         |
-| +                                                        | +         |                  | +                    | -            | -            | +++ (HBV huyết thanh> 20.000 đơn vị quốc tế / mL)         | Tăng liên tục             | Hoạt động miễn dịch, HBeAg dương tính◊ |
-| +                                                        | -         |                  | +                    | -            | +            | ++ (HBV huyết thanh> 2000 đơn vị quốc tế / mL)            | Cao                       | Hoạt động miễn dịch, HBeAg âm tính ◊   |
-| +                                                        | -         |                  | +                    |              | +            | - đến ++ (HBV huyết thanh ≤ 2000 đơn vị quốc tế / mL)     | Bình thường hoặc tăng nhẹ | HBV mãn tính không hoạt động§          |
-| -                                                        | -         |                  | ± (nói chung là +)   | ±            | ±            | + ở gan; - to + trong huyết thanh                         | Bình thường               | HBV che lấp (occult)                   |
+![cac giai doan viem gan B](images/contents/gastroenterological/tong-quan-ve-viem-gan-B/cac-giai-doan-viem-gan-b.png)
 
 > **Ghi chú bảng 2**
 >
