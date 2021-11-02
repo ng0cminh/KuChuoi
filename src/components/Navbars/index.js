@@ -60,7 +60,12 @@ const Navbars = ({ menu }) => {
                 return (
                   <li className="navbar-item" key={item.folder}>
                     <Link href={`/category/${item.folder}`}>
-                      <a className="navbar-link">{item.category}</a>
+                      <a
+                        className="navbar-link"
+                        onClick={() => setIsShowMobileMenu(false)}
+                      >
+                        {item.category}
+                      </a>
                     </Link>
                   </li>
                 );
