@@ -53,7 +53,12 @@ const Navbars = ({ menu }) => {
             <ul className="navbar-list">
               <li className="navbar-item">
                 <Link href="/">
-                  <a className="navbar-link">Home</a>
+                  <a
+                    className="navbar-link"
+                    onClick={() => setIsShowMobileMenu(false)}
+                  >
+                    Home
+                  </a>
                 </Link>
               </li>
               {menu.map((item) => {
