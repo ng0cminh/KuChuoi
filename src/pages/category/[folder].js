@@ -22,6 +22,12 @@ export default function Folder({ allPosts, folder, category, menu }) {
   const handleLoadMore = () => {
     setLoadMore(true);
   };
+
+  //Load post theo thư mục
+  useEffect(() => {
+    setList([...allPosts.slice(0, POST_PER_PAGE)]);
+  }, [allPosts]);
+
   // Handle loading more articles
   useEffect(() => {
     if (loadMore && hasMore) {
@@ -49,7 +55,6 @@ export default function Folder({ allPosts, folder, category, menu }) {
   return (
     <Layout metadata={metadata} menu={menu}>
       <Category
-        folder={folder}
         posts={posts}
         hasMore={hasMore}
         handleLoadMore={handleLoadMore}
@@ -70,6 +75,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   // Get external data from the file system, API, DB, etc.
+
   const data = await getPostByFolder(params.folder);
   const { posts, category } = data;
   const menu = getListNameFolder();

@@ -59,12 +59,9 @@ const Navbars = ({ menu }) => {
               {menu.map((item) => {
                 return (
                   <li className="navbar-item" key={item.folder}>
-                    <a
-                      className="navbar-link"
-                      href={`/category/${item.folder}`}
-                    >
-                      {item.category}
-                    </a>
+                    <Link href={`/category/${item.folder}`}>
+                      <a className="navbar-link">{item.category}</a>
+                    </Link>
                   </li>
                 );
               })}
