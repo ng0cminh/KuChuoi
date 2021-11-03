@@ -7,7 +7,7 @@ date: "2021-10-29"
 isWiki: true
 isDraft: false
 isHomePage: true
-isFeatured: false
+isFeatured: true
 isTrending: false
 isHotnew: false
 image: tong-quan-ve-viem-gan-B/index.jpg
