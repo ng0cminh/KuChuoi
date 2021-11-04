@@ -170,11 +170,11 @@ Các di chứng của nhiễm vi rút viêm gan B (HBV) mãn tính thay đổi t
 
 Tiên lượng xấu hơn ở bệnh nhân nhiễm HBV từ các vùng lưu hành bệnh và ở bệnh nhân viêm gan B mãn tính [ 75-78 ]. Tỷ lệ tiến triển ước tính trong 5 năm là [ 79 ]:
 
-\- Viêm gan mãn tính đến xơ gan - 12 đến 20 phần trăm
+\- Viêm gan mãn tính tiến triển thành xơ gan: 12 đến 20 phần trăm
 
-\- Xơ gan còn bù do gan mất bù - 20 đến 23 phần trăm
+\- Xơ gan còn bù tiến triển thành xơ gan mất bù: 20 đến 23 phần trăm
 
-\- Xơ gan được bù đắp thành HCC - 6 đến 15 phần trăm
+\- Xơ gan còn bù tiến triển HCC: 6 đến 15 phần trăm
 
 Tỷ lệ sống tích lũy ở mỗi giai đoạn bệnh tiến triển này là [ 76,78-81 ]:
 
