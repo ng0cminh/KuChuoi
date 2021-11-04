@@ -390,11 +390,11 @@ Một cuộc thảo luận chi tiết hơn về sàng lọc HCC được trình 
 7.  Weinbaum CM, Williams I, Mast EE, et al. Recommendations for identification and public health management of persons with chronic hepatitis B virus infection. MMWR Recomm Rep 2008; 57:1.
 8.  Wong GL, Wong VW, Choi PC, et al. Evaluation of alanine transaminase and hepatitis B virus DNA to predict liver cirrhosis in hepatitis B e antigen-negative chronic hepatitis B using transient elastography. Am J Gastroenterol 2008; 103:3071.
 9.  Lai M, Hyatt BJ, Nasser I, et al. The clinical significance of persistently normal ALT in chronic hepatitis B infection. J Hepatol 2007; 47:760.
-10.     Kumar M, Sarin SK, Hissar S, et al. Virologic and histologic features of chronic hepatitis B virus-infected asymptomatic patients with persistently normal ALT. Gastroenterology 2008; 134:1376.
-11.     Andreani T, Serfaty L, Mohand D, et al. Chronic hepatitis B virus carriers in the immunotolerant phase of infection: histologic findings and outcome. Clin Gastroenterol Hepatol 2007; 5:636.
+10. Kumar M, Sarin SK, Hissar S, et al. Virologic and histologic features of chronic hepatitis B virus-infected asymptomatic patients with persistently normal ALT. Gastroenterology 2008; 134:1376.
+11. Andreani T, Serfaty L, Mohand D, et al. Chronic hepatitis B virus carriers in the immunotolerant phase of infection: histologic findings and outcome. Clin Gastroenterol Hepatol 2007; 5:636.
 12. Hui CK, Leung N, Yuen ST, et al. Natural history and disease progression in Chinese chronic hepatitis B patients in immune-tolerant phase. Hepatology 2007; 46:395.
 13. Yapali S, Talaat N, Lok AS. Management of hepatitis B: our practice and how it relates to the guidelines. Clin Gastroenterol Hepatol 2014; 12:16.
-14.     Kwon H, Lok AS. Hepatitis B therapy. Nat Rev Gastroenterol Hepatol 2011; 8:275.
+14. Kwon H, Lok AS. Hepatitis B therapy. Nat Rev Gastroenterol Hepatol 2011; 8:275.
 
 15. Fontana RJ, Hann HW, Perrillo RP, et al. Determinants of early mortality in patients with decompensated chronic hepatitis B treated with antiviral therapy. Gastroenterology 2002; 123:719.
 16. Yao FY, Terrault NA, Freise C, et al. Lamivudine treatment is beneficial in patients with severely decompensated cirrhosis and actively replicating hepatitis B infection awaiting liver transplantation: a comparative study using a matched, untreated cohort. Hepatology 2001; 34:411.
