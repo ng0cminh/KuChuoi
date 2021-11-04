@@ -5,7 +5,7 @@ author:
   description: Bác sĩ nội khoa
 date: "2021-10-29"
 isWiki: true
-isDraft: false
+isDraft: true
 isHomePage: true
 isFeatured: false
 isTrending: false
