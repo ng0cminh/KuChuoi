@@ -62,7 +62,7 @@ Hiệu quả của liệu pháp phối hợp ở bệnh nhân viêm gan B mạn 
 
 Ít nhất bốn thử nghiệm có đối chứng trên bệnh HbeAg âm tính và HBeAg dương tính với viêm gan B đã đánh giá hiệu quả của liệu pháp phối hợp peginterferon với lamivudine  [ 6-8 ]. Mặc dù liệu pháp phối hợp dẫn đến tỷ lệ đáp ứng virus học và sinh hóa cao hơn khi kết thúc điều trị, nhưng đáp ứng bền vững được đánh giá sau 6 tháng sau khi điều trị là tương tự so với peginterferon đơn thuần.
 
-### HBV mãn tính HBeAg dương tính
+#### HBV mãn tính HBeAg dương tính
 Một số nghiên cứu đã đánh giá peginterferon có và không có lamivudine trong điều trị HBV mạn tính HBeAg dương tính [ 6,8,9 ]. Các dữ liệu này được xem xét cùng nhau cho thấy peginterferon hiệu quả hơn lamivudine trong việc gây chuyển đổi huyết thanh HBeAg khi đáp ứng được đánh giá sáu tháng sau khi ngừng điều trị và liệu pháp phối hợp không mang lại lợi ích gì so với đơn trị liệu peginterferon. Tuy nhiên, sự ức chế vi rút xảy ra nhanh hơn ở những nhóm dùng lamivudine có hoặc không có peginterferon, và đột biến kháng lamivudine ít được phát hiện hơn ở những người dùng kết hợp peginterferon và lamivudine so với đơn trị liệu lamivudine.
 
 - Một nghiên cứu đa quốc gia bao gồm tổng cộng 814 bệnh nhân được chỉ định ngẫu nhiên dùng peginterferon alfa-2a (180 mcg mỗi tuần) với giả dược hoặc lamivudine (100 mg mỗi ngày) hoặc đơn trị liệu lamivudine [ 9]. Bệnh nhân được điều trị trong 48 tuần và được đánh giá sau 24 tuần theo dõi không điều trị. Vào tuần 72, tất cả các kết quả có nhiều khả năng hơn ở nhóm nhận peginterferon so với đơn trị liệu lamivudine (chuyển đổi huyết thanh HBeAg 32 và 27 so với 19 phần trăm), (HBV DNA <100.000 bản sao / mL (khoảng 20.000 đơn vị quốc tế / mL) 32 và 34 so với 22%), (HbeAg mất 34 và 28 so với 21%), và (bình thường hóa alanin transaminase [ALT] 41 và 39 so với 28%) trong các nhóm đơn trị liệu peginterferon, liệu pháp phối hợp hoặc nhóm lamivudin tương ứng.
@@ -76,7 +76,7 @@ bùng phát Alanine transaminase (ALT) trong khi điều trị dựa trên inter
 
 Trong một nghiên cứu, bùng phát ALT xảy ra ở 38 (51%) bệnh nhân dùng peginterferon và lamivudine và ở 37 (49%) bệnh nhân dùng peginterferon đơn trị liệu [ 6 ]. Nhìn chung, bùng phát không phổ biến hơn ở những người phản hồi (responders – không biết dịch là gì nữa). Tuy nhiên, các đợt bùng phát do vật chủ gây ra (bùng phát sau đó là HBV DNA giảm) có nhiều khả năng liên quan đến sự mất HBeAg hơn đáng kể so với các đợt bùng phát do virus gây ra (bùng phát sau khi HBV DNA tăng): 58 so với 20% [ 10 ]. Hơn nữa, sự mất đi kháng nguyên bề mặt của viêm gan B (HBsAg) chỉ được thấy ở những bệnh nhân bị bùng phát do vật chủ gây ra.
 
-### HBV mãn tính HBeAg âm tính
+#### HBV mãn tính HBeAg âm tính
 Một thử nghiệm bao gồm tổng số 537 bệnh nhân nhiễm HBV mãn tính HBeAg âm tính, những người được phân ngẫu nhiên vào một trong ba nhóm [ 7 ]:
 
 - Peginterferon alfa-2a (180 mcg hàng tuần) cộng với giả dược trong 48 tuần
