@@ -13,7 +13,7 @@ isHotnew: false
 image: ket-hop-thuoc-dieu-tri-viem-gan-B-man-tinh/index.jpg
 tags: ["viêm gan b", "kết hợp thuốc điều trị viêm gan b"]
 keywords: viêm gan, viêm gan B,viêm gan B mạn tính, kết hợp thuốc điều trị viêm gan b mạn tính
-description: Bài tổng quan chủ đề sau đây sẽ tóm tắt các vấn đề liên quan đến quản lý nhiễm HBV. Các khuyến nghị dưới đây thường phù hợp với hướng dẫn của Hiệp hội Châu Âu về Nghiên cứu Gan (EASL), Hiệp hội Châu Á - Thái Bình Dương về Hướng dẫn Nghiên cứu về Gan và Hướng dẫn Thực hành của Hiệp hội Nghiên cứu Các Bệnh về Gan (AASLD) của Hoa Kỳ. Các quyết định lâm sàng liên quan đến từng bệnh nhân phải dựa trên thông tin lâm sàng và kết quả xét nghiệm cụ thể của từng bệnh nhân
+description: Đơn trị liệu với một tác nhân kháng vi-rút đơn lẻ hoặc interferon không có khả năng đủ để loại trừ nhiễm vi-rút viêm gan B (HBV) ở phần lớn bệnh nhân bị nhiễm bệnh mãn tính. Với sự sẵn có của một số loại thuốc, có thể dự tính liệu pháp phối hợp cho bệnh viêm gan B. Một cách tiếp cận như vậy đã được chứng minh là có lợi ở bệnh nhân nhiễm HIV và những người có bệnh viêm gan C mãn tính.
 ---
 
 Tất cả các chủ đề đều được cập nhật khi có bằng chứng mới và quá trình đánh giá ngang hàng của chúng tôi đã hoàn tất.
