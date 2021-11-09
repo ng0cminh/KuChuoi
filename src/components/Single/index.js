@@ -27,6 +27,7 @@ const Single = ({ post, prevPost, nextPost, featuredPosts }) => {
                 date={post.date}
                 size={32}
                 href={post.slug}
+                title={post.title && post.title}
               />
 
               <div

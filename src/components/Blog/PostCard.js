@@ -3,6 +3,7 @@ import Image from "next/image";
 import HeaderCard from "../Widgets/HeaderCard";
 
 const PostCard = ({ post, imgWidth, imgHeight }) => {
+  console.log(post);
   return (
     <div className="card">
       <article className="article">
@@ -11,6 +12,7 @@ const PostCard = ({ post, imgWidth, imgHeight }) => {
           date={post.date}
           size={16}
           href={post.slug}
+          title={post.title && post.title}
         />
         <div className="article-main">
           <div className="article-banner">

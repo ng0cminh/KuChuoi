@@ -4,7 +4,7 @@ author:
   name: Kủ Chuối
   description: Bác sĩ nội khoa
 date: "2021-10-29"
-isWiki: true
+isWiki: false
 isDraft: false
 isHomePage: true
 isFeatured: true

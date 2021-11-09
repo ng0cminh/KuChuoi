@@ -1,7 +1,7 @@
 import Link from "next/link";
 import TopNavbars from "../Navbars/TopNavbar";
 import SocialBox from "../Widgets/SocialBox";
-import { slogan } from "../../../next.config";
+import { slogan, social } from "../../../next.config";
 
 const Header = () => {
   return (
@@ -10,7 +10,7 @@ const Header = () => {
         <div className="container">
           <nav className="navbars">
             <TopNavbars />
-            <SocialBox size={16} href="#" />
+            <SocialBox size={16} href={social} />
           </nav>
         </div>
       </div>
