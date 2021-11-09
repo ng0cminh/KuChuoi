@@ -15,6 +15,10 @@
 .single .article-main .article-content {
   padding: 0 10px;
 }
+.article-body p,
+.article-body li {
+  overflow-wrap: anywhere;
+}
 
 .single .article-content .article-body a {
   color: var(--link-color);

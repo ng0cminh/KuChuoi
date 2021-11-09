@@ -13,7 +13,8 @@
   padding-right: 30px;
   margin-right: 0px;
 }
-.wiki-body p {
+.wiki-body p,
+.wiki-body li {
   overflow-wrap: anywhere;
 }
 
