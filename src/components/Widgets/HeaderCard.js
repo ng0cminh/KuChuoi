@@ -4,14 +4,8 @@ import slug from "slug";
 import Link from "next/link";
 import Image from "next/image";
 import SocialBox from "./SocialBox";
-import { domain } from "../../../next.config";
 
-const HeaderCard = ({ author, date, size, href, title }) => {
-  const social = {
-    fb: `https://www.facebook.com/sharer.php?u=${domain + href}`,
-    tw: `https://twitter.com/intent/tweet?text=${title} - ${domain + href}`,
-    ins: `https://www.facebook.com/sharer.php?u=${domain + href}`,
-  };
+const HeaderCard = ({ author, date, size, social }) => {
   return (
     <header className="article-header">
       <div className="author-date">

@@ -1,3 +1,4 @@
+import { domain } from "../../next.config";
 import Layout from "../components/Layout";
 import Single from "../components/Single";
 import Wiki from "../components/Wiki";
@@ -12,16 +13,30 @@ import {
 } from "../lib/posts";
 
 const Detail = ({ post, prevPost, nextPost, featuredPosts, menu }) => {
+  const social = {
+    fb: `https://www.facebook.com/sharer.php?u=${domain + post.slug}`,
+    tw: `https://twitter.com/intent/tweet?text=${post.title} - ${
+      domain + post.slug
+    }`,
+    ins: `https://www.facebook.com/sharer.php?u=${domain + post.slug}`,
+  };
+
   return (
     <Layout metadata={post} menu={menu} isWiki={post.isWiki}>
       {post.isWiki ? (
-        <Wiki post={post} prevPost={prevPost} nextPost={nextPost} />
+        <Wiki
+          post={post}
+          prevPost={prevPost}
+          nextPost={nextPost}
+          social={social}
+        />
       ) : (
         <Single
           post={post}
           prevPost={prevPost}
           nextPost={nextPost}
           featuredPosts={featuredPosts}
+          social={social}
         />
       )}
     </Layout>

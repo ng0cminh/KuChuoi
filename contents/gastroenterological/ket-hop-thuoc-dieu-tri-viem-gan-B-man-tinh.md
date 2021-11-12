@@ -7,7 +7,7 @@ date: "2021-11-07"
 isWiki: true
 isDraft: false
 isHomePage: true
-isFeatured: true
+isFeatured: false
 isTrending: false
 isHotnew: false
 image: ket-hop-thuoc-dieu-tri-viem-gan-B-man-tinh/index.jpg

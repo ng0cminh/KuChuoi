@@ -5,7 +5,7 @@ import Sidebar from "../Sidebar";
 import HeaderCard from "../Widgets/HeaderCard";
 import AuthorBox from "../Widgets/AuthorBox";
 
-const Single = ({ post, prevPost, nextPost, featuredPosts }) => {
+const Single = ({ post, prevPost, nextPost, featuredPosts, social }) => {
   return (
     <div className="main-content single">
       <section id="content" className="content">
@@ -26,8 +26,7 @@ const Single = ({ post, prevPost, nextPost, featuredPosts }) => {
                 author={post.author}
                 date={post.date}
                 size={32}
-                href={post.slug}
-                title={post.title && post.title}
+                social={social}
               />
 
               <div

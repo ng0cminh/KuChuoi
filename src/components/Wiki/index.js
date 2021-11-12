@@ -3,8 +3,9 @@ import slug from "slug";
 import { parse } from "node-html-parser";
 import Link from "next/link";
 import TableContent from "./TableContent";
+import SocialBox from "../Widgets/SocialBox";
 
-const Wiki = ({ post, prevPost, nextPost }) => {
+const Wiki = ({ post, prevPost, nextPost, social }) => {
   const content = parse(post.content);
   const headings = content.querySelectorAll("h1, h2, h3");
   for (const heading of headings) {
@@ -32,6 +33,7 @@ const Wiki = ({ post, prevPost, nextPost }) => {
                     </span>
                   </span>
                 </div>
+                <SocialBox size={26} href={social} />
               </header>
               <div
                 className="wiki-body"
@@ -60,6 +62,9 @@ const Wiki = ({ post, prevPost, nextPost }) => {
                     </>
                   )}
                 </div>
+              </div>
+              <div id="comments">
+                <h2>List Comment</h2>
               </div>
             </div>
           </div>

@@ -7,7 +7,7 @@ date: "2021-11-08"
 isWiki: true
 isDraft: false
 isHomePage: true
-isFeatured: true
+isFeatured: false
 isTrending: false
 isHotnew: false
 image: cac-xet-nghiem-tam-soat-va-chan-doan-viem-gan-B/index.png

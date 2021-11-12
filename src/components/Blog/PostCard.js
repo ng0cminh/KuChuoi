@@ -1,8 +1,16 @@
 import Link from "next/link";
 import Image from "next/image";
 import HeaderCard from "../Widgets/HeaderCard";
+import { domain } from "../../../next.config";
 
 const PostCard = ({ post, imgWidth, imgHeight }) => {
+  const social = {
+    fb: `https://www.facebook.com/sharer.php?u=${domain + post.slug}`,
+    tw: `https://twitter.com/intent/tweet?text=${post.title} - ${
+      domain + post.slug
+    }`,
+    ins: `https://www.facebook.com/sharer.php?u=${domain + post.slug}`,
+  };
   return (
     <div className="card">
       <article className="article">
@@ -10,8 +18,7 @@ const PostCard = ({ post, imgWidth, imgHeight }) => {
           author={post.author ? post.author : {}}
           date={post.date}
           size={16}
-          href={post.slug}
-          title={post.title && post.title}
+          social={social}
         />
         <div className="article-main">
           <div className="article-banner">

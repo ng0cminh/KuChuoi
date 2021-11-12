@@ -13,6 +13,12 @@
   padding-right: 30px;
   margin-right: 0px;
 }
+
+.wiki .wiki-name-author a {
+  color: var(--hover-color);
+  font-weight: bold;
+}
+
 .wiki-body p,
 .wiki-body li {
   overflow-wrap: anywhere;
@@ -42,7 +48,7 @@
   margin-left: 0px;
 }
 
-.wiki a {
+.wiki-body a {
   color: var(--link-color);
 }
 .wiki a:hover {
@@ -60,11 +66,36 @@
   margin-left: 0px;
   margin-right: 0px;
 }
+
 .post-pagination {
+  display: flex;
+  padding: 15px 0px;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border-color);
   margin-top: 30px;
   border-top: 1px solid var(--border-color);
 }
+.post-pagination .prev-post {
+  padding-right: 25px;
+  text-align: left;
+}
 
+.post-pagination .next-post {
+  padding-left: 25px;
+  text-align: right;
+}
+.post-pagination span {
+  display: block;
+  color: var(--bg-footer);
+}
+.post-pagination a {
+  line-height: 3.2rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.post-pagination a:hover {
+  color: var(--bg-top);
+}
 /* Side bar */
 .wiki .sidebar-nav {
   position: sticky;
