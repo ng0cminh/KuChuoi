@@ -11,7 +11,7 @@ isFeatured: true
 isTrending: false
 isHotnew: false
 image: quan-ly-va-dieu-tri-viem-gan-B/index.png
-tags: ["viêm gan b", "điều trị viêm gan b"]
+tags: ["viêm gan b"]
 keywords: viêm gan, viêm gan B, viêm gan b cấp, viêm gan B mạn tính
 description: Chủ đề này sẽ tóm tắt các vấn đề liên quan đến quản lý nhiễm HBV. Các khuyến nghị dưới đây thường phù hợp với hướng dẫn của Hiệp hội Châu Âu về Nghiên cứu Gan (EASL), Hiệp hội Châu Á - Thái Bình Dương về Hướng dẫn Nghiên cứu về Gan và Hướng dẫn Thực hành của Hiệp hội Nghiên cứu Các Bệnh về Gan (AASLD) của Hoa Kỳ
 ---

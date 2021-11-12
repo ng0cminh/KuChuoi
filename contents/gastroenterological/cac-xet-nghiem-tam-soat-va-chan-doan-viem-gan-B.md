@@ -11,7 +11,7 @@ isFeatured: true
 isTrending: false
 isHotnew: false
 image: cac-xet-nghiem-tam-soat-va-chan-doan-viem-gan-B/index.png
-tags: ["viêm gan b", "xét nghiệm viêm gan b"]
+tags: ["viêm gan b"]
 keywords: viêm gan, viêm gan B, viêm gan B cần xét nghiệm gì
 description: Chủ đề này sẽ tập trung vào những thay đổi về lượng kháng nguyên, kháng thể và DNA của bệnh viêm gan B xảy ra trong quá trình nhiễm trùng cấp tính và mãn tính và cách các xét nghiệm gì có thể được sử dụng trên lâm sàng.
 ---

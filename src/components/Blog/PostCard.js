@@ -3,7 +3,6 @@ import Image from "next/image";
 import HeaderCard from "../Widgets/HeaderCard";
 
 const PostCard = ({ post, imgWidth, imgHeight }) => {
-  console.log(post);
   return (
     <div className="card">
       <article className="article">
