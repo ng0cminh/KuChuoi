@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://kuchuoi.herokuapp.com
+Host: https://kuchuoi.com
 
 # Sitemaps
-Sitemap: https://kuchuoi.herokuapp.com/sitemap.xml
+Sitemap: https://kuchuoi.com/sitemap.xml
