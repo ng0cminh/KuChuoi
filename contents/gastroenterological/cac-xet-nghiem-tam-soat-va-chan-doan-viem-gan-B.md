@@ -2,7 +2,7 @@
 title: Các xét nghiệm tầm soát và chẩn đoán viêm gan B
 author:
   name: Kủ Chuối
-  description: Bác sĩ nội khoa
+  description: Một bác sĩ muốn nâng cao sức khoẻ cộng đồng và thích viết blog để chia sẻ những gì mình biết đến mọi người.
 date: "2021-11-08"
 isWiki: true
 isDraft: false

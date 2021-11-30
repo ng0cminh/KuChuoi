@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import slug from "slug";
 import Link from "next/link";
-
+import { aboutMe } from "../../../next.config";
 const AuthorBox = ({ author }) => {
   return (
     <div className="author-box">
