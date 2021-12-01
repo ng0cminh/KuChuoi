@@ -9,7 +9,7 @@ const SEO = ({ metadata }) => {
       <meta property="og:type" content="website" />
       <meta
         property="og:url"
-        content={domain + "/" + metadata.slug ? metadata.slug : ""}
+        content={metadata.slug ? domain + "/" + metadata.slug : domain}
       />
       <meta property="og:locale" content="vi_VN" />
       <meta property="og:site_name" content={slogan} />
