@@ -7,7 +7,10 @@ const SEO = ({ metadata }) => {
       <title>{`${metadata.title} | ${slogan}`}</title>
       <meta name="og:title" property="og:title" content={metadata.title} />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content={domain + "/" + metadata.slug} />
+      <meta
+        property="og:url"
+        content={domain + "/" + metadata.slug ? metadata.slug : ""}
+      />
       <meta property="og:locale" content="vi_VN" />
       <meta property="og:site_name" content={slogan} />
 
@@ -16,7 +19,7 @@ const SEO = ({ metadata }) => {
         content={
           metadata.image
             ? domain + metadata.image
-            : domain + `/images/default/article.jpg`
+            : domain + `/images/default/image.jpg`
         }
       />
       <meta
@@ -24,7 +27,7 @@ const SEO = ({ metadata }) => {
         content={
           metadata.image
             ? domain + metadata.image
-            : domain + `/images/default/article.jpg`
+            : domain + `/images/default/image.jpg`
         }
       />
       <meta property="og:image:type" content="image/jpeg" />
