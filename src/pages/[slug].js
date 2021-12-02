@@ -18,7 +18,7 @@ const Detail = ({ post, prevPost, nextPost, featuredPosts, menu }) => {
     tw: `https://twitter.com/intent/tweet?text=${post.title} - ${
       domain + post.slug
     }`,
-    ins: `https://www.facebook.com/sharer.php?u=${domain + post.slug}`,
+    link: domain + post.slug,
   };
 
   return (
