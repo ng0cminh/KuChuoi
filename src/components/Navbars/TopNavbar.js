@@ -14,15 +14,15 @@ const TopNavbars = () => {
         </Link>
       </li>
       <li className="navbar-item">
-        <Link href="/rules">
-          <a className="navbar-link">Điều Khoản Sử Dụng</a>
-        </Link>
-      </li>
-      <li className="navbar-item">
         <Link href="/contact">
           <a className="navbar-link">Liên Hệ</a>
         </Link>
       </li>
+      <li className="navbar-item">
+        <Link href="/rules">
+          <a className="navbar-link">Điều Khoản</a>
+        </Link>
+      </li>{" "}
     </ul>
   );
 };

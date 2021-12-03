@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
-import { getListNameFolder } from "../lib/posts";
-
-function Contact({ menu }) {
+import { getListNameFolder, getPageBySlug } from "../lib/posts";
+import markdownToHtml from "../lib/markdownToHtml";
+function Contact({ menu, content }) {
   const metadata = {
     title: "Liên hệ",
     slug: "contact",
@@ -9,7 +9,7 @@ function Contact({ menu }) {
 
   return (
     <Layout metadata={metadata} menu={menu}>
-      <h1>Contact Page</h1>
+      <div dangerouslySetInnerHTML={{ __html: content }} />
     </Layout>
   );
 }
@@ -18,13 +18,15 @@ export default Contact;
 
 export async function getStaticProps() {
   // Get external data from the file system, API, DB, etc.
-  const menu = getListNameFolder();
-
+  const menu = await getListNameFolder();
+  const contentMarkdown = await getPageBySlug("contact");
+  const content = (await markdownToHtml(contentMarkdown)) || "";
   // The value of the `props` key will be
   // passed to the `Home` component
   return {
     props: {
       menu,
+      content,
     },
   };
 }

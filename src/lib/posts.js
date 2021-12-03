@@ -4,15 +4,17 @@ import matter from "gray-matter";
 import slug from "slug";
 import { FOLDER_CONTENT, POST_PER_PAGE, ORDER_BY } from "../../next.config";
 
-const pathContents = join(process.cwd(), FOLDER_CONTENT);
+const rootContents = join(process.cwd(), FOLDER_CONTENT);
+const pathPosts = join(rootContents, "posts");
+const pathPages = join(rootContents, "pages");
 
 // Get danh sách thư mục và tên hiển thị dựa vào file a.text
 export function getListNameFolder() {
-  const folders = fs.readdirSync(pathContents);
+  const folders = fs.readdirSync(pathPosts);
 
   let result = [];
   folders.forEach((folder) => {
-    const folderPath = join(pathContents, folder, "a.txt");
+    const folderPath = join(pathPosts, folder, "a.txt");
     const category = fs.readFileSync(folderPath, "utf8");
     result.push({
       category,
@@ -25,10 +27,10 @@ export function getListNameFolder() {
 
 // Get posts theo file .md
 export function getPostByFile(folder, number, selection) {
-  const pathFolder = join(pathContents, folder);
+  const pathFolder = join(pathPosts, folder);
   let fileNames = fs.readdirSync(pathFolder);
 
-  const categoryPath = join(pathContents, folder, "a.txt");
+  const categoryPath = join(pathPosts, folder, "a.txt");
   const category = fs.readFileSync(categoryPath, "utf8");
 
   // Chỉ lấy những File .md
@@ -79,7 +81,7 @@ export function getPostByFile(folder, number, selection) {
 
 // Lấy tất cả bài viết
 export function getAllPost() {
-  const folders = fs.readdirSync(pathContents);
+  const folders = fs.readdirSync(pathPosts);
 
   let allPost = [];
   folders.forEach((folder) => {
@@ -92,7 +94,7 @@ export function getAllPost() {
 
 // Lấy bài viết theo thư mục
 export function getPostByFolder(folder, number, selection) {
-  const categoryPath = join(pathContents, folder, "a.txt");
+  const categoryPath = join(pathPosts, folder, "a.txt");
   const category = fs.readFileSync(categoryPath, "utf8");
 
   const posts = getPostByFile(folder, number, selection);
@@ -106,7 +108,7 @@ export function getPostByFolder(folder, number, selection) {
 
 // Lấy bài viết trên trang chủ
 export function getPostsHomePage(number = POST_PER_PAGE, selection) {
-  const folders = fs.readdirSync(pathContents);
+  const folders = fs.readdirSync(pathPosts);
   let data = [];
   folders.forEach((folder) => {
     data.push(getPostByFolder(folder, number, selection));
@@ -116,7 +118,7 @@ export function getPostsHomePage(number = POST_PER_PAGE, selection) {
 
 // Lấy các đường dẫn của thư mục bài viết
 export function getAllFolderSlug() {
-  const folders = fs.readdirSync(pathContents);
+  const folders = fs.readdirSync(pathPosts);
   return folders.map((folder) => {
     return {
       params: {
@@ -161,12 +163,12 @@ export function getPostByAuthor(author) {
 // Lấy các đường dẫn của bài viết
 export function getAllPostSlug() {
   // Lấy danh sách File và Folder
-  const folders = fs.readdirSync(pathContents);
+  const folders = fs.readdirSync(pathPosts);
 
   let allPostSlug = [];
 
   folders.forEach((folder) => {
-    let fileNames = fs.readdirSync(join(pathContents, folder));
+    let fileNames = fs.readdirSync(join(pathPosts, folder));
     fileNames = fileNames.filter((fileName) => {
       return fileName.includes(".md");
     });
@@ -211,4 +213,10 @@ export function getFeaturedPost(number) {
       return post.isFeatured === true;
     })
     .slice(0, number);
+}
+
+export async function getPageBySlug(slug) {
+  const fullPath = join(pathPages, slug, "index.md");
+  const contents = fs.readFileSync(fullPath, "utf8");
+  return contents;
 }

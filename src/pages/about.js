@@ -1,14 +1,16 @@
 import Layout from "../components/Layout";
-import { getListNameFolder } from "../lib/posts";
+import { getListNameFolder, getPageBySlug } from "../lib/posts";
+import markdownToHtml from "../lib/markdownToHtml";
 
-function About({ menu }) {
+function About({ menu, content }) {
   const metadata = {
     title: "Giới thiệu",
     slug: "about",
   };
+
   return (
     <Layout metadata={metadata} menu={menu}>
-      <h1>About Page</h1>
+      <div dangerouslySetInnerHTML={{ __html: content }} />
     </Layout>
   );
 }
@@ -17,13 +19,15 @@ export default About;
 
 export async function getStaticProps() {
   // Get external data from the file system, API, DB, etc.
-  const menu = getListNameFolder();
-
+  const menu = await getListNameFolder();
+  const contentMarkdown = await getPageBySlug("about");
+  const content = (await markdownToHtml(contentMarkdown)) || "";
   // The value of the `props` key will be
   // passed to the `Home` component
   return {
     props: {
       menu,
+      content,
     },
   };
 }
