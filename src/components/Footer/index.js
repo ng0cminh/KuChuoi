@@ -24,7 +24,7 @@ const Footer = ({ isWiki }) => {
         <div className="bottom-footer">
           <div className="info">
             <p>
-              Copyright © 2021 by <a href="/about">Kủ Chuối</a>
+              Copyright © 2021 by <a href="/about">Kủ Chuối Blog</a>
             </p>
           </div>
           <nav className="navbars">
