@@ -9,7 +9,7 @@ function Contact({ menu, content }) {
 
   return (
     <Layout metadata={metadata} menu={menu}>
-      <div dangerouslySetInnerHTML={{ __html: content }} />
+      <div className="pages" dangerouslySetInnerHTML={{ __html: content }} />
     </Layout>
   );
 }
