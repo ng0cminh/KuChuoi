@@ -1,0 +1,7 @@
+.pages {
+  font-size: 1.8rem;
+}
+
+.pages a {
+  color: var(--link-color);
+}

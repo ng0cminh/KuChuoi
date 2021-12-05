@@ -1,7 +1,8 @@
 import Layout from "../components/Layout";
-import { getListNameFolder } from "../lib/posts";
+import { getListNameFolder, getPageBySlug } from "../lib/posts";
+import markdownToHtml from "../lib/markdownToHtml";
 
-function Rules({ menu }) {
+function Rules({ menu, content }) {
   const metadata = {
     title: "Điều khoản sử dụng",
     slug: "rules",
@@ -9,7 +10,7 @@ function Rules({ menu }) {
 
   return (
     <Layout metadata={metadata} menu={menu}>
-      <h1>Rules Page</h1>
+      <div className="pages" dangerouslySetInnerHTML={{ __html: content }} />
     </Layout>
   );
 }
@@ -18,13 +19,15 @@ export default Rules;
 
 export async function getStaticProps() {
   // Get external data from the file system, API, DB, etc.
-  const menu = getListNameFolder();
-
+  const menu = await getListNameFolder();
+  const contentMarkdown = await getPageBySlug("rules");
+  const content = (await markdownToHtml(contentMarkdown)) || "";
   // The value of the `props` key will be
   // passed to the `Home` component
   return {
     props: {
       menu,
+      content,
     },
   };
 }
