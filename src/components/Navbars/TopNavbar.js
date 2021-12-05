@@ -16,21 +16,13 @@ const TopNavbars = () => {
       <li className="navbar-item">
         <Link href="/contact">
           <a className="navbar-link">Liên Hệ</a>
-<<<<<<< HEAD
-        </Link>
-      </li>
-      <li className="navbar-item">
-        <Link href="/rules">
-          <a className="navbar-link">Điều Khoản</a>
-=======
->>>>>>> aae8d8ec4cc4c24c2e4f1df4306ffaf16ba8d3c1
         </Link>
       </li>
       <li className="navbar-item">
         <Link href="/rules">
           <a className="navbar-link">Điều Khoản</a>
         </Link>
-      </li>{" "}
+      </li>
     </ul>
   );
 };

@@ -4,13 +4,9 @@ import matter from "gray-matter";
 import slug from "slug";
 import { FOLDER_CONTENT, POST_PER_PAGE, ORDER_BY } from "../../next.config";
 
-<<<<<<< HEAD
-const pathPosts = join(process.cwd(), FOLDER_CONTENT, "posts");
-=======
 const rootContents = join(process.cwd(), FOLDER_CONTENT);
 const pathPosts = join(rootContents, "posts");
 const pathPages = join(rootContents, "pages");
->>>>>>> aae8d8ec4cc4c24c2e4f1df4306ffaf16ba8d3c1
 
 // Get danh sách thư mục và tên hiển thị dựa vào file a.text
 export function getListNameFolder() {
