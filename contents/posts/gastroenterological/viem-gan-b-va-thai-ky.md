@@ -160,7 +160,7 @@ Hiệp hội Y học Bà mẹ-Thai nhi khuyến cáo rằng đối với những
 
 Phòng ngừa lây truyền từ mẹ sang con bao gồm sàng lọc phụ nữ mang thai, cung cấp liệu pháp kháng vi-rút cho những phụ nữ có nồng độ HBV DNA cao và thực hiện tiêm chủng chủ động thụ động cho trẻ sơ sinh của những bà mẹ có HBsAg dương tính.
 
-![Quy trình phòng ngừa lây truyền mẹ con](images/contents/gastroenterological/viem-gan-B-va-thai-ky/AlgoHBVpregnancy.png)
+![Quy trình phòng ngừa lây truyền mẹ con](images/contents/gastroenterological/viem-gan-b-va-thai-ky/AlgoHBVpregnancy.png)
 
 Hình 1: Quy trình phòng ngừa lây truyền mẹ con
 
