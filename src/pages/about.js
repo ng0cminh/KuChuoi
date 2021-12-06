@@ -20,8 +20,12 @@ export default About;
 export async function getStaticProps() {
   // Get external data from the file system, API, DB, etc.
   const menu = await getListNameFolder();
+
+  const contents = await getPageBySlug("about");
+
   const contentMarkdown = await getPageBySlug("about");
   const content = (await markdownToHtml(contentMarkdown)) || "";
+
   // The value of the `props` key will be
   // passed to the `Home` component
   return {

@@ -22,7 +22,7 @@ const TopNavbars = () => {
         <Link href="/rules">
           <a className="navbar-link">Điều Khoản</a>
         </Link>
-      </li>{" "}
+      </li>
     </ul>
   );
 };
