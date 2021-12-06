@@ -2,8 +2,9 @@ const fs = require("fs");
 const { join } = require("path");
 const matter = require("gray-matter");
 
+const pathContents = join(process.cwd(), "contents/posts");
+
 function getPostByFile(folder) {
-  const pathContents = join(process.cwd(), "contents");
   const pathFolder = join(pathContents, folder);
   let fileNames = fs.readdirSync(pathFolder);
 
@@ -21,9 +22,7 @@ function getPostByFile(folder) {
       const fileContents = fs.readFileSync(fullPath, "utf8");
 
       // Tạo metadata cho post bằng cách sử dụng gray-matter
-      const { content, data } = matter(fileContents);
-      const wordsContent = content.trim().split(/\s+/).length;
-      const readTime = Math.ceil(wordsContent / 200);
+      const { data } = matter(fileContents);
 
       const slug = fileName.replace(/\.md$/, "");
 
@@ -31,7 +30,6 @@ function getPostByFile(folder) {
         slug,
         category,
         folder,
-        readTime,
         ...data,
       };
     })
@@ -39,8 +37,6 @@ function getPostByFile(folder) {
 }
 
 function postData() {
-  const pathContents = join(process.cwd(), "contents");
-
   const folders = fs.readdirSync(pathContents);
 
   let posts = [];

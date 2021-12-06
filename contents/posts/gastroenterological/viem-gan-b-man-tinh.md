@@ -5,7 +5,7 @@ author:
   description: Một bác sĩ muốn nâng cao sức khoẻ cộng đồng và thích viết blog để chia sẻ những gì mình biết đến mọi người.
 date: "2021-10-29"
 isWiki: true
-isDraft: false
+isDraft: true
 isHomePage: false
 isFeatured: false
 isTrending: false
