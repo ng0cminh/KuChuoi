@@ -278,8 +278,6 @@ export function getAllTagsSlug() {
     tags = tags.concat(post.tags);
   });
 
-  console.log(tags);
-
   tags = tags.map((tag) => {
     return slug(tag);
   });
