@@ -11,9 +11,9 @@ isFeatured: false
 isTrending: false
 isHotnew: false
 image: viem-khop-tu-phat-thieu-nien/index.jpg
-tags: ["viêm khớp", viêm khớp khớp tự phát thiếu niên"]
+tags: ["viêm khớp tự phát thiếu niên"]
 keywords: viêm khớp khớp tự phát thiếu niên, thấp khớp
-description: Viêm khớp tự phát thiếu niên trước kia có một số tên gọi khác như viêm khớp tự phát ở trẻ em, hoặc viêm khớp mạn tính thiếu niên (Juvenile chronic arthritis) hoặc viêm khớp dạng thấp thiếu niên. Đó là bệnh lý có viêm khớp, không rõ nguyên nhân, khởi phát trước 16 tuổi, tồn tại trên 6 tuần. Các viêm khớp này gồm nhiều thể khác nhau. Tỷ lệ mắc của môi bệnh có khác nhau.
+description: Viêm khớp tự phát thiếu niên trước kia có một số tên gọi khác như viêm khớp tự phát ở trẻ em, hoặc viêm khớp mạn tính thiếu niên (Juvenile chronic arthritis) hoặc viêm khớp dạng thấp thiếu niên. Đó là bệnh lý có viêm khớp, không rõ nguyên nhân, khởi phát trước 16 tuổi, tồn tại trên 6 tuần. Các viêm khớp này gồm nhiều thể khác nhau. Tỷ lệ mắc của mỗi bệnh có khác nhau.
 ---
 
 ## ĐẠI CƯƠNG VỀ BỆNH VIÊM KHỚP TỰ PHÁT THIẾU NIÊN

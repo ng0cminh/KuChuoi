@@ -26,7 +26,7 @@ export function getListNameFolder() {
 }
 
 // Get posts theo file .md
-export function getContentPostByFile(folder, number, selection) {
+export function getContentPostByFile(folder, selection) {
   const pathFolder = join(pathPosts, folder);
   let fileNames = fs.readdirSync(pathFolder);
 
@@ -80,7 +80,7 @@ export function getContentPostByFile(folder, number, selection) {
 }
 
 // Get posts theo file .md
-export function getPostByFile(folder, number, selection) {
+export function getPostByFile(folder, selection) {
   const pathFolder = join(pathPosts, folder);
   let fileNames = fs.readdirSync(pathFolder);
 
@@ -119,26 +119,16 @@ export function getPostByFile(folder, number, selection) {
         }
         return true;
       }
-    })
-    .sort(({ date: a }, { date: b }) => {
-      if (ORDER_BY === "ASC") {
-        return a < b ? 1 : a > b ? -1 : 0;
-      } else if (ORDER_BY === "DESC") {
-        return a > b ? 1 : a < b ? -1 : 0;
-      } else {
-        return undefined;
-      }
-    })
-    .slice(0, number);
+    });
 }
 
 // Lấy tất cả bài viết
-export function getAllPost() {
+export function getAllPost(selection) {
   const folders = fs.readdirSync(pathPosts);
 
   let allPost = [];
   folders.forEach((folder) => {
-    allPost = allPost.concat(getPostByFile(folder));
+    allPost = allPost.concat(getPostByFile(folder, selection));
   });
 
   // Xoá  bỏ những bài viết nháp
@@ -273,12 +263,48 @@ export async function getPostDataBySlug(slug) {
 }
 
 // Lấy bài viết nổi bật
-export function getFeaturedPost(number) {
-  return getAllPost()
-    .filter((post) => {
-      return post.isFeatured === true;
-    })
-    .slice(0, number);
+export function getFeaturedPost(selection) {
+  return getAllPost(selection).filter((post) => {
+    return post.isFeatured === true;
+  });
+}
+
+// Lấy các đường dẫn của tác giả bài viết
+export function getAllTagsSlug() {
+  let posts = getAllPost();
+  let tags = [];
+
+  posts.forEach((post) => {
+    tags = tags.concat(post.tags);
+  });
+
+  console.log(tags);
+
+  tags = tags.map((tag) => {
+    return slug(tag);
+  });
+
+  tags = [...new Set(tags)]; // loại bỏ những phần tử trùng nhau trong mảng
+
+  return tags.map((tag) => {
+    return {
+      params: {
+        tag,
+      },
+    };
+  });
+}
+
+// Lấy bài viết theo tác giả
+export function getPostByTag(tag) {
+  const posts = getAllPost().filter((post) => {
+    const tags = post.tags.map((tag) => slug(tag));
+    return tags.includes(tag);
+  });
+
+  return {
+    posts,
+  };
 }
 
 export async function getPageBySlug(slug) {

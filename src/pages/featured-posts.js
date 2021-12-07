@@ -61,7 +61,7 @@ export async function getStaticProps() {
   const menu = getListNameFolder();
 
   // Get external data from the file system, API, DB, etc.
-  const posts = await getFeaturedPost();
+  const posts = await getFeaturedPost("isFeatured");
 
   // The value of the `props` key will be
   // passed to the `Blog` component

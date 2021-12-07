@@ -1,17 +1,25 @@
 import React, { useState, useEffect } from "react";
 import Layout from "../../components/Layout";
-import Category from "../../components/Blog/Category";
-
-import {
-  getPostByFolder,
-  getAllFolderSlug,
-  getListNameFolder,
-} from "../../lib/posts";
+import Blog from "../../components/Blog";
+import Pagination from "../../components/Pagination";
+import Sidebar from "../../components/Sidebar";
 import { POST_PER_PAGE } from "../../../next.config";
 
-export default function Folder({ allPosts, folder, category, menu }) {
-  const [posts, setList] = useState([...allPosts.slice(0, POST_PER_PAGE)]);
+import {
+  getAllTagsSlug,
+  getPostByTag,
+  getFeaturedPost,
+  getListNameFolder,
+} from "../../lib/posts";
 
+export default function Category({
+  allPosts,
+  tag,
+
+  featuredPosts,
+  menu,
+}) {
+  const [posts, setList] = useState([...allPosts.slice(0, POST_PER_PAGE)]);
   // Trạng thái để kích hoạt thêm
   const [loadMore, setLoadMore] = useState(false);
 
@@ -22,12 +30,6 @@ export default function Folder({ allPosts, folder, category, menu }) {
   const handleLoadMore = () => {
     setLoadMore(true);
   };
-
-  //Load post theo thư mục
-  useEffect(() => {
-    setList([...allPosts.slice(0, POST_PER_PAGE)]);
-  }, [allPosts]);
-
   // Handle loading more articles
   useEffect(() => {
     if (loadMore && hasMore) {
@@ -48,24 +50,27 @@ export default function Folder({ allPosts, folder, category, menu }) {
   }, [posts]); //eslint-disable-line
 
   const metadata = {
-    title: category,
-    slug: `category/${folder}`,
+    title: tag,
+    description: `Trang bài viết theo ${tag}`,
+    slug: `tags/${tag}`,
   };
 
   return (
     <Layout metadata={metadata} menu={menu}>
-      <Category
-        posts={posts}
-        hasMore={hasMore}
-        handleLoadMore={handleLoadMore}
-      />
+      <section className="main-content loop">
+        <section id="content" className="content">
+          <Blog posts={posts} imgWidth={900} imgHeight={450} />
+          <Pagination hasMore={hasMore} handleLoadMore={handleLoadMore} />
+        </section>
+        <Sidebar featuredPosts={featuredPosts} />
+      </section>
     </Layout>
   );
 }
 
 export async function getStaticPaths() {
   // Return a list of possible value for slug
-  const paths = getAllFolderSlug();
+  const paths = getAllTagsSlug();
 
   return {
     paths,
@@ -75,19 +80,20 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   // Get external data from the file system, API, DB, etc.
+  const { posts } = getPostByTag(params.tag);
 
-  const data = await getPostByFolder(params.folder);
-  const { posts, category } = data;
+  const featuredPosts = await getFeaturedPost(5);
+
   const menu = getListNameFolder();
 
   // The value of the `props` key will be
   // passed to the `Blog` component
   return {
     props: {
-      category,
-      allPosts: posts,
-      folder: params.folder,
       menu,
+      allPosts: posts,
+      tag: params.tag,
+      featuredPosts,
     },
   };
 }
