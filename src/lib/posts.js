@@ -26,7 +26,7 @@ export function getListNameFolder() {
 }
 
 // Get posts theo file .md
-export function getPostByFile(folder, number, selection) {
+export function getContentPostByFile(folder, number, selection) {
   const pathFolder = join(pathPosts, folder);
   let fileNames = fs.readdirSync(pathFolder);
 
@@ -79,6 +79,59 @@ export function getPostByFile(folder, number, selection) {
     .slice(0, number);
 }
 
+// Get posts theo file .md
+export function getPostByFile(folder, number, selection) {
+  const pathFolder = join(pathPosts, folder);
+  let fileNames = fs.readdirSync(pathFolder);
+
+  const categoryPath = join(pathPosts, folder, "a.txt");
+  const category = fs.readFileSync(categoryPath, "utf8");
+
+  // Chỉ lấy những File .md
+  fileNames = fileNames.filter((fileName) => {
+    return fileName.includes(".md");
+  });
+
+  return fileNames
+    .map((fileName) => {
+      const fullPath = join(pathFolder, fileName);
+      const fileContents = fs.readFileSync(fullPath, "utf8");
+
+      // Tạo metadata cho post bằng cách sử dụng gray-matter
+      const { content, data } = matter(fileContents);
+      const wordsContent = content.trim().split(/\s+/).length;
+      const readTime = Math.ceil(wordsContent / 200);
+
+      const slug = fileName.replace(/\.md$/, "");
+
+      return {
+        slug,
+        category,
+        folder,
+        readTime,
+        ...data,
+      };
+    })
+    .filter((post) => {
+      if (post.isDraft != true) {
+        if (selection) {
+          return post[selection] === undefined ? true : post[selection];
+        }
+        return true;
+      }
+    })
+    .sort(({ date: a }, { date: b }) => {
+      if (ORDER_BY === "ASC") {
+        return a < b ? 1 : a > b ? -1 : 0;
+      } else if (ORDER_BY === "DESC") {
+        return a > b ? 1 : a < b ? -1 : 0;
+      } else {
+        return undefined;
+      }
+    })
+    .slice(0, number);
+}
+
 // Lấy tất cả bài viết
 export function getAllPost() {
   const folders = fs.readdirSync(pathPosts);
@@ -86,6 +139,19 @@ export function getAllPost() {
   let allPost = [];
   folders.forEach((folder) => {
     allPost = allPost.concat(getPostByFile(folder));
+  });
+
+  // Xoá  bỏ những bài viết nháp
+  return allPost;
+}
+
+// Lấy tất cả bài viết
+export function getAllContentPost() {
+  const folders = fs.readdirSync(pathPosts);
+
+  let allPost = [];
+  folders.forEach((folder) => {
+    allPost = allPost.concat(getContentPostByFile(folder));
   });
 
   // Xoá  bỏ những bài viết nháp
@@ -188,7 +254,7 @@ export function getAllPostSlug() {
 
 // Lấy nội dung bài viết theo đường dẫn
 export async function getPostDataBySlug(slug) {
-  const posts = getAllPost();
+  const posts = getAllContentPost();
   const postsLength = posts.length - 1;
 
   const postIndex = posts.findIndex((post) => {
