@@ -71,7 +71,7 @@ export default function Category({
 
 export async function getStaticPaths() {
   // Return a list of possible value for slug
-  const paths = getAllAuthorSlug();
+  const paths = await getAllAuthorSlug();
   return {
     paths,
     fallback: false,
@@ -80,11 +80,11 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   // Get external data from the file system, API, DB, etc.
-  const { posts, authorName } = getPostByAuthor(params.name);
+  const { posts, authorName } = await getPostByAuthor(params.name);
 
   const featuredPosts = await getFeaturedPost(5);
 
-  const menu = getListNameFolder();
+  const menu = await getListNameFolder();
 
   // The value of the `props` key will be
   // passed to the `Blog` component

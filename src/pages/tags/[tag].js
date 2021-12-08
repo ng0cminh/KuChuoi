@@ -12,13 +12,7 @@ import {
   getListNameFolder,
 } from "../../lib/posts";
 
-export default function Category({
-  allPosts,
-  tag,
-
-  featuredPosts,
-  menu,
-}) {
+export default function Tags({ allPosts, tag, featuredPosts, menu }) {
   const [posts, setList] = useState([...allPosts.slice(0, POST_PER_PAGE)]);
   // Trạng thái để kích hoạt thêm
   const [loadMore, setLoadMore] = useState(false);
@@ -70,7 +64,7 @@ export default function Category({
 
 export async function getStaticPaths() {
   // Return a list of possible value for slug
-  const paths = getAllTagsSlug();
+  const paths = await getAllTagsSlug();
 
   return {
     paths,
@@ -80,11 +74,11 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   // Get external data from the file system, API, DB, etc.
-  const { posts } = getPostByTag(params.tag);
+  const { posts } = await getPostByTag(params.tag);
 
   const featuredPosts = await getFeaturedPost(5);
 
-  const menu = getListNameFolder();
+  const menu = await getListNameFolder();
 
   // The value of the `props` key will be
   // passed to the `Blog` component

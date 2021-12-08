@@ -65,7 +65,7 @@ export default function Folder({ allPosts, folder, category, menu }) {
 
 export async function getStaticPaths() {
   // Return a list of possible value for slug
-  const paths = getAllFolderSlug();
+  const paths = await getAllFolderSlug();
 
   return {
     paths,
@@ -78,7 +78,7 @@ export async function getStaticProps({ params }) {
 
   const data = await getPostByFolder(params.folder);
   const { posts, category } = data;
-  const menu = getListNameFolder();
+  const menu = await getListNameFolder();
 
   // The value of the `props` key will be
   // passed to the `Blog` component

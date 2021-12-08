@@ -59,7 +59,7 @@ export async function getStaticProps({ params }) {
   // Fetch necessary data for the blog post using params.slug
   const { post, prevPost, nextPost } = await getPostDataBySlug(params.slug);
   const featuredPosts = await getFeaturedPost(5);
-  const menu = getListNameFolder();
+  const menu = await getListNameFolder();
 
   if (!post) {
     return {

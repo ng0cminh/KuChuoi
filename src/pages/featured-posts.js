@@ -58,7 +58,7 @@ export default function Category({ allPosts, menu }) {
 }
 
 export async function getStaticProps() {
-  const menu = getListNameFolder();
+  const menu = await getListNameFolder();
 
   // Get external data from the file system, API, DB, etc.
   const posts = await getFeaturedPost("isFeatured");

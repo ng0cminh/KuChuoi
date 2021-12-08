@@ -75,7 +75,7 @@ export function getContentPostByFile(folder, selection) {
       } else {
         return undefined;
       }
-    })
+    });
 }
 
 // Get posts theo file .md
@@ -264,11 +264,11 @@ export async function getPostDataBySlug(slug) {
 // Lấy bài viết nổi bật
 export function getFeaturedPost(selection) {
   return getAllPost(selection).filter((post) => {
-    return post.isFeatured === true;
+    return post[selection] === true;
   });
 }
 
-// Lấy các đường dẫn của tác giả bài viết
+// Lấy các đường dẫn của tags bài viết
 export function getAllTagsSlug() {
   let posts = getAllPost();
   let tags = [];
@@ -292,7 +292,7 @@ export function getAllTagsSlug() {
   });
 }
 
-// Lấy bài viết theo tác giả
+// Lấy bài viết theo tags
 export function getPostByTag(tag) {
   const posts = getAllPost().filter((post) => {
     const tags = post.tags.map((tag) => slug(tag));
