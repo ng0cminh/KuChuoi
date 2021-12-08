@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-function FeaturedBox({ featuredPosts }) {
+function SelectionBox({ selectionPosts }) {
   return (
     <div className="widget">
       <h3 className="widget-title">
@@ -11,7 +11,7 @@ function FeaturedBox({ featuredPosts }) {
       </h3>
       <div className="widget-content">
         <ul className="widget-post">
-          {featuredPosts.map((post, index) => {
+          {selectionPosts.map((post, index) => {
             return (
               <li className="item-post" key={post.slug + index}>
                 <span>
@@ -44,4 +44,4 @@ function FeaturedBox({ featuredPosts }) {
   );
 }
 
-export default FeaturedBox;
+export default SelectionBox;

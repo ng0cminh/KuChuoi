@@ -8,11 +8,11 @@ import markdownToHtml from "../lib/markdownToHtml";
 import {
   getAllPostSlug,
   getPostDataBySlug,
-  getFeaturedPost,
+  getSelectionPost,
   getListNameFolder,
 } from "../lib/posts";
 
-const Detail = ({ post, prevPost, nextPost, featuredPosts, menu }) => {
+const Detail = ({ post, prevPost, nextPost, selectionPosts, menu }) => {
   const social = {
     fb: `https://www.facebook.com/sharer.php?u=${domain + post.slug}`,
     tw: `https://twitter.com/intent/tweet?text=${post.title} - ${
@@ -35,7 +35,7 @@ const Detail = ({ post, prevPost, nextPost, featuredPosts, menu }) => {
           post={post}
           prevPost={prevPost}
           nextPost={nextPost}
-          featuredPosts={featuredPosts}
+          selectionPosts={selectionPosts}
           social={social}
         />
       )}
@@ -58,7 +58,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   // Fetch necessary data for the blog post using params.slug
   const { post, prevPost, nextPost } = await getPostDataBySlug(params.slug);
-  const featuredPosts = await getFeaturedPost(5);
+  const selectionPosts = await getSelectionPost("isFeatured");
   const menu = await getListNameFolder();
 
   if (!post) {
@@ -77,7 +77,7 @@ export async function getStaticProps({ params }) {
       post,
       prevPost,
       nextPost,
-      featuredPosts,
+      selectionPosts,
     },
   };
 }

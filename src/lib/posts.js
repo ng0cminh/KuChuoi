@@ -26,7 +26,7 @@ export function getListNameFolder() {
 }
 
 // Get posts theo file .md
-export function getContentPostByFile(folder, selection) {
+export function getContentPostByFile(folder) {
   const pathFolder = join(pathPosts, folder);
   let fileNames = fs.readdirSync(pathFolder);
 
@@ -61,19 +61,7 @@ export function getContentPostByFile(folder, selection) {
     })
     .filter((post) => {
       if (post.isDraft != true) {
-        if (selection) {
-          return post[selection] === undefined ? true : post[selection];
-        }
         return true;
-      }
-    })
-    .sort(({ date: a }, { date: b }) => {
-      if (ORDER_BY === "ASC") {
-        return a < b ? 1 : a > b ? -1 : 0;
-      } else if (ORDER_BY === "DESC") {
-        return a > b ? 1 : a < b ? -1 : 0;
-      } else {
-        return undefined;
       }
     });
 }
@@ -117,6 +105,15 @@ export function getPostByFile(folder, selection) {
           return post[selection] === undefined ? true : post[selection];
         }
         return true;
+      }
+    })
+    .sort(({ date: a }, { date: b }) => {
+      if (ORDER_BY === "ASC") {
+        return a < b ? 1 : a > b ? -1 : 0;
+      } else if (ORDER_BY === "DESC") {
+        return a > b ? 1 : a < b ? -1 : 0;
+      } else {
+        return undefined;
       }
     });
 }
@@ -262,10 +259,8 @@ export async function getPostDataBySlug(slug) {
 }
 
 // Lấy bài viết nổi bật
-export function getFeaturedPost(selection) {
-  return getAllPost(selection).filter((post) => {
-    return post[selection] === true;
-  });
+export function getSelectionPost(selection, number = POST_PER_PAGE) {
+  return getAllPost(selection).slice(0, number);
 }
 
 // Lấy các đường dẫn của tags bài viết

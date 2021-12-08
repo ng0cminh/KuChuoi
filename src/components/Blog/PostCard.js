@@ -26,7 +26,7 @@ const PostCard = ({ post, imgWidth, imgHeight }) => {
               {post.isFeatured && (
                 <div className="badge featured">
                   <span>
-                    <Link href="/featured-posts">
+                    <Link href="/posts/featured">
                       <a>Nổi bật</a>
                     </Link>
                   </span>
@@ -35,7 +35,7 @@ const PostCard = ({ post, imgWidth, imgHeight }) => {
               {post.isTrending && (
                 <div className="badge trending">
                   <span>
-                    <Link href="/trending-posts">
+                    <Link href="/posts/trending">
                       <a>Xu Hướng</a>
                     </Link>
                   </span>
@@ -44,7 +44,7 @@ const PostCard = ({ post, imgWidth, imgHeight }) => {
               {post.isHotnew && (
                 <div className="badge hotnew">
                   <span>
-                    <Link href="/hotnew-posts">
+                    <Link href="/posts/hotnew">
                       <a>Mới nhất</a>
                     </Link>
                   </span>

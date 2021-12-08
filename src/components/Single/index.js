@@ -6,7 +6,7 @@ import Sidebar from "../Sidebar";
 import HeaderCard from "../Widgets/HeaderCard";
 import AuthorBox from "../Widgets/AuthorBox";
 
-const Single = ({ post, prevPost, nextPost, featuredPosts, social }) => {
+const Single = ({ post, prevPost, nextPost, selectionPosts, social }) => {
   return (
     <div className="main-content single">
       <section id="content" className="content">
@@ -91,7 +91,7 @@ const Single = ({ post, prevPost, nextPost, featuredPosts, social }) => {
         </article>
       </section>
 
-      <Sidebar featuredPosts={featuredPosts} />
+      <Sidebar selectionPosts={selectionPosts} />
     </div>
   );
 };

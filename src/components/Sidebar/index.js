@@ -1,12 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
-import FeaturedBox from "../Widgets/FeaturedBox";
+import SelectionBox from "../Widgets/SelectionBox";
 import AboutBox from "../Widgets/AboutBox";
 
-const Sidebar = ({ featuredPosts }) => {
+const Sidebar = ({ selectionPosts }) => {
   return (
     <aside className="sidebar" id="sidebar">
       <AboutBox />
-      <FeaturedBox featuredPosts={featuredPosts} />
+      <SelectionBox selectionPosts={selectionPosts} />
     </aside>
   );
 };

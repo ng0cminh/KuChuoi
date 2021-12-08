@@ -8,7 +8,7 @@ import { POST_PER_PAGE } from "../../../next.config";
 import {
   getAllAuthorSlug,
   getPostByAuthor,
-  getFeaturedPost,
+  getSelectionPost,
   getListNameFolder,
 } from "../../lib/posts";
 
@@ -16,7 +16,7 @@ export default function Category({
   allPosts,
   author,
   authorName,
-  featuredPosts,
+  selectionPosts,
   menu,
 }) {
   const [posts, setList] = useState([...allPosts.slice(0, POST_PER_PAGE)]);
@@ -63,7 +63,7 @@ export default function Category({
           <Blog posts={posts} imgWidth={900} imgHeight={450} />
           <Pagination hasMore={hasMore} handleLoadMore={handleLoadMore} />
         </section>
-        <Sidebar featuredPosts={featuredPosts} />
+        <Sidebar selectionPosts={selectionPosts} />
       </section>
     </Layout>
   );
@@ -82,7 +82,7 @@ export async function getStaticProps({ params }) {
   // Get external data from the file system, API, DB, etc.
   const { posts, authorName } = await getPostByAuthor(params.name);
 
-  const featuredPosts = await getFeaturedPost(5);
+  const selectionPosts = await getSelectionPost("isFeatured");
 
   const menu = await getListNameFolder();
 
@@ -94,7 +94,7 @@ export async function getStaticProps({ params }) {
       allPosts: posts,
       authorName,
       author: params.name,
-      featuredPosts,
+      selectionPosts,
     },
   };
 }

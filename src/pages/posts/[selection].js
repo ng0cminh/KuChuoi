@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import Layout from "../components/Layout";
-import Blog from "../components/Blog";
-import Pagination from "../components/Pagination";
-import { POST_PER_PAGE } from "../../next.config";
-import { getFeaturedPost, getListNameFolder } from "../lib/posts";
+import Layout from "../../components/Layout";
+import Blog from "../../components/Blog";
+import Pagination from "../../components/Pagination";
+import { POST_PER_PAGE } from "../../../next.config";
+import { getSelectionPost, getListNameFolder } from "../../lib/posts";
 
-export default function Category({ allPosts, menu }) {
+export default function Selection({ allPosts, menu }) {
   const [posts, setList] = useState([...allPosts.slice(0, POST_PER_PAGE)]);
 
   // Trạng thái để kích hoạt thêm
@@ -57,11 +57,33 @@ export default function Category({ allPosts, menu }) {
   );
 }
 
-export async function getStaticProps() {
+export async function getStaticPaths() {
+  // Return a list of possible value for slug
+  const paths = [
+    {
+      params: { selection: "featured" },
+    },
+    {
+      params: { selection: "trendding" },
+    },
+    {
+      params: { selection: "hotnew" },
+    },
+  ];
+
+  return {
+    paths,
+    fallback: false,
+  };
+}
+
+export async function getStaticProps({ params }) {
   const menu = await getListNameFolder();
+  const selection =
+    "is" + params.selection.charAt(0).toUpperCase() + params.selection.slice(1);
 
   // Get external data from the file system, API, DB, etc.
-  const posts = await getFeaturedPost("isFeatured");
+  const posts = await getSelectionPost(selection);
 
   // The value of the `props` key will be
   // passed to the `Blog` component

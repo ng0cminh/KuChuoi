@@ -8,11 +8,11 @@ import { POST_PER_PAGE } from "../../../next.config";
 import {
   getAllTagsSlug,
   getPostByTag,
-  getFeaturedPost,
+  getSelectionPost,
   getListNameFolder,
 } from "../../lib/posts";
 
-export default function Tags({ allPosts, tag, featuredPosts, menu }) {
+export default function Tags({ allPosts, tag, selectionPosts, menu }) {
   const [posts, setList] = useState([...allPosts.slice(0, POST_PER_PAGE)]);
   // Trạng thái để kích hoạt thêm
   const [loadMore, setLoadMore] = useState(false);
@@ -56,7 +56,7 @@ export default function Tags({ allPosts, tag, featuredPosts, menu }) {
           <Blog posts={posts} imgWidth={900} imgHeight={450} />
           <Pagination hasMore={hasMore} handleLoadMore={handleLoadMore} />
         </section>
-        <Sidebar featuredPosts={featuredPosts} />
+        <Sidebar selectionPosts={selectionPosts} />
       </section>
     </Layout>
   );
@@ -76,7 +76,7 @@ export async function getStaticProps({ params }) {
   // Get external data from the file system, API, DB, etc.
   const { posts } = await getPostByTag(params.tag);
 
-  const featuredPosts = await getFeaturedPost(5);
+  const selectionPosts = await getSelectionPost("isFeatured");
 
   const menu = await getListNameFolder();
 
@@ -87,7 +87,7 @@ export async function getStaticProps({ params }) {
       menu,
       allPosts: posts,
       tag: params.tag,
-      featuredPosts,
+      selectionPosts,
     },
   };
 }
