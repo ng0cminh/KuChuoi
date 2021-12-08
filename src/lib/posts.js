@@ -76,7 +76,6 @@ export function getContentPostByFile(folder, selection) {
         return undefined;
       }
     })
-    .slice(0, number);
 }
 
 // Get posts theo file .md
