@@ -57,7 +57,7 @@ export default function Category({
 
   return (
     <Layout metadata={metadata} menu={menu}>
-      <section className="main-content loop">
+      <section className="main-content list">
         <section id="content" className="content">
           <Blog posts={posts} imgWidth={900} imgHeight={450} />
           <Pagination hasMore={hasMore} handleLoadMore={handleLoadMore} />

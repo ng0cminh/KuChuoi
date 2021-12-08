@@ -1,3 +1,4 @@
+import slug from "slug";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -49,7 +50,9 @@ const Single = ({ post, prevPost, nextPost, featuredPosts, social }) => {
                 </span>
                 {post.tags.map((tag, index) => (
                   <span className="tag-item" key={tag + index}>
-                    {tag}
+                    <Link href={`tags/${slug(tag)}`}>
+                      <a>{tag}</a>
+                    </Link>
                   </span>
                 ))}
               </div>
