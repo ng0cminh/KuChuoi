@@ -42,16 +42,20 @@ const PostCard = ({ post, imgWidth, imgHeight }) => {
                   </span>
                 </div>
               )}
-              <Image
-                src={
-                  post.image
-                    ? `/images/contents/${post.folder}/${post.image}`
-                    : `/images/default/article.jpg`
-                }
-                width={imgWidth}
-                height={imgHeight}
-                alt={post.title ? post.title : `Banner Default`}
-              />
+              <Link href={`/${post.slug}`}>
+                <a>
+                  <Image
+                    src={
+                      post.image
+                        ? `/images/contents/${post.folder}/${post.image}`
+                        : `/images/default/article.jpg`
+                    }
+                    width={imgWidth}
+                    height={imgHeight}
+                    alt={post.title ? post.title : `Banner Default`}
+                  />
+                </a>
+              </Link>
             </figure>
           </div>
           <div className="article-content">
