@@ -1,16 +1,12 @@
-<<<<<<< HEAD
+<<<<<<< HEAD:src/pages/featured-posts.js
 import React, { useState, useEffect } from "react";
-import Layout from "../../components/Layout";
-import Category from "../../components/Blog/Category";
+import Layout from "../components/Layout";
+import Blog from "../components/Blog";
+import Pagination from "../components/Pagination";
+import { POST_PER_PAGE } from "../../next.config";
+import { getFeaturedPost, getListNameFolder } from "../lib/posts";
 
-import {
-  getPostByFolder,
-  getAllFolderSlug,
-  getListNameFolder,
-} from "../../lib/posts";
-import { POST_PER_PAGE } from "../../../next.config";
-
-export default function Folder({ allPosts, folder, category, menu }) {
+export default function Category({ allPosts, menu }) {
   const [posts, setList] = useState([...allPosts.slice(0, POST_PER_PAGE)]);
 
   // Trạng thái để kích hoạt thêm
@@ -23,12 +19,6 @@ export default function Folder({ allPosts, folder, category, menu }) {
   const handleLoadMore = () => {
     setLoadMore(true);
   };
-
-  //Load post theo thư mục
-  useEffect(() => {
-    setList([...allPosts.slice(0, POST_PER_PAGE)]);
-  }, [allPosts]);
-
   // Handle loading more articles
   useEffect(() => {
     if (loadMore && hasMore) {
@@ -49,45 +39,36 @@ export default function Folder({ allPosts, folder, category, menu }) {
   }, [posts]); //eslint-disable-line
 
   const metadata = {
-    title: category,
-    slug: `category/${folder}`,
+    title: "Bài viết nổi bật",
+    description: `Trang tập hợp các bài viết nổi bật của website`,
   };
-
   return (
     <Layout metadata={metadata} menu={menu}>
-      <Category
-        posts={posts}
-        hasMore={hasMore}
-        handleLoadMore={handleLoadMore}
-      />
+      <section className="main-content grid">
+        <section id="content" className="content">
+          <section className="list-posts">
+            <div className="row">
+              <Blog posts={posts} imgWidth={740} imgHeight={370} />
+            </div>
+            <Pagination hasMore={hasMore} handleLoadMore={handleLoadMore} />
+          </section>
+        </section>
+      </section>
     </Layout>
   );
 }
 
-export async function getStaticPaths() {
-  // Return a list of possible value for slug
-  const paths = getAllFolderSlug();
-
-  return {
-    paths,
-    fallback: false,
-  };
-}
-
-export async function getStaticProps({ params }) {
-  // Get external data from the file system, API, DB, etc.
-
-  const data = await getPostByFolder(params.folder);
-  const { posts, category } = data;
+export async function getStaticProps() {
   const menu = getListNameFolder();
+
+  // Get external data from the file system, API, DB, etc.
+  const posts = await getFeaturedPost("isFeatured");
 
   // The value of the `props` key will be
   // passed to the `Blog` component
   return {
     props: {
-      category,
       allPosts: posts,
-      folder: params.folder,
       menu,
     },
   };
@@ -95,16 +76,12 @@ export async function getStaticProps({ params }) {
 =======
 import React, { useState, useEffect } from "react";
 import Layout from "../../components/Layout";
-import Category from "../../components/Blog/Category";
-
-import {
-  getPostByFolder,
-  getAllFolderSlug,
-  getListNameFolder,
-} from "../../lib/posts";
+import Blog from "../../components/Blog";
+import Pagination from "../../components/Pagination";
 import { POST_PER_PAGE } from "../../../next.config";
+import { getSelectionPost, getListNameFolder } from "../../lib/posts";
 
-export default function Folder({ allPosts, folder, category, menu }) {
+export default function Selection({ allPosts, menu }) {
   const [posts, setList] = useState([...allPosts.slice(0, POST_PER_PAGE)]);
 
   // Trạng thái để kích hoạt thêm
@@ -117,12 +94,6 @@ export default function Folder({ allPosts, folder, category, menu }) {
   const handleLoadMore = () => {
     setLoadMore(true);
   };
-
-  //Load post theo thư mục
-  useEffect(() => {
-    setList([...allPosts.slice(0, POST_PER_PAGE)]);
-  }, [allPosts]);
-
   // Handle loading more articles
   useEffect(() => {
     if (loadMore && hasMore) {
@@ -143,24 +114,38 @@ export default function Folder({ allPosts, folder, category, menu }) {
   }, [posts]); //eslint-disable-line
 
   const metadata = {
-    title: category,
-    slug: `category/${folder}`,
+    title: "Bài viết nổi bật",
+    description: `Trang tập hợp các bài viết nổi bật của website`,
   };
-
   return (
     <Layout metadata={metadata} menu={menu}>
-      <Category
-        posts={posts}
-        hasMore={hasMore}
-        handleLoadMore={handleLoadMore}
-      />
+      <section className="main-content grid">
+        <section id="content" className="content">
+          <section className="list-posts">
+            <div className="row">
+              <Blog posts={posts} imgWidth={740} imgHeight={370} />
+            </div>
+            <Pagination hasMore={hasMore} handleLoadMore={handleLoadMore} />
+          </section>
+        </section>
+      </section>
     </Layout>
   );
 }
 
 export async function getStaticPaths() {
   // Return a list of possible value for slug
-  const paths = await getAllFolderSlug();
+  const paths = [
+    {
+      params: { selection: "featured" },
+    },
+    {
+      params: { selection: "trendding" },
+    },
+    {
+      params: { selection: "hotnew" },
+    },
+  ];
 
   return {
     paths,
@@ -169,21 +154,20 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  // Get external data from the file system, API, DB, etc.
-
-  const data = await getPostByFolder(params.folder);
-  const { posts, category } = data;
   const menu = await getListNameFolder();
+  const selection =
+    "is" + params.selection.charAt(0).toUpperCase() + params.selection.slice(1);
+
+  // Get external data from the file system, API, DB, etc.
+  const posts = await getSelectionPost(selection);
 
   // The value of the `props` key will be
   // passed to the `Blog` component
   return {
     props: {
-      category,
       allPosts: posts,
-      folder: params.folder,
       menu,
     },
   };
 }
->>>>>>> 308cb2898801bd677b6350d11c37530f5273c1f5
+>>>>>>> 308cb2898801bd677b6350d11c37530f5273c1f5:src/pages/posts/[selection].js
