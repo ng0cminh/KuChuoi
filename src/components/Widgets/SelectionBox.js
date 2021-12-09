@@ -16,7 +16,7 @@ function SelectionBox({ selectionPosts }) {
               <li className="item-post" key={post.slug + index}>
                 <span>
                   <Link href={`/${post.slug}`}>
-                    <a>
+                    <a className="item-post-img">
                       <Image
                         src={
                           post.image

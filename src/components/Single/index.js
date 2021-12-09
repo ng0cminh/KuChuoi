@@ -50,7 +50,7 @@ const Single = ({ post, prevPost, nextPost, selectionPosts, social }) => {
                 </span>
                 {post.tags.map((tag, index) => (
                   <span className="tag-item" key={tag + index}>
-                    <Link href={`tags/${slug(tag)}`}>
+                    <Link href={`/tags/${slug(tag)}`}>
                       <a>{tag}</a>
                     </Link>
                   </span>

@@ -39,7 +39,7 @@ const Wiki = ({ post, prevPost, nextPost, social }) => {
                 className="wiki-body"
                 dangerouslySetInnerHTML={{ __html: content }}
               />
-              
+
               <div className="article-tags">
                 <span>
                   <svg
@@ -55,7 +55,7 @@ const Wiki = ({ post, prevPost, nextPost, social }) => {
                 </span>
                 {post.tags.map((tag, index) => (
                   <span className="tag-item" key={tag + index}>
-                    <Link href={`tags/${slug(tag)}`}>
+                    <Link href={`/tags/${slug(tag)}`}>
                       <a>{tag}</a>
                     </Link>
                   </span>

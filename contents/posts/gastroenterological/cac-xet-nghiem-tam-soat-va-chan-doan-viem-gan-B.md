@@ -281,7 +281,7 @@ TRÍCH DẪN TÀI LIỆU
 24. McMahon BJ, Parkinson AJ, Helminiak C, et al. Response to hepatitis B vaccine of persons positive for antibody to hepatitis B core antigen. Gastroenterology 1992; 103:590.
 25. Chung HT, Lee JS, Lok AS. Prevention of posttransfusion hepatitis B and C by screening for antibody to hepatitis C virus and antibody to HBcAg. Hepatology 1993; 18:1045.
 26. Kleinman SH, Kuhns MC, Todd DS, et al. Frequency of HBV DNA detection in US blood donors testing positive for the presence of anti-HBc: implications for transfusion transmission and donor screening. Transfusion 2003; 43:696.
-27. van de Laar TJ, Marijt-van der Kreek T, Molenaar-de Backer MW, et al. The yield of universal antibody to hepatitis B core antigen donor screening in the Netherlands, a hepatitis B virus low-endemic country. Transfusion 2015; 55:1206.
+27. van de Laar TJ, Marijt-van der Kreek T, Molenaar-de Backer MW, et al. The yield of universal antibody to hepatitis B core antigen donor screening in the Netherlands, a hepatitis B virus low-endemic country. Transfusion 2015; 55:1206.
 28. Hoofnagle JH, Seeff LB, Bales ZB, Zimmerman HJ. Type B hepatitis after transfusion with blood containing antibody to hepatitis B core antigen. N Engl J Med 1978; 298:1379.
 29. Dickson RC, Everhart JE, Lake JR, et al. Transmission of hepatitis B by transplantation of livers from donors positive for antibody to hepatitis B core antigen. The National Institute of Diabetes and Digestive and Kidney Diseases Liver Transplantation Database. Gastroenterology 1997; 113:1668.
 30. Bohorquez HE, Cohen AJ, Girgrah N, et al. Liver transplantation in hepatitis B core-negative recipients using livers from hepatitis B core-positive donors: a 13-year experience. Liver Transpl 2013; 19:611.
