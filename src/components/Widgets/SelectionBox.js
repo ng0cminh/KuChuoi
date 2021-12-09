@@ -1,17 +1,27 @@
+import slug from "slug";
 import Link from "next/link";
 import Image from "next/image";
 
 function SelectionBox({ selectionPosts }) {
+  const { posts, selection } = selectionPosts;
+  const selectionName =
+    selection === "Featured"
+      ? "nổi bật"
+      : selection === "Trending"
+      ? "xu hướng"
+      : selection === "Hotnew"
+      ? "mới"
+      : null;
   return (
     <div className="widget">
       <h3 className="widget-title">
-        <Link href="/featured-posts">
-          <a>Bài viết nổi bật</a>
+        <Link href={`/posts/${slug(selection)}`}>
+          <a>Bài viết {selectionName}</a>
         </Link>
       </h3>
       <div className="widget-content">
         <ul className="widget-post">
-          {selectionPosts.map((post, index) => {
+          {posts.map((post, index) => {
             return (
               <li className="item-post" key={post.slug + index}>
                 <span>

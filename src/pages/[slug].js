@@ -1,4 +1,4 @@
-import { domain } from "../../next.config";
+import { domain, SELECTION } from "../../next.config";
 import Layout from "../components/Layout";
 import Single from "../components/Single";
 import Wiki from "../components/Wiki";
@@ -58,7 +58,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   // Fetch necessary data for the blog post using params.slug
   const { post, prevPost, nextPost } = await getPostDataBySlug(params.slug);
-  const selectionPosts = await getSelectionPost("isFeatured");
+  const selectionPosts = await getSelectionPost(SELECTION);
   const menu = await getListNameFolder();
 
   if (!post) {

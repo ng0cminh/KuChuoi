@@ -76,7 +76,7 @@ export async function getStaticProps({ params }) {
   // Get external data from the file system, API, DB, etc.
   const { posts } = await getPostByTag(params.tag);
 
-  const selectionPosts = await getSelectionPost("isFeatured");
+  const selectionPosts = await getSelectionPost("Featured");
 
   const menu = await getListNameFolder();
 

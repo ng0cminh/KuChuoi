@@ -1,9 +1,19 @@
+import slug from "slug";
 import Link from "next/link";
 import Image from "next/image";
 import HeaderCard from "../Widgets/HeaderCard";
-import { domain } from "../../../next.config";
+import { domain, SELECTION } from "../../../next.config";
 
 const PostCard = ({ post, imgWidth, imgHeight }) => {
+  const selection = slug(SELECTION);
+  const selectionName =
+    SELECTION === "Featured"
+      ? "Nổi bật"
+      : SELECTION === "Trending"
+      ? "Xu hướng"
+      : SELECTION === "Hotnew"
+      ? "Bài mới"
+      : null;
   const social = {
     fb: `https://www.facebook.com/sharer.php?u=${domain + post.slug}`,
     tw: `https://twitter.com/intent/tweet?text=${post.title} - ${
@@ -23,29 +33,11 @@ const PostCard = ({ post, imgWidth, imgHeight }) => {
         <div className="article-main">
           <div className="article-banner">
             <figure className="article-figure img-fluid">
-              {post.isFeatured && (
-                <div className="badge featured">
+              {post[SELECTION] && (
+                <div className={`badge ${selection}`}>
                   <span>
-                    <Link href="/posts/featured">
-                      <a>Nổi bật</a>
-                    </Link>
-                  </span>
-                </div>
-              )}
-              {post.isTrending && (
-                <div className="badge trending">
-                  <span>
-                    <Link href="/posts/trending">
-                      <a>Xu Hướng</a>
-                    </Link>
-                  </span>
-                </div>
-              )}
-              {post.isHotnew && (
-                <div className="badge hotnew">
-                  <span>
-                    <Link href="/posts/hotnew">
-                      <a>Mới nhất</a>
+                    <Link href={`/posts/${selection}`}>
+                      <a>{selectionName}</a>
                     </Link>
                   </span>
                 </div>

@@ -260,7 +260,11 @@ export async function getPostDataBySlug(slug) {
 
 // Lấy bài viết nổi bật
 export function getSelectionPost(selection, number = POST_PER_PAGE) {
-  return getAllPost(selection).slice(0, number);
+  const posts = getAllPost(selection).slice(0, number);
+  return {
+    selection,
+    posts,
+  };
 }
 
 // Lấy các đường dẫn của tags bài viết

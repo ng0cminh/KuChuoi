@@ -7,9 +7,9 @@ date: "2021-11-08"
 isWiki: true
 isDraft: false
 isHomePage: true
-isFeatured: false
-isTrending: false
-isHotnew: false
+Featured: false
+Trending: false
+Hotnew: false
 image: cac-xet-nghiem-tam-soat-va-chan-doan-viem-gan-B/index.png
 tags: ["viêm gan b"]
 keywords: viêm gan, viêm gan B, viêm gan B cần xét nghiệm gì

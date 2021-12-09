@@ -3,9 +3,9 @@ import Layout from "../components/Layout";
 import Blog from "../components/Blog";
 import Sidebar from "../components/Sidebar";
 import { postData } from "../../cache/data";
-import { getFeaturedPost, getListNameFolder } from "../lib/posts";
-
-export default function Category({ menu, posts, featuredPosts }) {
+import { getSelectionPost, getListNameFolder } from "../lib/posts";
+import { SELECTION } from "../../next.config";
+export default function Category({ menu, posts, selectionPosts }) {
   const metadata = {
     title: "Tìm kiếm",
     description: `Trang tập hợp các kết quả tìm kiếm`,
@@ -16,7 +16,7 @@ export default function Category({ menu, posts, featuredPosts }) {
         <section id="content" className="content">
           <Blog posts={posts} imgWidth={740} imgHeight={370} />
         </section>
-        <Sidebar featuredPosts={featuredPosts} />
+        <Sidebar selectionPosts={selectionPosts} />
       </section>
     </Layout>
   );
@@ -40,7 +40,7 @@ export async function getServerSideProps({ query }) {
   });
 
   // Get external data from the file system, API, DB, etc.
-  const featuredPosts = await getFeaturedPost(5);
+  const selectionPosts = await getSelectionPost(SELECTION);
 
   // The value of the `props` key will be
   // passed to the `Blog` component
@@ -48,7 +48,7 @@ export async function getServerSideProps({ query }) {
     props: {
       menu,
       posts,
-      featuredPosts,
+      selectionPosts,
     },
   };
 }

@@ -7,9 +7,9 @@ date: "2021-11-04"
 isWiki: true
 isDraft: false
 isHomePage: true
-isFeatured: true
-isTrending: false
-isHotnew: false
+Featured: true
+Trending: false
+Hotnew: false
 image: quan-ly-va-dieu-tri-viem-gan-B/index.png
 tags: ["viêm gan b"]
 keywords: viêm gan, viêm gan B, viêm gan b cấp, viêm gan B mạn tính

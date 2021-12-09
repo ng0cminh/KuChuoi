@@ -7,9 +7,9 @@ date: "2021-10-29"
 isWiki: true
 isDraft: false
 isHomePage: true
-isFeatured: true
-isTrending: false
-isHotnew: false
+Featured: true
+Trending: false
+Hotnew: false
 image: viem-khop-tu-phat-thieu-nien/index.jpg
 tags: ["viêm khớp tự phát thiếu niên"]
 keywords: viêm khớp khớp tự phát thiếu niên, thấp khớp

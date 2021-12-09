@@ -7,9 +7,9 @@ date: "2021-10-29"
 isWiki: true
 isDraft: true
 isHomePage: false
-isFeatured: false
-isTrending: false
-isHotnew: false
+Featured: false
+Trending: false
+Hotnew: false
 image: viem-gan-b-man-tinh/index.png
 tags: ["viêm gan b"]
 keywords: viêm gan, viêm gan B, viêm gan B mạn tính

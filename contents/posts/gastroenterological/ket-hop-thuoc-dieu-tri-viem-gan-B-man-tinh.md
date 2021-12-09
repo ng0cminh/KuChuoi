@@ -7,9 +7,9 @@ date: "2021-11-07"
 isWiki: true
 isDraft: false
 isHomePage: true
-isFeatured: false
-isTrending: false
-isHotnew: false
+Featured: false
+Trending: false
+Hotnew: false
 image: ket-hop-thuoc-dieu-tri-viem-gan-B-man-tinh/index.jpg
 tags: ["viêm gan b"]
 keywords: viêm gan, viêm gan B,viêm gan B mạn tính, kết hợp thuốc điều trị viêm gan b mạn tính

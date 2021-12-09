@@ -7,9 +7,9 @@ date: "2021-12-06"
 isWiki: true
 isDraft: false
 isHomePage: true
-isFeatured: false
-isTrending: false
-isHotnew: false
+Featured: false
+Trending: false
+Hotnew: false
 image: viem-gan-b-va-thai-ky/index.png
 tags: ["viêm gan b"]
 keywords: viêm gan B, viêm gan B và thai kỳ, mang thai nhiễm viêm gan b

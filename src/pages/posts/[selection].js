@@ -5,7 +5,16 @@ import Pagination from "../../components/Pagination";
 import { POST_PER_PAGE } from "../../../next.config";
 import { getSelectionPost, getListNameFolder } from "../../lib/posts";
 
-export default function Selection({ allPosts, menu }) {
+export default function Selection({ selection, allPosts, menu }) {
+  const selectionName =
+    selection === "Featured"
+      ? "nổi bật"
+      : selection === "Trending"
+      ? "xu hướng"
+      : selection === "Hotnew"
+      ? "mới"
+      : null;
+
   const [posts, setList] = useState([...allPosts.slice(0, POST_PER_PAGE)]);
 
   // Trạng thái để kích hoạt thêm
@@ -38,8 +47,8 @@ export default function Selection({ allPosts, menu }) {
   }, [posts]); //eslint-disable-line
 
   const metadata = {
-    title: "Bài viết nổi bật",
-    description: `Trang tập hợp các bài viết nổi bật của website`,
+    title: `Bài viết ${selectionName}`,
+    description: `Trang tập hợp các bài viết ${selectionName} của website`,
   };
   return (
     <Layout metadata={metadata} menu={menu}>
@@ -80,15 +89,16 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const menu = await getListNameFolder();
   const selection =
-    "is" + params.selection.charAt(0).toUpperCase() + params.selection.slice(1);
+    params.selection.charAt(0).toUpperCase() + params.selection.slice(1);
 
   // Get external data from the file system, API, DB, etc.
-  const posts = await getSelectionPost(selection);
+  const { posts } = await getSelectionPost(selection);
 
   // The value of the `props` key will be
   // passed to the `Blog` component
   return {
     props: {
+      selection,
       allPosts: posts,
       menu,
     },

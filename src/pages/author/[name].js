@@ -3,7 +3,7 @@ import Layout from "../../components/Layout";
 import Blog from "../../components/Blog";
 import Pagination from "../../components/Pagination";
 import Sidebar from "../../components/Sidebar";
-import { POST_PER_PAGE } from "../../../next.config";
+import { SELECTION, POST_PER_PAGE } from "../../../next.config";
 
 import {
   getAllAuthorSlug,
@@ -82,7 +82,7 @@ export async function getStaticProps({ params }) {
   // Get external data from the file system, API, DB, etc.
   const { posts, authorName } = await getPostByAuthor(params.name);
 
-  const selectionPosts = await getSelectionPost("isFeatured");
+  const selectionPosts = await getSelectionPost(SELECTION);
 
   const menu = await getListNameFolder();
 

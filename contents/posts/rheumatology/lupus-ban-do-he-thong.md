@@ -7,9 +7,9 @@ date: "2021-10-29"
 isWiki: false
 isDraft: false
 isHomePage: true
-isFeatured: true
-isTrending: false
-isHotnew: false
+Featured: true
+Trending: false
+Hotnew: false
 image: lupus-ban-do-he-thong/index.jpg
 tags: ["lupus ban đỏ hệ thống"]
 keywords: lupus, lupus ban đỏ hệ thống

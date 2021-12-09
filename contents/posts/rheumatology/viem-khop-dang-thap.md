@@ -7,9 +7,9 @@ date: "2021-10-12"
 isWiki: true
 isDraft: false
 isHomePage: true
-isFeatured: true
-isTrending: false
-isHotnew: false
+Featured: true
+Trending: false
+Hotnew: false
 image: viem-khop-dang-thap/index.png
 tags: ["viêm khớp dạng thấp"]
 keywords: viêm khớp dạng thấp, thấp khớp
