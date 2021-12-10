@@ -125,19 +125,20 @@
 /* End Article-List */
 
 /* Start Footer */
-.bottom-footer {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 0px;
-}
-
 .footer {
   background-color: var(--bg-footer);
   border-bottom: 5px solid var(--border-footer);
   color: var(--white-color);
   font-size: 1.5rem;
 }
-
+.footer .info a {
+  color: var(--border-footer);
+}
+.bottom-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
 .footer .navbar-link {
   color: var(--white-color);
 }
