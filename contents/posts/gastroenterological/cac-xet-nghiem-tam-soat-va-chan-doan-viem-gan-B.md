@@ -67,10 +67,15 @@ Bảng 1: Các nhóm cần được tầm soát vi rút viêm gan B
 > Việc tầm soát HBV có thể dẫn đến can thiệp y tế thích hợp cho những người bị nhiễm trùng mãn tính hoặc có nguy cơ tái kích hoạt nhiễm trùng đã giải quyết. Nó cũng có thể tạo điều kiện thuận lợi cho việc tiêm chủng và tư vấn cho những người chưa bị nhiễm, những người tiếp tục thực hiện các hành vi nguy cơ cao. Sàng lọc trước khi tiêm vắc xin để giảm việc tiêm vắc xin không cần thiết cũng hợp lý đối với nhân viên chăm sóc sức khỏe và an toàn công cộng, bệnh nhân và cư dân của các cơ sở dành cho người chậm phát triển, khách du lịch đến các quốc gia có tỷ lệ lưu hành HBV trung bình hoặc cao và bệnh nhân chưa tiêm vắc xin> 19 tuổi mắc bệnh tiểu đường.
 >
 > HBV: virus viêm gan B; HBsAg: kháng nguyên bề mặt viêm gan B; anti-HBc: kháng thể lõi viêm gan B; HBIG: globulin miễn dịch viêm gan B; US: Hoa Kỳ; ALT: alanin aminotransferase; AST: aspartate transaminase; HIV: vi rút suy giảm miễn dịch ở người; HCV: virus viêm gan C; anti-HBs: kháng thể bề mặt viêm gan B. \* Nếu xét nghiệm sàng lọc âm tính, bệnh nhân nên được chủng ngừa nếu họ có yếu tố nguy cơ lây truyền HBV hoặc có nguy cơ bị các kết quả bất lợi nghiêm trọng của nhiễm HBV. Ở những bệnh nhân có nguy cơ HBV đang tiếp diễn khi tiếp xúc qua da hoặc niêm mạc, nên bắt đầu tiêm liều vắc-xin viêm gan B đầu tiên tại thời điểm sàng lọc; sự cần thiết của các liều tiếp theo sẽ phụ thuộc vào kết quả.
+>
 > ¶ Nếu tìm thấy những người dương tính với HBsAg ở thế hệ đầu tiên, các thế hệ tiếp theo nên được xét nghiệm.
+>
 > Δ Tham khảo chủ đề thảo luận về HBV và mang thai.
+>
 > ◊Tham khảo chủ đề thảo luận về sự tái hoạt động của HBV.
+>
 > § Tham khảo chủ đề thảo luận về chủng ngừa HBV ở trẻ sơ sinh.
+>
 > ¥ Tham khảo chủ đề cung cấp tổng quan về quản lý nhiễm viêm gan C.
 
 Các nhóm sau đây có thể không có bất kỳ yếu tố nguy cơ nào ở trên, nhưng họ cần tiêm chủng vì các điều kiện nghề nghiệp, giải trí hoặc bệnh đi kèm khiến họ có nguy cơ nhiễm HBV. Đối với những bệnh nhân như vậy, mục tiêu của việc sàng lọc là để tránh tiêm chủng không cần thiết. Tuy nhiên, nếu không thể thực hiện sàng lọc do hạn chế về thời gian (ví dụ: khách du lịch) hoặc hậu cần (ví dụ, mong muốn bắt đầu tiêm chủng càng sớm càng tốt hoặc để giảm thiểu các bước và thời gian cần thiết để bắt đầu tiêm chủng), thì nên tiêm chủng bất kể.
@@ -104,7 +109,7 @@ o Những người bị nhiễm vi-rút viêm gan C (HCV) đang được điều
 o Bệnh nhân cần điều trị ức chế miễn dịch.
 o Người hiến máu và nội tạng.
 
-Xét nghiệm anti-HBc cho phép người ta phân biệt khả năng miễn dịch do tiêm phòng HBV với việc phục hồi sau nhiễm HBV trong quá khứ và giúp xác định những người bị nhiễm trùng bí ẩn(xem phần 'Nhiễm HBV bí ẩn' bên dưới). Điều này rất quan trọng vì những bệnh nhân có HBV trước đó hoặc chưa rõ có thể có nguy cơ tái hoạt động của HBV ở một số cơ sở nhất định. Ngoài ra, những bệnh nhân có anti-HBc xuất hiện đơn độc có thể truyền HBV cho người khác qua máu hoặc hiến tạng trong những trường hợp hiếm gặp.
+Xét nghiệm anti-HBc cho phép người ta phân biệt khả năng miễn dịch do tiêm phòng HBV với việc phục hồi sau nhiễm HBV trong quá khứ và giúp xác định những người bị nhiễm trùng ẩn(xem phần 'Nhiễm HBV ẩn' bên dưới). Điều này rất quan trọng vì những bệnh nhân có HBV trước đó hoặc chưa rõ có thể có nguy cơ tái hoạt động của HBV ở một số cơ sở nhất định. Ngoài ra, những bệnh nhân có anti-HBc xuất hiện đơn độc có thể truyền HBV cho người khác qua máu hoặc hiến tạng trong những trường hợp hiếm gặp.
 
 - Những lưu ý đặc biệt khi xét nghiệm ở trẻ sơ sinh và trẻ em được thảo luận ở những chủ đề khác.
 
@@ -146,7 +151,7 @@ Một số nhà nghiên cứu đã ghi nhận mối tương quan giữa hiệu g
 
 - Khi anti-HBs giảm xuống mức không thể phát hiện trong nhiều năm sau khi hồi phục từ bệnh viêm gan B cấp tính (Xem phần 'Kháng nguyên và kháng thể bề mặt viêm gan B' ở trên).
 
-- Khi hiệu giá HBsAg giảm xuống dưới ngưỡng giới hạn để phát hiện ở những người bị viêm gan B mãn tính (khoảng 0,5 phần trăm mỗi năm [ 15 ]). (Xem phần "Kháng nguyên và kháng thể bề mặt viêm gan B" ở trên và "Nhiễm HBV bí ẩn" bên dưới.)
+- Khi hiệu giá HBsAg giảm xuống dưới ngưỡng giới hạn để phát hiện ở những người bị viêm gan B mãn tính (khoảng 0,5 phần trăm mỗi năm [ 15 ]). (Xem phần "Kháng nguyên và kháng thể bề mặt viêm gan B" ở trên và "Nhiễm HBV ẩn" bên dưới.)
 
 - Trong trường hợp HBsAg đột biến, nơi xét nghiệm dẫn đến kết quả HBsAg âm tính giả. Điều này xảy ra khi các kháng thể bề mặt viêm gan B đơn dòng thay vì đa dòng được sử dụng trong các xét nghiệm miễn dịch enzym để bắt và / hoặc phát hiện HBsAg [ 22,23 ].
 
@@ -158,7 +163,7 @@ Một số nhà nghiên cứu đã ghi nhận mối tương quan giữa hiệu g
 
 - Những người có bằng chứng về bệnh gan mãn tính, những người cần điều trị ức chế miễn dịch và những người bị nhiễm HIV nên được xét nghiệm HBV DNA để loại trừ nhiễm HBV mãn tính mức độ thấp. HBV DNA đã được phát hiện trong huyết thanh của những người có anti-HBc đơn độc khi được kiểm tra bằng các xét nghiệm phản ứng chuỗi polymerase (PCR); tuy nhiên, tần suất phát hiện thay đổi từ 0 đến 20 phần trăm, với hầu hết các nghiên cứu cho thấy phát hiện <5 phần trăm [ 25-27 ].
 
-Ý nghĩa lâm sàng của anti-HBc xuất hiện đơn độc có thể khác nhau tùy thuộc vào nguyên nhân. Ví dụ, nhiễm HBV bí ẩn (tức là, anti-HBc đơn độc với HBV DNA có thể phát hiện được trong gan và đôi khi trong huyết thanh) có liên quan đến bệnh gan mãn tính và ung thư biểu mô tế bào gan. Ngoài ra, sự tái hoạt động sao chép của HBV với sự chuyển đổi huyết thanh ngược (tức là sự xuất hiện trở lại của HBsAg) có thể xảy ra ở những bệnh nhân có anti-HBc đơn độc trong bối cảnh ức chế miễn dịch mạnh, bất kể phát hiện HBV DNA ban đầu. Liệu pháp kháng vi-rút dự phòng có thể làm giảm nguy cơ tái hoạt động ở những bệnh nhân này. (Xem phần "Sự tái hoạt động của virus viêm gan B liên quan đến liệu pháp ức chế miễn dịch" .)
+Ý nghĩa lâm sàng của anti-HBc xuất hiện đơn độc có thể khác nhau tùy thuộc vào nguyên nhân. Ví dụ, nhiễm HBV ẩn (tức là, anti-HBc đơn độc với HBV DNA có thể phát hiện được trong gan và đôi khi trong huyết thanh) có liên quan đến bệnh gan mãn tính và ung thư biểu mô tế bào gan. Ngoài ra, sự tái hoạt động sao chép của HBV với sự chuyển đổi huyết thanh ngược (tức là sự xuất hiện trở lại của HBsAg) có thể xảy ra ở những bệnh nhân có anti-HBc đơn độc trong bối cảnh ức chế miễn dịch mạnh, bất kể phát hiện HBV DNA ban đầu. Liệu pháp kháng vi-rút dự phòng có thể làm giảm nguy cơ tái hoạt động ở những bệnh nhân này. (Xem phần "Sự tái hoạt động của virus viêm gan B liên quan đến liệu pháp ức chế miễn dịch" .)
 
 Sự lây truyền nhiễm HBV cũng đã được báo cáo từ những người hiến máu và nội tạng có anti-HBc đơn độc. Mặc dù tỷ lệ mắc bệnh dao động rộng rãi (từ 0,4 đến 78 phần trăm) [ 25,28-30 ], nguy cơ cao nhất khi ghép gan từ những người hiến tặng có kháng HBc dương tính. Điều này một phần có thể là do tỷ lệ cao bệnh nhân có anti-HBc đơn độc (> 70%) có HBV DNA được phát hiện trong gan. Sự lây truyền có thể xảy ra ngay cả khi HBV DNA trong huyết thanh âm tính. Ví dụ, nhiễm HBV de novo đã phát triển ở 9 trong số 64 (14 phần trăm) người ghép gan có anti-HBc âm tính và nhận gan từ người hiến tặng có anti-HBc dương tính, nhưng HBsAg và HBV DNA âm tính [ 30 ] . Một cuộc thảo luận về cách ngăn ngừa lây nhiễm HBV trong bối cảnh này được tìm thấy ở những nơi khác.
 
@@ -218,16 +223,16 @@ Những bệnh nhân HBeAg âm tính có ALT huyết thanh bình thường và t
 
 Các xét nghiệm bổ sung đối với viêm gan C (HCV) và viêm gan D (HDV) cũng nên được thực hiện để loại trừ bội nhiễm với (các) vi rút viêm gan khác.
 
-### Nhiễm HBV bí ẩn
+### Nhiễm HBV ẩn
 
-Có một nhóm nhỏ bệnh nhân nhiễm HBV ẩn, được định nghĩa là sự hiện diện của HBV DNA có thể phát hiện được bằng phản ứng chuỗi polymerase (PCR) ở những bệnh nhân âm tính với HBsAg. Những bệnh nhân này được phân loại thêm là có HBV bí ẩn "huyết thanh dương tính" hoặc "âm tính" tùy thuộc vào việc họ dương tính hay âm tính với các dấu hiệu HBV khác, thường gặp nhất là anti-HBc [ 59-62 ]. HBV bí ẩn âm tính hiếm khi được nhìn thấy ở người, mặc dù nó đã được mô tả trong những con bọ ngựa [ 63,64 ].
+Có một nhóm nhỏ bệnh nhân nhiễm HBV ẩn, được định nghĩa là sự hiện diện của HBV DNA có thể phát hiện được bằng phản ứng chuỗi polymerase (PCR) ở những bệnh nhân âm tính với HBsAg. Những bệnh nhân này được phân loại thêm là có HBV ẩn "huyết thanh dương tính" hoặc "âm tính" tùy thuộc vào việc họ dương tính hay âm tính với các dấu hiệu HBV khác, thường gặp nhất là anti-HBc [ 59-62 ]. HBV ẩn âm tính hiếm khi được nhìn thấy ở người, mặc dù nó đã được mô tả trong những con bọ ngựa [ 63,64 ].
 
 Hầu hết bệnh nhân có HBV ẩn có nồng độ HBV DNA trong huyết thanh rất thấp hoặc không thể phát hiện được, nguyên nhân là do không phát hiện được HBsAg. Nhiễm trùng với các biến thể HBV làm giảm sản xuất HBsAg hoặc có đột biến trong gen S với các biểu mô S bị thay đổi để tránh phát hiện trong các xét nghiệm huyết thanh học đối với HBsAg là không phổ biến.
 
 Tuy nhiên, HBV DNA thường được phát hiện trong gan và việc cấy ghép gan từ những người này có thể dẫn đến nhiễm HBV de novo [ 29,62 ]. Ngoài ra, những bệnh nhân bị nhiễm HBV ẩn, đặc biệt là những người có kháng thể đối với HBc dương tính, có nguy cơ tái hoạt động của HBV nếu họ nhận được liệu pháp ức chế miễn dịch mạnh như anti-CD20 hoặc liệu pháp tạo tủy để cấy ghép tủy xương hoặc tế bào gốc.
-Nhiễm HBV bí ẩn có liên quan đến bệnh gan mãn tính và cần được xem xét trong chẩn đoán phân biệt ở những bệnh nhân mắc bệnh gan mãn tính do crypto rõ ràng, đặc biệt là những người có yếu tố nguy cơ nhiễm HBV [ 62 ]. Một nghiên cứu đã xác định 56 trong số 591 (9%) bệnh nhân có huyết thanh âm tính với HBsAg có bằng chứng về bệnh gan mãn tính có HBV DNA dương tính bằng PCR trong huyết thanh cho ít nhất hai vùng khác nhau trong bộ gen HBV (bề mặt và lõi) [ 65]. Bệnh nhân được khám tại một cơ sở duy nhất trong khu vực lưu hành HBV, và họ có đánh giá âm tính đối với tất cả các nguyên nhân đã biết khác của bệnh gan. Bộ gen HBV hoàn chỉnh của 9 bệnh nhân này được so sánh với 5 nhóm chứng dương tính với HBsAg. Tất cả trừ một bệnh nhân bị nhiễm trùng bí ẩn có hiệu giá HBV DNA thấp. So với nhóm chứng, những người bị nhiễm trùng có nhiều biến thể HBV dẫn đến thay đổi biểu hiện HBsAg.
+Nhiễm HBV ẩn có liên quan đến bệnh gan mãn tính và cần được xem xét trong chẩn đoán phân biệt ở những bệnh nhân mắc bệnh gan mãn tính do crypto rõ ràng, đặc biệt là những người có yếu tố nguy cơ nhiễm HBV [ 62 ]. Một nghiên cứu đã xác định 56 trong số 591 (9%) bệnh nhân có huyết thanh âm tính với HBsAg có bằng chứng về bệnh gan mãn tính có HBV DNA dương tính bằng PCR trong huyết thanh cho ít nhất hai vùng khác nhau trong bộ gen HBV (bề mặt và lõi) [ 65]. Bệnh nhân được khám tại một cơ sở duy nhất trong khu vực lưu hành HBV, và họ có đánh giá âm tính đối với tất cả các nguyên nhân đã biết khác của bệnh gan. Bộ gen HBV hoàn chỉnh của 9 bệnh nhân này được so sánh với 5 nhóm chứng dương tính với HBsAg. Tất cả trừ một bệnh nhân bị nhiễm trùng ẩn có hiệu giá HBV DNA thấp. So với nhóm chứng, những người bị nhiễm trùng có nhiều biến thể HBV dẫn đến thay đổi biểu hiện HBsAg.
 
-Sự hiện diện của nhiễm HBV bí ẩn cũng có thể liên quan đến tăng nguy cơ ung thư biểu mô tế bào gan, đặc biệt ở những bệnh nhân nhiễm HCV mãn tính, cũng như những người đến từ các quốc gia có tỷ lệ nhiễm HBV cao [ 62 ]. Tuy nhiên, vai trò của HBV ẩn trong ung thư biểu mô tế bào gan vẫn còn tranh cãi, vì mối liên quan chưa được tìm thấy một cách thống nhất trong tất cả các nghiên cứu, hầu hết trong số đó là cắt ngang trong thiết kế và không thể chứng minh mối quan hệ căn nguyên.
+Sự hiện diện của nhiễm HBV ẩn cũng có thể liên quan đến tăng nguy cơ ung thư biểu mô tế bào gan, đặc biệt ở những bệnh nhân nhiễm HCV mãn tính, cũng như những người đến từ các quốc gia có tỷ lệ nhiễm HBV cao [ 62 ]. Tuy nhiên, vai trò của HBV ẩn trong ung thư biểu mô tế bào gan vẫn còn tranh cãi, vì mối liên quan chưa được tìm thấy một cách thống nhất trong tất cả các nghiên cứu, hầu hết trong số đó là cắt ngang trong thiết kế và không thể chứng minh mối quan hệ căn nguyên.
 
 ## TÓM TẮT VÀ KIẾN NGHỊ
 
@@ -251,7 +256,7 @@ Sự hiện diện của nhiễm HBV bí ẩn cũng có thể liên quan đến 
 
 \+ Các xét nghiệm bổ sung về sự nhân lên của HBV - HBeAg và HBV DNA trong huyết thanh - nên được thực hiện để xác định xem bệnh nhân có nên được xem xét điều trị kháng vi-rút hay không.
 
-\- Nhiễm HBV bí ẩn được định nghĩa là sự hiện diện của HBV DNA có thể phát hiện được bằng phản ứng chuỗi polymerase (PCR) ở những bệnh nhân âm tính với HBsAg. Những bệnh nhân như vậy được phân loại thêm là có HBV bí ẩn "huyết thanh dương tính" hoặc "âm tính" tùy thuộc vào việc họ dương tính hay âm tính với các dấu hiệu HBV khác, thường gặp nhất là anti-HBc. Hầu hết những bệnh nhân này có nồng độ HBV DNA trong huyết thanh rất thấp hoặc không thể phát hiện được, nguyên nhân là do không phát hiện được HBsAg.
+\- Nhiễm HBV ẩn được định nghĩa là sự hiện diện của HBV DNA có thể phát hiện được bằng phản ứng chuỗi polymerase (PCR) ở những bệnh nhân âm tính với HBsAg. Những bệnh nhân như vậy được phân loại thêm là có HBV ẩn "huyết thanh dương tính" hoặc "âm tính" tùy thuộc vào việc họ dương tính hay âm tính với các dấu hiệu HBV khác, thường gặp nhất là anti-HBc. Hầu hết những bệnh nhân này có nồng độ HBV DNA trong huyết thanh rất thấp hoặc không thể phát hiện được, nguyên nhân là do không phát hiện được HBsAg.
 
 TRÍCH DẪN TÀI LIỆU
 

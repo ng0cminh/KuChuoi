@@ -37,7 +37,9 @@ Bảng 1: Giải thích các xét nghiệm huyết thanh của viêm gan B
 Hình 1: Phản ứng huyết thanh với nhiễm virut viêm gan B
 
 > Sơ đồ đại diện các phản ứng huyết thanh học đối với nhiễm HBV cấp tính và mãn tính liên quan đến nồng độ ALT huyết thanh.
+>
 > (Bảng bên trái) Nhiễm trùng cấp tính được đặc trưng ban đầu bởi sự hiện diện của HBeAg, HBsAg và HBV DNA bắt đầu trong giai đoạn tiền lâm sàng. IgM anti-HBc xuất hiện sớm trong giai đoạn lâm sàng; sự kết hợp của kháng thể này và HBsAg được chẩn đoán nhiễm trùng cấp tính. Phục hồi đi kèm với bình thường hóa ALT huyết thanh, biến mất HBV DNA, HBeAg thành chuyển đổi huyết thanh anti-HBe, và sau đó HBsAg thành chuyển đổi huyết thanh anti-HBs và chuyển từ IgM sang IgG anti-HBc. Do đó, nhiễm HBV trước đó được đặc trưng bởi anti-HBs và IgG anti-HBc.
+>
 > (Bảng bên phải) Nhiễm trùng mãn tính được đặc trưng bởi sự tồn tại của HBeAg (trong một thời gian thay đổi), HBsAg và HBV DNA trong huyết thanh; Không thấy anti-HBs (ở khoảng 20% ​​bệnh nhân, có thể phát hiện một dạng anti-HBs không trung hòa). Sự tồn tại của HBsAg trong hơn 6 tháng sau khi nhiễm trùng cấp tính được coi là dấu hiệu của nhiễm trùng mãn tính.
 
 Điều trị HBV cấp tính tùy thuộc vào bệnh cảnh lâm sàng. Tuy nhiên, cần thực hiện các biện pháp thích hợp để ngăn ngừa lây nhiễm cho tất cả những người tiếp xúc, và nên tiêm globulin miễn dịch viêm gan B và vắc xin viêm gan B cho tất cả những người tiếp xúc trong gia đình và quan hệ tình dục chưa được biết là đã có miễn dịch.
@@ -65,12 +67,19 @@ Bảng 2: Đánh giá bệnh nhân nhiễm HBV mãn tính
 ![danh-gia-ban-dau](images/contents/gastroenterological/quan-ly-va-dieu-tri-viem-gan-B/danh-gia-ban-dau.png)
 
 > AFP: Protein alpha feto; ALT: alanin aminotransferase; anti-HBe: kháng thể với HBeAg; HBV: virus viêm gan B; HBeAg: kháng nguyên e viêm gan B; HCC: ung thư biểu mô tế bào gan; HCV: virus viêm gan C; HDV: viêm gan vi rút delta; ULN: giới hạn trên của bình thường. \* Bệnh nhân cần được đánh giá về các dấu hiệu và triệu chứng của bệnh xơ gan, các yếu tố nguy cơ mắc bệnh đồng nhiễm, sử dụng rượu và thông tin về tình trạng tiêm chủng.
+>
 > ¶ Ở những bệnh nhân chưa khám sàng lọc một lần và những bệnh nhân đang có các yếu tố nguy cơ lây nhiễm HIV.
+>
 > Δ Tìm hiểu chủ đề thảo luận về tầm soát ung thư biểu mô tế bào gan.
+>
 > ◊ Tìm hiểu các chủ đề thảo luận về đánh giá xơ gan không xâm lấn.
+>
 > § Sinh thiết gan cũng có thể đánh giá mức độ nghiêm trọng của tình trạng viêm và giúp loại trừ các nguyên nhân khác của bệnh gan, thông tin sẽ không được cung cấp khi đánh giá xơ gan không xâm lấn.
+>
 > ¥ Xơ gan dựa trên những phát hiện từ đánh giá ban đầu. Bệnh nhân xơ hóa tiến triển được xác định bằng phương pháp không xâm lấn nên được đánh giá bằng phương pháp thứ hai, và nếu kết quả phù hợp, hãy xem xét xử trí giống như bệnh nhân xơ gan.
+>
 > ‡ AASLD khuyến nghị sử dụng ALT> 35 U / L đối với nam và> 25 U / L đối với nữ là giới hạn trên của mức bình thường thay vì giá trị phòng thí nghiệm tại địa phương.
+>
 > † Nếu chi phí là một vấn đề đáng lo ngại, chỉ có thể theo dõi ALT.
 
 \- Khám bệnh sử và khám sức khỏe, nhấn mạnh: các yếu tố nguy cơ đồng nhiễm vi rút viêm gan C (HCV), vi rút viêm gan delta (HDV), và / hoặc HIV; sử dụng rượu bia; tiền sử gia đình nhiễm HBV và ung thư biểu mô tế bào gan (HCC); và các dấu hiệu và triệu chứng của bệnh xơ gan.
@@ -112,13 +121,21 @@ Quyết định bắt đầu điều trị chủ yếu dựa trên sự hiện d
 ![dieu tri viem gan b](images/contents/gastroenterological/quan-ly-va-dieu-tri-viem-gan-B/dieu-tri-viem-gan-b.png)
 
 > ALT: alanin aminotransferase; anti-HBe: kháng thể kháng nguyên e viêm gan B; ETV: entecavir; HBeAg: Kháng nguyên e viêm gan B; HBsAg: kháng nguyên bề mặt viêm gan B; HBV: virus viêm gan B; HCC: ung thư biểu mô tế bào gan; PegIFN alfa: interferon alfa pegyl hóa; TAF: tenofovir alafenamide; TDF: tenofovir disoproxil fumarate; ULN: giới hạn trên của bình thường. \* Dựa trên những phát hiện về xét nghiệm không xâm lấn hoặc sinh thiết gan được thực hiện trong quá trình đánh giá ban đầu. Bệnh nhân xơ hóa tiến triển được xác định bằng phương pháp không xâm lấn nên được đánh giá bằng phương pháp thứ hai, và nếu kết quả phù hợp, hãy xem xét xử trí theo cách tương tự như bệnh nhân xơ gan.
+>
 > ¶ Hiệp hội Nghiên cứu Bệnh gan Hoa Kỳ (AASLD) khuyến nghị sử dụng ALT> 35 U / L cho nam giới và> 25 U / L cho nữ giới làm giới hạn trên của mức bình thường (ULN) thay vì giá trị phòng thí nghiệm tại địa phương.
+>
 > Δ Tham khảo chủ đề UpToDate về "Vi rút viêm gan B: Tổng quan về quản lý" để thảo luận về giám sát.
+>
 > ◊ Tham khảo chủ đề UpToDate về "Vi rút viêm gan B: Tổng quan về quản lý" để thảo luận về chỉ định sinh thiết.
+>
 > § Adefovir, lamivudine và telbivudine không được khuyến cáo do tỷ lệ kháng thuốc cao sau năm đầu tiên và / hoặc hoạt tính kháng virus yếu.
+>
 > ¥ Tham khảo chủ đề cách quản lý viêm gan virut B để thảo luận về việc sử dụng thuốc nào.
+>
 > ‡ Lên đến 50% bệnh nhân đạt được chuyển đổi huyết thanh HBeAg có thể bị tái phát virus sau khi ngừng điều trị bằng thuốc uống. Do đó, một số nhà cung cấp thích điều trị cho đến khi mất HBsAg.
+>
 > † Đối với hầu hết bệnh nhân, liệu pháp kháng vi-rút nên được tiếp tục vô thời hạn. Tuy nhiên, việc ngừng điều trị có thể được cân nhắc ở những người không bị xơ gan đã chứng tỏ mất HBsAg và ở những bệnh nhân được chọn có HBV DNA huyết thanh không phát hiện được trong> 3 năm và đồng ý theo dõi chặt chẽ sau khi ngừng điều trị. Những người ngừng điều trị bằng thuốc kháng vi-rút nên được theo dõi hàng tháng trong sáu tháng đầu tiên. Tham khảo chủ đề UpToDate về quản lý nhiễm vi-rút viêm gan B để có thảo luận chi tiết về những rủi ro và lợi ích của việc ngừng điều trị kháng vi-rút trong môi trường này.
+>
 > \*\* Điều này bao gồm những người lớn có HBeAg dương tính với bệnh xơ gan chuyển đổi huyết thanh thành anti-HBe khi điều trị.
 
 Những bệnh nhân chưa có chỉ định điều trị và những người hoãn điều trị, nên được theo dõi các xét nghiệm sinh hóa gan, HBV DNA và tình trạng HBeAg vì bệnh gan và / hoặc sự nhân lên của HBV có thể trở nên hoạt động sau đó. Tần suất giám sát được mô tả trong bảng (Bảng 2: Đánh giá bệnh nhân nhiễm HBV mãn tính). Những bệnh nhân này cũng nên theo dõi HCC nếu được chỉ định.
