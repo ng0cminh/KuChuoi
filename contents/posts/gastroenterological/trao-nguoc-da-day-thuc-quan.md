@@ -6,7 +6,7 @@ author:
 date: "2021-12-09"
 isWiki: true
 isDraft: false
-isHomePage: true
+isHomePage: false
 Featured: false
 Trending: false
 Hotnew: false

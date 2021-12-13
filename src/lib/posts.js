@@ -145,11 +145,11 @@ export function getAllContentPost() {
 }
 
 // Lấy bài viết theo thư mục
-export function getPostByFolder(folder, number, selection) {
+export function getPostByFolder(folder, selection, number = POST_PER_PAGE) {
   const categoryPath = join(pathPosts, folder, "a.txt");
   const category = fs.readFileSync(categoryPath, "utf8");
 
-  const posts = getPostByFile(folder, number, selection);
+  const posts = getPostByFile(folder, selection).slice(0, number);
 
   return {
     posts,
@@ -163,7 +163,7 @@ export function getPostsHomePage(number = POST_PER_PAGE, selection) {
   const folders = fs.readdirSync(pathPosts);
   let data = [];
   folders.forEach((folder) => {
-    data.push(getPostByFolder(folder, number, selection));
+    data.push(getPostByFolder(folder, selection, number));
   });
   return data;
 }
@@ -258,7 +258,7 @@ export async function getPostDataBySlug(slug) {
   };
 }
 
-// Lấy bài viết nổi bật
+// Lấy bài viết theo lựa chọn
 export function getSelectionPost(selection, number = POST_PER_PAGE) {
   const posts = getAllPost(selection).slice(0, number);
   return {
