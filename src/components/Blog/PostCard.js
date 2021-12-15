@@ -70,12 +70,16 @@ const PostCard = ({ post, imgWidth, imgHeight }) => {
           </div>
         </div>
         <footer className="article-footer">
-          <a href={`/${post.slug}#comments`}>
-            <span>Bình luận</span>
-          </a>
-          <a href={`/${post.slug}`}>
-            <span>{post.readTime} phút đọc</span>
-          </a>
+          <Link href={`/${post.slug}#comments`}>
+            <a>
+              <span>Bình luận</span>
+            </a>
+          </Link>
+          <Link href={`/${post.slug}`}>
+            <a>
+              <span>{post.readTime} phút đọc</span>
+            </a>
+          </Link>
         </footer>
       </article>
     </div>
