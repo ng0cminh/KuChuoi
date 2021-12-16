@@ -124,9 +124,9 @@ Quyết định bắt đầu điều trị chủ yếu dựa trên sự hiện d
 >
 > ¶ Hiệp hội Nghiên cứu Bệnh gan Hoa Kỳ (AASLD) khuyến nghị sử dụng ALT> 35 U / L cho nam giới và> 25 U / L cho nữ giới làm giới hạn trên của mức bình thường (ULN) thay vì giá trị phòng thí nghiệm tại địa phương.
 >
-> Δ Tham khảo chủ đề UpToDate về "Vi rút viêm gan B: Tổng quan về quản lý" để thảo luận về giám sát.
+> Δ Tham khảo chủ đề về "Vi rút viêm gan B: Quản lý và điều trị" để thảo luận về giám sát.
 >
-> ◊ Tham khảo chủ đề UpToDate về "Vi rút viêm gan B: Tổng quan về quản lý" để thảo luận về chỉ định sinh thiết.
+> ◊ Tham khảo chủ đề về "Vi rút viêm gan B: Quản lý và điều trị" để thảo luận về chỉ định sinh thiết.
 >
 > § Adefovir, lamivudine và telbivudine không được khuyến cáo do tỷ lệ kháng thuốc cao sau năm đầu tiên và / hoặc hoạt tính kháng virus yếu.
 >
@@ -134,7 +134,7 @@ Quyết định bắt đầu điều trị chủ yếu dựa trên sự hiện d
 >
 > ‡ Lên đến 50% bệnh nhân đạt được chuyển đổi huyết thanh HBeAg có thể bị tái phát virus sau khi ngừng điều trị bằng thuốc uống. Do đó, một số nhà cung cấp thích điều trị cho đến khi mất HBsAg.
 >
-> † Đối với hầu hết bệnh nhân, liệu pháp kháng vi-rút nên được tiếp tục vô thời hạn. Tuy nhiên, việc ngừng điều trị có thể được cân nhắc ở những người không bị xơ gan đã chứng tỏ mất HBsAg và ở những bệnh nhân được chọn có HBV DNA huyết thanh không phát hiện được trong> 3 năm và đồng ý theo dõi chặt chẽ sau khi ngừng điều trị. Những người ngừng điều trị bằng thuốc kháng vi-rút nên được theo dõi hàng tháng trong sáu tháng đầu tiên. Tham khảo chủ đề UpToDate về quản lý nhiễm vi-rút viêm gan B để có thảo luận chi tiết về những rủi ro và lợi ích của việc ngừng điều trị kháng vi-rút trong môi trường này.
+> † Đối với hầu hết bệnh nhân, liệu pháp kháng vi-rút nên được tiếp tục vô thời hạn. Tuy nhiên, việc ngừng điều trị có thể được cân nhắc ở những người không bị xơ gan đã chứng tỏ mất HBsAg và ở những bệnh nhân được chọn có HBV DNA huyết thanh không phát hiện được trong> 3 năm và đồng ý theo dõi chặt chẽ sau khi ngừng điều trị. Những người ngừng điều trị bằng thuốc kháng vi-rút nên được theo dõi hàng tháng trong sáu tháng đầu tiên. Tham khảo chủ đề về quản lý nhiễm vi-rút viêm gan B để có thảo luận chi tiết về những rủi ro và lợi ích của việc ngừng điều trị kháng vi-rút trong môi trường này.
 >
 > \*\* Điều này bao gồm những người lớn có HBeAg dương tính với bệnh xơ gan chuyển đổi huyết thanh thành anti-HBe khi điều trị.
 
