@@ -145,11 +145,11 @@ export function getAllContentPost() {
 }
 
 // Lấy bài viết theo thư mục
-export function getPostByFolder(folder, selection, number = POST_PER_PAGE) {
+export function getPostByFolder(folder, selection) {
   const categoryPath = join(pathPosts, folder, "a.txt");
   const category = fs.readFileSync(categoryPath, "utf8");
 
-  const posts = getPostByFile(folder, selection).slice(0, number);
+  const posts = getPostByFile(folder, selection);
 
   return {
     posts,
@@ -163,7 +163,9 @@ export function getPostsHomePage(number = POST_PER_PAGE, selection) {
   const folders = fs.readdirSync(pathPosts);
   let data = [];
   folders.forEach((folder) => {
-    data.push(getPostByFolder(folder, selection, number));
+    const postsByFolder = getPostByFolder(folder, selection);
+    postsByFolder.posts = postsByFolder.posts.slice(0, number);
+    data.push(postsByFolder);
   });
   return data;
 }
