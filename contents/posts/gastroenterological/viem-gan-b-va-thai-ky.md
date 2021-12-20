@@ -213,6 +213,40 @@ Kết quả mâu thuẫn được tìm thấy trong một thử nghiệm ngẫu 
 Mặc dù TDF không chứng minh được lợi ích rõ ràng trong thử nghiệm này, nhưng những phát hiện này không làm thay đổi cách tiếp cận của chúng tôi đối với liệu pháp kháng vi-rút cho bà mẹ vì khả năng tổng quát bị hạn chế. Ví dụ, việc tuân thủ quy trình điều trị dự phòng miễn dịch cho trẻ sơ sinh trong thử nghiệm này có thể không được lặp lại ở các cơ sở khác. HBIG và vắc-xin liều sơ sinh không có sẵn ở nhiều quốc gia mặc dù đã được WHO khuyến cáo [ 84 ]. Ngay cả ở các quốc gia có chương trình tiêm chủng vắc xin HBV liều sơ sinh, chẳng hạn như Hoa Kỳ, thời điểm tiêm vắc xin HBV được khuyến cáo là trong vòng 12 giờ sau khi sinh [ 72 ] và chỉ 71,1% trẻ sơ sinh được tiêm vắc xin HBV liều sơ sinh sau ba ngày sau sinh. [ 85]. Ngoài ra, trẻ sơ sinh trong nghiên cứu này đã nhận được bốn liều vắc xin HBV trước khi đánh giá nhiễm HBV lúc sáu tháng, trong khi hầu hết các hướng dẫn chỉ khuyến cáo hai đến ba liều trước sáu tháng. Kết quả của nghiên cứu này không bác bỏ khuyến cáo hiện tại về việc điều trị kháng vi-rút cho các bà mẹ có lượng vi-rút cao, nhưng cho thấy có thể cần tiến hành điều tra thêm về các chế độ tiêm chủng sau phơi nhiễm.
 
 **Tiêm chủng cho trẻ sơ sinh** - Trẻ sơ sinh của những bà mẹ có kết quả xét nghiệm HBsAg dương tính nên được chủng ngừa chủ động và thụ động, với liều đầu tiên của loạt vắc xin viêm gan B và một liều HBIG được tiêm trong vòng 12 giờ sau khi sinh tại các địa điểm khác nhau. Sau đó, trẻ sơ sinh nên hoàn thành loạt vắc-xin viêm gan B. Một cuộc thảo luận chi tiết hơn về việc chủng ngừa HBV ở trẻ sinh ra từ những bà mẹ có HBsAg dương tính được tìm thấy ở những nơi khác.
+HBV: virus viêm gan B; HBsAg: kháng nguyên bề mặt viêm gan B; HBIG: globulin miễn dịch viêm gan B; anti-HBs: kháng thể với HBsAg.
+
+**Lịch dự phòng miễn dịch viêm gan B khuyến nghị cho trẻ đủ tháng và trẻ non tháng có cân nặng lúc sinh ≥2 kg**
+![tiêm vacxin cho trẻ trên 2 kg](images/contents/gastroenterological/viem-gan-b-va-thai-ky/tiem-vx-cho-tre-tren-2kg.png)
+
+> Nên sử dụng vắc xin đơn kháng nguyên (tức là Recombivax HB hoặc Engerix-B) cho liều sơ sinh. Không được dùng vắc xin phối hợp (ví dụ như Pediarix) khi mới sinh hoặc trước 6 tuần tuổi.
+>
+> ¶ Trẻ sinh ra từ những bà mẹ có HBsAg dương tính nên được điều trị dự phòng miễn dịch theo khuyến cáo cho dù mẹ của chúng có được điều trị bằng thuốc kháng vi-rút trong tam cá nguyệt thứ ba hay không.
+>
+> Δ HBIG (0,5 mL) được tiêm bắp tại vị trí riêng biệt (tức là ở chân khác) với vắc xin.
+>
+> ◊ Không nên tiêm liều cuối cùng trong loạt vắc xin trước 24 tuần tuổi (164 ngày).
+>
+> § Những trẻ này nên được xét nghiệm Anti-HBs và HBsAg khi 9 đến 12 tháng tuổi hoặc 1 đến 2 tháng sau liều vắc-xin viêm gan B cuối cùng. Không nên thực hiện xét nghiệm trước 9 tháng tuổi cũng như trong vòng 4 tuần kể từ liều vắc-xin gần đây nhất.
+>
+> ¥ Các bà mẹ nên lấy máu và xét nghiệm HBsAg càng sớm càng tốt sau khi nhập viện để sinh; Nếu người mẹ được phát hiện có HBsAg dương tính, trẻ sơ sinh phải được tiêm HBIG càng sớm càng tốt nhưng không quá 7 ngày tuổi.
+>
+> Phỏng theo: Schillie S, Vellozzi C, Reingold A, et al. Phòng ngừa lây nhiễm vi rút viêm gan B ở Hoa Kỳ: Khuyến nghị của Ủy ban Cố vấn về Thực hành Tiêm chủng. MMWR Recomm Rep 2018; 67: 1.
+> Graphic 76345 Phiên bản 15.0
+
+**Lịch dự phòng miễn dịch viêm gan B khuyến nghị cho trẻ sinh non có cân nặng sơ sinh <2 kg**
+![tiêm vacxin cho trẻ dưới2 kg](images/contents/gastroenterological/viem-gan-b-va-thai-ky/tiem-vx-cho-tre-duoi-2kg.png)
+
+> HBsAg: kháng nguyên bề mặt viêm gan B; HBIG: globulin miễn dịch viêm gan B; anti-HBs: kháng thể với HBsAg.
+>
+> Nên sử dụng vắc xin đơn kháng nguyên (tức là Recombivax HB hoặc Engerix-B) cho liều sơ sinh. Không được dùng vắc xin phối hợp (ví dụ như Pediarix) khi mới sinh hoặc trước 6 tuần tuổi.
+>
+> ¶ Trẻ sinh ra từ những bà mẹ có HBsAg dương tính nên được điều trị dự phòng miễn dịch theo khuyến cáo cho dù mẹ của chúng có được điều trị bằng thuốc kháng vi-rút trong tam cá nguyệt thứ ba hay không.
+>
+> Δ HBIG (0,5 mL) được tiêm bắp tại vị trí riêng biệt (tức là ở chân khác) với vắc xin.
+>
+> ◊ Không nên tiêm liều cuối cùng trong loạt vắc xin trước 24 tuần tuổi (164 ngày).
+>
+> § Những trẻ này nên được xét nghiệm Anti-HBs và HBsAg ở độ tuổi 9 đến 12 tháng hoặc một đến hai tháng sau liều vắc-xin viêm gan B cuối cùng. Không nên thực hiện xét nghiệm trước 9 tháng tuổi cũng như trong vòng bốn tuần kể từ liều vắc-xin gần đây nhất.
 
 ## TÍNH AN TOÀN CỦA CÁC THUỐC KHÁNG VIRUS TRONG THỜI KỲ CÓ THAI
 
