@@ -8,7 +8,7 @@ module.exports = {
   aboutMe:
     "Blog được xây dựng để viết về kiến thức chuyên môn y khoa của mình, mục đích là để lưu lại những thông tin y khoa mình cần dùng đến. Nó có thể có ích với những người cần thông tin giống mình",
   social: {
-    fb: "https://www.facebook.com/groups/148005995748927",
+    fb: "https://www.facebook.com/lebathien91",
     tw: "https://twitter.com/trungtamtreem",
     link: "https://kuchuoi.com",
   },
