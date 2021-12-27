@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Layout from "../components/Layout";
 import BlogList from "../components/Blog/";
 import { getPostsHomePage, getListNameFolder } from "../lib/posts";
@@ -18,9 +19,9 @@ export default function Home({ data, menu }) {
                 <section className="list-posts" key={cat.folder + index}>
                   <div className="heading-block">
                     <h2 className="title-block">{cat.category}</h2>
-                    <a href={`/category/${cat.folder}`} className="views-all">
-                      Xem tất cả
-                    </a>
+                    <Link href={`/category/${cat.folder}`}>
+                      <a className="views-all">Xem tất cả</a>
+                    </Link>
                   </div>
                   <BlogList
                     key={cat.folder}
