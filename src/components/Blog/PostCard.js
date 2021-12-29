@@ -75,6 +75,7 @@ const PostCard = ({ post, imgWidth, imgHeight }) => {
             <a>
               <span className="count-comments">
                 <CommentsCount href={domain + post.slug} />
+                <span style={{ marginLeft: 5 }}>Bình luận</span>
               </span>
             </a>
           </Link>
