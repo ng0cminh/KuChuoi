@@ -3,7 +3,7 @@ import slug from "slug";
 import { parse } from "node-html-parser";
 import Link from "next/link";
 import TableContent from "./TableContent";
-import CommentsFacebook from "../Comment";
+import CommentsFacebook from "../Facebook/Comments";
 import SocialBox from "../Widgets/SocialBox";
 
 const Wiki = ({ post, prevPost, nextPost, social, link }) => {

@@ -1,7 +1,7 @@
 import slug from "slug";
 import Link from "next/link";
 import Image from "next/image";
-import Count from "../Comment/Count";
+import CommentsCount from "../Facebook/CommentsCount";
 import HeaderCard from "../Widgets/HeaderCard";
 import { domain, SELECTION } from "../../../next.config";
 
@@ -74,7 +74,7 @@ const PostCard = ({ post, imgWidth, imgHeight }) => {
           <Link href={`/${post.slug}#comments`}>
             <a>
               <span className="count-comments">
-                <Count href={domain + post.slug} />
+                <CommentsCount href={domain + post.slug} />
               </span>
             </a>
           </Link>
