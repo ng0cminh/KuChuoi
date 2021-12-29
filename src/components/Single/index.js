@@ -83,7 +83,7 @@ const Single = ({ post, prevPost, nextPost, selectionPosts, social }) => {
                 </div>
               </div>
               <div id="comments">
-                <h2>List Comment</h2>
+                <h2>Bình luận</h2>
               </div>
             </div>
           </div>

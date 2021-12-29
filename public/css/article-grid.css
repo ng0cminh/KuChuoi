@@ -189,3 +189,7 @@
   padding-right: 10px;
   padding-left: 16px;
 }
+
+.article-footer .count-comments {
+  display: flex;
+}

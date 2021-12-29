@@ -1,9 +1,10 @@
-import { FacebookProvider, Comments } from "react-facebook";
+import { FacebookProvider, CommentsCount } from "react-facebook";
 
 const CommentsFacebook = ({ href }) => {
   return (
     <FacebookProvider appId="636890294324159">
-      <Comments href={href} width="100%" />
+      <CommentsCount href={href} />
+      <span style={{ marginLeft: 5 }}>Bình luận</span>
     </FacebookProvider>
   );
 };

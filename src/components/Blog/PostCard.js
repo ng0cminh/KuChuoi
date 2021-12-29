@@ -1,6 +1,7 @@
 import slug from "slug";
 import Link from "next/link";
 import Image from "next/image";
+import Count from "../Comment/Count";
 import HeaderCard from "../Widgets/HeaderCard";
 import { domain, SELECTION } from "../../../next.config";
 
@@ -72,7 +73,9 @@ const PostCard = ({ post, imgWidth, imgHeight }) => {
         <footer className="article-footer">
           <Link href={`/${post.slug}#comments`}>
             <a>
-              <span>Bình luận</span>
+              <span className="count-comments">
+                <Count href={domain + post.slug} />
+              </span>
             </a>
           </Link>
           <Link href={`/${post.slug}`}>

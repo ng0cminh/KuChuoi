@@ -87,7 +87,7 @@ const Wiki = ({ post, prevPost, nextPost, social, link }) => {
                 </div>
               </div>
               <div id="comments">
-                <h2>List Comment</h2>
+                <h2>Bình luận</h2>
                 <CommentsFacebook href={link} />
               </div>
             </div>
