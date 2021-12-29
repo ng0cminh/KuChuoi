@@ -100,6 +100,12 @@
   justify-content: space-between;
   align-items: center;
 }
+.article-footer .count-comments {
+  display: flex;
+}
+.article-footer .count-comments .text-comments {
+  margin-left: 5px;
+}
 
 /* Start Pagination */
 .pagination {
