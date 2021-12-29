@@ -1,12 +1,12 @@
 import slug from "slug";
 import Link from "next/link";
 import Image from "next/image";
-
+import CommentsFacebook from "../Facebook/Comments";
 import Sidebar from "../Sidebar";
 import HeaderCard from "../Widgets/HeaderCard";
 import AuthorBox from "../Widgets/AuthorBox";
 
-const Single = ({ post, prevPost, nextPost, selectionPosts, social }) => {
+const Single = ({ post, prevPost, nextPost, selectionPosts, social, link }) => {
   return (
     <div className="main-content single">
       <section id="content" className="content">
@@ -84,6 +84,7 @@ const Single = ({ post, prevPost, nextPost, selectionPosts, social }) => {
               </div>
               <div id="comments">
                 <h2>Bình luận</h2>
+                <CommentsFacebook href={link} />
               </div>
             </div>
           </div>

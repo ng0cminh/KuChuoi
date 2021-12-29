@@ -39,6 +39,7 @@ const Detail = ({ post, prevPost, nextPost, selectionPosts, menu }) => {
           nextPost={nextPost}
           selectionPosts={selectionPosts}
           social={social}
+          link={link}
         />
       )}
     </Layout>
