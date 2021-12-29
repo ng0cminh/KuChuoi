@@ -3,9 +3,10 @@ import slug from "slug";
 import { parse } from "node-html-parser";
 import Link from "next/link";
 import TableContent from "./TableContent";
+import CommentsFacebook from "../Comment";
 import SocialBox from "../Widgets/SocialBox";
 
-const Wiki = ({ post, prevPost, nextPost, social }) => {
+const Wiki = ({ post, prevPost, nextPost, social, link }) => {
   const content = parse(post.content);
   const headings = content.querySelectorAll("h1, h2, h3");
   for (const heading of headings) {
@@ -87,6 +88,7 @@ const Wiki = ({ post, prevPost, nextPost, social }) => {
               </div>
               <div id="comments">
                 <h2>List Comment</h2>
+                <CommentsFacebook href={link} />
               </div>
             </div>
           </div>

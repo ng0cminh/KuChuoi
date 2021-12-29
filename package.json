@@ -16,14 +16,15 @@
   },
   "dependencies": {
     "@auth0/auth0-react": "^1.4.0",
-    "next": "12.0.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
     "date-fns": "^2.19.0",
     "gray-matter": "^4.0.3",
     "markdown-it": "^12.2.0",
+    "next": "^12.0.7",
     "next-sitemap": "^1.6.168",
     "node-html-parser": "^5.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-facebook": "^8.1.4",
     "sharp": "^0.29.2",
     "slug": "^5.1.0"
   },

@@ -13,12 +13,13 @@ import {
 } from "../lib/posts";
 
 const Detail = ({ post, prevPost, nextPost, selectionPosts, menu }) => {
+  const link = domain + post.slug;
   const social = {
     fb: `https://www.facebook.com/sharer.php?u=${domain + post.slug}`,
     tw: `https://twitter.com/intent/tweet?text=${post.title} - ${
       domain + post.slug
     }`,
-    link: domain + post.slug,
+    link,
   };
 
   return (
@@ -29,6 +30,7 @@ const Detail = ({ post, prevPost, nextPost, selectionPosts, menu }) => {
           prevPost={prevPost}
           nextPost={nextPost}
           social={social}
+          link={link}
         />
       ) : (
         <Single

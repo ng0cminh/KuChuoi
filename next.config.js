@@ -3,7 +3,8 @@ module.exports = {
   images: {
     domains: ["kuchuoi.com"],
   },
-  domain: process.env.SITE_URL || "https://kuchuoi.com",
+  domain: process.env.SITE_URL || "https://kuchuoi.com/",
+  appIdFb: "636890294324159",
   slogan: "Kủ Chuối Blog",
   aboutMe:
     "Blog được xây dựng để viết về kiến thức chuyên môn y khoa của mình, mục đích là để lưu lại những thông tin y khoa mình cần dùng đến. Nó có thể có ích với những người cần thông tin giống mình",
