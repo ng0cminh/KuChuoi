@@ -7,7 +7,7 @@ const TableContent = ({ headings }) => {
   const getNestedHeadings = (headingElements) => {
     const nestedHeadings = [];
 
-    headingElements.forEach((heading, index) => {
+    headingElements.forEach((heading) => {
       const id = heading.id;
       const title = heading.rawText.trim();
 
@@ -111,7 +111,7 @@ const TableContent = ({ headings }) => {
                         <li
                           className="list-item"
                           key={child.id}
-                          onClick={() => setShowTableContent(!showTableContent)}
+                          onClick={() => setShowTableContent(false)}
                         >
                           <a
                             className={child.id === activeId ? "active" : ""}
@@ -129,6 +129,22 @@ const TableContent = ({ headings }) => {
                 </li>
               );
             })}
+            <li
+              className="list-item"
+              key="comments"
+              onClick={() => setShowTableContent(false)}
+            >
+              <a
+                className={"comments" === activeId ? "active" : ""}
+                href="#comments"
+                onClick={() => setActiveId("comments")}
+              >
+                {"comments" === activeId && (
+                  <span className="icon-border"></span>
+                )}
+                BÌNH LUẬN
+              </a>
+            </li>
           </ul>
         </nav>
       </aside>
