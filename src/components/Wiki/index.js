@@ -12,7 +12,7 @@ const Wiki = ({ post, prevPost, nextPost, social, link }) => {
   for (const heading of headings) {
     heading.setAttribute("id", slug(heading.rawText));
   }
-  console.log(headings);
+
   return (
     <div className="main-content wiki">
       <section id="content" className="content show">
