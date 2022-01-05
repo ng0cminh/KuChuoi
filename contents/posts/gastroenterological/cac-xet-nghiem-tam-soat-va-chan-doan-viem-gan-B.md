@@ -187,7 +187,7 @@ Nồng độ HBV DNA cũng có thể được phát hiện ở những bệnh nh
 
 **Sử dụng lâm sàng**
 
-Vai trò lâm sàng chính của xét nghiệm HBV DNA trong huyết thanh ở bệnh nhân nhiễm HBV mãn tính là đánh giá sự nhân lên của HBV và ứng cử để điều trị kháng vi-rút. Chỉ định điều trị HBV dựa trên sự hiện diện của bệnh gan đang hoạt động và nồng độ HBV DNA cao (bảng 5). Giới hạn 20.000 đơn vị quốc tế / mL đã được đề xuất để bắt đầu điều trị ở bệnh nhân HBeAg dương tính và ngưỡng thấp hơn là 2000 đơn vị quốc tế / mL cho bệnh nhân HBeAg âm tính.
+Vai trò lâm sàng chính của xét nghiệm HBV DNA trong huyết thanh ở bệnh nhân nhiễm HBV mãn tính là đánh giá sự nhân lên của HBV và giá trị để điều trị kháng vi-rút. Chỉ định điều trị HBV dựa trên sự hiện diện của bệnh gan đang hoạt động và nồng độ HBV DNA cao (bảng 5). Giới hạn 20.000 đơn vị quốc tế / mL đã được đề xuất để bắt đầu điều trị ở bệnh nhân HBeAg dương tính và ngưỡng thấp hơn là 2000 đơn vị quốc tế / mL cho bệnh nhân HBeAg âm tính.
 
 Một số nghiên cứu thuần tập lớn đã báo cáo rằng HBV DNA cao liên tục (> 4 log (10) bản sao / mL hoặc ~ 2000 đơn vị quốc tế / mL ở những bệnh nhân bị nhiễm bệnh trong hơn bốn thập kỷ) có liên quan độc lập với việc tăng nguy cơ xơ gan và tế bào gan ung thư biểu mô (HCC) [ 49,50 ]. Dữ liệu từ các nghiên cứu này cho thấy rằng ở những bệnh nhân đã bị nhiễm bệnh trong vài thập kỷ, chỉ riêng HBV DNA trong huyết thanh cao (trong các xét nghiệm lặp lại) có thể được xem xét để bắt đầu điều trị kháng vi-rút.
 

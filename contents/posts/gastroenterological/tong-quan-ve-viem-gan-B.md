@@ -124,7 +124,7 @@ Hầu hết các đợt cấp không có triệu chứng và được phát hi�
 
 Đợt cấp thường thấy ở nam nhiều hơn nữ [ 42,43 ]. Lý do cho sự khác biệt giới tính không rõ ràng, nhưng tần suất đợt cấp cao hơn ở nam giới ít nhất một phần có thể giải thích cho tỷ lệ mắc bệnh xơ gan và ung thư biểu mô tế bào gan liên quan đến HBV ở nam giới cao hơn.
 
-Ở một tỷ lệ nhỏ bệnh nhân, đợt cấp dẫn đến mất bù ở gan và hiếm khi tử vong do suy gan [ 44 ]. Một báo cáo cho thấy mức HBV DNA trong huyết thanh là 1,55 x 109 bản sao / mL (khoảng 8 log 10 đơn vị quốc tế / mL) hoặc cao hơn khi bắt đầu bùng phát dự đoán mất bù ở bệnh nhân HBeAg dương tính không bị xơ gan [ 45 ].
+Ở một tỷ lệ nhỏ bệnh nhân, đợt cấp dẫn đến mất bù ở gan và hiếm khi tử vong do suy gan [ 44 ]. Một báo cáo cho thấy mức HBV DNA trong huyết thanh là 1,55 x 10^9 bản sao / mL (khoảng 8 log 10 đơn vị quốc tế / mL) hoặc cao hơn khi bắt đầu bùng phát dự đoán mất bù ở bệnh nhân HBeAg dương tính không bị xơ gan [ 45 ].
 
 Bệnh nhân có đợt cấp nặng nên được chuyển đến các trung tâm chuyên khoa để ghép gan và được điều trị bằng các chất tương tự nucleos (t) ide. Interferon không được chỉ định trong trường hợp này vì nó có thể gây trầm trọng thêm bệnh.
 
