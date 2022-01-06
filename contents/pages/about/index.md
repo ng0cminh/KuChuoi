@@ -1,4 +1,4 @@
-Kủ Chuối Blog ([kuchuoi.com](https://kuchuoi.com)) là một trang Blog cá nhân được thành lập vào 2021. Trang web đang được vận hành và phát triển nội dung bởi Kủ Chuối.
+Kủ Chuối Blog ([kuchuoi.com](https://kuchuoi.com)) là một trang Blog cá nhân được tạo vào 2021. Trang web đang được vận hành và phát triển nội dung bởi Kủ Chuối.
 
 ## Mục tiêu hoạt động
 
