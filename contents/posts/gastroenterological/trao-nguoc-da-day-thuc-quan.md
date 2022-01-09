@@ -222,7 +222,7 @@ Chẩn đoán GERD chủ yếu dựa trên triệu chứng. Phân tích cẩn th
 
 Chẩn đoán GERD thường có thể chỉ dựa vào các triệu chứng lâm sàng ở bệnh nhân có triệu chứng điển hình như ợ nóng và/hoặc trào ngược [55], [56]. Tuy nhiên bệnh nhân có thể cần đánh giá thêm néu họ có các triệu chứng bảo động, các yếu tố nguy cơ đối với bệnh thực quản Berett.
 
-Mặc dù 40 đến 90% bệnh nhân có triệu chứng GERD có đáp ứng triệu chứng với thuốc ức chế bơm prôtn (PPI) nhưng không phải là tiêu chí để chấn đoán GERD [57], [58]. Một phân tích tổng hợp các xét nghiệm chẩn đoán cho thấy rằng đáp ứng với PPI không tương quan tốt bằng các biện pháp khách quan như theo dõi pH thực quản 24 giờ [58].
+Mặc dù 40 đến 90% bệnh nhân có triệu chứng GERD có đáp ứng triệu chứng với thuốc ức chế bơm proton (PPI) nhưng không phải là tiêu chí để chấn đoán GERD [57], [58]. Một phân tích tổng hợp các xét nghiệm chẩn đoán cho thấy rằng đáp ứng với PPI không tương quan tốt bằng các biện pháp khách quan như theo dõi pH thực quản 24 giờ [58].
 
 ### 2. Bệnh nhân không có triệu chứng điển hình.
 
@@ -302,7 +302,7 @@ Xquang thực quản không nhạy và không đặc hiệu trong chẩn đoán 
 
 \- Nghi ngờ có teo hẹp thực quản
 
-\- Để chẩn đoán thoát vị hoàng.
+\- Để chẩn đoán thoát vị hoành.
 
 Các test Berstein, bơm căng thực quản được chỉ định chủ yếu trong các trường hợp đau ngực không do tim.
 
