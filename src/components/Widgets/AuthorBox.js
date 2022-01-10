@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import { aboutMe } from "../../../next.config";
 import slug from "slug";
 import Link from "next/link";
 const AuthorBox = ({ author }) => {
@@ -20,7 +21,7 @@ const AuthorBox = ({ author }) => {
         <Link href={`/author/${slug(author.name)}`}>
           <a>{author.name}</a>
         </Link>
-        <p>{author.description && author.description}</p>
+        <p>{aboutMe && aboutMe}</p>
       </div>
     </div>
   );

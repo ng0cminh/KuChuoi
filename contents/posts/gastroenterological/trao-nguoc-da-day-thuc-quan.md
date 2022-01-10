@@ -2,7 +2,7 @@
 title: Trào ngược dạ dày thực quản
 author:
   name: Kủ Chuối
-  description: Một bác sĩ muốn nâng cao sức khoẻ cộng đồng và thích viết blog để chia sẻ những gì mình biết đến mọi người.
+  description: Một người vừa là bệnh nhân viêm gan vừa là bác sĩ điều trị theo dõi cho chính mình. Mong được chia sẻ những khó khăn cũng như lo lắng về bệnh với những người cùng cảnh ngộ.
 date: "2021-12-09"
 isWiki: true
 isDraft: false

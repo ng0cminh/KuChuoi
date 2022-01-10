@@ -5,9 +5,9 @@ module.exports = {
   },
   domain: process.env.SITE_URL || "https://kuchuoi.com/",
   appIdFb: "636890294324159",
-  slogan: "Kủ Chuối Blog",
+  slogan: "BÁC SĨ VIÊM GAN",
   aboutMe:
-    "Blog được xây dựng để viết về kiến thức chuyên môn y khoa của mình, mục đích là để lưu lại những thông tin y khoa mình cần dùng đến. Nó có thể có ích với những người cần thông tin giống mình",
+    "Một người vừa là bệnh nhân viêm gan vừa là bác sĩ điều trị theo dõi cho chính mình. Mong được chia sẻ những khó khăn cũng như lo lắng về bệnh với những người cùng cảnh ngộ.",
   social: {
     fb: "https://www.facebook.com/lebathien91",
     tw: "https://twitter.com/trungtamtreem",

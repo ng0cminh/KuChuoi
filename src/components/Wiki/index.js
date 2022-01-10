@@ -5,6 +5,7 @@ import Link from "next/link";
 import TableContent from "./TableContent";
 import CommentsFacebook from "../Facebook/Comments";
 import SocialBox from "../Widgets/SocialBox";
+import AuthorBox from "../Widgets/AuthorBox";
 
 const Wiki = ({ post, prevPost, nextPost, social, link }) => {
   const content = parse(post.content);
@@ -62,7 +63,7 @@ const Wiki = ({ post, prevPost, nextPost, social, link }) => {
                   </span>
                 ))}
               </div>
-
+              <AuthorBox author={post.author} />
               <div className="post-pagination">
                 <div className="prev-post">
                   {prevPost && (
@@ -87,7 +88,6 @@ const Wiki = ({ post, prevPost, nextPost, social, link }) => {
                 </div>
               </div>
               <div id="comments">
-                <h2>Bình luận</h2>
                 <CommentsFacebook href={link} />
               </div>
             </div>

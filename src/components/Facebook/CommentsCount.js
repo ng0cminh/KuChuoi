@@ -1,6 +1,6 @@
 import { FacebookProvider, CommentsCount } from "react-facebook";
 
-const CommentsFacebook = ({ href }) => {
+const CommentsCountFacebook = ({ href }) => {
   return (
     <FacebookProvider appId="636890294324159" language="vi_VN">
       <CommentsCount href={href} orderBy="reverse_time" />
@@ -8,4 +8,4 @@ const CommentsFacebook = ({ href }) => {
   );
 };
 
-export default CommentsFacebook;
+export default CommentsCountFacebook;
