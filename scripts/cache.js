@@ -22,7 +22,9 @@ function getPostByFile(folder) {
       const fileContents = fs.readFileSync(fullPath, "utf8");
 
       // Tạo metadata cho post bằng cách sử dụng gray-matter
-      const { data } = matter(fileContents);
+      const { content, data } = matter(fileContents);
+      const wordsContent = content.trim().split(/\s+/).length;
+      const readTime = Math.ceil(wordsContent / 200);
 
       const slug = fileName.replace(/\.md$/, "");
 
@@ -30,6 +32,7 @@ function getPostByFile(folder) {
         slug,
         category,
         folder,
+        readTime,
         ...data,
       };
     })
