@@ -218,7 +218,7 @@ HBV: virus viêm gan B; HBsAg: kháng nguyên bề mặt viêm gan B; HBIG: glob
 **Lịch dự phòng miễn dịch viêm gan B khuyến nghị cho trẻ đủ tháng và trẻ non tháng có cân nặng lúc sinh ≥2 kg**
 ![tiêm vacxin cho trẻ trên 2 kg](images/contents/gastroenterological/viem-gan-b-va-thai-ky/tiem-vx-cho-tre-tren-2kg.png)
 
-> Nên sử dụng vắc xin đơn kháng nguyên (tức là Recombivax HB hoặc Engerix-B) cho liều sơ sinh. Không được dùng vắc xin phối hợp (ví dụ như Pediarix) khi mới sinh hoặc trước 6 tuần tuổi.
+> \* Nên sử dụng vắc xin đơn kháng nguyên (tức là Recombivax HB hoặc Engerix-B) cho liều sơ sinh. Không được dùng vắc xin phối hợp (ví dụ như Pediarix) khi mới sinh hoặc trước 6 tuần tuổi.
 >
 > ¶ Trẻ sinh ra từ những bà mẹ có HBsAg dương tính nên được điều trị dự phòng miễn dịch theo khuyến cáo cho dù mẹ của chúng có được điều trị bằng thuốc kháng vi-rút trong tam cá nguyệt thứ ba hay không.
 >
@@ -238,7 +238,7 @@ HBV: virus viêm gan B; HBsAg: kháng nguyên bề mặt viêm gan B; HBIG: glob
 
 > HBsAg: kháng nguyên bề mặt viêm gan B; HBIG: globulin miễn dịch viêm gan B; anti-HBs: kháng thể với HBsAg.
 >
-> Nên sử dụng vắc xin đơn kháng nguyên (tức là Recombivax HB hoặc Engerix-B) cho liều sơ sinh. Không được dùng vắc xin phối hợp (ví dụ như Pediarix) khi mới sinh hoặc trước 6 tuần tuổi.
+> \* Nên sử dụng vắc xin đơn kháng nguyên (tức là Recombivax HB hoặc Engerix-B) cho liều sơ sinh. Không được dùng vắc xin phối hợp (ví dụ như Pediarix) khi mới sinh hoặc trước 6 tuần tuổi.
 >
 > ¶ Trẻ sinh ra từ những bà mẹ có HBsAg dương tính nên được điều trị dự phòng miễn dịch theo khuyến cáo cho dù mẹ của chúng có được điều trị bằng thuốc kháng vi-rút trong tam cá nguyệt thứ ba hay không.
 >
