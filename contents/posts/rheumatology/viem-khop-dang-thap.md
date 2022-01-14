@@ -7,7 +7,7 @@ date: "2021-10-12"
 isWiki: true
 isDraft: false
 isHomePage: true
-Featured: true
+Featured: false
 Trending: false
 Hotnew: false
 image: viem-khop-dang-thap/index.png

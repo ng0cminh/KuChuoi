@@ -7,7 +7,7 @@ date: "2021-01-12"
 isWiki: true
 isDraft: false
 isHomePage: true
-Featured: false
+Featured: true
 Trending: false
 Hotnew: false
 image: trieu-chung-lam-sang-chan-doan-va-danh-gia-ban-dau-benh-dai-thao-duong/index.jpg

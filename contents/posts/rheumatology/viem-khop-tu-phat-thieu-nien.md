@@ -7,7 +7,7 @@ date: "2021-10-29"
 isWiki: true
 isDraft: false
 isHomePage: true
-Featured: true
+Featured: false
 Trending: false
 Hotnew: false
 image: viem-khop-tu-phat-thieu-nien/index.jpg

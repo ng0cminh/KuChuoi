@@ -7,7 +7,7 @@ date: "2021-10-29"
 isWiki: false
 isDraft: false
 isHomePage: true
-Featured: true
+Featured: false
 Trending: false
 Hotnew: false
 image: lupus-ban-do-he-thong/index.jpg
