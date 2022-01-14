@@ -80,7 +80,7 @@ Tuy nhiên, ở phụ nữ mang thai không bị xơ gan, một số kịch bả
 
 \+ Một phụ nữ có thể chọn trì hoãn điều trị cho đến sau khi sinh nếu cô ấy có bằng chứng về hoạt động bệnh nhẹ, chẳng hạn như mức aminotransferase ngay trên ngưỡng điều trị.
 
-\+ Ngược lại, một phụ nữ có tải lượng vi rút> 2 x 10 5 đơn vị quốc tế / mL nên bắt đầu điều trị trong tam cá nguyệt thứ ba ngay cả khi nồng độ aminotransferase bình thường. Trong bối cảnh này, mục tiêu của liệu pháp là ngăn ngừa lây truyền cho trẻ.
+\+ Ngược lại, một phụ nữ có tải lượng vi rút> 2 x 10^5 đơn vị quốc tế / mL nên bắt đầu điều trị trong tam cá nguyệt thứ ba ngay cả khi nồng độ aminotransferase bình thường. Trong bối cảnh này, mục tiêu của liệu pháp là ngăn ngừa lây truyền cho trẻ.
 
 TDF được ưu tiên sử dụng nếu điều trị kháng vi rút được dự tính ở phụ nữ mang thai vì hiệu lực, tính an toàn và nguy cơ kháng thuốc thấp.
 

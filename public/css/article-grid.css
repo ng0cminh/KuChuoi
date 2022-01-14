@@ -171,8 +171,9 @@
   text-overflow: ellipsis;
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 1;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+  height: 50px;
 }
 
 .grid .article-main .article-content .article-description {
