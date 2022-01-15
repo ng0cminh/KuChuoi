@@ -1,5 +1,5 @@
 ---
-title: Triệu chứng lâm sàng, chẩn đoán và đánh giá ban đầu bệnh đái tháo đường
+title: Triệu chứng, chẩn đoán và đánh giá ban đầu bệnh đái tháo đường
 author:
   name: Kủ Chuối
   description: Một người vừa là bệnh nhân viêm gan vừa là bác sĩ điều trị theo dõi cho chính mình. Mong được chia sẻ những khó khăn cũng như lo lắng về bệnh với những người cùng cảnh ngộ.
